@@ -1,0 +1,12 @@
+if [ ! -f /etc/rsyncd.conf ]; then
+	cat > /etc/rsyncd.conf << "EOF"
+# use chroot = yes
+# [site]
+#   path = /root/x.org
+#   comment = Site web
+#   auth users = milisx
+#   read only = yes
+#   exclude from = /etc/milis_rsync_exclude_files.txt
+#   secrets file = /etc/rsyncd.secrets
+EOF
+fi
