@@ -1,0 +1,18 @@
+# Tanım: Set of some small useful utilities that use the proc filesystem.
+# URL: http://psmisc.sourceforge.net/
+# Paketçi: milisarge
+# Gerekler:
+
+isim=psmisc
+surum=22.21
+devir=1
+
+kaynak=(http://prdownloads.sourceforge.net/psmisc/psmisc-$surum.tar.gz)
+
+derle()
+{
+cd psmisc-$surum
+./configure --prefix=/usr --libdir=/lib --bindir=/bin
+make
+make DESTDIR=$PKG install
+}

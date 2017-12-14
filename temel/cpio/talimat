@@ -1,0 +1,28 @@
+# Tanım: Copies files into or out of a cpio or tar archive.
+# URL: http://www.gnu.org/software/cpio/
+# Paketçi: milisarge@gmail.com
+# Gerekler:
+
+isim=cpio
+surum=2.11
+devir=1
+
+kaynak=( http://ftp.gnu.org/gnu/$isim/$isim-$surum.tar.bz2)
+
+derle() {
+	cd $isim-$surum
+	sed -i -e '/gets is a/d' gnu/stdio.in.h
+	./configure \
+		--prefix=/usr \
+		--bindir=/bin \
+		--libexecdir=/tmp \
+		--mandir=/usr/share/man \
+		--infodir=/usr/share/info \
+		--enable-mt --with-rmt=/usr/sbin/rmt
+	make
+	make DESTDIR=$PKG install
+	if [ -f $PKG/usr/share/info/dir ]; then
+		rm $PKG/usr/share/info/dir
+	fi
+	rm -r $PKG/tmp
+}

@@ -1,0 +1,20 @@
+# Tanım: To create nice user interfaces to shell scripts or other scripting languages.
+# URL: http://hightek.org/dialog/
+# Paketçi: milisarge@gmail.com
+# Gerekler:
+
+isim=dialog
+surum=1.2.20140911
+devir=1
+
+kaynak=(ftp://dickey.his.com/dialog/$isim-1.2-20140911.tgz)
+
+derle() {
+	cd $isim-1.2-20140911
+	./configure --prefix=/usr \
+	--enable-nls --bindir=/bin \
+	--with-ncursesw \
+	--mandir=/usr/share/man
+	make
+	make DESTDIR=$PKG install
+}

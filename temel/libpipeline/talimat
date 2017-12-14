@@ -1,0 +1,23 @@
+# Tanım: C library for manipulating pipelines of subprocesses in a flexible way
+# URL: http://libpipeline.nongnu.org/
+# Paketçi: milisarge
+# Gerekler:
+
+isim=libpipeline
+surum=1.4.1
+devir=1
+
+kaynak=(http://download.savannah.gnu.org/releases/libpipeline/libpipeline-$surum.tar.gz)
+
+derle()
+{
+cd $isim-$surum
+PKG_CONFIG_PATH=/tools/lib/pkgconfig \
+./configure --prefix=/usr \
+--libdir=/lib 
+make
+make DESTDIR=$PKG install
+mkdir $PKG/usr/lib
+mv $PKG/lib/pkgconfig \
+$PKG/usr/lib
+}

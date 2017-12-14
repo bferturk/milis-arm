@@ -1,0 +1,17 @@
+# Tanım: Very fast lossless compression algorithm
+# Url: https://github.com/Cyan4973/lz4
+# Paketçi: milisarge
+# Gerekler:
+
+isim=lz4
+surum=r131
+devir=1
+
+kaynak=(https://github.com/Cyan4973/lz4/archive/r131.tar.gz)
+
+derle() {
+cd $isim-$surum
+make PREFIX=/usr
+
+make install PREFIX=/usr DESTDIR=$PKG
+}

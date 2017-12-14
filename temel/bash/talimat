@@ -1,0 +1,27 @@
+# Tanım: The Bash package contains the Bourne-Again SHell.
+# Url: http://ftp.gnu.org/gnu/bash/
+# Paketçi: milisarge@gmail.com
+# Gerekler:
+
+isim=bash
+surum=4.3.30
+devir=3
+
+kaynak=(http://ftp.gnu.org/gnu/bash/bash-$surum.tar.gz
+	http://www.linuxfromscratch.org/patches/downloads/$isim/$isim-$surum-upstream_fixes-2.patch)
+
+derle()
+{
+cd bash-$surum
+patch -Np1 -i ../$isim-$surum-upstream_fixes-2.patch
+./configure --prefix=/usr --bindir=/bin \
+--htmldir=/usr/share/doc/bash-$surum --without-bash-malloc \
+--with-installed-readline
+make
+
+make DESTDIR=$PKG install
+
+rm -rf $PKG/usr/share/info/dir
+
+ln -s bash $PKG/bin/sh
+}

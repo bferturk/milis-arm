@@ -1,0 +1,26 @@
+# Tanım: The GDBM package contains the GNU Database Manager.
+# URL: http://www.gnu.org/software/gdbm/gdbm.html
+# Paketçi: milisarge
+# Gerekler:
+
+isim=gdbm
+surum=1.11
+devir=1
+
+kaynak=(http://ftp.gnu.org/gnu/gdbm/gdbm-$surum.tar.gz)
+
+derle() {
+cd gdbm-$surum
+./configure --prefix=/usr --libdir=/lib \
+--bindir=/bin --enable-libgdbm-compat
+
+make
+
+make check
+
+make BINOWN=root BINGRP=root prefix=$PKG/usr \
+libdir=$PKG/lib bindir=$PKG/bin install
+
+rm -rf $PKG/usr/share/info/dir
+
+}

@@ -1,0 +1,27 @@
+# Tanım: Programs for basic and advanced network routing.
+# URL: http://linux-net.osdl.org/index.php/Iproute2
+# Paketçi: milisarge
+# Gerekler:
+
+isim=iproute2
+surum=4.4.0
+devir=1
+
+kaynak=(http://www.kernel.org/pub/linux/utils/net/$isim/iproute2-$surum.tar.xz)
+
+derle()
+{
+cd iproute2-$surum
+sed -i '/^TARGETS/s@arpd@@g' misc/Makefile
+sed -i /ARPD/d Makefile
+sed -i 's/arpd.8//' man/man8/Makefile
+
+sed -i 's/tipc //' Makefile
+
+make SBINDIR=/sbin MANDIR=/usr/share/man INFODIR=/usr/share/info \
+	DESTDIR=$PKG 
+make SBINDIR=/sbin  \
+	INFODIR=/usr/share/info DESTDIR=$PKG \
+        install
+rm -rf $PKG/usr/share/info/dir
+}

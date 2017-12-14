@@ -1,0 +1,40 @@
+# Tanım: The Man-DB package contains programs for finding and viewing man pages.
+# URL: http://savannah.nongnu.org/projects/man-db
+# Paketçi: milisarge
+# Gerekler:
+
+isim=man-db
+surum=2.7.2
+devir=1
+
+kaynak=(http://savannah.nongnu.org/download/man-db/man-db-$surum.tar.xz)
+
+derle()
+{
+cd man-db-$surum
+PKG_CONFIG_PATH="/usr/lib/pkgconfig" ./configure --prefix=/usr \
+--libexecdir=/usr/lib \
+--docdir=/usr/share/doc/man-$surum \
+--sysconfdir=/etc --disable-setuid \
+--with-browser=/usr/bin/lynx --with-vgrind=/usr/bin/vgrind \
+--with-grap=/usr/bin/grap
+
+make
+# Certains test fails
+make -k check || true
+make DESTDIR=$PKG install
+cat >> convert-mans << "EOF"
+#!/bin/sh -e
+FROM="$1"
+TO="$2"
+shift ; shift
+while [ $# -gt 0 ]
+do
+        FILE="$1"
+        shift
+        iconv -f "$FROM" -t "$TO" "$FILE" >.tmp.iconv
+        mv .tmp.iconv "$FILE"
+done
+EOF
+install -m755 convert-mans $PKG/usr/bin
+}

@@ -1,0 +1,20 @@
+# Tanım: Programs that show the differences between files or directories.
+# URL: http://www.gnu.org/software/diffutils/
+# Paketçi: milisarge@gmail.com
+# Gerekler:
+
+isim=diffutils
+surum=3.3
+devir=1
+
+kaynak=( http://ftp.gnu.org/gnu/$isim/diffutils-$surum.tar.xz )
+
+derle() {
+	cd diffutils-$surum
+	sed -i 's:= @mkdir_p@:= /bin/mkdir -p:' po/Makefile.in.in
+	./configure --prefix=/usr \
+	--bindir=/bin
+	make
+	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share/info/dir
+}

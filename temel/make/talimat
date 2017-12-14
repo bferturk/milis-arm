@@ -1,0 +1,18 @@
+# Tanım: The Make package contains a program for compiling packages.
+# URL: http://www.gnu.org/software/make/
+# Paketçi: milisarge
+# Gerekler:
+
+isim=make
+surum=4.1
+devir=1
+
+kaynak=(http://ftp.gnu.org/gnu/make/make-$surum.tar.bz2)
+derle()
+{
+cd  make-$surum
+./configure --prefix=/usr
+make
+make DESTDIR=$PKG install
+rm -rf $PKG/usr/share/info/dir
+}

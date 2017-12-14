@@ -1,0 +1,18 @@
+# Tanım: Gperf generates a perfect hash function from a key set.
+# URL: http://www.gnu.org/software/gperf/gperf.html
+# Paketçi: milisarge
+# Gerekler:
+
+isim=gperf
+surum=3.0.4
+devir=1
+
+kaynak=(ftp://ftp.sunet.se/pub/gnu/$isim/$isim-$surum.tar.gz)
+
+derle() {
+cd $isim-$surum
+./configure --prefix=/usr \
+--docdir=/usr/share/doc/$isim-$surum
+make 
+make DESTDIR=$PKG install
+}  

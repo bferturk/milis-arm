@@ -1,0 +1,28 @@
+# Tanım: The Kbd package contains key-table files, console fonts, and keyboard utilities
+# URL: ftp://devel.altlinux.org/legion/kbd/
+# Paketçi: milisarge
+# Gerekler:
+
+isim=kbd
+surum=2.0.3
+devir=2
+
+kaynak=(http://ftp.altlinux.com/pub/people/legion/kbd/kbd-$surum.tar.xz \
+	http://www.linuxfromscratch.org/patches/downloads/$isim/$isim-$surum-backspace-1.patch)
+
+derle()
+{
+cd kbd-$surum
+
+patch -Np1 -i ../$isim-$surum-backspace-1.patch
+
+sed -i 's/\(RESIZECONS_PROGS=\)yes/\1no/g' configure
+sed -i 's/resizecons.8 //' docs/man/man8/Makefile.in
+
+PKG_CONFIG_PATH=/tools/lib/pkgconfig ./configure --prefix=/usr  \
+--bindir=/bin --datadir=/lib/kbd
+
+make
+make check
+make DESTDIR=$PKG install
+}

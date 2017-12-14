@@ -1,0 +1,21 @@
+# Tanım: The zoneinfo database or IANA Time Zone
+# URL: http://www.gnu.org/software/libc/
+# Paketçi: milisarge
+# Gerekler:
+
+isim=tzdata
+surum=2016a
+devir=1
+
+kaynak=(http://www.iana.org/time-zones/repository/releases/$isim$surum.tar.gz)
+derle() {
+timezones=('africa' 'antarctica' 'asia' 'australasia'
+           'europe' 'northamerica' 'southamerica'
+           'pacificnew' 'etcetera' 'backward'
+           'systemv')
+zic -y ./yearistype -d $PKG/usr/share/zoneinfo ${timezones[@]}
+zic -y ./yearistype -d $PKG/usr/share/zoneinfo/posix ${timezones[@]}
+zic -y ./yearistype -d $PKG/usr/share/zoneinfo/right -L leapseconds ${timezones[@]}
+zic -y ./yearistype -d $PKG/usr/share/zoneinfo -p Europe/Istanbul
+install -m444 -t $PKG/usr/share/zoneinfo iso3166.tab zone.tab
+}

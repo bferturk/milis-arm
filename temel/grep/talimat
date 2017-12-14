@@ -1,0 +1,21 @@
+# Tanım: Searches input(s) file(s) for lines containing a match to a specified pattern.
+# URL: http://www.gnu.org/software/grep/
+# Paketçi: milisarge
+# Gerekler:
+
+isim=grep
+surum=2.23
+devir=1
+
+kaynak=(http://ftp.gnu.org/gnu/grep/grep-$surum.tar.xz)
+
+derle()
+{
+cd grep-$surum
+
+./configure --prefix=/usr --bindir=/bin
+make
+make check || true
+make DESTDIR=$PKG install
+rm -rf $PKG/usr/share/info/dir
+}

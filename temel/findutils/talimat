@@ -1,0 +1,26 @@
+# Tanım: GNU utilities to locate files
+# URL: http://www.gnu.org/software/findutils/
+# Paketçi: milisarge
+# Gerekler:
+
+isim=findutils
+surum=4.6.0
+devir=1
+
+kaynak=(http://ftp.gnu.org/gnu/findutils/findutils-$surum.tar.gz)
+
+derle()
+{
+	cd findutils-$surum
+	./configure --prefix=/usr \
+	--libexecdir=/lib/findutils \
+	--localstatedir=/var/lib/locate \
+	--libdir=/lib --bindir=/bin
+
+	make
+	# make check
+	make DESTDIR=$PKG install
+
+	rm -rf $PKG/usr/share/info/dir
+	sed -i 's/find:=${BINDIR}/find:=\/bin/' $PKG/bin/updatedb
+}

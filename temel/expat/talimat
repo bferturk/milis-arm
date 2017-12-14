@@ -1,0 +1,17 @@
+# Tanım: The Expat package contains a stream oriented C library for parsing XML.
+# URL: http://expat.sourceforge.net/
+# Paketçi: milisarge
+# Gerekler: 
+
+isim=expat
+surum=2.1.0
+devir=1
+
+kaynak=(http://downloads.sourceforge.net/$isim/$isim-$surum.tar.gz)
+
+derle() {
+	cd $isim-$surum
+	./configure --prefix=/usr
+	make
+	make DESTDIR=$PKG install
+}

@@ -1,0 +1,21 @@
+# Tanım: A system for managing library compile/link flags.
+# URL: http://pkgconfig.freedesktop.org/
+# Paketçi: milisarge
+# Gerekler:
+
+isim=pkg-config
+surum=0.29
+devir=1
+
+kaynak=(http://pkgconfig.freedesktop.org/releases/pkg-config-$surum.tar.gz)
+derle()
+{
+cd  pkg-config-$surum
+./configure --prefix=/usr \
+--with-internal-glib \
+--disable-host-tool \
+--docdir=/usr/share/doc/pkg-config-$surum
+make
+make DESTDIR=$PKG install
+rm -r $PKG/usr/share/doc
+}

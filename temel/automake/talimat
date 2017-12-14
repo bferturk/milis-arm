@@ -1,0 +1,19 @@
+# Tanım: Contains programs for generating Makefiles for use with Autoconf.
+# URL: http://www.gnu.org/software/automake/
+# Paketçi: milisarge@gmail.com
+# Gerekler:
+
+isim=automake
+surum=1.15
+devir=2
+
+kaynak=(http://ftp.gnu.org/gnu/$isim/$isim-$surum.tar.xz)
+derle() {
+cd automake-$surum
+sed -i 's:/\\\${:/\\\$\\{:' bin/automake.in
+./configure --prefix=/usr \
+--docdir=$PKG/usr/share/doc/automake-$surum
+make
+make prefix=$PKG/usr install
+rm -rf $PKG/usr/share/info/dir
+}

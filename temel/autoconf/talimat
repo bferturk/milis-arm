@@ -1,0 +1,18 @@
+# Tanım: For producing shell scripts that can automatically configure source code.
+# URL: http://www.gnu.org/software/autoconf/
+# Paketçi: milisarge@gmail.com
+# Gerekler:
+
+isim=autoconf
+surum=2.69
+devir=1
+
+kaynak=(http://ftp.gnu.org/gnu/autoconf/autoconf-$surum.tar.xz)
+derle()
+{
+cd autoconf-$surum
+./configure --prefix=/usr
+make
+make DESTDIR=$PKG install
+rm -rf $PKG/usr/share/info/dir
+}

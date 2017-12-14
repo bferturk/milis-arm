@@ -1,0 +1,19 @@
+# Tanım: The GNU patch tool
+# URL: http://www.gnu.org/software/patch/patch.html
+# Paketçi: milisarge
+# Gerekler:
+
+isim=patch
+surum=2.7.5
+devir=1
+
+kaynak=(http://ftp.gnu.org/gnu/patch/patch-$surum.tar.xz)
+
+derle()
+{
+cd patch-$surum
+./configure --prefix=/usr
+make
+make prefix=$PKG/usr \
+mandir=$PKG/usr/share/man install
+}

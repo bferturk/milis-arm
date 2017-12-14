@@ -1,0 +1,47 @@
+# Tanım: Set of libraries that offers command-line editing and history capabilities.
+# URL: http://cnswww.cns.cwru.edu/php/chet/readline/rltop.html
+# Paketçi: milisarge
+# Gerekler:
+
+isim=readline
+surum=6.3
+devir=1
+
+kaynak=(http://ftp.gnu.org/gnu/readline/readline-$surum.tar.gz
+	http://www.linuxfromscratch.org/patches/downloads/$isim/$isim-$surum-upstream_fixes-3.patch)
+
+derle()
+{
+cd readline-$surum
+patch -Np1 -i ../$isim-$surum-upstream_fixes-3.patch
+
+sed -i '/MV.*old/d' Makefile.in
+sed -i '/{OLDSUFF}/c:' support/shlib-install
+
+./configure --prefix=/usr \
+--docdir=/usr/share/doc/readline-$surum
+
+make SHLIB_LIBS=-lncurses
+
+make DESTDIR=$PKG install
+
+mkdir -p $PKG/lib
+
+mv -v $PKG/usr/lib/lib{readline,history}.so.* \
+$PKG/lib
+
+rm -rf $PKG/usr/share/info/dir
+
+mkdir -p $PKG/usr/share/doc/readline-$surum
+install -v -m644 doc/*.{ps,pdf,html,dvi} \
+$PKG/usr/share/doc/readline-$surum
+
+rm -rv $PKG/usr/bin
+
+ln -sfv ../../lib/libreadline.so.6 \
+$PKG/usr/lib/libreadline.so
+
+ln -sfv ../../lib/libhistory.so.6 \
+$PKG/usr/lib/libhistory.so
+rm -r $PKG/usr/share/{doc,info}
+}

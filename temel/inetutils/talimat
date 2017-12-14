@@ -1,0 +1,31 @@
+# Tanım: The Inetutils package contains programs for basic networking.
+# URL: http://www.gnu.org/software/inetutils/
+# Paketçi: milisarge
+# Gerekler:
+
+isim=inetutils
+surum=1.9.4
+devir=1
+
+kaynak=(http://ftp.gnu.org/gnu/inetutils/inetutils-$surum.tar.xz)
+
+derle()
+{
+cd  inetutils-$surum
+
+./configure --prefix=/usr \
+-libexecdir=/sbin \
+--bindir=/bin \
+--sbindir=/sbin \
+--localstatedir=/var \
+--disable-logger \
+--disable-whois \
+--disable-servers
+make
+make check || true
+make DESTDIR=$PKG install
+
+mv -v $PKG/bin/traceroute $PKG/sbin
+mv -v $PKG/bin/ifconfig $PKG/sbin
+rm -rf $PKG/usr/share/info/dir
+}

@@ -1,0 +1,36 @@
+# Tanım: A tool for generating text-scanning programs
+# URL: http://flex.sourceforge.net
+# Paketçi: milisarge
+# Gerekler:
+
+isim=flex
+surum=2.5.39
+devir=1
+
+kaynak=(http://prdownloads.sourceforge.net/flex/flex-$surum.tar.xz)
+
+derle() {
+cd flex-$surum
+sed -i -e '/test-bison/d' tests/Makefile.in
+
+./configure --prefix=/usr \
+--libdir=/lib --bindir=/bin --sbindir=/sbin \
+--docdir=/usr/share/doc/flex-$surum
+
+make
+make -k check||true
+
+make DESTDIR=$PKG install
+
+ln -sv libfl.a $PKG/lib/libl.a
+cat > $PKG/bin/lex << "EOF"
+#!/bin/sh
+# Begin /bin/lex
+exec /bin/flex -l "$@"
+# End /bin/lex
+EOF
+
+chmod -v 755 $PKG/bin/lex
+
+rm -r $PKG/usr/share/{info,doc}
+}

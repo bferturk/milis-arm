@@ -1,0 +1,21 @@
+# Tanım: The Tar package contains an archiving program.
+# URL: http://www.gnu.org/software/tar/tar.html
+# Paketçi: milisarge
+# Gerekler:
+
+isim=tar
+surum=1.28
+devir=2
+
+kaynak=(http://ftp.gnu.org/gnu/$isim/$isim-$surum.tar.xz)
+
+derle()
+{
+cd $isim-$surum
+
+FORCE_UNSAFE_CONFIGURE=1 ./configure --prefix=/usr --bindir=/bin --libexecdir=/sbin
+
+make
+make DESTDIR=$PKG install
+rm -rf $PKG/usr/share/info/dir
+}

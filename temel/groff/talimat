@@ -1,0 +1,26 @@
+# Tanım: The Groff package contains programs for processing and formatting text.
+# URL: http://www.gnu.org/software/groff/
+# Paketçi: milisarge
+# Gerekler:
+
+isim=groff
+surum=1.22.3
+devir=1
+
+kaynak=(http://ftp.gnu.org/gnu/groff/groff-$surum.tar.gz)
+
+derle()
+{
+cd groff-$surum
+
+PAGE="A4" ./configure --prefix=/usr
+
+make || make -j1
+
+make prefix=$PKG/usr \
+infodir=$PKG/usr/share/info  install
+
+ln -sv eqn $PKG/usr/bin/geqn
+ln -sv tbl $PKG/usr/bin/gtbl
+rm -rf $PKG/usr/share/info/dir
+}

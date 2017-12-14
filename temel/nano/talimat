@@ -1,0 +1,27 @@
+# Tanım: A simple text editor which aims to replace Pico, the default editor in the Pine package.
+# URL: http://www.nano-editor.org/
+# Paketçi: milisarge
+# Gerekler:
+
+isim=nano
+surum=2.5.2
+devir=1
+
+kaynak=(http://ftp.gnu.org/gnu/$isim/$isim-$surum.tar.gz)
+
+derle() {
+cd $isim-$surum
+./configure --prefix=/usr \
+--sysconfdir=/etc \
+--enable-utf8     \
+--enable-color \
+--enable-multibuffer \
+--enable-nanorc \
+--docdir=/usr/share/doc/nano-$surum \
+--disable-x
+make
+make DESTDIR=$PKG install
+mkdir -p $PKG/etc/nano
+install -v -m644 -D doc/nanorc.sample $PKG/etc/nano/nanorc.sample
+rm $PKG/usr/share/info/dir
+}

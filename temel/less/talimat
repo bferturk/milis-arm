@@ -1,0 +1,19 @@
+# Tanım: The Less package contains a text file viewer.
+# URL: http://www.greenwoodsoftware.com/less/
+# Paketçi: milisarge
+# Gerekler:
+
+isim=less
+surum=458
+devir=1
+
+kaynak=(http://www.greenwoodsoftware.com/less/less-$surum.tar.gz)
+
+derle()
+{
+cd less-$surum
+./configure --prefix=/usr \
+--sysconfdir=/etc
+make
+make DESTDIR=$PKG install
+}

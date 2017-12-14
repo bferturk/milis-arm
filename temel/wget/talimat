@@ -1,0 +1,23 @@
+# Tanım: Utility for non-interactive download of files using HTTP, HTTPS and FTP.
+# URL: http://www.gnu.org/software/wget/
+# Paketçi: milisarge
+# Gerekler:
+
+isim=wget
+surum=1.17.1
+devir=2
+
+kaynak=(http://ftp.gnu.org/gnu/$isim/$isim-$surum.tar.xz) 
+
+derle() {
+cd $isim-$surum
+./configure --prefix=/usr \
+--sysconfdir=/etc \
+--with-ssl=openssl \
+--disable-debug \
+--mandir=/usr/share/man \
+--infodir=/usr/share/info
+make
+make DESTDIR=$PKG install
+rm -rf $PKG/usr/share/info/dir
+}

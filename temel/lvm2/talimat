@@ -1,0 +1,24 @@
+# Tanım: Allows spanning of file systems across multiple physical disks and partitions.
+# URL: http://sourceware.org/lvm2/
+# Paketçi: milisarge
+# Gerekler:
+
+isim=lvm2
+surum=2.02.141
+devir=1
+
+kaynak=(ftp://sources.redhat.com/pub/lvm2/LVM2.$surum.tgz)
+derle() {
+cd LVM2.$surum
+./configure \
+--prefix=/usr \
+--exec-prefix= \
+--with-confdir=/etc \
+--mandir=/usr/share/man \
+--enable-applib \
+--enable-cmdlib \
+--enable-pkgconfig \
+--enable-udev_sync
+make
+make DESTDIR=$PKG install
+}

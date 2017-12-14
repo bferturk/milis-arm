@@ -1,0 +1,17 @@
+# Tanım: Lzip is a lossless data compressor with a user interface similar to the one of gzip or bzip2
+# URL: download.savannah.gnu.org
+# Paketçi: milisarge
+# Gerekler:
+
+isim=lzip
+surum=1.18-rc1
+devir=1
+
+kaynak=(http://download.savannah.gnu.org/releases/$isim/$isim-$surum.tar.gz)
+derle()
+{
+cd $isim-$surum
+./configure --prefix=/usr
+make
+make DESTDIR=$PKG install
+}

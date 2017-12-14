@@ -1,0 +1,22 @@
+# Tanım: Connect your computer to a network which uses DHCP to assign network addresses.
+# URL: http://roy.marples.name/projects/dhcpcd
+# Paketçi: milisarge@gmail.com
+# Gerekler:
+
+isim=dhcpcd
+surum=6.10.1
+devir=1
+
+kaynak=(http://roy.marples.name/downloads/$isim/$isim-$surum.tar.xz)
+
+derle() {
+	cd $isim-$surum
+	./configure --prefix= \
+	--libexecdir=/lib/dhcpcd \
+	--dbdir=/var/tmp
+	make
+	make DESTDIR=$PKG install
+	sed -i "s;/var/lib;/run;g" dhcpcd-hooks/50-dhcpcd-compat
+	install -v -m 644 dhcpcd-hooks/50-dhcpcd-compat $PKG/lib/dhcpcd/dhcpcd-hooks/
+	rm -r $PKG/var/tmp
+}

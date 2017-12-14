@@ -1,0 +1,31 @@
+# Tanım: Utilities for monitoring your system and its processes.
+# URL: http://procps.sourceforge.net/
+# Paketçi: milisarge
+# Gerekler:
+
+isim=procps-ng
+surum=3.3.11
+devir=1
+
+kaynak=(http://downloads.sourceforge.net/project/$isim/Production/$isim-$surum.tar.xz)
+
+derle()
+{
+cd $isim-$surum
+
+./configure --prefix=/usr \
+--exec-prefix= \
+--libdir=/lib --bindir=/bin --sbindir=/sbin \
+--docdir=/usr/share/doc/procps-ng-$surum \
+--disable-static \
+--disable-skill \
+--disable-kill
+make
+make DESTDIR=$PKG install
+
+mkdir -p $PKG/usr/lib
+
+mv $PKG/lib/pkgconfig \
+$PKG/usr/lib/
+rm -r $PKG/usr/share/doc
+}

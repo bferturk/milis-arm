@@ -1,0 +1,21 @@
+# Tanım: The Iana-Etc package provides data for network services and protocols.
+# URL: http://www.sethwklein.net/projects/iana-etc/
+# Paketçi: milisarge
+# Gerekler:
+
+isim=iana-etc
+surum=2.30
+devir=1
+
+kaynak=(http://sethwklein.net/iana-etc-2.30.tar.bz2)
+
+derle()
+{
+cd iana-etc-$surum
+
+make
+
+make DESTDIR=$PKG install
+
+}
+

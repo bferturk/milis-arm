@@ -1,0 +1,19 @@
+# Tanım: Portable lossless data compression library.
+# URL: http://www.oberhumer.com/opensource/lzo
+# Paketçi: milisarge
+# Gerekler:
+
+isim=lzo
+surum=2.09
+devir=1
+
+kaynak=(  http://www.oberhumer.com/opensource/$isim/download/$isim-$surum.tar.gz)
+
+derle() {
+ cd $isim-$surum
+ ./configure --prefix=/usr \
+ --enable-shared \
+ --docdir=/usr/share/doc/lzo-$surum
+ make
+ make DESTDIR=$PKG install
+}

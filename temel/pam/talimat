@@ -1,0 +1,34 @@
+# Tanım: Pluggable Authentication Modules to choose how applications authenticate users.
+# URL: http://www.kernel.org/pub/libs/pam
+# Paketçi: milisarge
+# Gerekler:
+
+isim=pam
+surum=1.2.1
+devir=1
+
+kaynak=(http://linux-pam.org/library/Linux-PAM-$surum.tar.bz2)
+
+derle() {
+if [ "`uname -m`" == "x86_64" ]; then
+        LIB=lib64
+else
+        LIB=lib
+fi
+
+mkdir -p $PKG/etc/pam.d
+cd Linux-PAM-$surum
+./configure --prefix=/usr --sysconfdir=/etc \
+--enable-securedir=/$LIB/security \
+--docdir=/usr/share/doc/Linux-PAM-$surum \
+--disable-nis --libdir=/usr/lib
+make
+make DESTDIR=$PKG install
+chmod -v 4755 $PKG/sbin/unix_chkpwd
+
+for file in pam pam_misc pamc
+do
+  mv -v $PKG/usr/lib/lib${file}.so.* $PKG/$LIB &&
+  ln -sfv ../../$LIB/$(readlink $PKG/usr/lib/lib${file}.so) $PKG/usr/lib/lib${file}.so
+done
+}
