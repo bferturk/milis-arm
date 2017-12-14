@@ -1,0 +1,190 @@
+=======> isim: automake
+=======> surum: 1.15
+=======> devir: 2
+hash kontrol dosyası yok-hash kontrolü yapılmayacak.
+=======> Derleniyor '/root/milis-arm/temel/automake/automake#1.15-armv7l.mps.lz'.
+tar -p -C /tmp/work/src -xf /sources/automake-1.15.tar.xz
+checking whether make supports nested variables... yes
+checking build system type... armv7l-unknown-linux-gnueabihf
+checking host system type... armv7l-unknown-linux-gnueabihf
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether ln -s works... yes
+checking for perl... /usr/bin/perl
+checking for tex... no
+checking for yacc... no
+checking for byacc... no
+checking for bison... bison -y
+checking for lex... lex
+checking whether autoconf is installed... yes
+checking whether autoconf works... yes
+checking whether autoconf is recent enough... yes
+checking whether ln works... yes
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+configure: will now look for a sturdy POSIX shell, for our testsuite
+checking for sh... /bin/sh
+checking for sh5... no
+checking for dash... no
+checking for ash... no
+checking for bash... /bin/bash
+checking for zsh... no
+checking for ksh... no
+checking for pdksh... no
+checking whether /bin/sh supports $(cmd)... yes
+checking whether /bin/sh supports $((expr))... yes
+checking whether /bin/sh supports ${#var}... yes
+checking whether /bin/sh supports ${var#glob} and ${var%glob}... yes
+checking whether /bin/sh preserves exit traps with "set -e"... yes
+checking whether /bin/sh can define exit traps in a shell function... yes
+checking whether /bin/sh corrupts stderr with "set -x"... no
+checking whether /bin/sh can return early from "dot-sourced" files... yes
+checking whether /bin/sh supports alias named like shell builtins... yes
+checking whether /bin/sh supports "test -e"... yes
+configure: shell /bin/sh is good enough, stop looking
+configure: will use /bin/sh as the testsuite shell
+configure: will now look for generic compilers
+checking for cc... cc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether cc accepts -g... yes
+checking for cc option to accept ISO C89... none needed
+checking whether cc understands -c and -o together... yes
+checking for aCC... no
+checking for CC... no
+checking for FCC... no
+checking for KCC... no
+checking for RCC... no
+checking for xlC_r... no
+checking for xlC... no
+checking for c++... c++
+checking whether the C++ compiler works... yes
+checking for C++ compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C++ compiler... yes
+checking whether c++ accepts -g... yes
+checking for xlf95... no
+checking for f95... no
+checking for fort... no
+checking for ifort... no
+checking for ifc... no
+checking for efc... no
+checking for pgfortran... no
+checking for pgf95... no
+checking for lf95... no
+checking for ftn... no
+checking for nagfor... no
+checking for xlf90... no
+checking for f90... no
+checking for pgf90... no
+checking for pghpf... no
+checking for epcf90... no
+checking for g95... no
+checking for gfortran... gfortran
+checking whether the Fortran compiler works... yes
+checking for Fortran compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU Fortran compiler... yes
+checking whether gfortran accepts -g... yes
+checking for xlf... no
+checking for f77... no
+checking for frt... no
+checking for pgf77... no
+checking for cf77... no
+checking for fort77... no
+checking for fl32... no
+checking for af77... no
+checking for g77... no
+checking for gfortran... gfortran
+checking whether the Fortran 77 compiler works... yes
+checking for Fortran 77 compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU Fortran 77 compiler... yes
+checking whether gfortran accepts -g... yes
+configure: will now look for GNU compilers
+configure: cc is already a GNU C compiler
+configure: c++ is already a GNU C++ compiler
+configure: gfortran is already a GNU Fortran compiler
+configure: gfortran is already a GNU Fortran 77 compiler
+checking for gcj... no
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating t/wrap/aclocal-1.15
+config.status: creating t/wrap/automake-1.15
+  GEN      bin/automake
+  GEN      bin/aclocal
+  GEN      t/ax/cc-no-c-o
+  GEN      t/ax/shell-no-trail-bslash
+  GEN      runtest
+  GEN      doc/aclocal.1
+  GEN      doc/automake.1
+  GEN      lib/Automake/Config.pm
+  GEN      t/ax/test-defs.sh
+  GEN      doc/aclocal-1.15.1
+  GEN      doc/automake-1.15.1
+make[1]: Entering directory '/tmp/work/src/automake-1.15'
+ /bin/mkdir -p '/tmp/work/pkg/usr/bin'
+ /bin/mkdir -p '/tmp/work/pkg/usr/share/aclocal-1.15'
+ /bin/mkdir -p '/tmp/work/pkg/usr/share/automake-1.15/am'
+ /bin/mkdir -p '/tmp/work/pkg/usr/share/aclocal-1.15/internal'
+ /bin/mkdir -p '/tmp/work/pkg/usr/share/doc/automake-1.15'
+ /usr/bin/install -c -m 644 m4/amversion.m4 m4/ar-lib.m4 m4/as.m4 m4/auxdir.m4 m4/cond.m4 m4/cond-if.m4 m4/depend.m4 m4/depout.m4 m4/dmalloc.m4 m4/extra-recurs.m4 m4/gcj.m4 m4/init.m4 m4/install-sh.m4 m4/lead-dot.m4 m4/lex.m4 m4/lispdir.m4 m4/maintainer.m4 m4/make.m4 m4/missing.m4 m4/mkdirp.m4 m4/obsolete.m4 m4/options.m4 m4/python.m4 m4/prog-cc-c-o.m4 m4/runlog.m4 m4/sanity.m4 m4/silent.m4 m4/strip.m4 m4/substnot.m4 m4/tar.m4 m4/upc.m4 m4/vala.m4 '/tmp/work/pkg/usr/share/aclocal-1.15'
+ /usr/bin/install -c bin/automake bin/aclocal '/tmp/work/pkg/usr/bin'
+ /usr/bin/install -c -m 644 m4/internal/ac-config-macro-dirs.m4 '/tmp/work/pkg/usr/share/aclocal-1.15/internal'
+ /usr/bin/install -c -m 644 lib/am/check.am lib/am/check2.am lib/am/clean-hdr.am lib/am/clean.am lib/am/compile.am lib/am/configure.am lib/am/data.am lib/am/dejagnu.am lib/am/depend.am lib/am/depend2.am lib/am/distdir.am lib/am/footer.am lib/am/header-vars.am lib/am/header.am lib/am/install.am lib/am/inst-vars.am lib/am/java.am lib/am/lang-compile.am lib/am/lex.am lib/am/library.am lib/am/libs.am lib/am/libtool.am lib/am/lisp.am lib/am/ltlib.am lib/am/ltlibrary.am lib/am/mans-vars.am lib/am/mans.am lib/am/program.am lib/am/progs.am lib/am/python.am lib/am/remake-hdr.am lib/am/scripts.am lib/am/subdirs.am lib/am/tags.am lib/am/texi-vers.am lib/am/texibuild.am lib/am/texinfos.am lib/am/vala.am lib/am/yacc.am '/tmp/work/pkg/usr/share/automake-1.15/am'
+ /usr/bin/install -c -m 644 ./doc/amhello-1.0.tar.gz '/tmp/work/pkg/usr/share/doc/automake-1.15'
+ /bin/mkdir -p '/tmp/work/pkg/usr/share/automake-1.15/Automake'
+ /bin/mkdir -p '/tmp/work/pkg/usr/share/automake-1.15'
+ /bin/mkdir -p '/tmp/work/pkg/usr/share/automake-1.15'
+ /bin/mkdir -p '/tmp/work/pkg/usr/share/aclocal'
+ /usr/bin/install -c -m 644 lib/COPYING lib/INSTALL lib/texinfo.tex '/tmp/work/pkg/usr/share/automake-1.15'
+ /bin/mkdir -p '/tmp/work/pkg/usr/share/info'
+ /usr/bin/install -c -m 644 lib/Automake/ChannelDefs.pm lib/Automake/Channels.pm lib/Automake/Condition.pm lib/Automake/Configure_ac.pm lib/Automake/DisjConditions.pm lib/Automake/FileUtils.pm lib/Automake/General.pm lib/Automake/Getopt.pm lib/Automake/Item.pm lib/Automake/ItemDef.pm lib/Automake/Language.pm lib/Automake/Location.pm lib/Automake/Options.pm lib/Automake/Rule.pm lib/Automake/RuleDef.pm lib/Automake/Variable.pm lib/Automake/VarDef.pm lib/Automake/Version.pm lib/Automake/XFile.pm lib/Automake/Wrap.pm '/tmp/work/pkg/usr/share/automake-1.15/Automake'
+ /usr/bin/install -c -m 644 lib/config.guess lib/config.sub lib/install-sh lib/mdate-sh lib/missing lib/mkinstalldirs lib/ylwrap lib/depcomp lib/compile lib/py-compile lib/ar-lib lib/test-driver lib/tap-driver.sh '/tmp/work/pkg/usr/share/automake-1.15'
+ /usr/bin/install -c -m 644 m4/acdir/README '/tmp/work/pkg/usr/share/aclocal'
+/usr/bin/make  install-exec-hook
+ /bin/mkdir -p '/tmp/work/pkg/usr/share/man/man1'
+ /bin/mkdir -p '/tmp/work/pkg/usr/share/automake-1.15/Automake'
+ /usr/bin/install -c -m 644 lib/Automake/Config.pm '/tmp/work/pkg/usr/share/automake-1.15/Automake'
+make[2]: Entering directory '/tmp/work/src/automake-1.15'
+ /usr/bin/install -c -m 644 doc/aclocal.1 doc/automake.1 doc/aclocal-1.15.1 doc/automake-1.15.1 '/tmp/work/pkg/usr/share/man/man1'
+ /usr/bin/install -c -m 644 ./doc/automake.info ./doc/automake.info-1 ./doc/automake.info-2 ./doc/automake-history.info '/tmp/work/pkg/usr/share/info'
+ install-info --info-dir='/tmp/work/pkg/usr/share/info' '/tmp/work/pkg/usr/share/info/automake.info'
+ install-info --info-dir='/tmp/work/pkg/usr/share/info' '/tmp/work/pkg/usr/share/info/automake-history.info'
+/usr/bin/make  install-data-hook
+ ln '/tmp/work/pkg/usr/bin/automake' '/tmp/work/pkg/usr/bin/automake-1.15'
+make[2]: Entering directory '/tmp/work/src/automake-1.15'
+ ln '/tmp/work/pkg/usr/bin/aclocal' '/tmp/work/pkg/usr/bin/aclocal-1.15'
+make[2]: Leaving directory '/tmp/work/src/automake-1.15'
+ chmod +x '/tmp/work/pkg/usr/share/automake-1.15/config.guess'
+ chmod +x '/tmp/work/pkg/usr/share/automake-1.15/config.sub'
+ chmod +x '/tmp/work/pkg/usr/share/automake-1.15/install-sh'
+ chmod +x '/tmp/work/pkg/usr/share/automake-1.15/mdate-sh'
+ chmod +x '/tmp/work/pkg/usr/share/automake-1.15/missing'
+ chmod +x '/tmp/work/pkg/usr/share/automake-1.15/mkinstalldirs'
+ chmod +x '/tmp/work/pkg/usr/share/automake-1.15/ylwrap'
+ chmod +x '/tmp/work/pkg/usr/share/automake-1.15/depcomp'
+ chmod +x '/tmp/work/pkg/usr/share/automake-1.15/compile'
+ chmod +x '/tmp/work/pkg/usr/share/automake-1.15/py-compile'
+ chmod +x '/tmp/work/pkg/usr/share/automake-1.15/ar-lib'
+ chmod +x '/tmp/work/pkg/usr/share/automake-1.15/test-driver'
+ chmod +x '/tmp/work/pkg/usr/share/automake-1.15/tap-driver.sh'
+make[2]: Leaving directory '/tmp/work/src/automake-1.15'
+make[1]: Leaving directory '/tmp/work/src/automake-1.15'
+=======> automake arşivine üstbilgiler ekleniyor.
+=======> automake#1.15-armv7l.mps sıkıştırılıyor.
