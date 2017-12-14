@@ -239,7 +239,7 @@ unpack_source() {
 		case $LOCAL_FILENAME in
 			*.tar|*.tar.gz|*.tar.Z|*.tgz|*.tar.bz2|*.tbz2|*.tar.xz|*.txz|*.tar.lzma|*.zip|*.rpm)
 				if [ "$PKGMK_IGNORE_UNPACK" != "evet" ];then
-					COMMAND="bsdtar -p -o -C $SRC -xf $LOCAL_FILENAME"
+					COMMAND="tar -p -C $SRC -xf $LOCAL_FILENAME"
 				else
 					COMMAND="cp $LOCAL_FILENAME $SRC"
 				fi ;;
@@ -505,7 +505,7 @@ pack_devel() {
 	for DIR in usr opt/*; do
 		for SUBDIR in include lib/pkgconfig; do
 			if [ -d $DIR/$SUBDIR ]; then
-				bsdtar -r -f \
+				tar -r -f \
 				$PAKETLEME_DIZIN/${isim}.${group}#$surum-any.${PKT_UZANTISI} \
 				$DIR/$SUBDIR || BUILD_SUCCESSFUL="yok"
 				rm -r $DIR/$SUBDIR
@@ -541,7 +541,7 @@ add_meta_files() {
 	fi
 	for file in .README .PRE .POST; do
 		if [ -f $file ]; then
-			bsdtar -r -f $PAKETLEME_DIZIN/$1 \
+			tar -r -f $PAKETLEME_DIZIN/$1 \
 			$file
 			rm $file
 		fi
@@ -559,7 +559,7 @@ add_meta_to_archive() {
 	mkdir -p $TAR
 	cd $TAR
 
-	bsdtar xf $PAKETLEME_DIZIN/$1
+	tar xf $PAKETLEME_DIZIN/$1
 	# üstbaşlık bilgilerinin türkçe harf desteği için
 	LC_ALL="tr_TR.UTF-8"
 	if [ ! -z "`cat $PKGMK_ROOT/$PKGMK_PKGFILE |sed "s@^[ ,\t,#]*@@"|grep -i ^Tanım|cut -d : -f1 --complement|sed "s@^[ ,\t]*@@"`" ]; then
@@ -600,18 +600,18 @@ add_meta_to_archive() {
 	echo "a$ARCH" >> .META
 	echo "G$GRUP" >> .META
 	
-	bsdtar -tf $PAKETLEME_DIZIN/$1 > .MTREE
+	tar -tf $PAKETLEME_DIZIN/$1 > .MTREE
 
 	rm $PAKETLEME_DIZIN/$1
 
 	for file in .META .MTREE .README .PRE .POST .INFO; do
 		if [ -f $file ]; then
-			bsdtar -r -f $PAKETLEME_DIZIN/$1 \
+			tar -r -f $PAKETLEME_DIZIN/$1 \
 			$file
 		fi
 	done
 
-	bsdtar -r -f $PAKETLEME_DIZIN/$1 *
+	tar -r -f $PAKETLEME_DIZIN/$1 *
 
 	cd ..
 	rm -rf $TAR
@@ -769,7 +769,7 @@ build_package() {
 		#fi
 		
 		if [ "`ls|wc -l`" != "0" ]; then
-			bsdtar -r -f $PAKETLEME_DIZIN/${isim}#$surum-${MIMARI}.${PKT_UZANTISI} *
+			tar -r -f $PAKETLEME_DIZIN/${isim}#$surum-${MIMARI}.${PKT_UZANTISI} *
 		else
 			error "No files found in $PKG..."
 			exit $E_BUILD
