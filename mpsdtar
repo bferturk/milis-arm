@@ -1343,6 +1343,7 @@ main() {
 		for TARGET in ${TARGETS[@]}; do
 			if [  "${TARGET:$((${#TARGET} - ${#PKT_UZANTISI} ))}" == "$PKT_UZANTISI" ]; then
 				compress_archive $TARGET
+                mv *.lz /sources/paketler
 			fi
 		done
 	fi
