@@ -1,0 +1,442 @@
+=======> isim: dialog
+=======> surum: 1.2.20140911
+=======> devir: 1
+hash kontrol dosyası yok-hash kontrolü yapılmayacak.
+=======> Derleniyor '/root/milis-arm/temel/dialog/dialog#1.2.20140911-armv7l.mps.lz'.
+tar -p -C /tmp/work/src -xf /sources/dialog-1.2-20140911.tgz
+checking for gcc... gcc
+checking for C compiler default output... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for executable suffix... 
+checking for object suffix... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking version of gcc... 5.2.0
+checking for gcc option to accept ANSI C... none needed
+checking $CC variable... ok
+checking how to run the C preprocessor... gcc -E
+checking whether make sets ${MAKE}... yes
+checking for ranlib... ranlib
+checking for a BSD compatible install... /usr/bin/install -c
+checking whether ln -s works... yes
+checking if ln -s -f options work... yes
+checking for tdlint... no
+checking for lint... no
+checking for alint... no
+checking for splint... no
+checking for lclint... no
+checking for groff... /usr/bin/groff
+checking for ar... ar
+checking for makeflags variable... 
+checking if filesystem supports mixed-case filenames... yes
+checking for exctags... no
+checking for ctags... no
+checking for exetags... no
+checking for etags... no
+checking for ctags... no
+checking for etags... no
+checking if you want to see long compiling messages... yes
+checking build system type... armv7l-unknown-linux-gnueabihf
+checking host system type... armv7l-unknown-linux-gnueabihf
+Configuring for linux-gnueabihf
+checking for PATH separator... :
+checking if we must define _GNU_SOURCE... yes
+checking if _XOPEN_SOURCE really is set... yes
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... 64
+checking for _LARGE_FILES value needed for large files... no
+checking for _LARGEFILE_SOURCE value needed for large files... no
+checking for fseeko... yes
+checking whether to use struct dirent64... no
+checking if you want to check for gcc warnings... no
+checking if you want to use pkg-config... yes
+checking for pkg-config... /usr/bin/pkg-config
+checking for this package's name... dialog
+checking for package version... 1.2
+checking for package patch date... 20140911
+checking if we should install dlg_XXX headers to subdirectory... no
+checking for ANSI C header files... yes
+checking for inline... inline
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for off_t... yes
+checking for size_t... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking for stdlib.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for getpagesize... yes
+checking for working mmap... yes
+checking whether we are using the GNU C Library 2.1 or newer... yes
+checking for argz.h... yes
+checking for limits.h... yes
+checking for locale.h... yes
+checking for nl_types.h... yes
+checking for malloc.h... yes
+checking for stddef.h... yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for sys/param.h... yes
+checking for feof_unlocked... yes
+checking for fgets_unlocked... yes
+checking for getcwd... yes
+checking for getegid... yes
+checking for geteuid... yes
+checking for getgid... yes
+checking for getuid... yes
+checking for mempcpy... yes
+checking for munmap... yes
+checking for putenv... yes
+checking for setenv... yes
+checking for setlocale... yes
+checking for stpcpy... yes
+checking for strchr... yes
+checking for strcasecmp... yes
+checking for strdup... yes
+checking for strtoul... yes
+checking for tsearch... yes
+checking for __argz_count... yes
+checking for __argz_stringify... yes
+checking for __argz_next... yes
+checking for iconv... yes
+checking if the declaration of iconv() needs const.... no
+checking for nl_langinfo and CODESET... yes
+checking for LC_MESSAGES... yes
+checking whether NLS is requested... yes
+checking whether included gettext is requested... no
+checking for libintl.h and gettext()... yes
+checking for dcgettext... yes
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking for catalogs to be installed...  an ar be@latin bg ca cs cy da de el eo es et eu fa fi fr ga gd gl hi hr hu ia id is it ja ku lt lv mg mk ms nb nl pl pt pt_BR rm ro ru rw sk sl sq sr sv sw th tr uk vi wa zh_CN zh_TW
+checking if we should use included message-library... yes
+checking for libintl.h... yes
+checking if -lm needed for math functions... yes
+checking if you want to use dmalloc for testing... no
+checking if you want to use dbmalloc for testing... no
+checking if you want to use purify for testing... no
+checking if you want to use valgrind for testing... no
+checking if you want to perform memory-leak testing... 
+checking if you want --trace option... yes
+checking for an rpath option... -Wl,-rpath,
+checking if libtool -version-number should be used... yes
+checking if you want to build libraries with libtool... no
+checking if you want to build shared libraries... no
+checking for specific curses-directory... no
+checking if rpath option should be used... no
+checking for multibyte character support... yes
+Looking for ncursesw-config
+checking for ncursesw6-config... ncursesw6-config
+checking if we have identified curses headers... ncurses.h
+checking for ncurses.h... yes
+checking if you want extra dialogs... yes
+checking if you want config-file support... yes
+checking if you want Xdialog-style dialogs... yes
+checking if you want extra Xdialog-style dialogs (1.2)... yes
+checking if you want compatibility with whiptail options... yes
+checking if you want the form dialog... yes
+checking if you want the gauge dialog... yes
+checking if you want the tailbox dialog... yes
+checking if you want the mixedform dialog... yes
+checking if you want the mixedgauge dialog... yes
+checking if you want the wide-curses features... yes
+checking for ANSI C header files... (cached) yes
+checking whether time.h and sys/time.h may both be included... yes
+checking for dirent.h that defines DIR... yes
+checking for opendir in -ldir... no
+checking for search.h... yes
+checking for unctrl.h... yes
+checking for unistd.h... (cached) yes
+checking for term.h... term.h
+checking return type of signal handlers... void
+checking for _nc_free_and_exit... yes
+checking for btowc... yes
+checking for mblen... yes
+checking for mbrlen... yes
+checking for mbrtowc... yes
+checking for mbtowc... yes
+checking for strcasecmp... (cached) yes
+checking for strftime... yes
+checking for tsearch... (cached) yes
+checking for waitpid... yes
+checking for wcsrtombs... yes
+checking for wcstombs... yes
+checking for wctob... yes
+checking for wctomb... yes
+checking if we must define _XOPEN_SOURCE_EXTENDED... no
+checking for unctrl.h... unctrl.h
+checking for flushinp... yes
+checking for getattrs... yes
+checking for getbegx... yes
+checking for getbegy... yes
+checking for getbegyx... yes
+checking for getcurx... yes
+checking for getcury... yes
+checking for getmaxx... yes
+checking for getmaxy... yes
+checking for getmaxyx... yes
+checking for getparx... yes
+checking for getpary... yes
+checking for getparyx... yes
+checking for use_default_colors... yes
+checking for wchgat... yes
+checking for wcursyncup... yes
+checking for wget_wch... yes
+checking for wsyncup... yes
+checking for start_color... yes
+checking for chtype typedef... yes
+checking if chtype is scalar or struct... scalar
+checking for wide alternate character set array... _nc_wacs
+checking for wide alternate character constants... yes
+checking for wgetparent... yes
+checking for sys/wait.h... yes
+checking for union wait... no
+checking if we must include wchar.h to declare mbstate_t... yes
+checking if rpath-hack should be disabled... no
+checking for updated LDFLAGS... maybe
+checking for ldd... ldd
+configure: creating ./config.status
+config.status: creating dialog-config
+config.status: creating makefile
+config.status: creating headers-sh
+config.status: creating po/makefile.in
+config.status: creating dlg_config.h
+config.status: creating po/POTFILES
+config.status: creating po/makefile
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -I. -I.  -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64  -D_GNU_SOURCE -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -c trace.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -I. -I.  -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64  -D_GNU_SOURCE -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -c rc.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -I. -I.  -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64  -D_GNU_SOURCE -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -c calendar.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -I. -I.  -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64  -D_GNU_SOURCE -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -c fselect.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -I. -I.  -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64  -D_GNU_SOURCE -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -c timebox.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -I. -I.  -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64  -D_GNU_SOURCE -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -c buildlist.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -I. -I.  -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64  -D_GNU_SOURCE -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -c rangebox.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -I. -I.  -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64  -D_GNU_SOURCE -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -c treeview.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -I. -I.  -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64  -D_GNU_SOURCE -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -c formbox.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -I. -I.  -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64  -D_GNU_SOURCE -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -c guage.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -I. -I.  -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64  -D_GNU_SOURCE -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -c pause.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -I. -I.  -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64  -D_GNU_SOURCE -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -c prgbox.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -I. -I.  -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64  -D_GNU_SOURCE -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -c progressbox.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -I. -I.  -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64  -D_GNU_SOURCE -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -c tailbox.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -I. -I.  -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64  -D_GNU_SOURCE -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -c mixedform.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -I. -I.  -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64  -D_GNU_SOURCE -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -c mixedgauge.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -I. -I.  -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64  -D_GNU_SOURCE -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -c argv.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -I. -I.  -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64  -D_GNU_SOURCE -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -c arrows.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -I. -I.  -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64  -D_GNU_SOURCE -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -c buttons.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -I. -I.  -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64  -D_GNU_SOURCE -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -c checklist.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -I. -I.  -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64  -D_GNU_SOURCE -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -c columns.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -I. -I.  -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64  -D_GNU_SOURCE -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -c dlg_keys.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -I. -I.  -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64  -D_GNU_SOURCE -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -c editbox.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -I. -I.  -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64  -D_GNU_SOURCE -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -c help.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -I. -I.  -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64  -D_GNU_SOURCE -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -c inputbox.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -I. -I.  -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64  -D_GNU_SOURCE -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -c inputstr.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -I. -I.  -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64  -D_GNU_SOURCE -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -c menubox.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -I. -I.  -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64  -D_GNU_SOURCE -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -c mouse.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -I. -I.  -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64  -D_GNU_SOURCE -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -c mousewget.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -I. -I.  -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64  -D_GNU_SOURCE -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -c msgbox.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -I. -I.  -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64  -D_GNU_SOURCE -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -c textbox.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -I. -I.  -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64  -D_GNU_SOURCE -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -c ui_getc.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -I. -I.  -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64  -D_GNU_SOURCE -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -c util.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -I. -I.  -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64  -D_GNU_SOURCE -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -c version.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -I. -I.  -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64  -D_GNU_SOURCE -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -c yesno.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -I. -I.  -D_GNU_SOURCE -D_FILE_OFFSET_BITS=64  -D_GNU_SOURCE -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -c dialog.c
+linking libdialog.a
+ar -cr libdialog.a trace.o rc.o calendar.o fselect.o timebox.o buildlist.o rangebox.o treeview.o formbox.o guage.o pause.o prgbox.o progressbox.o tailbox.o mixedform.o mixedgauge.o argv.o arrows.o buttons.o checklist.o columns.o dlg_keys.o editbox.o help.o inputbox.o inputstr.o menubox.o mouse.o mousewget.o msgbox.o textbox.o ui_getc.o util.o version.o yesno.o 
+gcc -o dialog dialog.o -L. -ldialog  -lncursesw -lm 
+making install
+make[1]: Entering directory '/tmp/work/src/dialog-1.2-20140911/po'
+file=./`echo an | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file an.po
+file=./`echo ar | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file ar.po
+file=./`echo be@latin | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file be@latin.po
+file=./`echo bg | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file bg.po
+file=./`echo ca | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file ca.po
+file=./`echo cs | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file cs.po
+file=./`echo cy | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file cy.po
+file=./`echo da | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file da.po
+file=./`echo de | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file de.po
+file=./`echo el | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file el.po
+file=./`echo eo | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file eo.po
+file=./`echo es | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file es.po
+file=./`echo et | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file et.po
+file=./`echo eu | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file eu.po
+file=./`echo fa | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file fa.po
+file=./`echo fi | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file fi.po
+file=./`echo fr | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file fr.po
+file=./`echo ga | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file ga.po
+file=./`echo gd | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file gd.po
+file=./`echo gl | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file gl.po
+file=./`echo hi | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file hi.po
+file=./`echo hr | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file hr.po
+file=./`echo hu | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file hu.po
+file=./`echo ia | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file ia.po
+file=./`echo id | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file id.po
+file=./`echo is | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file is.po
+file=./`echo it | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file it.po
+file=./`echo ja | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file ja.po
+file=./`echo ku | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file ku.po
+file=./`echo lt | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file lt.po
+file=./`echo lv | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file lv.po
+file=./`echo mg | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file mg.po
+file=./`echo mk | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file mk.po
+file=./`echo ms | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file ms.po
+file=./`echo nb | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file nb.po
+file=./`echo nl | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file nl.po
+file=./`echo pl | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file pl.po
+file=./`echo pt | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file pt.po
+file=./`echo pt_BR | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file pt_BR.po
+file=./`echo rm | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file rm.po
+file=./`echo ro | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file ro.po
+file=./`echo ru | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file ru.po
+file=./`echo rw | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file rw.po
+file=./`echo sk | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file sk.po
+file=./`echo sl | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file sl.po
+file=./`echo sq | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file sq.po
+file=./`echo sr | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file sr.po
+file=./`echo sv | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file sv.po
+file=./`echo sw | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file sw.po
+file=./`echo th | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file th.po
+file=./`echo tr | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file tr.po
+file=./`echo uk | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file uk.po
+file=./`echo vi | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file vi.po
+file=./`echo wa | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file wa.po
+file=./`echo zh_CN | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file zh_CN.po
+file=./`echo zh_TW | sed 's,.*/,,'`.gmo \
+  && rm -f $file && PATH=../src:$PATH /usr/bin/msgfmt -o $file zh_TW.po
+installing an.gmo as /tmp/work/pkg/usr/share/locale/an/LC_MESSAGES/dialog.mo
+installing ar.gmo as /tmp/work/pkg/usr/share/locale/ar/LC_MESSAGES/dialog.mo
+installing be@latin.gmo as /tmp/work/pkg/usr/share/locale/be@latin/LC_MESSAGES/dialog.mo
+installing bg.gmo as /tmp/work/pkg/usr/share/locale/bg/LC_MESSAGES/dialog.mo
+installing ca.gmo as /tmp/work/pkg/usr/share/locale/ca/LC_MESSAGES/dialog.mo
+installing cs.gmo as /tmp/work/pkg/usr/share/locale/cs/LC_MESSAGES/dialog.mo
+installing cy.gmo as /tmp/work/pkg/usr/share/locale/cy/LC_MESSAGES/dialog.mo
+installing da.gmo as /tmp/work/pkg/usr/share/locale/da/LC_MESSAGES/dialog.mo
+installing de.gmo as /tmp/work/pkg/usr/share/locale/de/LC_MESSAGES/dialog.mo
+installing el.gmo as /tmp/work/pkg/usr/share/locale/el/LC_MESSAGES/dialog.mo
+installing eo.gmo as /tmp/work/pkg/usr/share/locale/eo/LC_MESSAGES/dialog.mo
+installing es.gmo as /tmp/work/pkg/usr/share/locale/es/LC_MESSAGES/dialog.mo
+installing et.gmo as /tmp/work/pkg/usr/share/locale/et/LC_MESSAGES/dialog.mo
+installing eu.gmo as /tmp/work/pkg/usr/share/locale/eu/LC_MESSAGES/dialog.mo
+installing fa.gmo as /tmp/work/pkg/usr/share/locale/fa/LC_MESSAGES/dialog.mo
+installing fi.gmo as /tmp/work/pkg/usr/share/locale/fi/LC_MESSAGES/dialog.mo
+installing fr.gmo as /tmp/work/pkg/usr/share/locale/fr/LC_MESSAGES/dialog.mo
+installing ga.gmo as /tmp/work/pkg/usr/share/locale/ga/LC_MESSAGES/dialog.mo
+installing gd.gmo as /tmp/work/pkg/usr/share/locale/gd/LC_MESSAGES/dialog.mo
+installing gl.gmo as /tmp/work/pkg/usr/share/locale/gl/LC_MESSAGES/dialog.mo
+installing hi.gmo as /tmp/work/pkg/usr/share/locale/hi/LC_MESSAGES/dialog.mo
+installing hr.gmo as /tmp/work/pkg/usr/share/locale/hr/LC_MESSAGES/dialog.mo
+installing hu.gmo as /tmp/work/pkg/usr/share/locale/hu/LC_MESSAGES/dialog.mo
+installing ia.gmo as /tmp/work/pkg/usr/share/locale/ia/LC_MESSAGES/dialog.mo
+installing id.gmo as /tmp/work/pkg/usr/share/locale/id/LC_MESSAGES/dialog.mo
+installing is.gmo as /tmp/work/pkg/usr/share/locale/is/LC_MESSAGES/dialog.mo
+installing it.gmo as /tmp/work/pkg/usr/share/locale/it/LC_MESSAGES/dialog.mo
+installing ja.gmo as /tmp/work/pkg/usr/share/locale/ja/LC_MESSAGES/dialog.mo
+installing ku.gmo as /tmp/work/pkg/usr/share/locale/ku/LC_MESSAGES/dialog.mo
+installing lt.gmo as /tmp/work/pkg/usr/share/locale/lt/LC_MESSAGES/dialog.mo
+installing lv.gmo as /tmp/work/pkg/usr/share/locale/lv/LC_MESSAGES/dialog.mo
+installing mg.gmo as /tmp/work/pkg/usr/share/locale/mg/LC_MESSAGES/dialog.mo
+installing mk.gmo as /tmp/work/pkg/usr/share/locale/mk/LC_MESSAGES/dialog.mo
+installing ms.gmo as /tmp/work/pkg/usr/share/locale/ms/LC_MESSAGES/dialog.mo
+installing nb.gmo as /tmp/work/pkg/usr/share/locale/nb/LC_MESSAGES/dialog.mo
+installing nl.gmo as /tmp/work/pkg/usr/share/locale/nl/LC_MESSAGES/dialog.mo
+installing pl.gmo as /tmp/work/pkg/usr/share/locale/pl/LC_MESSAGES/dialog.mo
+installing pt.gmo as /tmp/work/pkg/usr/share/locale/pt/LC_MESSAGES/dialog.mo
+installing pt_BR.gmo as /tmp/work/pkg/usr/share/locale/pt_BR/LC_MESSAGES/dialog.mo
+installing rm.gmo as /tmp/work/pkg/usr/share/locale/rm/LC_MESSAGES/dialog.mo
+installing ro.gmo as /tmp/work/pkg/usr/share/locale/ro/LC_MESSAGES/dialog.mo
+installing ru.gmo as /tmp/work/pkg/usr/share/locale/ru/LC_MESSAGES/dialog.mo
+installing rw.gmo as /tmp/work/pkg/usr/share/locale/rw/LC_MESSAGES/dialog.mo
+installing sk.gmo as /tmp/work/pkg/usr/share/locale/sk/LC_MESSAGES/dialog.mo
+installing sl.gmo as /tmp/work/pkg/usr/share/locale/sl/LC_MESSAGES/dialog.mo
+installing sq.gmo as /tmp/work/pkg/usr/share/locale/sq/LC_MESSAGES/dialog.mo
+installing sr.gmo as /tmp/work/pkg/usr/share/locale/sr/LC_MESSAGES/dialog.mo
+installing sv.gmo as /tmp/work/pkg/usr/share/locale/sv/LC_MESSAGES/dialog.mo
+installing sw.gmo as /tmp/work/pkg/usr/share/locale/sw/LC_MESSAGES/dialog.mo
+installing th.gmo as /tmp/work/pkg/usr/share/locale/th/LC_MESSAGES/dialog.mo
+installing tr.gmo as /tmp/work/pkg/usr/share/locale/tr/LC_MESSAGES/dialog.mo
+installing uk.gmo as /tmp/work/pkg/usr/share/locale/uk/LC_MESSAGES/dialog.mo
+installing vi.gmo as /tmp/work/pkg/usr/share/locale/vi/LC_MESSAGES/dialog.mo
+installing wa.gmo as /tmp/work/pkg/usr/share/locale/wa/LC_MESSAGES/dialog.mo
+installing zh_CN.gmo as /tmp/work/pkg/usr/share/locale/zh_CN/LC_MESSAGES/dialog.mo
+installing zh_TW.gmo as /tmp/work/pkg/usr/share/locale/zh_TW/LC_MESSAGES/dialog.mo
+if test "dialog" = "gettext"; then \
+  mkdir -p /tmp/work/pkg/usr/share/gettext/po; \
+  /usr/bin/install -c -m 644 ./makefile.inn \
+		  /tmp/work/pkg/usr/share/gettext/po/makefile.inn; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/tmp/work/src/dialog-1.2-20140911/po'
+mkdir -p /tmp/work/pkg/bin
+mkdir -p /tmp/work/pkg/usr/share/man/man1
+/usr/bin/install -c dialog /tmp/work/pkg/bin/`echo dialog |sed s,x,x,`
+** installing dialog.1
+made install
+mkdir -p /tmp/work/pkg/usr/lib
+linking /tmp/work/pkg/usr/lib/libdialog.a
+ar -cr /tmp/work/pkg/usr/lib/libdialog.a trace.o rc.o calendar.o fselect.o timebox.o buildlist.o rangebox.o treeview.o formbox.o guage.o pause.o prgbox.o progressbox.o tailbox.o mixedform.o mixedgauge.o argv.o arrows.o buttons.o checklist.o columns.o dlg_keys.o editbox.o help.o inputbox.o inputstr.o menubox.o mouse.o mousewget.o msgbox.o textbox.o ui_getc.o util.o version.o yesno.o 
+=======> dialog arşivine üstbilgiler ekleniyor.
+=======> dialog#1.2.20140911-armv7l.mps sıkıştırılıyor.

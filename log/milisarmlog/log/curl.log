@@ -1,0 +1,2024 @@
+=======> isim: curl
+=======> surum: 7.47.1
+=======> devir: 1
+=======> İndiriliyor http://curl.haxx.se/download/curl-7.47.1.tar.lzma
+=======> kayıt:/sources/curl-7.47.1.tar.lzma
+hash kontrol dosyası yok-hash kontrolü yapılmayacak.
+=======> Derleniyor '/root/milis-arm/temel/curl/curl#7.47.1-armv7l.mps.lz'.
+tar -p -C /tmp/work/src -xf /sources/curl-7.47.1.tar.lzma
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking whether make supports nested variables... yes
+checking whether to enable debug build options... no
+checking whether to enable compiler optimizer... (assumed) yes
+checking whether to enable strict compiler warnings... no
+checking whether to enable compiler warnings as errors... no
+checking whether to enable curl debug memory tracking... no
+checking whether to enable hiding of library internal symbols... yes
+checking whether to enable c-ares for DNS lookups... no
+checking whether to disable dependency on -lrt... (assumed no)
+checking for path separator... :
+checking for sed... /bin/sed
+checking for grep... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ar... /usr/bin/ar
+configure: using CFLAGS: -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe 
+configure: CFLAGS note: CFLAGS should only be used to specify C compiler flags, not macro suppressions. Use CPPFLAGS for: -U_FORTIFY_SOURCE
+checking for a BSD-compatible install... /usr/bin/install -c
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking how to run the C preprocessor... gcc -E
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking curl version... 7.47.1
+checking build system type... armv7l-unknown-linux-gnueabihf
+checking host system type... armv7l-unknown-linux-gnueabihf
+checking for sys/types.h... yes
+checking for stdint.h... yes
+checking for inttypes.h... yes
+checking for grep that handles long lines and -e... (cached) /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... (cached) yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... (cached) yes
+checking for stdint.h... (cached) yes
+checking for unistd.h... yes
+checking size of long... 4
+checking size of void*... 4
+checking for 64-bit curl_off_t data type... long long
+checking size of curl_off_t... 8
+checking formatting string directive for curl_off_t... "lld"
+checking formatting string directive for unsigned curl_off_t... "llu"
+checking constant suffix string for curl_off_t... LL
+checking constant suffix string for unsigned curl_off_t... ULL
+checking if OS is AIX (to define _ALL_SOURCE)... no
+checking if _THREAD_SAFE is already defined... no
+checking if _THREAD_SAFE is actually needed... no
+checking if _THREAD_SAFE is onwards defined... no
+checking if _REENTRANT is already defined... no
+checking if _REENTRANT is actually needed... no
+checking if _REENTRANT is onwards defined... no
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... 64
+checking how to print strings... printf
+checking for a sed that does not truncate output... (cached) /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert armv7l-unknown-linux-gnueabihf file names to armv7l-unknown-linux-gnueabihf format... func_convert_file_noop
+checking how to convert armv7l-unknown-linux-gnueabihf file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking whether to build shared libraries with -version-info... yes
+checking whether to build shared libraries with -no-undefined... no
+checking whether to build shared libraries with -mimpure-text... no
+checking whether to build shared libraries with PIC... yes
+checking whether to build static libraries with PIC... no
+checking whether to build shared libraries only... no
+checking whether to build static libraries only... no
+checking for inline... inline
+checking if compiler is DEC/Compaq/HP C... no
+checking if compiler is HP-UX C... no
+checking if compiler is IBM C... no
+checking if compiler is Intel C... no
+checking if compiler is clang... no
+checking if compiler is GNU C... yes
+checking if compiler is LCC... no
+checking if compiler is SGI MIPSpro C... no
+checking if compiler is SGI MIPS C... no
+checking if compiler is SunPro C... no
+checking if compiler is Tiny C... no
+checking if compiler is Watcom C... no
+checking if compiler accepts debug disabling options... yes
+configure: compiler options added: 
+checking if compiler optimizer assumed setting might be used... no
+checking if compiler accepts strict warning options... yes
+configure: compiler options added: -Wno-system-headers 
+checking if compiler halts on compilation errors... yes
+checking if compiler halts on negative sized arrays... yes
+checking if compiler halts on function prototype mismatch... yes
+checking if compiler supports hiding library internal symbols... yes
+checking for windows.h... no
+checking whether build target is a native Windows one... no
+checking whether build target supports WIN32 file API... no
+checking whether to support http... yes
+checking whether to support ftp... yes
+checking whether to support file... yes
+checking whether to support ldap... yes
+checking whether to support ldaps... yes
+checking whether to support rtsp... yes
+checking whether to support proxies... yes
+checking whether to support dict... yes
+checking whether to support telnet... yes
+checking whether to support tftp... yes
+checking whether to support pop3... yes
+checking whether to support imap... yes
+checking whether to support smb... yes
+checking whether to support smtp... yes
+checking whether to support gopher... yes
+checking whether to provide built-in manual... yes
+checking whether to enable generation of C code... yes
+checking whether to use libgcc... no
+checking if X/Open network library is required... no
+checking for gethostbyname... yes
+checking for strcasecmp... yes
+checking for windows.h... (cached) no
+checking for winsock.h... (cached) no
+checking for winsock2.h... (cached) no
+checking for connect in libraries... yes
+checking whether time.h and sys/time.h may both be included... yes
+checking for sys/types.h... (cached) yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking time.h usability... yes
+checking time.h presence... yes
+checking for time.h... yes
+checking for monotonic clock_gettime... yes
+checking for clock_gettime in libraries... no additional lib required
+checking if monotonic clock_gettime works... yes
+checking for inflateEnd in -lz... yes
+checking zlib.h usability... yes
+checking zlib.h presence... yes
+checking for zlib.h... yes
+configure: found both libz and libz.h header
+checking for lber.h... yes
+checking for ldap.h... yes
+checking for ldapssl.h... no
+checking for ldap_ssl.h... no
+checking for LDAP libraries... -llber -lldap
+checking for ldap_url_parse... yes
+checking for ldap_init_fd... yes
+checking whether to enable IPv6... yes
+checking if struct sockaddr_in6 has sin6_scope_id member... yes
+checking if argv can be written to... yes
+checking if GSS-API support is requested... no
+checking whether to enable Windows native SSL/TLS (Windows native builds only)... no
+checking whether to enable iOS/Mac OS X native SSL/TLS... no
+checking for pkg-config... /usr/bin/pkg-config
+checking for openssl options with pkg-config... found
+configure: pkg-config: SSL_LIBS: "-lssl -lcrypto"
+configure: pkg-config: SSL_LDFLAGS: ""
+configure: pkg-config: SSL_CPPFLAGS: "-I/usr/include/openssl"
+checking for HMAC_Update in -lcrypto... yes
+checking OpenSSL linking without -ldl... yes
+checking for SSL_connect in -lssl... yes
+checking openssl/x509.h usability... yes
+checking openssl/x509.h presence... yes
+checking for openssl/x509.h... yes
+checking openssl/rsa.h usability... yes
+checking openssl/rsa.h presence... yes
+checking for openssl/rsa.h... yes
+checking openssl/crypto.h usability... yes
+checking openssl/crypto.h presence... yes
+checking for openssl/crypto.h... yes
+checking openssl/pem.h usability... yes
+checking openssl/pem.h presence... yes
+checking for openssl/pem.h... yes
+checking openssl/ssl.h usability... yes
+checking openssl/ssl.h presence... yes
+checking for openssl/ssl.h... yes
+checking openssl/err.h usability... yes
+checking openssl/err.h presence... yes
+checking for openssl/err.h... yes
+checking openssl/pkcs12.h usability... yes
+checking openssl/pkcs12.h presence... yes
+checking for openssl/pkcs12.h... yes
+checking for ENGINE_init... yes
+checking openssl/engine.h usability... yes
+checking openssl/engine.h presence... yes
+checking for openssl/engine.h... yes
+checking for ENGINE_load_builtin_engines... yes
+checking for RAND_status... yes
+checking for RAND_screen... no
+checking for RAND_egd... yes
+checking for ENGINE_cleanup... yes
+checking for CRYPTO_cleanup_all_ex_data... yes
+checking for SSL_get_shutdown... yes
+checking for SSLv2_client_method... yes
+checking for DES_set_odd_parity... yes
+checking for BoringSSL... no
+checking for libressl... no
+checking for OpenSSL headers version... unknown
+checking for OpenSSL library version... 1.0.2
+checking for OpenSSL headers and library versions matching... fail
+checking for "/dev/urandom"... yes
+checking for SRP_Calc_client_key in -lcrypto... yes
+checking default CA cert bundle/path... /etc/ssl/certs (capath)
+checking for library containing psl_builtin... no
+checking for libssh2_channel_open_ex in -lssh2... yes
+checking libssh2.h usability... yes
+checking libssh2.h presence... yes
+checking for libssh2.h... yes
+checking for RTMP_Init in -lrtmp... yes
+checking librtmp/rtmp.h usability... yes
+checking librtmp/rtmp.h presence... yes
+checking for librtmp/rtmp.h... yes
+checking whether versioned symbols are wanted... no
+checking whether to enable Windows native IDN (Windows native builds only)... no
+checking whether to build with libidn... (assumed) yes
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking for libidn options with pkg-config... found
+configure: pkg-config: IDN_LIBS: "-lidn"
+configure: pkg-config: IDN_LDFLAGS: ""
+configure: pkg-config: IDN_CPPFLAGS: ""
+configure: pkg-config: IDN_DIR: ""
+checking if idna_to_ascii_4i can be linked... yes
+checking for idn_free... yes
+checking for idna_strerror... yes
+checking for tld_strerror... yes
+checking idn-free.h usability... yes
+checking idn-free.h presence... yes
+checking for idn-free.h... yes
+checking tld.h usability... yes
+checking tld.h presence... yes
+checking for tld.h... yes
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking for libnghttp2 options with pkg-config... no
+checking for ANSI C header files... (cached) yes
+checking for malloc.h... yes
+checking for memory.h... (cached) yes
+checking for sys/types.h... (cached) yes
+checking for sys/time.h... (cached) yes
+checking for sys/select.h... yes
+checking for sys/socket.h... yes
+checking for sys/ioctl.h... yes
+checking for sys/uio.h... yes
+checking for assert.h... yes
+checking for unistd.h... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for limits.h... yes
+checking for arpa/inet.h... yes
+checking for net/if.h... yes
+checking for netinet/in.h... yes
+checking for sys/un.h... yes
+checking for netinet/tcp.h... yes
+checking for netdb.h... yes
+checking for sys/sockio.h... no
+checking for sys/stat.h... (cached) yes
+checking for sys/param.h... yes
+checking for termios.h... yes
+checking for termio.h... yes
+checking for sgtty.h... yes
+checking for fcntl.h... yes
+checking for alloca.h... yes
+checking for time.h... (cached) yes
+checking for io.h... no
+checking for pwd.h... yes
+checking for utime.h... yes
+checking for sys/utime.h... no
+checking for sys/poll.h... yes
+checking for poll.h... yes
+checking for socket.h... no
+checking for sys/resource.h... yes
+checking for libgen.h... yes
+checking for locale.h... yes
+checking for errno.h... yes
+checking for stdbool.h... yes
+checking for arpa/tftp.h... yes
+checking for sys/filio.h... no
+checking for sys/wait.h... yes
+checking for setjmp.h... yes
+checking for an ANSI C-conforming const... yes
+checking for compiler support of C99 variadic macro style... yes
+checking for compiler support of old gcc variadic macro style... yes
+checking for size_t... yes
+checking whether time.h and sys/time.h may both be included... (cached) yes
+checking for sys/types.h... (cached) yes
+checking for sys/time.h... (cached) yes
+checking for time.h... (cached) yes
+checking for sys/socket.h... (cached) yes
+checking for struct timeval... yes
+checking run-time libs availability... fine
+checking size of size_t... 4
+checking size of long... (cached) 4
+checking size of int... 4
+checking size of short... 2
+checking size of time_t... 4
+checking size of off_t... 8
+checking for long long... yes
+checking if numberLL works... yes
+checking for ssize_t... yes
+checking for bool... yes
+checking for windows.h... (cached) no
+checking for winsock2.h... (cached) no
+checking for ws2tcpip.h... (cached) no
+checking for sys/types.h... (cached) yes
+checking for sys/socket.h... (cached) yes
+checking for curl_socklen_t data type... socklen_t
+checking size of curl_socklen_t... 4
+checking for sys/types.h... (cached) yes
+checking for poll.h... (cached) yes
+checking for sys/poll.h... (cached) yes
+checking for in_addr_t... yes
+checking for struct sockaddr_storage... yes
+checking signal.h usability... yes
+checking signal.h presence... yes
+checking for signal.h... yes
+checking for sig_atomic_t... yes
+checking if sig_atomic_t is already defined as volatile... no
+checking return type of signal handlers... void
+checking for sys/select.h... (cached) yes
+checking for sys/socket.h... (cached) yes
+checking for select... yes
+checking types of args and return type for select... int,fd_set *,struct timeval *,int
+checking for sys/types.h... (cached) yes
+checking for sys/socket.h... (cached) yes
+checking for recv... yes
+checking types of args and return type for recv... int,void *,size_t,int,int
+checking for sys/types.h... (cached) yes
+checking for sys/socket.h... (cached) yes
+checking for send... yes
+checking types of args and return type for send... int,const void *,size_t,int,int
+checking for sys/types.h... (cached) yes
+checking for sys/socket.h... (cached) yes
+checking for MSG_NOSIGNAL... yes
+checking for sys/types.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking if alarm can be linked... yes
+checking if alarm is prototyped... yes
+checking if alarm is compilable... yes
+checking if alarm usage allowed... yes
+checking if alarm might be used... yes
+checking for sys/types.h... (cached) yes
+checking for string.h... (cached) yes
+checking for strings.h... (cached) yes
+checking for sys/types.h... (cached) yes
+checking for libgen.h... (cached) yes
+checking if basename can be linked... yes
+checking if basename is prototyped... yes
+checking if basename is compilable... yes
+checking if basename usage allowed... yes
+checking if basename might be used... yes
+checking for sys/types.h... (cached) yes
+checking for socket.h... (cached) no
+checking if closesocket can be linked... no
+checking if closesocket might be used... no
+checking if CloseSocket can be linked... no
+checking if CloseSocket might be used... no
+checking if connect can be linked... yes
+checking if connect is prototyped... yes
+checking if connect is compilable... yes
+checking if connect usage allowed... yes
+checking if connect might be used... yes
+checking for sys/types.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for fcntl.h... (cached) yes
+checking if fcntl can be linked... yes
+checking if fcntl is prototyped... yes
+checking if fcntl is compilable... yes
+checking if fcntl usage allowed... yes
+checking if fcntl might be used... yes
+checking if fcntl O_NONBLOCK is compilable... yes
+checking if fcntl O_NONBLOCK usage allowed... yes
+checking if fcntl O_NONBLOCK might be used... yes
+checking for sys/types.h... (cached) yes
+checking for stdio.h... yes
+checking if fdopen can be linked... yes
+checking if fdopen is prototyped... yes
+checking if fdopen is compilable... yes
+checking if fdopen usage allowed... yes
+checking if fdopen might be used... yes
+checking for sys/types.h... (cached) yes
+checking for netdb.h... (cached) yes
+checking if freeaddrinfo can be linked... yes
+checking if freeaddrinfo is prototyped... yes
+checking if freeaddrinfo is compilable... yes
+checking if freeaddrinfo usage allowed... yes
+checking if freeaddrinfo might be used... yes
+checking for sys/types.h... (cached) yes
+checking for sys/socket.h... (cached) yes
+checking for netinet/in.h... (cached) yes
+checking for ifaddrs.h... yes
+checking if freeifaddrs can be linked... yes
+checking if freeifaddrs is prototyped... yes
+checking if freeifaddrs is compilable... yes
+checking if freeifaddrs usage allowed... yes
+checking if freeifaddrs might be used... yes
+checking for sys/types.h... (cached) yes
+checking for sys/xattr.h... yes
+checking if fsetxattr can be linked... yes
+checking if fsetxattr is prototyped... yes
+checking if fsetxattr takes 5 args.... yes
+checking if fsetxattr is compilable... yes
+checking if fsetxattr usage allowed... yes
+checking if fsetxattr might be used... yes
+checking if ftruncate can be linked... yes
+checking if ftruncate is prototyped... yes
+checking if ftruncate is compilable... yes
+checking if ftruncate usage allowed... yes
+checking if ftruncate might be used... yes
+checking for sys/types.h... (cached) yes
+checking for stdlib.h... (cached) yes
+checking if getaddrinfo can be linked... yes
+checking if getaddrinfo is prototyped... yes
+checking if getaddrinfo is compilable... yes
+checking if getaddrinfo seems to work... yes
+checking if getaddrinfo usage allowed... yes
+checking if getaddrinfo might be used... yes
+checking if getaddrinfo is threadsafe... yes
+checking if gai_strerror can be linked... yes
+checking if gai_strerror is prototyped... yes
+checking if gai_strerror is compilable... yes
+checking if gai_strerror usage allowed... yes
+checking if gai_strerror might be used... yes
+checking if gethostbyaddr can be linked... yes
+checking if gethostbyaddr is prototyped... yes
+checking if gethostbyaddr is compilable... yes
+checking if gethostbyaddr usage allowed... yes
+checking if gethostbyaddr might be used... yes
+checking if gethostbyaddr_r can be linked... yes
+checking if gethostbyaddr_r is prototyped... yes
+checking if gethostbyaddr_r takes 5 args.... no
+checking if gethostbyaddr_r takes 7 args.... no
+checking if gethostbyaddr_r takes 8 args.... yes
+checking if gethostbyaddr_r is compilable... yes
+checking if gethostbyaddr_r usage allowed... yes
+checking if gethostbyaddr_r might be used... yes
+checking if gethostbyname can be linked... yes
+checking if gethostbyname is prototyped... yes
+checking if gethostbyname is compilable... yes
+checking if gethostbyname usage allowed... yes
+checking if gethostbyname might be used... yes
+checking if gethostbyname_r can be linked... yes
+checking if gethostbyname_r is prototyped... yes
+checking if gethostbyname_r takes 3 args.... no
+checking if gethostbyname_r takes 5 args.... no
+checking if gethostbyname_r takes 6 args.... yes
+checking if gethostbyname_r is compilable... yes
+checking if gethostbyname_r usage allowed... yes
+checking if gethostbyname_r might be used... yes
+checking if gethostname can be linked... yes
+checking if gethostname is prototyped... yes
+checking if gethostname is compilable... yes
+checking for gethostname arg 2 data type... unsigned int
+checking if gethostname usage allowed... yes
+checking if gethostname might be used... yes
+checking if getifaddrs can be linked... yes
+checking if getifaddrs is prototyped... yes
+checking if getifaddrs is compilable... yes
+checking if getifaddrs seems to work... no
+checking if getifaddrs might be used... no
+checking if getservbyport_r can be linked... yes
+checking if getservbyport_r is prototyped... yes
+checking if getservbyport_r takes 4 args.... no
+checking if getservbyport_r takes 5 args.... no
+checking if getservbyport_r takes 6 args.... yes
+checking if getservbyport_r is compilable... yes
+checking if getservbyport_r usage allowed... yes
+checking if getservbyport_r might be used... yes
+checking for sys/types.h... (cached) yes
+checking for sys/time.h... (cached) yes
+checking for time.h... (cached) yes
+checking if gmtime_r can be linked... yes
+checking if gmtime_r is prototyped... yes
+checking if gmtime_r is compilable... yes
+checking if gmtime_r seems to work... yes
+checking if gmtime_r usage allowed... yes
+checking if gmtime_r might be used... yes
+checking for sys/types.h... (cached) yes
+checking for sys/socket.h... (cached) yes
+checking for netinet/in.h... (cached) yes
+checking for arpa/inet.h... (cached) yes
+checking if inet_ntoa_r can be linked... no
+checking if inet_ntoa_r might be used... no
+checking if inet_ntop can be linked... yes
+checking if inet_ntop is prototyped... yes
+checking if inet_ntop is compilable... yes
+checking if inet_ntop seems to work... yes
+checking if inet_ntop usage allowed... yes
+checking if inet_ntop might be used... yes
+checking if inet_pton can be linked... yes
+checking if inet_pton is prototyped... yes
+checking if inet_pton is compilable... yes
+checking if inet_pton seems to work... yes
+checking if inet_pton usage allowed... yes
+checking if inet_pton might be used... yes
+checking for sys/types.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for sys/socket.h... (cached) yes
+checking for sys/ioctl.h... (cached) yes
+checking for stropts.h... yes
+checking if ioctl can be linked... yes
+checking if ioctl is prototyped... yes
+checking if ioctl is compilable... yes
+checking if ioctl usage allowed... yes
+checking if ioctl might be used... yes
+checking if ioctl FIONBIO is compilable... yes
+checking if ioctl FIONBIO usage allowed... yes
+checking if ioctl FIONBIO might be used... yes
+checking if ioctl SIOCGIFADDR is compilable... yes
+checking if ioctl SIOCGIFADDR usage allowed... yes
+checking if ioctl SIOCGIFADDR might be used... yes
+checking if ioctlsocket can be linked... no
+checking if ioctlsocket might be used... no
+checking if IoctlSocket can be linked... no
+checking if IoctlSocket might be used... no
+checking if localtime_r can be linked... yes
+checking if localtime_r is prototyped... yes
+checking if localtime_r is compilable... yes
+checking if localtime_r seems to work... yes
+checking if localtime_r usage allowed... yes
+checking if localtime_r might be used... yes
+checking if memrchr can be linked... yes
+checking if memrchr is prototyped... no
+checking if memrchr might be used... no
+checking if poll can be linked... yes
+checking if poll is prototyped... yes
+checking if poll is compilable... yes
+checking if poll seems to work... yes
+checking if poll usage allowed... yes
+checking if poll might be used... yes
+checking if setsockopt can be linked... yes
+checking if setsockopt is prototyped... yes
+checking if setsockopt is compilable... yes
+checking if setsockopt usage allowed... yes
+checking if setsockopt might be used... yes
+checking if setsockopt SO_NONBLOCK is compilable... no
+checking if setsockopt SO_NONBLOCK might be used... no
+checking for sys/types.h... (cached) yes
+checking for signal.h... (cached) yes
+checking if sigaction can be linked... yes
+checking if sigaction is prototyped... yes
+checking if sigaction is compilable... yes
+checking if sigaction usage allowed... yes
+checking if sigaction might be used... yes
+checking if siginterrupt can be linked... yes
+checking if siginterrupt is prototyped... yes
+checking if siginterrupt is compilable... yes
+checking if siginterrupt usage allowed... yes
+checking if siginterrupt might be used... yes
+checking if signal can be linked... yes
+checking if signal is prototyped... yes
+checking if signal is compilable... yes
+checking if signal usage allowed... yes
+checking if signal might be used... yes
+checking for sys/types.h... (cached) yes
+checking for setjmp.h... (cached) yes
+checking if sigsetjmp can be linked... no
+checking if sigsetjmp seems a macro... yes
+checking if sigsetjmp is compilable... yes
+checking if sigsetjmp usage allowed... yes
+checking if sigsetjmp might be used... yes
+checking if socket can be linked... yes
+checking if socket is prototyped... yes
+checking if socket is compilable... yes
+checking if socket usage allowed... yes
+checking if socket might be used... yes
+checking if socketpair can be linked... yes
+checking if socketpair is prototyped... yes
+checking if socketpair is compilable... yes
+checking if socketpair usage allowed... yes
+checking if socketpair might be used... yes
+checking if strcasecmp can be linked... yes
+checking if strcasecmp is prototyped... yes
+checking if strcasecmp is compilable... yes
+checking if strcasecmp usage allowed... yes
+checking if strcasecmp might be used... yes
+checking if strcmpi can be linked... no
+checking if strcmpi might be used... no
+checking if strdup can be linked... yes
+checking if strdup is prototyped... yes
+checking if strdup is compilable... yes
+checking if strdup usage allowed... yes
+checking if strdup might be used... yes
+checking if strerror_r can be linked... yes
+checking if strerror_r is prototyped... yes
+checking if strerror_r is compilable... yes
+checking if strerror_r is glibc like... no
+checking if strerror_r is POSIX like... yes
+checking if strerror_r seems to work... yes
+checking if strerror_r usage allowed... yes
+checking if strerror_r might be used... yes
+checking if stricmp can be linked... no
+checking if stricmp might be used... no
+checking if strncasecmp can be linked... yes
+checking if strncasecmp is prototyped... yes
+checking if strncasecmp is compilable... yes
+checking if strncasecmp usage allowed... yes
+checking if strncasecmp might be used... yes
+checking if strncmpi can be linked... no
+checking if strncmpi might be used... no
+checking if strnicmp can be linked... no
+checking if strnicmp might be used... no
+checking if strstr can be linked... yes
+checking if strstr is prototyped... yes
+checking if strstr is compilable... yes
+checking if strstr usage allowed... yes
+checking if strstr might be used... yes
+checking if strtok_r can be linked... yes
+checking if strtok_r is prototyped... yes
+checking if strtok_r is compilable... yes
+checking if strtok_r usage allowed... yes
+checking if strtok_r might be used... yes
+checking if strtoll can be linked... yes
+checking if strtoll is prototyped... yes
+checking if strtoll is compilable... yes
+checking if strtoll usage allowed... yes
+checking if strtoll might be used... yes
+checking for sys/types.h... (cached) yes
+checking for sys/uio.h... (cached) yes
+checking if writev can be linked... yes
+checking if writev is prototyped... yes
+checking if writev is compilable... yes
+checking if writev usage allowed... yes
+checking if writev might be used... yes
+checking for fork... yes
+checking for geteuid... yes
+checking for getpass_r... no
+checking deeper for getpass_r... but still no
+checking for getppid... yes
+checking for getprotobyname... yes
+checking for getpwuid... yes
+checking for getpwuid_r... yes
+checking for getrlimit... yes
+checking for gettimeofday... yes
+checking for if_nametoindex... yes
+checking for inet_addr... yes
+checking for perror... yes
+checking for pipe... yes
+checking for setlocale... yes
+checking for setmode... no
+checking deeper for setmode... but still no
+checking for setrlimit... yes
+checking for uname... yes
+checking for utime... yes
+checking for sys/types.h... (cached) yes
+checking for sys/socket.h... (cached) yes
+checking for netdb.h... (cached) yes
+checking for getnameinfo... yes
+checking types of arguments for getnameinfo... const struct sockaddr *,socklen_t,size_t,int
+checking for stdio.h... (cached) yes
+checking for sys/types.h... (cached) yes
+checking for sys/socket.h... (cached) yes
+checking for netdb.h... (cached) yes
+checking for netinet/in.h... (cached) yes
+checking for arpa/inet.h... (cached) yes
+checking for working NI_WITHSCOPEID... no
+checking how to set a socket into non-blocking mode... fcntl O_NONBLOCK
+checking for perl... /usr/bin/perl
+checking for gnroff... no
+checking for nroff... /usr/bin/nroff
+checking how to use *nroff to get plain text from man pages... -man
+checking whether to enable the threaded resolver... yes
+checking pthread.h usability... yes
+checking pthread.h presence... yes
+checking for pthread.h... yes
+checking for pthread_create... no
+checking for pthread_create in -lpthread... yes
+checking whether to enable verbose strings... yes
+checking whether to enable SSPI support (Windows native builds only)... no
+checking whether to enable cryptographic authentication methods... yes
+checking whether to enable NTLM delegation to winbind's helper... yes
+checking whether to enable TLS-SRP authentication... yes
+checking whether to enable Unix domain sockets... auto
+checking for struct sockaddr_un.sun_path... yes
+checking whether to enable support for cookies... yes
+checking whether hiding of library internal symbols will actually happen... yes
+checking whether to enforce SONAME bump... no
+configure: using CFLAGS: -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe -Wno-system-headers -pthread
+configure: CFLAGS note: CFLAGS should only be used to specify C compiler flags, not macro suppressions. Use CPPFLAGS for: -U_FORTIFY_SOURCE
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating docs/Makefile
+config.status: creating docs/examples/Makefile
+config.status: creating docs/libcurl/Makefile
+config.status: creating docs/libcurl/opts/Makefile
+config.status: creating include/Makefile
+config.status: creating include/curl/Makefile
+config.status: creating src/Makefile
+config.status: creating lib/Makefile
+config.status: creating scripts/Makefile
+config.status: creating lib/libcurl.vers
+config.status: creating tests/Makefile
+config.status: creating tests/certs/Makefile
+config.status: creating tests/certs/scripts/Makefile
+config.status: creating tests/data/Makefile
+config.status: creating tests/server/Makefile
+config.status: creating tests/libtest/Makefile
+config.status: creating tests/unit/Makefile
+config.status: creating packages/Makefile
+config.status: creating packages/Win32/Makefile
+config.status: creating packages/Win32/cygwin/Makefile
+config.status: creating packages/Linux/Makefile
+config.status: creating packages/Linux/RPM/Makefile
+config.status: creating packages/Linux/RPM/curl.spec
+config.status: creating packages/Linux/RPM/curl-ssl.spec
+config.status: creating packages/Solaris/Makefile
+config.status: creating packages/EPM/curl.list
+config.status: creating packages/EPM/Makefile
+config.status: creating packages/vms/Makefile
+config.status: creating packages/AIX/Makefile
+config.status: creating packages/AIX/RPM/Makefile
+config.status: creating packages/AIX/RPM/curl.spec
+config.status: creating curl-config
+config.status: creating libcurl.pc
+config.status: creating lib/curl_config.h
+config.status: creating include/curl/curlbuild.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+configure: amending lib/Makefile
+configure: amending src/Makefile
+configure: amending tests/unit/Makefile
+configure: amending tests/server/Makefile
+configure: amending tests/libtest/Makefile
+configure: amending docs/examples/Makefile
+configure: Configured to build curl/libcurl:
+
+  curl version:     7.47.1
+  Host setup:       armv7l-unknown-linux-gnueabihf
+  Install prefix:   /usr
+  Compiler:         gcc
+  SSL support:      enabled (OpenSSL)
+  SSH support:      enabled (libSSH2)
+  zlib support:     enabled
+  GSS-API support:  no      (--with-gssapi)
+  TLS-SRP support:  enabled
+  resolver:         POSIX threaded
+  IPv6 support:     enabled
+  Unix sockets support: enabled
+  IDN support:      enabled
+  Build libcurl:    Shared=yes, Static=yes
+  Built-in manual:  enabled
+  --libcurl option: enabled (--disable-libcurl-option)
+  Verbose errors:   enabled (--disable-verbose)
+  SSPI support:     no      (--enable-sspi)
+  ca cert bundle:   no
+  ca cert path:     /etc/ssl/certs
+  LDAP support:     enabled (OpenLDAP)
+  LDAPS support:    enabled
+  RTSP support:     enabled
+  RTMP support:     enabled (librtmp)
+  metalink support: no      (--with-libmetalink)
+  PSL support:      no      (libpsl not found)
+  HTTP2 support:    disabled (--with-nghttp2)
+  Protocols:        DICT FILE FTP FTPS GOPHER HTTP HTTPS IMAP IMAPS LDAP LDAPS POP3 POP3S RTMP RTSP SCP SFTP SMB SMBS SMTP SMTPS TELNET TFTP
+
+Making all in lib
+make[1]: Entering directory '/tmp/work/src/curl-7.47.1/lib'
+/usr/bin/make  all-am
+make[2]: Entering directory '/tmp/work/src/curl-7.47.1/lib'
+  CC       libcurl_la-timeval.lo
+  CC       libcurl_la-file.lo
+  CC       libcurl_la-hostip.lo
+  CC       libcurl_la-base64.lo
+  CC       libcurl_la-progress.lo
+  CC       libcurl_la-formdata.lo
+  CC       libcurl_la-cookie.lo
+  CC       libcurl_la-http.lo
+  CC       libcurl_la-sendf.lo
+  CC       libcurl_la-ftp.lo
+  CC       libcurl_la-url.lo
+  CC       libcurl_la-dict.lo
+  CC       libcurl_la-if2ip.lo
+  CC       libcurl_la-speedcheck.lo
+  CC       libcurl_la-ldap.lo
+  CC       libcurl_la-version.lo
+  CC       libcurl_la-getenv.lo
+  CC       libcurl_la-escape.lo
+  CC       libcurl_la-mprintf.lo
+  CC       libcurl_la-telnet.lo
+  CC       libcurl_la-netrc.lo
+  CC       libcurl_la-getinfo.lo
+  CC       libcurl_la-transfer.lo
+  CC       libcurl_la-strequal.lo
+  CC       libcurl_la-easy.lo
+  CC       libcurl_la-security.lo
+  CC       libcurl_la-curl_fnmatch.lo
+  CC       libcurl_la-fileinfo.lo
+  CC       libcurl_la-ftplistparser.lo
+  CC       libcurl_la-wildcard.lo
+  CC       libcurl_la-krb5.lo
+  CC       libcurl_la-memdebug.lo
+  CC       libcurl_la-http_chunks.lo
+  CC       libcurl_la-strtok.lo
+  CC       libcurl_la-connect.lo
+  CC       libcurl_la-llist.lo
+  CC       libcurl_la-hash.lo
+  CC       libcurl_la-multi.lo
+  CC       libcurl_la-content_encoding.lo
+  CC       libcurl_la-share.lo
+  CC       libcurl_la-http_digest.lo
+  CC       libcurl_la-md4.lo
+  CC       libcurl_la-md5.lo
+  CC       libcurl_la-http_negotiate.lo
+  CC       libcurl_la-inet_pton.lo
+  CC       libcurl_la-strtoofft.lo
+  CC       libcurl_la-strerror.lo
+  CC       libcurl_la-amigaos.lo
+  CC       libcurl_la-hostasyn.lo
+  CC       libcurl_la-hostip4.lo
+  CC       libcurl_la-hostip6.lo
+  CC       libcurl_la-hostsyn.lo
+  CC       libcurl_la-inet_ntop.lo
+  CC       libcurl_la-parsedate.lo
+  CC       libcurl_la-select.lo
+  CC       libcurl_la-tftp.lo
+  CC       libcurl_la-splay.lo
+  CC       libcurl_la-strdup.lo
+  CC       libcurl_la-socks.lo
+  CC       libcurl_la-ssh.lo
+  CC       libcurl_la-rawstr.lo
+  CC       libcurl_la-curl_addrinfo.lo
+  CC       libcurl_la-socks_gssapi.lo
+  CC       libcurl_la-socks_sspi.lo
+  CC       libcurl_la-curl_sspi.lo
+  CC       libcurl_la-slist.lo
+  CC       libcurl_la-nonblock.lo
+  CC       libcurl_la-curl_memrchr.lo
+  CC       libcurl_la-imap.lo
+  CC       libcurl_la-pop3.lo
+  CC       libcurl_la-smtp.lo
+  CC       libcurl_la-pingpong.lo
+  CC       libcurl_la-rtsp.lo
+  CC       libcurl_la-curl_threads.lo
+  CC       libcurl_la-warnless.lo
+  CC       libcurl_la-hmac.lo
+  CC       libcurl_la-curl_rtmp.lo
+  CC       libcurl_la-openldap.lo
+  CC       libcurl_la-curl_gethostname.lo
+  CC       libcurl_la-gopher.lo
+  CC       libcurl_la-idn_win32.lo
+  CC       libcurl_la-http_negotiate_sspi.lo
+  CC       libcurl_la-http_proxy.lo
+  CC       libcurl_la-non-ascii.lo
+  CC       libcurl_la-asyn-ares.lo
+  CC       libcurl_la-asyn-thread.lo
+  CC       libcurl_la-curl_gssapi.lo
+  CC       libcurl_la-curl_ntlm.lo
+  CC       libcurl_la-curl_ntlm_wb.lo
+  CC       libcurl_la-curl_ntlm_core.lo
+  CC       libcurl_la-curl_ntlm_msgs.lo
+  CC       libcurl_la-curl_sasl.lo
+  CC       libcurl_la-curl_multibyte.lo
+  CC       libcurl_la-hostcheck.lo
+  CC       libcurl_la-conncache.lo
+  CC       libcurl_la-pipeline.lo
+  CC       libcurl_la-dotdot.lo
+  CC       libcurl_la-x509asn1.lo
+  CC       libcurl_la-http2.lo
+  CC       libcurl_la-curl_sasl_sspi.lo
+  CC       libcurl_la-smb.lo
+  CC       libcurl_la-curl_sasl_gssapi.lo
+  CC       libcurl_la-curl_endian.lo
+  CC       libcurl_la-curl_des.lo
+  CC       vtls/libcurl_la-openssl.lo
+  CC       vtls/libcurl_la-gtls.lo
+  CC       vtls/libcurl_la-vtls.lo
+  CC       vtls/libcurl_la-nss.lo
+  CC       vtls/libcurl_la-polarssl.lo
+  CC       vtls/libcurl_la-polarssl_threadlock.lo
+  CC       vtls/libcurl_la-axtls.lo
+  CC       vtls/libcurl_la-cyassl.lo
+  CC       vtls/libcurl_la-schannel.lo
+  CC       vtls/libcurl_la-darwinssl.lo
+  CC       vtls/libcurl_la-gskit.lo
+  CC       vtls/libcurl_la-mbedtls.lo
+  CCLD     libcurl.la
+make[2]: Leaving directory '/tmp/work/src/curl-7.47.1/lib'
+make[1]: Leaving directory '/tmp/work/src/curl-7.47.1/lib'
+Making all in src
+make[1]: Entering directory '/tmp/work/src/curl-7.47.1/src'
+/usr/bin/make  all-am
+make[2]: Entering directory '/tmp/work/src/curl-7.47.1/src'
+  CC       curl-tool_cb_dbg.o
+  CC       curl-tool_bname.o
+  CC       curl-slist_wc.o
+  CC       curl-tool_binmode.o
+  CC       curl-tool_cb_hdr.o
+  CC       curl-tool_cb_prg.o
+  CC       curl-tool_cb_rea.o
+  CC       curl-tool_cb_see.o
+  CC       curl-tool_cb_wrt.o
+  CC       curl-tool_cfgable.o
+  CC       curl-tool_convert.o
+  CC       curl-tool_dirhie.o
+  CC       curl-tool_doswin.o
+  CC       curl-tool_easysrc.o
+  CC       curl-tool_formparse.o
+  CC       curl-tool_getparam.o
+  CC       curl-tool_getpass.o
+  CC       curl-tool_help.o
+  CC       curl-tool_helpers.o
+  CC       curl-tool_homedir.o
+  CC       curl-tool_hugehelp.o
+  CC       curl-tool_libinfo.o
+  CC       curl-tool_main.o
+  CC       curl-tool_metalink.o
+  CC       curl-tool_mfiles.o
+  CC       curl-tool_msgs.o
+  CC       curl-tool_operate.o
+  CC       curl-tool_operhlp.o
+  CC       curl-tool_panykey.o
+  CC       curl-tool_paramhlp.o
+  CC       curl-tool_parsecfg.o
+  CC       curl-tool_strdup.o
+  CC       curl-tool_setopt.o
+  CC       curl-tool_sleep.o
+  CC       curl-tool_urlglob.o
+  CC       curl-tool_util.o
+  CC       curl-tool_vms.o
+  CC       curl-tool_writeenv.o
+  CC       curl-tool_writeout.o
+  CC       curl-tool_xattr.o
+  CC       ../lib/curl-strtoofft.o
+  CC       ../lib/curl-rawstr.o
+  CC       ../lib/curl-nonblock.o
+  CC       ../lib/curl-warnless.o
+  CCLD     curl
+make[2]: Leaving directory '/tmp/work/src/curl-7.47.1/src'
+make[1]: Leaving directory '/tmp/work/src/curl-7.47.1/src'
+Making all in include
+make[1]: Entering directory '/tmp/work/src/curl-7.47.1/include'
+Making all in curl
+make[2]: Entering directory '/tmp/work/src/curl-7.47.1/include/curl'
+/usr/bin/make  all-am
+make[3]: Entering directory '/tmp/work/src/curl-7.47.1/include/curl'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/tmp/work/src/curl-7.47.1/include/curl'
+make[2]: Leaving directory '/tmp/work/src/curl-7.47.1/include/curl'
+make[2]: Entering directory '/tmp/work/src/curl-7.47.1/include'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/tmp/work/src/curl-7.47.1/include'
+make[1]: Leaving directory '/tmp/work/src/curl-7.47.1/include'
+Making all in scripts
+make[1]: Entering directory '/tmp/work/src/curl-7.47.1/scripts'
+/usr/bin/perl ./zsh.pl ../src/curl > _curl
+make[1]: Leaving directory '/tmp/work/src/curl-7.47.1/scripts'
+make[1]: Entering directory '/tmp/work/src/curl-7.47.1'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/tmp/work/src/curl-7.47.1'
+Making install in lib
+make[1]: Entering directory '/tmp/work/src/curl-7.47.1/lib'
+make[2]: Entering directory '/tmp/work/src/curl-7.47.1/lib'
+make[2]: Nothing to be done for 'install-data-am'.
+ /bin/mkdir -p '/tmp/work/pkg/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libcurl.la '/tmp/work/pkg/usr/lib'
+libtool: install: /usr/bin/install -c .libs/libcurl.so.4.4.0 /tmp/work/pkg/usr/lib/libcurl.so.4.4.0
+libtool: install: (cd /tmp/work/pkg/usr/lib && { ln -s -f libcurl.so.4.4.0 libcurl.so.4 || { rm -f libcurl.so.4 && ln -s libcurl.so.4.4.0 libcurl.so.4; }; })
+libtool: install: (cd /tmp/work/pkg/usr/lib && { ln -s -f libcurl.so.4.4.0 libcurl.so || { rm -f libcurl.so && ln -s libcurl.so.4.4.0 libcurl.so; }; })
+libtool: install: /usr/bin/install -c .libs/libcurl.lai /tmp/work/pkg/usr/lib/libcurl.la
+libtool: install: /usr/bin/install -c .libs/libcurl.a /tmp/work/pkg/usr/lib/libcurl.a
+libtool: install: chmod 644 /tmp/work/pkg/usr/lib/libcurl.a
+libtool: install: ranlib /tmp/work/pkg/usr/lib/libcurl.a
+make[2]: Leaving directory '/tmp/work/src/curl-7.47.1/lib'
+make[1]: Leaving directory '/tmp/work/src/curl-7.47.1/lib'
+Making install in src
+make[1]: Entering directory '/tmp/work/src/curl-7.47.1/src'
+/usr/bin/make  install-am
+make[2]: Entering directory '/tmp/work/src/curl-7.47.1/src'
+make[3]: Entering directory '/tmp/work/src/curl-7.47.1/src'
+make[3]: Nothing to be done for 'install-data-am'.
+ /bin/mkdir -p '/tmp/work/pkg/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c curl '/tmp/work/pkg/bin'
+libtool: install: /usr/bin/install -c .libs/curl /tmp/work/pkg/bin/curl
+make[3]: Leaving directory '/tmp/work/src/curl-7.47.1/src'
+make[2]: Leaving directory '/tmp/work/src/curl-7.47.1/src'
+make[1]: Leaving directory '/tmp/work/src/curl-7.47.1/src'
+Making install in include
+make[1]: Entering directory '/tmp/work/src/curl-7.47.1/include'
+Making install in curl
+make[2]: Entering directory '/tmp/work/src/curl-7.47.1/include/curl'
+make[3]: Entering directory '/tmp/work/src/curl-7.47.1/include/curl'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/tmp/work/pkg/usr/include/curl'
+ /usr/bin/install -c -m 644 curl.h curlver.h easy.h mprintf.h stdcheaders.h multi.h typecheck-gcc.h curlbuild.h curlrules.h '/tmp/work/pkg/usr/include/curl'
+make[3]: Leaving directory '/tmp/work/src/curl-7.47.1/include/curl'
+make[2]: Leaving directory '/tmp/work/src/curl-7.47.1/include/curl'
+make[2]: Entering directory '/tmp/work/src/curl-7.47.1/include'
+make[3]: Entering directory '/tmp/work/src/curl-7.47.1/include'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/tmp/work/src/curl-7.47.1/include'
+make[2]: Leaving directory '/tmp/work/src/curl-7.47.1/include'
+make[1]: Leaving directory '/tmp/work/src/curl-7.47.1/include'
+Making install in scripts
+make[1]: Entering directory '/tmp/work/src/curl-7.47.1/scripts'
+make[2]: Entering directory '/tmp/work/src/curl-7.47.1/scripts'
+make[2]: Nothing to be done for 'install-exec-am'.
+/bin/mkdir -p /tmp/work/pkg/usr/share/zsh/site-functions
+/usr/bin/install -c -m 644 _curl /tmp/work/pkg/usr/share/zsh/site-functions/_curl
+make[2]: Leaving directory '/tmp/work/src/curl-7.47.1/scripts'
+make[1]: Leaving directory '/tmp/work/src/curl-7.47.1/scripts'
+make[1]: Entering directory '/tmp/work/src/curl-7.47.1'
+make[2]: Entering directory '/tmp/work/src/curl-7.47.1'
+ /bin/mkdir -p '/tmp/work/pkg/bin'
+ /bin/mkdir -p '/tmp/work/pkg/usr/lib/pkgconfig'
+ /usr/bin/install -c curl-config '/tmp/work/pkg/bin'
+ /usr/bin/install -c -m 644 libcurl.pc '/tmp/work/pkg/usr/lib/pkgconfig'
+/usr/bin/make  install-data-hook
+make[3]: Entering directory '/tmp/work/src/curl-7.47.1'
+cd include && /usr/bin/make install
+make[4]: Entering directory '/tmp/work/src/curl-7.47.1/include'
+Making install in curl
+make[5]: Entering directory '/tmp/work/src/curl-7.47.1/include/curl'
+make[6]: Entering directory '/tmp/work/src/curl-7.47.1/include/curl'
+make[6]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/tmp/work/pkg/usr/include/curl'
+ /usr/bin/install -c -m 644 curl.h curlver.h easy.h mprintf.h stdcheaders.h multi.h typecheck-gcc.h curlbuild.h curlrules.h '/tmp/work/pkg/usr/include/curl'
+make[6]: Leaving directory '/tmp/work/src/curl-7.47.1/include/curl'
+make[5]: Leaving directory '/tmp/work/src/curl-7.47.1/include/curl'
+make[5]: Entering directory '/tmp/work/src/curl-7.47.1/include'
+make[6]: Entering directory '/tmp/work/src/curl-7.47.1/include'
+make[6]: Nothing to be done for 'install-exec-am'.
+make[6]: Nothing to be done for 'install-data-am'.
+make[6]: Leaving directory '/tmp/work/src/curl-7.47.1/include'
+make[5]: Leaving directory '/tmp/work/src/curl-7.47.1/include'
+make[4]: Leaving directory '/tmp/work/src/curl-7.47.1/include'
+cd docs && /usr/bin/make install
+make[4]: Entering directory '/tmp/work/src/curl-7.47.1/docs'
+Making install in examples
+make[5]: Entering directory '/tmp/work/src/curl-7.47.1/docs/examples'
+make[6]: Entering directory '/tmp/work/src/curl-7.47.1/docs/examples'
+make[6]: Nothing to be done for 'install-exec-am'.
+make[6]: Nothing to be done for 'install-data-am'.
+make[6]: Leaving directory '/tmp/work/src/curl-7.47.1/docs/examples'
+make[5]: Leaving directory '/tmp/work/src/curl-7.47.1/docs/examples'
+Making install in libcurl
+make[5]: Entering directory '/tmp/work/src/curl-7.47.1/docs/libcurl'
+Making install in opts
+make[6]: Entering directory '/tmp/work/src/curl-7.47.1/docs/libcurl/opts'
+make[7]: Entering directory '/tmp/work/src/curl-7.47.1/docs/libcurl/opts'
+make[7]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/tmp/work/pkg/usr/share/man/man3'
+ /usr/bin/install -c -m 644 CURLOPT_ACCEPT_ENCODING.3 CURLOPT_ACCEPTTIMEOUT_MS.3 CURLOPT_ADDRESS_SCOPE.3 CURLOPT_APPEND.3 CURLOPT_AUTOREFERER.3 CURLOPT_BUFFERSIZE.3 CURLOPT_CAINFO.3 CURLOPT_CAPATH.3 CURLOPT_CERTINFO.3 CURLOPT_CHUNK_BGN_FUNCTION.3 CURLOPT_CHUNK_DATA.3 CURLOPT_CHUNK_END_FUNCTION.3 CURLOPT_CLOSESOCKETDATA.3 CURLOPT_CLOSESOCKETFUNCTION.3 CURLOPT_CONNECT_ONLY.3 CURLOPT_CONNECTTIMEOUT.3 CURLOPT_CONNECTTIMEOUT_MS.3 CURLOPT_CONV_FROM_NETWORK_FUNCTION.3 CURLOPT_CONV_FROM_UTF8_FUNCTION.3 CURLOPT_CONV_TO_NETWORK_FUNCTION.3 CURLOPT_COOKIE.3 CURLOPT_COOKIEFILE.3 CURLOPT_COOKIEJAR.3 CURLOPT_COOKIELIST.3 CURLOPT_COOKIESESSION.3 CURLOPT_COPYPOSTFIELDS.3 CURLOPT_CRLF.3 CURLOPT_CRLFILE.3 CURLOPT_CUSTOMREQUEST.3 CURLOPT_DEBUGDATA.3 CURLOPT_DEBUGFUNCTION.3 CURLOPT_DIRLISTONLY.3 CURLOPT_DNS_CACHE_TIMEOUT.3 CURLOPT_DNS_INTERFACE.3 CURLOPT_DNS_LOCAL_IP4.3 CURLOPT_DNS_LOCAL_IP6.3 CURLOPT_DNS_SERVERS.3 CURLOPT_DNS_USE_GLOBAL_CACHE.3 CURLOPT_EGDSOCKET.3 CURLOPT_ERRORBUFFER.3 '/tmp/work/pkg/usr/share/man/man3'
+ /usr/bin/install -c -m 644 CURLOPT_EXPECT_100_TIMEOUT_MS.3 CURLOPT_FAILONERROR.3 CURLOPT_FILETIME.3 CURLOPT_FNMATCH_DATA.3 CURLOPT_FNMATCH_FUNCTION.3 CURLOPT_FOLLOWLOCATION.3 CURLOPT_FORBID_REUSE.3 CURLOPT_FRESH_CONNECT.3 CURLOPT_FTP_ACCOUNT.3 CURLOPT_FTP_ALTERNATIVE_TO_USER.3 CURLOPT_FTP_CREATE_MISSING_DIRS.3 CURLOPT_FTP_FILEMETHOD.3 CURLOPT_FTPPORT.3 CURLOPT_FTP_RESPONSE_TIMEOUT.3 CURLOPT_FTP_SKIP_PASV_IP.3 CURLOPT_FTPSSLAUTH.3 CURLOPT_FTP_SSL_CCC.3 CURLOPT_FTP_USE_EPRT.3 CURLOPT_FTP_USE_EPSV.3 CURLOPT_FTP_USE_PRET.3 CURLOPT_GSSAPI_DELEGATION.3 CURLOPT_HEADER.3 CURLOPT_HEADERDATA.3 CURLOPT_HEADERFUNCTION.3 CURLOPT_HEADEROPT.3 CURLOPT_HTTP200ALIASES.3 CURLOPT_HTTPAUTH.3 CURLOPT_HTTP_CONTENT_DECODING.3 CURLOPT_HTTPGET.3 CURLOPT_HTTPHEADER.3 CURLOPT_HTTPPOST.3 CURLOPT_HTTPPROXYTUNNEL.3 CURLOPT_HTTP_TRANSFER_DECODING.3 CURLOPT_HTTP_VERSION.3 CURLOPT_IGNORE_CONTENT_LENGTH.3 CURLOPT_INFILESIZE.3 CURLOPT_INFILESIZE_LARGE.3 CURLOPT_INTERFACE.3 CURLOPT_INTERLEAVEDATA.3 CURLOPT_INTERLEAVEFUNCTION.3 '/tmp/work/pkg/usr/share/man/man3'
+ /usr/bin/install -c -m 644 CURLOPT_IOCTLDATA.3 CURLOPT_IOCTLFUNCTION.3 CURLOPT_IPRESOLVE.3 CURLOPT_ISSUERCERT.3 CURLOPT_KEYPASSWD.3 CURLOPT_KRBLEVEL.3 CURLOPT_LOCALPORT.3 CURLOPT_LOCALPORTRANGE.3 CURLOPT_LOGIN_OPTIONS.3 CURLOPT_LOW_SPEED_LIMIT.3 CURLOPT_LOW_SPEED_TIME.3 CURLOPT_MAIL_AUTH.3 CURLOPT_MAIL_FROM.3 CURLOPT_MAIL_RCPT.3 CURLOPT_MAXCONNECTS.3 CURLOPT_MAXFILESIZE.3 CURLOPT_MAXFILESIZE_LARGE.3 CURLOPT_MAX_RECV_SPEED_LARGE.3 CURLOPT_MAXREDIRS.3 CURLOPT_MAX_SEND_SPEED_LARGE.3 CURLOPT_NETRC.3 CURLOPT_NETRC_FILE.3 CURLOPT_NEW_DIRECTORY_PERMS.3 CURLOPT_NEW_FILE_PERMS.3 CURLOPT_NOBODY.3 CURLOPT_NOPROGRESS.3 CURLOPT_NOPROXY.3 CURLOPT_NOSIGNAL.3 CURLOPT_OPENSOCKETDATA.3 CURLOPT_OPENSOCKETFUNCTION.3 CURLOPT_PASSWORD.3 CURLOPT_PINNEDPUBLICKEY.3 CURLOPT_PORT.3 CURLOPT_POST.3 CURLOPT_POSTFIELDS.3 CURLOPT_POSTFIELDSIZE.3 CURLOPT_POSTFIELDSIZE_LARGE.3 CURLOPT_POSTQUOTE.3 CURLOPT_POSTREDIR.3 CURLOPT_PREQUOTE.3 '/tmp/work/pkg/usr/share/man/man3'
+ /usr/bin/install -c -m 644 CURLOPT_PRIVATE.3 CURLOPT_PROGRESSDATA.3 CURLOPT_PROGRESSFUNCTION.3 CURLOPT_PROTOCOLS.3 CURLOPT_PROXY.3 CURLOPT_PROXYAUTH.3 CURLOPT_PROXYHEADER.3 CURLOPT_PROXYPASSWORD.3 CURLOPT_PROXYPORT.3 CURLOPT_PROXY_TRANSFER_MODE.3 CURLOPT_PROXYTYPE.3 CURLOPT_PROXYUSERNAME.3 CURLOPT_PROXYUSERPWD.3 CURLOPT_PUT.3 CURLOPT_QUOTE.3 CURLOPT_RANDOM_FILE.3 CURLOPT_RANGE.3 CURLOPT_READDATA.3 CURLOPT_READFUNCTION.3 CURLOPT_REDIR_PROTOCOLS.3 CURLOPT_REFERER.3 CURLOPT_RESOLVE.3 CURLOPT_RESUME_FROM.3 CURLOPT_RESUME_FROM_LARGE.3 CURLOPT_RTSP_CLIENT_CSEQ.3 CURLOPT_RTSP_REQUEST.3 CURLOPT_RTSP_SERVER_CSEQ.3 CURLOPT_RTSP_SESSION_ID.3 CURLOPT_RTSP_STREAM_URI.3 CURLOPT_RTSP_TRANSPORT.3 CURLOPT_SASL_IR.3 CURLOPT_SEEKDATA.3 CURLOPT_SEEKFUNCTION.3 CURLOPT_SHARE.3 CURLOPT_SOCKOPTDATA.3 CURLOPT_SOCKOPTFUNCTION.3 CURLOPT_SOCKS5_GSSAPI_NEC.3 CURLOPT_SOCKS5_GSSAPI_SERVICE.3 CURLOPT_SSH_AUTH_TYPES.3 CURLOPT_SSH_HOST_PUBLIC_KEY_MD5.3 '/tmp/work/pkg/usr/share/man/man3'
+ /usr/bin/install -c -m 644 CURLOPT_SSH_KEYDATA.3 CURLOPT_SSH_KEYFUNCTION.3 CURLOPT_SSH_KNOWNHOSTS.3 CURLOPT_SSH_PRIVATE_KEYFILE.3 CURLOPT_SSH_PUBLIC_KEYFILE.3 CURLOPT_SSLCERT.3 CURLOPT_SSLCERTTYPE.3 CURLOPT_SSL_CIPHER_LIST.3 CURLOPT_SSL_CTX_DATA.3 CURLOPT_SSL_CTX_FUNCTION.3 CURLOPT_SSL_ENABLE_ALPN.3 CURLOPT_SSL_ENABLE_NPN.3 CURLOPT_SSLENGINE.3 CURLOPT_SSLENGINE_DEFAULT.3 CURLOPT_SSL_FALSESTART.3 CURLOPT_SSLKEY.3 CURLOPT_SSLKEYTYPE.3 CURLOPT_SSL_OPTIONS.3 CURLOPT_SSL_SESSIONID_CACHE.3 CURLOPT_SSL_VERIFYHOST.3 CURLOPT_SSL_VERIFYPEER.3 CURLOPT_SSL_VERIFYSTATUS.3 CURLOPT_SSLVERSION.3 CURLOPT_STDERR.3 CURLOPT_TCP_KEEPALIVE.3 CURLOPT_TCP_KEEPIDLE.3 CURLOPT_TCP_KEEPINTVL.3 CURLOPT_TCP_NODELAY.3 CURLOPT_TELNETOPTIONS.3 CURLOPT_TFTP_BLKSIZE.3 CURLOPT_TIMECONDITION.3 CURLOPT_TIMEOUT.3 CURLOPT_TIMEOUT_MS.3 CURLOPT_TIMEVALUE.3 CURLOPT_TLSAUTH_PASSWORD.3 CURLOPT_TLSAUTH_TYPE.3 CURLOPT_TLSAUTH_USERNAME.3 CURLOPT_TRANSFER_ENCODING.3 CURLOPT_TRANSFERTEXT.3 CURLOPT_UNRESTRICTED_AUTH.3 '/tmp/work/pkg/usr/share/man/man3'
+ /usr/bin/install -c -m 644 CURLOPT_UPLOAD.3 CURLOPT_URL.3 CURLOPT_USERAGENT.3 CURLOPT_USERNAME.3 CURLOPT_USERPWD.3 CURLOPT_USE_SSL.3 CURLOPT_VERBOSE.3 CURLOPT_WILDCARDMATCH.3 CURLOPT_WRITEDATA.3 CURLOPT_WRITEFUNCTION.3 CURLOPT_XFERINFODATA.3 CURLOPT_XFERINFOFUNCTION.3 CURLOPT_XOAUTH2_BEARER.3 CURLOPT_STREAM_DEPENDS.3 CURLOPT_STREAM_DEPENDS_E.3 CURLOPT_STREAM_WEIGHT.3 CURLMOPT_CHUNK_LENGTH_PENALTY_SIZE.3 CURLMOPT_CONTENT_LENGTH_PENALTY_SIZE.3 CURLMOPT_MAXCONNECTS.3 CURLMOPT_MAX_HOST_CONNECTIONS.3 CURLMOPT_MAX_PIPELINE_LENGTH.3 CURLMOPT_MAX_TOTAL_CONNECTIONS.3 CURLMOPT_PIPELINING.3 CURLMOPT_PIPELINING_SERVER_BL.3 CURLMOPT_PIPELINING_SITE_BL.3 CURLMOPT_SOCKETDATA.3 CURLMOPT_SOCKETFUNCTION.3 CURLMOPT_TIMERDATA.3 CURLMOPT_TIMERFUNCTION.3 CURLOPT_UNIX_SOCKET_PATH.3 CURLOPT_PATH_AS_IS.3 CURLOPT_PROXY_SERVICE_NAME.3 CURLOPT_SERVICE_NAME.3 CURLOPT_PIPEWAIT.3 CURLMOPT_PUSHDATA.3 CURLMOPT_PUSHFUNCTION.3 CURLOPT_DEFAULT_PROTOCOL.3 CURLINFO_ACTIVESOCKET.3 CURLINFO_APPCONNECT_TIME.3 CURLINFO_CERTINFO.3 '/tmp/work/pkg/usr/share/man/man3'
+ /usr/bin/install -c -m 644 CURLINFO_CONDITION_UNMET.3 CURLINFO_CONNECT_TIME.3 CURLINFO_CONTENT_LENGTH_DOWNLOAD.3 CURLINFO_CONTENT_LENGTH_UPLOAD.3 CURLINFO_CONTENT_TYPE.3 CURLINFO_COOKIELIST.3 CURLINFO_EFFECTIVE_URL.3 CURLINFO_FILETIME.3 CURLINFO_FTP_ENTRY_PATH.3 CURLINFO_HEADER_SIZE.3 CURLINFO_HTTPAUTH_AVAIL.3 CURLINFO_HTTP_CONNECTCODE.3 CURLINFO_LASTSOCKET.3 CURLINFO_LOCAL_IP.3 CURLINFO_LOCAL_PORT.3 CURLINFO_NAMELOOKUP_TIME.3 CURLINFO_NUM_CONNECTS.3 CURLINFO_OS_ERRNO.3 CURLINFO_PRETRANSFER_TIME.3 CURLINFO_PRIMARY_IP.3 CURLINFO_PRIMARY_PORT.3 CURLINFO_PRIVATE.3 CURLINFO_PROXYAUTH_AVAIL.3 CURLINFO_REDIRECT_COUNT.3 CURLINFO_REDIRECT_TIME.3 CURLINFO_REDIRECT_URL.3 CURLINFO_REQUEST_SIZE.3 CURLINFO_RESPONSE_CODE.3 CURLINFO_RTSP_CLIENT_CSEQ.3 CURLINFO_RTSP_CSEQ_RECV.3 CURLINFO_RTSP_SERVER_CSEQ.3 CURLINFO_RTSP_SESSION_ID.3 CURLINFO_SIZE_DOWNLOAD.3 CURLINFO_SIZE_UPLOAD.3 CURLINFO_SPEED_DOWNLOAD.3 CURLINFO_SPEED_UPLOAD.3 CURLINFO_SSL_ENGINES.3 CURLINFO_SSL_VERIFYRESULT.3 CURLINFO_STARTTRANSFER_TIME.3 CURLINFO_TLS_SESSION.3 '/tmp/work/pkg/usr/share/man/man3'
+ /usr/bin/install -c -m 644 CURLINFO_TOTAL_TIME.3 '/tmp/work/pkg/usr/share/man/man3'
+make[7]: Leaving directory '/tmp/work/src/curl-7.47.1/docs/libcurl/opts'
+make[6]: Leaving directory '/tmp/work/src/curl-7.47.1/docs/libcurl/opts'
+make[6]: Entering directory '/tmp/work/src/curl-7.47.1/docs/libcurl'
+make[7]: Entering directory '/tmp/work/src/curl-7.47.1/docs/libcurl'
+make[7]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/tmp/work/pkg/usr/share/aclocal'
+ /bin/mkdir -p '/tmp/work/pkg/usr/share/man/man3'
+ /usr/bin/install -c -m 644 libcurl.m4 '/tmp/work/pkg/usr/share/aclocal'
+ /usr/bin/install -c -m 644 curl_easy_cleanup.3 curl_easy_getinfo.3 curl_easy_init.3 curl_easy_perform.3 curl_easy_setopt.3 curl_easy_duphandle.3 curl_formadd.3 curl_formfree.3 curl_getdate.3 curl_getenv.3 curl_slist_append.3 curl_slist_free_all.3 curl_version.3 curl_version_info.3 curl_escape.3 curl_unescape.3 curl_free.3 curl_strequal.3 curl_mprintf.3 curl_global_init.3 curl_global_cleanup.3 curl_multi_add_handle.3 curl_multi_cleanup.3 curl_multi_fdset.3 curl_multi_info_read.3 curl_multi_init.3 curl_multi_perform.3 curl_multi_remove_handle.3 curl_share_cleanup.3 curl_share_init.3 curl_share_setopt.3 libcurl.3 libcurl-easy.3 libcurl-multi.3 libcurl-share.3 libcurl-errors.3 curl_easy_strerror.3 curl_multi_strerror.3 curl_share_strerror.3 curl_global_init_mem.3 '/tmp/work/pkg/usr/share/man/man3'
+ /usr/bin/install -c -m 644 libcurl-tutorial.3 curl_easy_reset.3 curl_easy_escape.3 curl_easy_unescape.3 curl_multi_setopt.3 curl_multi_socket.3 curl_multi_timeout.3 curl_formget.3 curl_multi_assign.3 curl_easy_pause.3 curl_easy_recv.3 curl_easy_send.3 curl_multi_socket_action.3 curl_multi_wait.3 libcurl-symbols.3 libcurl-thread.3 '/tmp/work/pkg/usr/share/man/man3'
+make[7]: Leaving directory '/tmp/work/src/curl-7.47.1/docs/libcurl'
+make[6]: Leaving directory '/tmp/work/src/curl-7.47.1/docs/libcurl'
+make[5]: Leaving directory '/tmp/work/src/curl-7.47.1/docs/libcurl'
+make[5]: Entering directory '/tmp/work/src/curl-7.47.1/docs'
+make[6]: Entering directory '/tmp/work/src/curl-7.47.1/docs'
+make[6]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/tmp/work/pkg/usr/share/man/man1'
+ /usr/bin/install -c -m 644 curl.1 curl-config.1 '/tmp/work/pkg/usr/share/man/man1'
+make[6]: Leaving directory '/tmp/work/src/curl-7.47.1/docs'
+make[5]: Leaving directory '/tmp/work/src/curl-7.47.1/docs'
+make[4]: Leaving directory '/tmp/work/src/curl-7.47.1/docs'
+make[3]: Leaving directory '/tmp/work/src/curl-7.47.1'
+make[2]: Leaving directory '/tmp/work/src/curl-7.47.1'
+make[1]: Leaving directory '/tmp/work/src/curl-7.47.1'
+/usr/bin/install: creating directory '/tmp/work/pkg/usr/share/doc'
+/usr/bin/install: creating directory '/tmp/work/pkg/usr/share/doc/curl-7.47.1'
+'docs/BINDINGS' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/BINDINGS'
+'docs/BUGS' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/BUGS'
+'docs/CODE_OF_CONDUCT.md' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/CODE_OF_CONDUCT.md'
+'docs/CONTRIBUTE' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/CONTRIBUTE'
+'docs/FAQ' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/FAQ'
+'docs/FEATURES' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/FEATURES'
+'docs/HISTORY' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/HISTORY'
+'docs/HTTP-COOKIES' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/HTTP-COOKIES'
+'docs/HTTP2.md' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/HTTP2.md'
+'docs/INSTALL' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/INSTALL'
+'docs/INSTALL.devcpp' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/INSTALL.devcpp'
+'docs/INTERNALS' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/INTERNALS'
+'docs/KNOWN_BUGS' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/KNOWN_BUGS'
+'docs/LICENSE-MIXING' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/LICENSE-MIXING'
+'docs/MAIL-ETIQUETTE' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/MAIL-ETIQUETTE'
+'docs/MANUAL' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/MANUAL'
+'docs/README.netware' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/README.netware'
+'docs/README.win32' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/README.win32'
+'docs/RELEASE-PROCEDURE' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/RELEASE-PROCEDURE'
+'docs/RESOURCES' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/RESOURCES'
+'docs/ROADMAP.md' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/ROADMAP.md'
+'docs/SECURITY' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/SECURITY'
+'docs/SSL-PROBLEMS' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/SSL-PROBLEMS'
+'docs/SSLCERTS' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/SSLCERTS'
+'docs/THANKS' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/THANKS'
+'docs/TODO' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/TODO'
+'docs/TheArtOfHttpScripting' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/TheArtOfHttpScripting'
+'docs/VERSIONS' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/VERSIONS'
+'docs/curl-config.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/curl-config.html'
+'docs/curl-config.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/curl-config.pdf'
+'docs/curl.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/curl.html'
+'docs/curl.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/curl.pdf'
+'docs/examples' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples'
+'docs/examples/htmltidy.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/htmltidy.c'
+'docs/examples/evhiperfifo.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/evhiperfifo.c'
+'docs/examples/imap-store.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/imap-store.c'
+'docs/examples/version-check.pl' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/version-check.pl'
+'docs/examples/imap-delete.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/imap-delete.c'
+'docs/examples/imap-copy.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/imap-copy.c'
+'docs/examples/README' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/README'
+'docs/examples/makefile.dj' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/makefile.dj'
+'docs/examples/ftpgetresp.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/ftpgetresp.c'
+'docs/examples/rtsp.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/rtsp.c'
+'docs/examples/cookie_interface.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/cookie_interface.c'
+'docs/examples/sampleconv.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/sampleconv.c'
+'docs/examples/fileupload.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/fileupload.c'
+'docs/examples/httpput.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/httpput.c'
+'docs/examples/debug.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/debug.c'
+'docs/examples/ftpget.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/ftpget.c'
+'docs/examples/pop3-retr.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/pop3-retr.c'
+'docs/examples/pop3-stat.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/pop3-stat.c'
+'docs/examples/ftpgetinfo.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/ftpgetinfo.c'
+'docs/examples/cacertinmem.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/cacertinmem.c'
+'docs/examples/imap-lsub.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/imap-lsub.c'
+'docs/examples/pop3-dele.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/pop3-dele.c'
+'docs/examples/sepheaders.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/sepheaders.c'
+'docs/examples/pop3-uidl.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/pop3-uidl.c'
+'docs/examples/ghiper.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/ghiper.c'
+'docs/examples/persistant.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/persistant.c'
+'docs/examples/chkspeed.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/chkspeed.c'
+'docs/examples/externalsocket.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/externalsocket.c'
+'docs/examples/multi-double.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/multi-double.c'
+'docs/examples/imap-ssl.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/imap-ssl.c'
+'docs/examples/imap-create.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/imap-create.c'
+'docs/examples/multi-debugcallback.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/multi-debugcallback.c'
+'docs/examples/simplepost.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/simplepost.c'
+'docs/examples/postinmemory.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/postinmemory.c'
+'docs/examples/10-at-a-time.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/10-at-a-time.c'
+'docs/examples/pop3-ssl.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/pop3-ssl.c'
+'docs/examples/progressfunc.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/progressfunc.c'
+'docs/examples/threaded-ssl.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/threaded-ssl.c'
+'docs/examples/imap-search.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/imap-search.c'
+'docs/examples/http-post.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/http-post.c'
+'docs/examples/getinmemory.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/getinmemory.c'
+'docs/examples/getinfo.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/getinfo.c'
+'docs/examples/sessioninfo.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/sessioninfo.c'
+'docs/examples/multi-post.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/multi-post.c'
+'docs/examples/http2-upload.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/http2-upload.c'
+'docs/examples/ftp-wildcard.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/ftp-wildcard.c'
+'docs/examples/pop3-tls.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/pop3-tls.c'
+'docs/examples/ftpupload.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/ftpupload.c'
+'docs/examples/smtp-tls.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/smtp-tls.c'
+'docs/examples/https.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/https.c'
+'docs/examples/resolve.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/resolve.c'
+'docs/examples/imap-tls.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/imap-tls.c'
+'docs/examples/simple.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/simple.c'
+'docs/examples/multi-uv.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/multi-uv.c'
+'docs/examples/httpcustomheader.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/httpcustomheader.c'
+'docs/examples/imap-fetch.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/imap-fetch.c'
+'docs/examples/pop3-multi.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/pop3-multi.c'
+'docs/examples/certinfo.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/certinfo.c'
+'docs/examples/htmltitle.cpp' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/htmltitle.cpp'
+'docs/examples/simplessl.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/simplessl.c'
+'docs/examples/ftpsget.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/ftpsget.c'
+'docs/examples/imap-examine.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/imap-examine.c'
+'docs/examples/multithread.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/multithread.c'
+'docs/examples/multi-single.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/multi-single.c'
+'docs/examples/sftpget.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/sftpget.c'
+'docs/examples/imap-append.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/imap-append.c'
+'docs/examples/imap-noop.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/imap-noop.c'
+'docs/examples/postit2.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/postit2.c'
+'docs/examples/smtp-multi.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/smtp-multi.c'
+'docs/examples/smtp-mail.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/smtp-mail.c'
+'docs/examples/curlgtk.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/curlgtk.c'
+'docs/examples/xmlstream.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/xmlstream.c'
+'docs/examples/asiohiper.cpp' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/asiohiper.cpp'
+'docs/examples/curlx.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/curlx.c'
+'docs/examples/pop3-top.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/pop3-top.c'
+'docs/examples/smtp-ssl.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/smtp-ssl.c'
+'docs/examples/smtp-vrfy.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/smtp-vrfy.c'
+'docs/examples/anyauthput.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/anyauthput.c'
+'docs/examples/url2file.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/url2file.c'
+'docs/examples/synctime.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/synctime.c'
+'docs/examples/fopen.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/fopen.c'
+'docs/examples/multi-app.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/multi-app.c'
+'docs/examples/ftpuploadresume.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/ftpuploadresume.c'
+'docs/examples/pop3-noop.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/pop3-noop.c'
+'docs/examples/href_extractor.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/href_extractor.c'
+'docs/examples/usercertinmem.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/usercertinmem.c'
+'docs/examples/imap-multi.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/imap-multi.c'
+'docs/examples/imap-list.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/imap-list.c'
+'docs/examples/smtp-expn.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/smtp-expn.c'
+'docs/examples/hiperfifo.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/hiperfifo.c'
+'docs/examples/pop3-list.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/pop3-list.c'
+'docs/examples/http2-download.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/http2-download.c'
+'docs/examples/getredirect.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/getredirect.c'
+'docs/examples/opensslthreadlock.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/opensslthreadlock.c'
+'docs/examples/sendrecv.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/sendrecv.c'
+'docs/examples/smooth-gtk-thread.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/smooth-gtk-thread.c'
+'docs/examples/http2-serverpush.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/http2-serverpush.c'
+'docs/examples/post-callback.c' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/post-callback.c'
+'docs/examples/.deps' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps'
+'docs/examples/.deps/10-at-a-time.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/10-at-a-time.Po'
+'docs/examples/.deps/anyauthput.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/anyauthput.Po'
+'docs/examples/.deps/certinfo.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/certinfo.Po'
+'docs/examples/.deps/chkspeed.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/chkspeed.Po'
+'docs/examples/.deps/cookie_interface.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/cookie_interface.Po'
+'docs/examples/.deps/debug.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/debug.Po'
+'docs/examples/.deps/externalsocket.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/externalsocket.Po'
+'docs/examples/.deps/fileupload.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/fileupload.Po'
+'docs/examples/.deps/fopen.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/fopen.Po'
+'docs/examples/.deps/ftp-wildcard.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/ftp-wildcard.Po'
+'docs/examples/.deps/ftpget.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/ftpget.Po'
+'docs/examples/.deps/ftpgetinfo.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/ftpgetinfo.Po'
+'docs/examples/.deps/ftpgetresp.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/ftpgetresp.Po'
+'docs/examples/.deps/ftpsget.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/ftpsget.Po'
+'docs/examples/.deps/ftpupload.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/ftpupload.Po'
+'docs/examples/.deps/getinfo.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/getinfo.Po'
+'docs/examples/.deps/getinmemory.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/getinmemory.Po'
+'docs/examples/.deps/getredirect.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/getredirect.Po'
+'docs/examples/.deps/http-post.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/http-post.Po'
+'docs/examples/.deps/http2-download.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/http2-download.Po'
+'docs/examples/.deps/http2-serverpush.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/http2-serverpush.Po'
+'docs/examples/.deps/http2-upload.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/http2-upload.Po'
+'docs/examples/.deps/httpcustomheader.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/httpcustomheader.Po'
+'docs/examples/.deps/httpput.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/httpput.Po'
+'docs/examples/.deps/https.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/https.Po'
+'docs/examples/.deps/imap-append.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/imap-append.Po'
+'docs/examples/.deps/imap-copy.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/imap-copy.Po'
+'docs/examples/.deps/imap-create.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/imap-create.Po'
+'docs/examples/.deps/imap-delete.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/imap-delete.Po'
+'docs/examples/.deps/imap-examine.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/imap-examine.Po'
+'docs/examples/.deps/imap-fetch.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/imap-fetch.Po'
+'docs/examples/.deps/imap-list.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/imap-list.Po'
+'docs/examples/.deps/imap-lsub.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/imap-lsub.Po'
+'docs/examples/.deps/imap-multi.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/imap-multi.Po'
+'docs/examples/.deps/imap-noop.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/imap-noop.Po'
+'docs/examples/.deps/imap-search.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/imap-search.Po'
+'docs/examples/.deps/imap-ssl.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/imap-ssl.Po'
+'docs/examples/.deps/imap-store.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/imap-store.Po'
+'docs/examples/.deps/imap-tls.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/imap-tls.Po'
+'docs/examples/.deps/multi-app.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/multi-app.Po'
+'docs/examples/.deps/multi-debugcallback.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/multi-debugcallback.Po'
+'docs/examples/.deps/multi-double.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/multi-double.Po'
+'docs/examples/.deps/multi-post.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/multi-post.Po'
+'docs/examples/.deps/multi-single.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/multi-single.Po'
+'docs/examples/.deps/persistant.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/persistant.Po'
+'docs/examples/.deps/pop3-dele.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/pop3-dele.Po'
+'docs/examples/.deps/pop3-list.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/pop3-list.Po'
+'docs/examples/.deps/pop3-multi.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/pop3-multi.Po'
+'docs/examples/.deps/pop3-noop.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/pop3-noop.Po'
+'docs/examples/.deps/pop3-retr.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/pop3-retr.Po'
+'docs/examples/.deps/pop3-ssl.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/pop3-ssl.Po'
+'docs/examples/.deps/pop3-stat.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/pop3-stat.Po'
+'docs/examples/.deps/pop3-tls.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/pop3-tls.Po'
+'docs/examples/.deps/pop3-top.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/pop3-top.Po'
+'docs/examples/.deps/pop3-uidl.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/pop3-uidl.Po'
+'docs/examples/.deps/post-callback.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/post-callback.Po'
+'docs/examples/.deps/postinmemory.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/postinmemory.Po'
+'docs/examples/.deps/postit2.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/postit2.Po'
+'docs/examples/.deps/progressfunc.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/progressfunc.Po'
+'docs/examples/.deps/resolve.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/resolve.Po'
+'docs/examples/.deps/rtsp.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/rtsp.Po'
+'docs/examples/.deps/sendrecv.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/sendrecv.Po'
+'docs/examples/.deps/sepheaders.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/sepheaders.Po'
+'docs/examples/.deps/sftpget.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/sftpget.Po'
+'docs/examples/.deps/simple.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/simple.Po'
+'docs/examples/.deps/simplepost.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/simplepost.Po'
+'docs/examples/.deps/simplessl.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/simplessl.Po'
+'docs/examples/.deps/smtp-expn.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/smtp-expn.Po'
+'docs/examples/.deps/smtp-mail.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/smtp-mail.Po'
+'docs/examples/.deps/smtp-multi.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/smtp-multi.Po'
+'docs/examples/.deps/smtp-ssl.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/smtp-ssl.Po'
+'docs/examples/.deps/smtp-tls.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/smtp-tls.Po'
+'docs/examples/.deps/smtp-vrfy.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/smtp-vrfy.Po'
+'docs/examples/.deps/url2file.Po' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/examples/.deps/url2file.Po'
+'docs/index.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/index.html'
+'docs/libcurl' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl'
+'docs/libcurl/curl_free.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_free.pdf'
+'docs/libcurl/curl_easy_send.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_easy_send.html'
+'docs/libcurl/curl_easy_duphandle.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_easy_duphandle.pdf'
+'docs/libcurl/curl_multi_wait.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_multi_wait.html'
+'docs/libcurl/curl_slist_append.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_slist_append.html'
+'docs/libcurl/curl_easy_strerror.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_easy_strerror.html'
+'docs/libcurl/curl_multi_add_handle.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_multi_add_handle.pdf'
+'docs/libcurl/curl_easy_init.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_easy_init.pdf'
+'docs/libcurl/symbols-in-versions' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/symbols-in-versions'
+'docs/libcurl/curl_multi_socket_action.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_multi_socket_action.html'
+'docs/libcurl/libcurl-errors.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/libcurl-errors.pdf'
+'docs/libcurl/libcurl-errors.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/libcurl-errors.html'
+'docs/libcurl/curl_multi_init.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_multi_init.pdf'
+'docs/libcurl/curl_easy_unescape.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_easy_unescape.pdf'
+'docs/libcurl/curl_multi_cleanup.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_multi_cleanup.pdf'
+'docs/libcurl/libcurl-share.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/libcurl-share.pdf'
+'docs/libcurl/curl_share_setopt.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_share_setopt.pdf'
+'docs/libcurl/curl_unescape.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_unescape.html'
+'docs/libcurl/curl_strequal.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_strequal.pdf'
+'docs/libcurl/curl_multi_socket.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_multi_socket.html'
+'docs/libcurl/curl_easy_cleanup.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_easy_cleanup.pdf'
+'docs/libcurl/curl_multi_setopt.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_multi_setopt.html'
+'docs/libcurl/curl_easy_perform.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_easy_perform.html'
+'docs/libcurl/libcurl-thread.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/libcurl-thread.html'
+'docs/libcurl/curl_multi_timeout.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_multi_timeout.html'
+'docs/libcurl/libcurl-easy.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/libcurl-easy.pdf'
+'docs/libcurl/curl_easy_send.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_easy_send.pdf'
+'docs/libcurl/curl_formadd.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_formadd.html'
+'docs/libcurl/curl_multi_socket.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_multi_socket.pdf'
+'docs/libcurl/curl_global_cleanup.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_global_cleanup.html'
+'docs/libcurl/curl_multi_add_handle.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_multi_add_handle.html'
+'docs/libcurl/curl_share_strerror.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_share_strerror.html'
+'docs/libcurl/curl_multi_init.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_multi_init.html'
+'docs/libcurl/curl_slist_free_all.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_slist_free_all.pdf'
+'docs/libcurl/curl_easy_getinfo.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_easy_getinfo.html'
+'docs/libcurl/curl_easy_unescape.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_easy_unescape.html'
+'docs/libcurl/curl_escape.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_escape.html'
+'docs/libcurl/curl_formget.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_formget.pdf'
+'docs/libcurl/libcurl-symbols.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/libcurl-symbols.pdf'
+'docs/libcurl/curl_easy_cleanup.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_easy_cleanup.html'
+'docs/libcurl/curl_share_strerror.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_share_strerror.pdf'
+'docs/libcurl/libcurl-thread.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/libcurl-thread.pdf'
+'docs/libcurl/libcurl-symbols.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/libcurl-symbols.html'
+'docs/libcurl/curl_multi_wait.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_multi_wait.pdf'
+'docs/libcurl/curl_easy_escape.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_easy_escape.pdf'
+'docs/libcurl/index.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/index.html'
+'docs/libcurl/curl_global_init_mem.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_global_init_mem.html'
+'docs/libcurl/curl_multi_perform.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_multi_perform.html'
+'docs/libcurl/curl_multi_fdset.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_multi_fdset.pdf'
+'docs/libcurl/curl_easy_setopt.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_easy_setopt.html'
+'docs/libcurl/libcurl-easy.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/libcurl-easy.html'
+'docs/libcurl/curl_easy_setopt.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_easy_setopt.pdf'
+'docs/libcurl/curl_formget.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_formget.html'
+'docs/libcurl/curl_global_init.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_global_init.pdf'
+'docs/libcurl/curl_share_cleanup.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_share_cleanup.pdf'
+'docs/libcurl/curl_free.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_free.html'
+'docs/libcurl/curl_mprintf.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_mprintf.html'
+'docs/libcurl/libcurl-multi.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/libcurl-multi.html'
+'docs/libcurl/curl_getdate.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_getdate.html'
+'docs/libcurl/curl_global_init.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_global_init.html'
+'docs/libcurl/curl_easy_getinfo.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_easy_getinfo.pdf'
+'docs/libcurl/libcurl-tutorial.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/libcurl-tutorial.html'
+'docs/libcurl/libcurl.m4' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/libcurl.m4'
+'docs/libcurl/curl_share_cleanup.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_share_cleanup.html'
+'docs/libcurl/curl_multi_assign.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_multi_assign.pdf'
+'docs/libcurl/curl_easy_pause.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_easy_pause.html'
+'docs/libcurl/curl_easy_strerror.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_easy_strerror.pdf'
+'docs/libcurl/curl_easy_recv.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_easy_recv.html'
+'docs/libcurl/curl_multi_timeout.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_multi_timeout.pdf'
+'docs/libcurl/curl_easy_init.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_easy_init.html'
+'docs/libcurl/curl_unescape.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_unescape.pdf'
+'docs/libcurl/curl_strequal.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_strequal.html'
+'docs/libcurl/curl_global_cleanup.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_global_cleanup.pdf'
+'docs/libcurl/curl_escape.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_escape.pdf'
+'docs/libcurl/curl_slist_append.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_slist_append.pdf'
+'docs/libcurl/mksymbolsmanpage.pl' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/mksymbolsmanpage.pl'
+'docs/libcurl/curl_multi_info_read.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_multi_info_read.pdf'
+'docs/libcurl/curl_getenv.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_getenv.pdf'
+'docs/libcurl/symbols.pl' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/symbols.pl'
+'docs/libcurl/curl_multi_assign.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_multi_assign.html'
+'docs/libcurl/curl_easy_recv.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_easy_recv.pdf'
+'docs/libcurl/libcurl-share.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/libcurl-share.html'
+'docs/libcurl/curl_version.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_version.pdf'
+'docs/libcurl/curl_mprintf.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_mprintf.pdf'
+'docs/libcurl/curl_multi_setopt.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_multi_setopt.pdf'
+'docs/libcurl/libcurl.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/libcurl.pdf'
+'docs/libcurl/curl_easy_duphandle.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_easy_duphandle.html'
+'docs/libcurl/ABI' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/ABI'
+'docs/libcurl/curl_formadd.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_formadd.pdf'
+'docs/libcurl/curl_formfree.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_formfree.pdf'
+'docs/libcurl/curl_getdate.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_getdate.pdf'
+'docs/libcurl/curl_easy_perform.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_easy_perform.pdf'
+'docs/libcurl/curl_multi_socket_action.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_multi_socket_action.pdf'
+'docs/libcurl/libcurl.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/libcurl.html'
+'docs/libcurl/curl_multi_remove_handle.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_multi_remove_handle.html'
+'docs/libcurl/curl_version.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_version.html'
+'docs/libcurl/curl_multi_info_read.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_multi_info_read.html'
+'docs/libcurl/curl_easy_pause.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_easy_pause.pdf'
+'docs/libcurl/curl_multi_cleanup.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_multi_cleanup.html'
+'docs/libcurl/curl_multi_perform.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_multi_perform.pdf'
+'docs/libcurl/curl_getenv.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_getenv.html'
+'docs/libcurl/libcurl-tutorial.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/libcurl-tutorial.pdf'
+'docs/libcurl/curl_formfree.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_formfree.html'
+'docs/libcurl/curl_version_info.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_version_info.pdf'
+'docs/libcurl/curl_multi_strerror.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_multi_strerror.html'
+'docs/libcurl/opts' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts'
+'docs/libcurl/opts/CURLOPT_STREAM_DEPENDS.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_STREAM_DEPENDS.pdf'
+'docs/libcurl/opts/CURLOPT_HEADER.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_HEADER.pdf'
+'docs/libcurl/opts/CURLOPT_FTP_SSL_CCC.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_FTP_SSL_CCC.html'
+'docs/libcurl/opts/CURLOPT_RANDOM_FILE.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_RANDOM_FILE.pdf'
+'docs/libcurl/opts/CURLOPT_EXPECT_100_TIMEOUT_MS.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_EXPECT_100_TIMEOUT_MS.pdf'
+'docs/libcurl/opts/CURLMOPT_CONTENT_LENGTH_PENALTY_SIZE.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLMOPT_CONTENT_LENGTH_PENALTY_SIZE.html'
+'docs/libcurl/opts/CURLOPT_HEADERFUNCTION.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_HEADERFUNCTION.pdf'
+'docs/libcurl/opts/CURLOPT_IOCTLDATA.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_IOCTLDATA.pdf'
+'docs/libcurl/opts/CURLOPT_USERAGENT.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_USERAGENT.pdf'
+'docs/libcurl/opts/CURLOPT_SSH_KNOWNHOSTS.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SSH_KNOWNHOSTS.pdf'
+'docs/libcurl/opts/CURLOPT_PIPEWAIT.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_PIPEWAIT.pdf'
+'docs/libcurl/opts/CURLMOPT_MAX_TOTAL_CONNECTIONS.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLMOPT_MAX_TOTAL_CONNECTIONS.html'
+'docs/libcurl/opts/CURLMOPT_TIMERDATA.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLMOPT_TIMERDATA.html'
+'docs/libcurl/opts/CURLMOPT_MAXCONNECTS.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLMOPT_MAXCONNECTS.html'
+'docs/libcurl/opts/CURLOPT_INTERLEAVEDATA.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_INTERLEAVEDATA.html'
+'docs/libcurl/opts/CURLOPT_LOW_SPEED_TIME.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_LOW_SPEED_TIME.html'
+'docs/libcurl/opts/CURLOPT_TRANSFERTEXT.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_TRANSFERTEXT.pdf'
+'docs/libcurl/opts/CURLOPT_PROXYHEADER.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_PROXYHEADER.pdf'
+'docs/libcurl/opts/CURLOPT_FNMATCH_FUNCTION.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_FNMATCH_FUNCTION.html'
+'docs/libcurl/opts/CURLOPT_SSLKEY.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SSLKEY.html'
+'docs/libcurl/opts/CURLOPT_PROXYUSERNAME.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_PROXYUSERNAME.html'
+'docs/libcurl/opts/CURLMOPT_PIPELINING_SITE_BL.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLMOPT_PIPELINING_SITE_BL.pdf'
+'docs/libcurl/opts/CURLOPT_INTERLEAVEFUNCTION.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_INTERLEAVEFUNCTION.html'
+'docs/libcurl/opts/CURLOPT_NETRC_FILE.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_NETRC_FILE.pdf'
+'docs/libcurl/opts/CURLOPT_RTSP_REQUEST.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_RTSP_REQUEST.pdf'
+'docs/libcurl/opts/CURLINFO_SPEED_UPLOAD.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_SPEED_UPLOAD.pdf'
+'docs/libcurl/opts/CURLOPT_FTP_CREATE_MISSING_DIRS.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_FTP_CREATE_MISSING_DIRS.pdf'
+'docs/libcurl/opts/CURLOPT_SASL_IR.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SASL_IR.html'
+'docs/libcurl/opts/CURLOPT_RTSP_SERVER_CSEQ.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_RTSP_SERVER_CSEQ.pdf'
+'docs/libcurl/opts/CURLOPT_PROGRESSDATA.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_PROGRESSDATA.html'
+'docs/libcurl/opts/CURLOPT_MAIL_FROM.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_MAIL_FROM.html'
+'docs/libcurl/opts/CURLOPT_QUOTE.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_QUOTE.html'
+'docs/libcurl/opts/CURLINFO_SSL_VERIFYRESULT.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_SSL_VERIFYRESULT.pdf'
+'docs/libcurl/opts/CURLOPT_SSH_PUBLIC_KEYFILE.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SSH_PUBLIC_KEYFILE.html'
+'docs/libcurl/opts/CURLOPT_HTTP_VERSION.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_HTTP_VERSION.html'
+'docs/libcurl/opts/CURLOPT_COOKIESESSION.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_COOKIESESSION.html'
+'docs/libcurl/opts/CURLOPT_SSL_FALSESTART.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SSL_FALSESTART.pdf'
+'docs/libcurl/opts/CURLOPT_RTSP_SERVER_CSEQ.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_RTSP_SERVER_CSEQ.html'
+'docs/libcurl/opts/CURLOPT_TIMEOUT_MS.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_TIMEOUT_MS.pdf'
+'docs/libcurl/opts/CURLOPT_VERBOSE.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_VERBOSE.html'
+'docs/libcurl/opts/CURLOPT_WRITEFUNCTION.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_WRITEFUNCTION.html'
+'docs/libcurl/opts/CURLOPT_SSH_KEYFUNCTION.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SSH_KEYFUNCTION.pdf'
+'docs/libcurl/opts/CURLOPT_SHARE.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SHARE.html'
+'docs/libcurl/opts/CURLOPT_READDATA.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_READDATA.pdf'
+'docs/libcurl/opts/CURLOPT_POSTFIELDSIZE_LARGE.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_POSTFIELDSIZE_LARGE.pdf'
+'docs/libcurl/opts/CURLOPT_RTSP_SESSION_ID.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_RTSP_SESSION_ID.html'
+'docs/libcurl/opts/CURLOPT_VERBOSE.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_VERBOSE.pdf'
+'docs/libcurl/opts/CURLOPT_XFERINFOFUNCTION.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_XFERINFOFUNCTION.html'
+'docs/libcurl/opts/CURLOPT_CUSTOMREQUEST.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_CUSTOMREQUEST.html'
+'docs/libcurl/opts/CURLOPT_HTTPPROXYTUNNEL.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_HTTPPROXYTUNNEL.pdf'
+'docs/libcurl/opts/CURLOPT_PREQUOTE.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_PREQUOTE.html'
+'docs/libcurl/opts/CURLOPT_SSL_CTX_DATA.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SSL_CTX_DATA.pdf'
+'docs/libcurl/opts/CURLOPT_SSL_SESSIONID_CACHE.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SSL_SESSIONID_CACHE.pdf'
+'docs/libcurl/opts/CURLOPT_CERTINFO.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_CERTINFO.html'
+'docs/libcurl/opts/CURLOPT_SOCKS5_GSSAPI_NEC.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SOCKS5_GSSAPI_NEC.html'
+'docs/libcurl/opts/CURLMOPT_CONTENT_LENGTH_PENALTY_SIZE.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLMOPT_CONTENT_LENGTH_PENALTY_SIZE.pdf'
+'docs/libcurl/opts/CURLOPT_MAIL_AUTH.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_MAIL_AUTH.html'
+'docs/libcurl/opts/CURLOPT_DNS_INTERFACE.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_DNS_INTERFACE.pdf'
+'docs/libcurl/opts/CURLOPT_CONV_FROM_NETWORK_FUNCTION.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_CONV_FROM_NETWORK_FUNCTION.pdf'
+'docs/libcurl/opts/CURLOPT_ADDRESS_SCOPE.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_ADDRESS_SCOPE.pdf'
+'docs/libcurl/opts/CURLINFO_HEADER_SIZE.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_HEADER_SIZE.html'
+'docs/libcurl/opts/CURLOPT_TFTP_BLKSIZE.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_TFTP_BLKSIZE.pdf'
+'docs/libcurl/opts/CURLOPT_FTP_ALTERNATIVE_TO_USER.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_FTP_ALTERNATIVE_TO_USER.pdf'
+'docs/libcurl/opts/CURLOPT_STDERR.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_STDERR.pdf'
+'docs/libcurl/opts/CURLOPT_MAIL_RCPT.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_MAIL_RCPT.pdf'
+'docs/libcurl/opts/CURLMOPT_TIMERFUNCTION.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLMOPT_TIMERFUNCTION.pdf'
+'docs/libcurl/opts/CURLOPT_CAINFO.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_CAINFO.pdf'
+'docs/libcurl/opts/CURLOPT_CLOSESOCKETDATA.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_CLOSESOCKETDATA.html'
+'docs/libcurl/opts/CURLINFO_CERTINFO.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_CERTINFO.pdf'
+'docs/libcurl/opts/CURLOPT_SEEKDATA.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SEEKDATA.html'
+'docs/libcurl/opts/CURLOPT_FTP_RESPONSE_TIMEOUT.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_FTP_RESPONSE_TIMEOUT.html'
+'docs/libcurl/opts/CURLINFO_REDIRECT_URL.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_REDIRECT_URL.html'
+'docs/libcurl/opts/CURLOPT_PROXYUSERPWD.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_PROXYUSERPWD.pdf'
+'docs/libcurl/opts/CURLINFO_CONDITION_UNMET.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_CONDITION_UNMET.html'
+'docs/libcurl/opts/CURLOPT_FTP_CREATE_MISSING_DIRS.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_FTP_CREATE_MISSING_DIRS.html'
+'docs/libcurl/opts/CURLOPT_TIMECONDITION.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_TIMECONDITION.html'
+'docs/libcurl/opts/CURLOPT_CONNECTTIMEOUT_MS.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_CONNECTTIMEOUT_MS.pdf'
+'docs/libcurl/opts/CURLOPT_SSH_PRIVATE_KEYFILE.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SSH_PRIVATE_KEYFILE.html'
+'docs/libcurl/opts/CURLOPT_PROXYUSERPWD.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_PROXYUSERPWD.html'
+'docs/libcurl/opts/CURLOPT_BUFFERSIZE.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_BUFFERSIZE.pdf'
+'docs/libcurl/opts/CURLOPT_ACCEPTTIMEOUT_MS.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_ACCEPTTIMEOUT_MS.pdf'
+'docs/libcurl/opts/CURLOPT_UNRESTRICTED_AUTH.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_UNRESTRICTED_AUTH.html'
+'docs/libcurl/opts/CURLOPT_TLSAUTH_USERNAME.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_TLSAUTH_USERNAME.pdf'
+'docs/libcurl/opts/CURLOPT_SSLKEY.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SSLKEY.pdf'
+'docs/libcurl/opts/CURLOPT_TCP_KEEPINTVL.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_TCP_KEEPINTVL.html'
+'docs/libcurl/opts/CURLOPT_PORT.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_PORT.html'
+'docs/libcurl/opts/CURLMOPT_MAX_PIPELINE_LENGTH.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLMOPT_MAX_PIPELINE_LENGTH.html'
+'docs/libcurl/opts/CURLINFO_NAMELOOKUP_TIME.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_NAMELOOKUP_TIME.pdf'
+'docs/libcurl/opts/CURLINFO_REQUEST_SIZE.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_REQUEST_SIZE.pdf'
+'docs/libcurl/opts/CURLOPT_POSTQUOTE.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_POSTQUOTE.html'
+'docs/libcurl/opts/CURLINFO_LOCAL_PORT.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_LOCAL_PORT.html'
+'docs/libcurl/opts/CURLINFO_FTP_ENTRY_PATH.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_FTP_ENTRY_PATH.html'
+'docs/libcurl/opts/CURLOPT_WILDCARDMATCH.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_WILDCARDMATCH.pdf'
+'docs/libcurl/opts/CURLOPT_FOLLOWLOCATION.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_FOLLOWLOCATION.pdf'
+'docs/libcurl/opts/CURLOPT_STREAM_DEPENDS.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_STREAM_DEPENDS.html'
+'docs/libcurl/opts/CURLOPT_KEYPASSWD.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_KEYPASSWD.html'
+'docs/libcurl/opts/CURLOPT_SSH_AUTH_TYPES.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SSH_AUTH_TYPES.html'
+'docs/libcurl/opts/CURLOPT_TCP_KEEPALIVE.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_TCP_KEEPALIVE.html'
+'docs/libcurl/opts/CURLOPT_DNS_LOCAL_IP4.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_DNS_LOCAL_IP4.pdf'
+'docs/libcurl/opts/CURLOPT_NOBODY.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_NOBODY.html'
+'docs/libcurl/opts/CURLOPT_DNS_SERVERS.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_DNS_SERVERS.pdf'
+'docs/libcurl/opts/CURLOPT_LOCALPORTRANGE.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_LOCALPORTRANGE.html'
+'docs/libcurl/opts/CURLOPT_PROXYTYPE.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_PROXYTYPE.html'
+'docs/libcurl/opts/CURLINFO_REDIRECT_COUNT.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_REDIRECT_COUNT.pdf'
+'docs/libcurl/opts/CURLOPT_RTSP_CLIENT_CSEQ.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_RTSP_CLIENT_CSEQ.html'
+'docs/libcurl/opts/CURLOPT_USERNAME.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_USERNAME.html'
+'docs/libcurl/opts/CURLOPT_FTP_USE_PRET.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_FTP_USE_PRET.html'
+'docs/libcurl/opts/CURLINFO_REDIRECT_TIME.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_REDIRECT_TIME.html'
+'docs/libcurl/opts/CURLOPT_CRLF.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_CRLF.pdf'
+'docs/libcurl/opts/CURLOPT_CHUNK_BGN_FUNCTION.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_CHUNK_BGN_FUNCTION.html'
+'docs/libcurl/opts/CURLOPT_FTP_ALTERNATIVE_TO_USER.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_FTP_ALTERNATIVE_TO_USER.html'
+'docs/libcurl/opts/CURLMOPT_CHUNK_LENGTH_PENALTY_SIZE.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLMOPT_CHUNK_LENGTH_PENALTY_SIZE.pdf'
+'docs/libcurl/opts/CURLOPT_SSLCERTTYPE.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SSLCERTTYPE.pdf'
+'docs/libcurl/opts/CURLINFO_COOKIELIST.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_COOKIELIST.html'
+'docs/libcurl/opts/CURLINFO_HTTPAUTH_AVAIL.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_HTTPAUTH_AVAIL.html'
+'docs/libcurl/opts/CURLINFO_SSL_VERIFYRESULT.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_SSL_VERIFYRESULT.html'
+'docs/libcurl/opts/CURLOPT_COPYPOSTFIELDS.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_COPYPOSTFIELDS.html'
+'docs/libcurl/opts/CURLOPT_PRIVATE.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_PRIVATE.pdf'
+'docs/libcurl/opts/CURLOPT_DEBUGFUNCTION.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_DEBUGFUNCTION.html'
+'docs/libcurl/opts/CURLOPT_OPENSOCKETFUNCTION.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_OPENSOCKETFUNCTION.html'
+'docs/libcurl/opts/CURLOPT_CRLFILE.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_CRLFILE.pdf'
+'docs/libcurl/opts/CURLINFO_FILETIME.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_FILETIME.pdf'
+'docs/libcurl/opts/CURLOPT_CLOSESOCKETFUNCTION.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_CLOSESOCKETFUNCTION.pdf'
+'docs/libcurl/opts/CURLOPT_ERRORBUFFER.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_ERRORBUFFER.pdf'
+'docs/libcurl/opts/CURLOPT_SOCKOPTFUNCTION.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SOCKOPTFUNCTION.pdf'
+'docs/libcurl/opts/CURLINFO_OS_ERRNO.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_OS_ERRNO.pdf'
+'docs/libcurl/opts/CURLOPT_NEW_FILE_PERMS.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_NEW_FILE_PERMS.pdf'
+'docs/libcurl/opts/CURLOPT_DNS_LOCAL_IP6.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_DNS_LOCAL_IP6.html'
+'docs/libcurl/opts/CURLOPT_RTSP_TRANSPORT.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_RTSP_TRANSPORT.pdf'
+'docs/libcurl/opts/CURLOPT_COOKIEFILE.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_COOKIEFILE.pdf'
+'docs/libcurl/opts/CURLOPT_PINNEDPUBLICKEY.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_PINNEDPUBLICKEY.html'
+'docs/libcurl/opts/CURLINFO_CERTINFO.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_CERTINFO.html'
+'docs/libcurl/opts/CURLOPT_PROXYPASSWORD.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_PROXYPASSWORD.pdf'
+'docs/libcurl/opts/CURLOPT_POSTFIELDSIZE_LARGE.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_POSTFIELDSIZE_LARGE.html'
+'docs/libcurl/opts/CURLOPT_SSL_VERIFYPEER.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SSL_VERIFYPEER.html'
+'docs/libcurl/opts/CURLINFO_LOCAL_IP.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_LOCAL_IP.pdf'
+'docs/libcurl/opts/CURLOPT_PROXY_SERVICE_NAME.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_PROXY_SERVICE_NAME.pdf'
+'docs/libcurl/opts/CURLOPT_HTTPGET.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_HTTPGET.html'
+'docs/libcurl/opts/CURLOPT_QUOTE.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_QUOTE.pdf'
+'docs/libcurl/opts/CURLOPT_HTTP_CONTENT_DECODING.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_HTTP_CONTENT_DECODING.html'
+'docs/libcurl/opts/CURLOPT_FTP_USE_EPSV.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_FTP_USE_EPSV.html'
+'docs/libcurl/opts/CURLOPT_TIMEVALUE.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_TIMEVALUE.pdf'
+'docs/libcurl/opts/CURLINFO_CONNECT_TIME.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_CONNECT_TIME.pdf'
+'docs/libcurl/opts/CURLOPT_PROGRESSDATA.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_PROGRESSDATA.pdf'
+'docs/libcurl/opts/CURLINFO_PRIVATE.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_PRIVATE.pdf'
+'docs/libcurl/opts/CURLINFO_PRIMARY_IP.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_PRIMARY_IP.html'
+'docs/libcurl/opts/CURLOPT_WRITEFUNCTION.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_WRITEFUNCTION.pdf'
+'docs/libcurl/opts/CURLOPT_RESOLVE.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_RESOLVE.pdf'
+'docs/libcurl/opts/CURLOPT_FTP_SKIP_PASV_IP.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_FTP_SKIP_PASV_IP.pdf'
+'docs/libcurl/opts/CURLINFO_SSL_ENGINES.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_SSL_ENGINES.html'
+'docs/libcurl/opts/CURLMOPT_PIPELINING.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLMOPT_PIPELINING.html'
+'docs/libcurl/opts/CURLOPT_BUFFERSIZE.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_BUFFERSIZE.html'
+'docs/libcurl/opts/CURLOPT_URL.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_URL.pdf'
+'docs/libcurl/opts/CURLOPT_NEW_DIRECTORY_PERMS.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_NEW_DIRECTORY_PERMS.pdf'
+'docs/libcurl/opts/CURLOPT_TCP_KEEPIDLE.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_TCP_KEEPIDLE.pdf'
+'docs/libcurl/opts/CURLOPT_TCP_KEEPINTVL.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_TCP_KEEPINTVL.pdf'
+'docs/libcurl/opts/CURLOPT_FTPPORT.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_FTPPORT.pdf'
+'docs/libcurl/opts/CURLOPT_TRANSFERTEXT.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_TRANSFERTEXT.html'
+'docs/libcurl/opts/CURLOPT_IOCTLFUNCTION.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_IOCTLFUNCTION.html'
+'docs/libcurl/opts/CURLOPT_POSTFIELDS.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_POSTFIELDS.html'
+'docs/libcurl/opts/CURLOPT_INTERLEAVEFUNCTION.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_INTERLEAVEFUNCTION.pdf'
+'docs/libcurl/opts/CURLOPT_INFILESIZE_LARGE.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_INFILESIZE_LARGE.html'
+'docs/libcurl/opts/CURLOPT_CONV_TO_NETWORK_FUNCTION.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_CONV_TO_NETWORK_FUNCTION.pdf'
+'docs/libcurl/opts/CURLOPT_TRANSFER_ENCODING.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_TRANSFER_ENCODING.html'
+'docs/libcurl/opts/CURLOPT_SSH_PUBLIC_KEYFILE.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SSH_PUBLIC_KEYFILE.pdf'
+'docs/libcurl/opts/CURLOPT_SSLENGINE_DEFAULT.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SSLENGINE_DEFAULT.pdf'
+'docs/libcurl/opts/CURLOPT_NOPROGRESS.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_NOPROGRESS.pdf'
+'docs/libcurl/opts/CURLOPT_SSL_CIPHER_LIST.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SSL_CIPHER_LIST.pdf'
+'docs/libcurl/opts/CURLOPT_RESUME_FROM_LARGE.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_RESUME_FROM_LARGE.html'
+'docs/libcurl/opts/CURLOPT_READFUNCTION.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_READFUNCTION.pdf'
+'docs/libcurl/opts/CURLOPT_TLSAUTH_TYPE.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_TLSAUTH_TYPE.html'
+'docs/libcurl/opts/CURLINFO_TOTAL_TIME.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_TOTAL_TIME.html'
+'docs/libcurl/opts/CURLOPT_PROTOCOLS.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_PROTOCOLS.html'
+'docs/libcurl/opts/CURLOPT_CHUNK_END_FUNCTION.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_CHUNK_END_FUNCTION.html'
+'docs/libcurl/opts/CURLINFO_SIZE_DOWNLOAD.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_SIZE_DOWNLOAD.html'
+'docs/libcurl/opts/CURLOPT_FTP_USE_PRET.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_FTP_USE_PRET.pdf'
+'docs/libcurl/opts/CURLINFO_CONTENT_LENGTH_DOWNLOAD.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_CONTENT_LENGTH_DOWNLOAD.html'
+'docs/libcurl/opts/CURLINFO_SIZE_UPLOAD.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_SIZE_UPLOAD.html'
+'docs/libcurl/opts/CURLMOPT_CHUNK_LENGTH_PENALTY_SIZE.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLMOPT_CHUNK_LENGTH_PENALTY_SIZE.html'
+'docs/libcurl/opts/CURLOPT_FOLLOWLOCATION.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_FOLLOWLOCATION.html'
+'docs/libcurl/opts/CURLOPT_USE_SSL.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_USE_SSL.pdf'
+'docs/libcurl/opts/CURLINFO_TOTAL_TIME.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_TOTAL_TIME.pdf'
+'docs/libcurl/opts/CURLINFO_STARTTRANSFER_TIME.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_STARTTRANSFER_TIME.html'
+'docs/libcurl/opts/CURLOPT_PROXY.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_PROXY.pdf'
+'docs/libcurl/opts/CURLOPT_DEBUGDATA.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_DEBUGDATA.pdf'
+'docs/libcurl/opts/CURLOPT_SERVICE_NAME.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SERVICE_NAME.pdf'
+'docs/libcurl/opts/CURLOPT_MAIL_RCPT.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_MAIL_RCPT.html'
+'docs/libcurl/opts/CURLOPT_FTP_FILEMETHOD.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_FTP_FILEMETHOD.html'
+'docs/libcurl/opts/CURLOPT_TCP_NODELAY.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_TCP_NODELAY.html'
+'docs/libcurl/opts/CURLMOPT_TIMERFUNCTION.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLMOPT_TIMERFUNCTION.html'
+'docs/libcurl/opts/CURLOPT_HEADERFUNCTION.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_HEADERFUNCTION.html'
+'docs/libcurl/opts/CURLINFO_CONTENT_TYPE.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_CONTENT_TYPE.html'
+'docs/libcurl/opts/CURLOPT_XFERINFOFUNCTION.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_XFERINFOFUNCTION.pdf'
+'docs/libcurl/opts/CURLOPT_LOW_SPEED_LIMIT.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_LOW_SPEED_LIMIT.html'
+'docs/libcurl/opts/CURLINFO_TLS_SESSION.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_TLS_SESSION.pdf'
+'docs/libcurl/opts/CURLINFO_RTSP_SESSION_ID.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_RTSP_SESSION_ID.pdf'
+'docs/libcurl/opts/CURLOPT_COOKIEJAR.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_COOKIEJAR.html'
+'docs/libcurl/opts/CURLOPT_HTTP_TRANSFER_DECODING.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_HTTP_TRANSFER_DECODING.pdf'
+'docs/libcurl/opts/CURLOPT_TIMEOUT.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_TIMEOUT.html'
+'docs/libcurl/opts/CURLOPT_FTP_RESPONSE_TIMEOUT.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_FTP_RESPONSE_TIMEOUT.pdf'
+'docs/libcurl/opts/CURLOPT_KRBLEVEL.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_KRBLEVEL.pdf'
+'docs/libcurl/opts/CURLOPT_HTTP_TRANSFER_DECODING.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_HTTP_TRANSFER_DECODING.html'
+'docs/libcurl/opts/CURLOPT_NOSIGNAL.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_NOSIGNAL.html'
+'docs/libcurl/opts/CURLOPT_FTP_USE_EPSV.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_FTP_USE_EPSV.pdf'
+'docs/libcurl/opts/CURLINFO_RTSP_SERVER_CSEQ.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_RTSP_SERVER_CSEQ.html'
+'docs/libcurl/opts/CURLOPT_XOAUTH2_BEARER.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_XOAUTH2_BEARER.html'
+'docs/libcurl/opts/CURLOPT_XOAUTH2_BEARER.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_XOAUTH2_BEARER.pdf'
+'docs/libcurl/opts/CURLOPT_MAX_SEND_SPEED_LARGE.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_MAX_SEND_SPEED_LARGE.pdf'
+'docs/libcurl/opts/CURLOPT_WRITEDATA.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_WRITEDATA.html'
+'docs/libcurl/opts/CURLOPT_FORBID_REUSE.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_FORBID_REUSE.pdf'
+'docs/libcurl/opts/CURLMOPT_SOCKETFUNCTION.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLMOPT_SOCKETFUNCTION.pdf'
+'docs/libcurl/opts/CURLOPT_FNMATCH_FUNCTION.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_FNMATCH_FUNCTION.pdf'
+'docs/libcurl/opts/CURLOPT_NOBODY.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_NOBODY.pdf'
+'docs/libcurl/opts/CURLINFO_CONTENT_LENGTH_UPLOAD.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_CONTENT_LENGTH_UPLOAD.pdf'
+'docs/libcurl/opts/CURLOPT_UNIX_SOCKET_PATH.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_UNIX_SOCKET_PATH.html'
+'docs/libcurl/opts/CURLOPT_DNS_USE_GLOBAL_CACHE.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_DNS_USE_GLOBAL_CACHE.html'
+'docs/libcurl/opts/CURLOPT_CAINFO.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_CAINFO.html'
+'docs/libcurl/opts/CURLOPT_EGDSOCKET.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_EGDSOCKET.pdf'
+'docs/libcurl/opts/CURLOPT_HTTPPOST.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_HTTPPOST.html'
+'docs/libcurl/opts/CURLINFO_NUM_CONNECTS.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_NUM_CONNECTS.html'
+'docs/libcurl/opts/CURLINFO_PRIVATE.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_PRIVATE.html'
+'docs/libcurl/opts/CURLINFO_ACTIVESOCKET.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_ACTIVESOCKET.pdf'
+'docs/libcurl/opts/CURLOPT_ACCEPTTIMEOUT_MS.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_ACCEPTTIMEOUT_MS.html'
+'docs/libcurl/opts/CURLOPT_SSH_KEYFUNCTION.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SSH_KEYFUNCTION.html'
+'docs/libcurl/opts/CURLOPT_PROXYAUTH.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_PROXYAUTH.html'
+'docs/libcurl/opts/CURLOPT_UNRESTRICTED_AUTH.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_UNRESTRICTED_AUTH.pdf'
+'docs/libcurl/opts/CURLOPT_NEW_DIRECTORY_PERMS.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_NEW_DIRECTORY_PERMS.html'
+'docs/libcurl/opts/CURLOPT_HEADEROPT.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_HEADEROPT.html'
+'docs/libcurl/opts/CURLOPT_UPLOAD.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_UPLOAD.html'
+'docs/libcurl/opts/CURLOPT_RANGE.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_RANGE.html'
+'docs/libcurl/opts/CURLOPT_SOCKS5_GSSAPI_SERVICE.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SOCKS5_GSSAPI_SERVICE.pdf'
+'docs/libcurl/opts/CURLOPT_FTP_USE_EPRT.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_FTP_USE_EPRT.pdf'
+'docs/libcurl/opts/CURLOPT_PATH_AS_IS.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_PATH_AS_IS.html'
+'docs/libcurl/opts/CURLOPT_SSL_VERIFYSTATUS.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SSL_VERIFYSTATUS.pdf'
+'docs/libcurl/opts/CURLOPT_IOCTLFUNCTION.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_IOCTLFUNCTION.pdf'
+'docs/libcurl/opts/CURLOPT_DNS_SERVERS.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_DNS_SERVERS.html'
+'docs/libcurl/opts/CURLOPT_CONNECT_ONLY.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_CONNECT_ONLY.pdf'
+'docs/libcurl/opts/CURLINFO_NAMELOOKUP_TIME.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_NAMELOOKUP_TIME.html'
+'docs/libcurl/opts/CURLOPT_SSL_VERIFYPEER.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SSL_VERIFYPEER.pdf'
+'docs/libcurl/opts/CURLOPT_LOCALPORTRANGE.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_LOCALPORTRANGE.pdf'
+'docs/libcurl/opts/CURLOPT_MAXCONNECTS.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_MAXCONNECTS.pdf'
+'docs/libcurl/opts/CURLMOPT_PIPELINING_SERVER_BL.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLMOPT_PIPELINING_SERVER_BL.pdf'
+'docs/libcurl/opts/CURLINFO_REDIRECT_URL.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_REDIRECT_URL.pdf'
+'docs/libcurl/opts/CURLOPT_NOPROGRESS.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_NOPROGRESS.html'
+'docs/libcurl/opts/CURLOPT_SSL_CTX_DATA.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SSL_CTX_DATA.html'
+'docs/libcurl/opts/CURLOPT_MAXFILESIZE.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_MAXFILESIZE.pdf'
+'docs/libcurl/opts/CURLINFO_CONTENT_LENGTH_DOWNLOAD.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_CONTENT_LENGTH_DOWNLOAD.pdf'
+'docs/libcurl/opts/CURLOPT_CONNECT_ONLY.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_CONNECT_ONLY.html'
+'docs/libcurl/opts/CURLOPT_RTSP_STREAM_URI.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_RTSP_STREAM_URI.html'
+'docs/libcurl/opts/CURLOPT_SSLVERSION.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SSLVERSION.html'
+'docs/libcurl/opts/CURLOPT_MAXFILESIZE.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_MAXFILESIZE.html'
+'docs/libcurl/opts/CURLOPT_MAX_RECV_SPEED_LARGE.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_MAX_RECV_SPEED_LARGE.pdf'
+'docs/libcurl/opts/CURLOPT_TIMEOUT_MS.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_TIMEOUT_MS.html'
+'docs/libcurl/opts/CURLOPT_SSH_AUTH_TYPES.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SSH_AUTH_TYPES.pdf'
+'docs/libcurl/opts/CURLOPT_MAXFILESIZE_LARGE.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_MAXFILESIZE_LARGE.html'
+'docs/libcurl/opts/CURLINFO_OS_ERRNO.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_OS_ERRNO.html'
+'docs/libcurl/opts/CURLOPT_SEEKFUNCTION.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SEEKFUNCTION.html'
+'docs/libcurl/opts/CURLOPT_USERAGENT.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_USERAGENT.html'
+'docs/libcurl/opts/CURLINFO_SSL_ENGINES.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_SSL_ENGINES.pdf'
+'docs/libcurl/opts/CURLOPT_POST.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_POST.pdf'
+'docs/libcurl/opts/CURLINFO_COOKIELIST.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_COOKIELIST.pdf'
+'docs/libcurl/opts/CURLOPT_PREQUOTE.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_PREQUOTE.pdf'
+'docs/libcurl/opts/CURLMOPT_MAX_HOST_CONNECTIONS.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLMOPT_MAX_HOST_CONNECTIONS.html'
+'docs/libcurl/opts/CURLOPT_EXPECT_100_TIMEOUT_MS.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_EXPECT_100_TIMEOUT_MS.html'
+'docs/libcurl/opts/CURLOPT_PROXYTYPE.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_PROXYTYPE.pdf'
+'docs/libcurl/opts/CURLOPT_NOPROXY.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_NOPROXY.html'
+'docs/libcurl/opts/CURLOPT_DNS_LOCAL_IP6.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_DNS_LOCAL_IP6.pdf'
+'docs/libcurl/opts/CURLINFO_PRETRANSFER_TIME.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_PRETRANSFER_TIME.pdf'
+'docs/libcurl/opts/CURLOPT_HTTPHEADER.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_HTTPHEADER.html'
+'docs/libcurl/opts/CURLOPT_PROXY_TRANSFER_MODE.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_PROXY_TRANSFER_MODE.html'
+'docs/libcurl/opts/CURLOPT_SSH_HOST_PUBLIC_KEY_MD5.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SSH_HOST_PUBLIC_KEY_MD5.pdf'
+'docs/libcurl/opts/CURLOPT_KRBLEVEL.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_KRBLEVEL.html'
+'docs/libcurl/opts/CURLOPT_PUT.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_PUT.html'
+'docs/libcurl/opts/CURLOPT_SSL_VERIFYSTATUS.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SSL_VERIFYSTATUS.html'
+'docs/libcurl/opts/CURLOPT_COOKIE.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_COOKIE.pdf'
+'docs/libcurl/opts/CURLOPT_RTSP_STREAM_URI.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_RTSP_STREAM_URI.pdf'
+'docs/libcurl/opts/CURLINFO_RTSP_SERVER_CSEQ.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_RTSP_SERVER_CSEQ.pdf'
+'docs/libcurl/opts/CURLOPT_LOW_SPEED_LIMIT.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_LOW_SPEED_LIMIT.pdf'
+'docs/libcurl/opts/CURLOPT_HEADERDATA.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_HEADERDATA.pdf'
+'docs/libcurl/opts/CURLOPT_CAPATH.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_CAPATH.pdf'
+'docs/libcurl/opts/CURLOPT_SEEKDATA.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SEEKDATA.pdf'
+'docs/libcurl/opts/CURLOPT_STREAM_DEPENDS_E.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_STREAM_DEPENDS_E.pdf'
+'docs/libcurl/opts/CURLOPT_MAIL_FROM.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_MAIL_FROM.pdf'
+'docs/libcurl/opts/CURLOPT_SOCKS5_GSSAPI_SERVICE.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SOCKS5_GSSAPI_SERVICE.html'
+'docs/libcurl/opts/CURLOPT_INTERFACE.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_INTERFACE.pdf'
+'docs/libcurl/opts/CURLOPT_DIRLISTONLY.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_DIRLISTONLY.pdf'
+'docs/libcurl/opts/CURLOPT_INTERLEAVEDATA.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_INTERLEAVEDATA.pdf'
+'docs/libcurl/opts/CURLOPT_CONNECTTIMEOUT.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_CONNECTTIMEOUT.pdf'
+'docs/libcurl/opts/CURLOPT_LOW_SPEED_TIME.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_LOW_SPEED_TIME.pdf'
+'docs/libcurl/opts/CURLOPT_REFERER.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_REFERER.pdf'
+'docs/libcurl/opts/CURLINFO_EFFECTIVE_URL.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_EFFECTIVE_URL.pdf'
+'docs/libcurl/opts/CURLOPT_SSL_VERIFYHOST.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SSL_VERIFYHOST.pdf'
+'docs/libcurl/opts/CURLINFO_CONDITION_UNMET.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_CONDITION_UNMET.pdf'
+'docs/libcurl/opts/CURLOPT_FAILONERROR.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_FAILONERROR.pdf'
+'docs/libcurl/opts/CURLOPT_SSL_VERIFYHOST.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SSL_VERIFYHOST.html'
+'docs/libcurl/opts/CURLOPT_TELNETOPTIONS.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_TELNETOPTIONS.html'
+'docs/libcurl/opts/CURLMOPT_PUSHDATA.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLMOPT_PUSHDATA.html'
+'docs/libcurl/opts/CURLOPT_NEW_FILE_PERMS.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_NEW_FILE_PERMS.html'
+'docs/libcurl/opts/CURLOPT_GSSAPI_DELEGATION.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_GSSAPI_DELEGATION.html'
+'docs/libcurl/opts/CURLOPT_DEBUGFUNCTION.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_DEBUGFUNCTION.pdf'
+'docs/libcurl/opts/CURLOPT_COOKIE.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_COOKIE.html'
+'docs/libcurl/opts/CURLOPT_TLSAUTH_PASSWORD.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_TLSAUTH_PASSWORD.pdf'
+'docs/libcurl/opts/CURLINFO_RTSP_CSEQ_RECV.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_RTSP_CSEQ_RECV.pdf'
+'docs/libcurl/opts/CURLOPT_DEFAULT_PROTOCOL.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_DEFAULT_PROTOCOL.html'
+'docs/libcurl/opts/CURLOPT_CHUNK_BGN_FUNCTION.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_CHUNK_BGN_FUNCTION.pdf'
+'docs/libcurl/opts/CURLOPT_CAPATH.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_CAPATH.html'
+'docs/libcurl/opts/CURLOPT_HTTP_CONTENT_DECODING.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_HTTP_CONTENT_DECODING.pdf'
+'docs/libcurl/opts/CURLMOPT_SOCKETFUNCTION.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLMOPT_SOCKETFUNCTION.html'
+'docs/libcurl/opts/CURLOPT_SSLENGINE_DEFAULT.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SSLENGINE_DEFAULT.html'
+'docs/libcurl/opts/CURLOPT_SSLKEYTYPE.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SSLKEYTYPE.pdf'
+'docs/libcurl/opts/CURLINFO_LOCAL_IP.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_LOCAL_IP.html'
+'docs/libcurl/opts/CURLINFO_PRETRANSFER_TIME.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_PRETRANSFER_TIME.html'
+'docs/libcurl/opts/CURLOPT_TCP_NODELAY.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_TCP_NODELAY.pdf'
+'docs/libcurl/opts/CURLOPT_SOCKOPTFUNCTION.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SOCKOPTFUNCTION.html'
+'docs/libcurl/opts/CURLOPT_MAXREDIRS.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_MAXREDIRS.pdf'
+'docs/libcurl/opts/CURLINFO_TLS_SESSION.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_TLS_SESSION.html'
+'docs/libcurl/opts/CURLOPT_IGNORE_CONTENT_LENGTH.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_IGNORE_CONTENT_LENGTH.html'
+'docs/libcurl/opts/CURLOPT_TCP_KEEPALIVE.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_TCP_KEEPALIVE.pdf'
+'docs/libcurl/opts/CURLMOPT_MAXCONNECTS.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLMOPT_MAXCONNECTS.pdf'
+'docs/libcurl/opts/CURLOPT_CONV_TO_NETWORK_FUNCTION.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_CONV_TO_NETWORK_FUNCTION.html'
+'docs/libcurl/opts/CURLMOPT_PIPELINING.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLMOPT_PIPELINING.pdf'
+'docs/libcurl/opts/CURLINFO_SPEED_DOWNLOAD.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_SPEED_DOWNLOAD.pdf'
+'docs/libcurl/opts/CURLOPT_LOGIN_OPTIONS.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_LOGIN_OPTIONS.pdf'
+'docs/libcurl/opts/CURLOPT_INFILESIZE.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_INFILESIZE.pdf'
+'docs/libcurl/opts/CURLOPT_RTSP_SESSION_ID.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_RTSP_SESSION_ID.pdf'
+'docs/libcurl/opts/CURLOPT_NETRC.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_NETRC.pdf'
+'docs/libcurl/opts/CURLOPT_SOCKOPTDATA.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SOCKOPTDATA.html'
+'docs/libcurl/opts/CURLOPT_SSH_HOST_PUBLIC_KEY_MD5.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SSH_HOST_PUBLIC_KEY_MD5.html'
+'docs/libcurl/opts/CURLOPT_REDIR_PROTOCOLS.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_REDIR_PROTOCOLS.html'
+'docs/libcurl/opts/CURLOPT_FILETIME.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_FILETIME.pdf'
+'docs/libcurl/opts/CURLINFO_CONTENT_LENGTH_UPLOAD.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_CONTENT_LENGTH_UPLOAD.html'
+'docs/libcurl/opts/CURLOPT_GSSAPI_DELEGATION.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_GSSAPI_DELEGATION.pdf'
+'docs/libcurl/opts/CURLINFO_NUM_CONNECTS.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_NUM_CONNECTS.pdf'
+'docs/libcurl/opts/CURLOPT_SSLKEYTYPE.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SSLKEYTYPE.html'
+'docs/libcurl/opts/CURLOPT_SSH_KEYDATA.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SSH_KEYDATA.html'
+'docs/libcurl/opts/CURLOPT_RESUME_FROM.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_RESUME_FROM.html'
+'docs/libcurl/opts/CURLOPT_ADDRESS_SCOPE.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_ADDRESS_SCOPE.html'
+'docs/libcurl/opts/CURLOPT_MAXFILESIZE_LARGE.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_MAXFILESIZE_LARGE.pdf'
+'docs/libcurl/opts/CURLINFO_PRIMARY_PORT.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_PRIMARY_PORT.pdf'
+'docs/libcurl/opts/CURLOPT_RTSP_REQUEST.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_RTSP_REQUEST.html'
+'docs/libcurl/opts/CURLOPT_URL.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_URL.html'
+'docs/libcurl/opts/CURLOPT_TCP_KEEPIDLE.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_TCP_KEEPIDLE.html'
+'docs/libcurl/opts/CURLOPT_APPEND.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_APPEND.pdf'
+'docs/libcurl/opts/CURLOPT_RTSP_TRANSPORT.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_RTSP_TRANSPORT.html'
+'docs/libcurl/opts/CURLOPT_OPENSOCKETDATA.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_OPENSOCKETDATA.html'
+'docs/libcurl/opts/CURLOPT_FTPSSLAUTH.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_FTPSSLAUTH.pdf'
+'docs/libcurl/opts/CURLOPT_MAXREDIRS.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_MAXREDIRS.html'
+'docs/libcurl/opts/CURLOPT_SSL_ENABLE_NPN.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SSL_ENABLE_NPN.html'
+'docs/libcurl/opts/CURLOPT_HTTP_VERSION.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_HTTP_VERSION.pdf'
+'docs/libcurl/opts/CURLOPT_SSL_FALSESTART.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SSL_FALSESTART.html'
+'docs/libcurl/opts/CURLOPT_USERPWD.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_USERPWD.html'
+'docs/libcurl/opts/CURLOPT_READFUNCTION.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_READFUNCTION.html'
+'docs/libcurl/opts/CURLOPT_PASSWORD.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_PASSWORD.html'
+'docs/libcurl/opts/CURLINFO_STARTTRANSFER_TIME.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_STARTTRANSFER_TIME.pdf'
+'docs/libcurl/opts/CURLOPT_CONV_FROM_UTF8_FUNCTION.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_CONV_FROM_UTF8_FUNCTION.html'
+'docs/libcurl/opts/CURLOPT_SSLVERSION.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SSLVERSION.pdf'
+'docs/libcurl/opts/CURLOPT_LOGIN_OPTIONS.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_LOGIN_OPTIONS.html'
+'docs/libcurl/opts/CURLOPT_POSTQUOTE.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_POSTQUOTE.pdf'
+'docs/libcurl/opts/CURLOPT_REDIR_PROTOCOLS.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_REDIR_PROTOCOLS.pdf'
+'docs/libcurl/opts/CURLOPT_KEYPASSWD.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_KEYPASSWD.pdf'
+'docs/libcurl/opts/CURLOPT_FNMATCH_DATA.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_FNMATCH_DATA.html'
+'docs/libcurl/opts/CURLMOPT_PIPELINING_SITE_BL.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLMOPT_PIPELINING_SITE_BL.html'
+'docs/libcurl/opts/CURLOPT_PIPEWAIT.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_PIPEWAIT.html'
+'docs/libcurl/opts/CURLOPT_FTP_FILEMETHOD.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_FTP_FILEMETHOD.pdf'
+'docs/libcurl/opts/CURLMOPT_PUSHDATA.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLMOPT_PUSHDATA.pdf'
+'docs/libcurl/opts/CURLINFO_APPCONNECT_TIME.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_APPCONNECT_TIME.html'
+'docs/libcurl/opts/CURLOPT_WILDCARDMATCH.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_WILDCARDMATCH.html'
+'docs/libcurl/opts/CURLOPT_PRIVATE.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_PRIVATE.html'
+'docs/libcurl/opts/CURLOPT_FTP_SKIP_PASV_IP.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_FTP_SKIP_PASV_IP.html'
+'docs/libcurl/opts/CURLOPT_ERRORBUFFER.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_ERRORBUFFER.html'
+'docs/libcurl/opts/CURLOPT_SSL_ENABLE_ALPN.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SSL_ENABLE_ALPN.html'
+'docs/libcurl/opts/CURLOPT_SSL_OPTIONS.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SSL_OPTIONS.pdf'
+'docs/libcurl/opts/CURLOPT_COPYPOSTFIELDS.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_COPYPOSTFIELDS.pdf'
+'docs/libcurl/opts/CURLOPT_TIMEOUT.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_TIMEOUT.pdf'
+'docs/libcurl/opts/CURLINFO_RTSP_SESSION_ID.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_RTSP_SESSION_ID.html'
+'docs/libcurl/opts/CURLOPT_CHUNK_DATA.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_CHUNK_DATA.pdf'
+'docs/libcurl/opts/CURLINFO_SPEED_DOWNLOAD.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_SPEED_DOWNLOAD.html'
+'docs/libcurl/opts/CURLOPT_COOKIELIST.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_COOKIELIST.html'
+'docs/libcurl/opts/CURLOPT_CERTINFO.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_CERTINFO.pdf'
+'docs/libcurl/opts/CURLINFO_CONTENT_TYPE.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_CONTENT_TYPE.pdf'
+'docs/libcurl/opts/CURLOPT_STREAM_WEIGHT.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_STREAM_WEIGHT.pdf'
+'docs/libcurl/opts/CURLMOPT_MAX_TOTAL_CONNECTIONS.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLMOPT_MAX_TOTAL_CONNECTIONS.pdf'
+'docs/libcurl/opts/CURLOPT_ISSUERCERT.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_ISSUERCERT.pdf'
+'docs/libcurl/opts/CURLOPT_USERNAME.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_USERNAME.pdf'
+'docs/libcurl/opts/CURLOPT_OPENSOCKETFUNCTION.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_OPENSOCKETFUNCTION.pdf'
+'docs/libcurl/opts/CURLINFO_LOCAL_PORT.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_LOCAL_PORT.pdf'
+'docs/libcurl/opts/CURLOPT_TELNETOPTIONS.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_TELNETOPTIONS.pdf'
+'docs/libcurl/opts/CURLOPT_TLSAUTH_PASSWORD.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_TLSAUTH_PASSWORD.html'
+'docs/libcurl/opts/CURLOPT_DNS_USE_GLOBAL_CACHE.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_DNS_USE_GLOBAL_CACHE.pdf'
+'docs/libcurl/opts/CURLOPT_IOCTLDATA.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_IOCTLDATA.html'
+'docs/libcurl/opts/CURLOPT_DEFAULT_PROTOCOL.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_DEFAULT_PROTOCOL.pdf'
+'docs/libcurl/opts/CURLOPT_TIMECONDITION.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_TIMECONDITION.pdf'
+'docs/libcurl/opts/CURLINFO_PROXYAUTH_AVAIL.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_PROXYAUTH_AVAIL.html'
+'docs/libcurl/opts/CURLINFO_REDIRECT_COUNT.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_REDIRECT_COUNT.html'
+'docs/libcurl/opts/CURLOPT_CHUNK_END_FUNCTION.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_CHUNK_END_FUNCTION.pdf'
+'docs/libcurl/opts/CURLOPT_COOKIESESSION.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_COOKIESESSION.pdf'
+'docs/libcurl/opts/CURLINFO_LASTSOCKET.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_LASTSOCKET.html'
+'docs/libcurl/opts/CURLINFO_RTSP_CLIENT_CSEQ.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_RTSP_CLIENT_CSEQ.html'
+'docs/libcurl/opts/CURLMOPT_TIMERDATA.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLMOPT_TIMERDATA.pdf'
+'docs/libcurl/opts/CURLOPT_CLOSESOCKETFUNCTION.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_CLOSESOCKETFUNCTION.html'
+'docs/libcurl/opts/CURLOPT_NOPROXY.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_NOPROXY.pdf'
+'docs/libcurl/opts/CURLOPT_PROGRESSFUNCTION.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_PROGRESSFUNCTION.html'
+'docs/libcurl/opts/CURLOPT_PROXYHEADER.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_PROXYHEADER.html'
+'docs/libcurl/opts/CURLINFO_FILETIME.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_FILETIME.html'
+'docs/libcurl/opts/CURLOPT_NETRC_FILE.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_NETRC_FILE.html'
+'docs/libcurl/opts/CURLOPT_POSTFIELDS.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_POSTFIELDS.pdf'
+'docs/libcurl/opts/CURLOPT_CUSTOMREQUEST.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_CUSTOMREQUEST.pdf'
+'docs/libcurl/opts/CURLOPT_POSTREDIR.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_POSTREDIR.pdf'
+'docs/libcurl/opts/CURLOPT_HEADEROPT.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_HEADEROPT.pdf'
+'docs/libcurl/opts/CURLOPT_MAIL_AUTH.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_MAIL_AUTH.pdf'
+'docs/libcurl/opts/CURLINFO_HEADER_SIZE.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_HEADER_SIZE.pdf'
+'docs/libcurl/opts/CURLINFO_ACTIVESOCKET.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_ACTIVESOCKET.html'
+'docs/libcurl/opts/CURLMOPT_MAX_PIPELINE_LENGTH.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLMOPT_MAX_PIPELINE_LENGTH.pdf'
+'docs/libcurl/opts/CURLOPT_PROXY_SERVICE_NAME.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_PROXY_SERVICE_NAME.html'
+'docs/libcurl/opts/CURLOPT_USE_SSL.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_USE_SSL.html'
+'docs/libcurl/opts/CURLOPT_IPRESOLVE.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_IPRESOLVE.pdf'
+'docs/libcurl/opts/CURLOPT_CONNECTTIMEOUT_MS.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_CONNECTTIMEOUT_MS.html'
+'docs/libcurl/opts/CURLOPT_FTP_USE_EPRT.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_FTP_USE_EPRT.html'
+'docs/libcurl/opts/CURLOPT_SSL_ENABLE_NPN.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SSL_ENABLE_NPN.pdf'
+'docs/libcurl/opts/CURLOPT_EGDSOCKET.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_EGDSOCKET.html'
+'docs/libcurl/opts/CURLMOPT_PUSHFUNCTION.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLMOPT_PUSHFUNCTION.pdf'
+'docs/libcurl/opts/CURLOPT_POSTREDIR.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_POSTREDIR.html'
+'docs/libcurl/opts/CURLOPT_FTPSSLAUTH.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_FTPSSLAUTH.html'
+'docs/libcurl/opts/CURLOPT_NETRC.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_NETRC.html'
+'docs/libcurl/opts/CURLOPT_PROGRESSFUNCTION.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_PROGRESSFUNCTION.pdf'
+'docs/libcurl/opts/CURLOPT_SSH_KEYDATA.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SSH_KEYDATA.pdf'
+'docs/libcurl/opts/CURLINFO_REDIRECT_TIME.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_REDIRECT_TIME.pdf'
+'docs/libcurl/opts/CURLOPT_HTTPAUTH.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_HTTPAUTH.pdf'
+'docs/libcurl/opts/CURLINFO_EFFECTIVE_URL.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_EFFECTIVE_URL.html'
+'docs/libcurl/opts/CURLOPT_DNS_CACHE_TIMEOUT.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_DNS_CACHE_TIMEOUT.html'
+'docs/libcurl/opts/CURLOPT_SSL_CTX_FUNCTION.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SSL_CTX_FUNCTION.pdf'
+'docs/libcurl/opts/CURLOPT_SASL_IR.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SASL_IR.pdf'
+'docs/libcurl/opts/CURLOPT_HTTPPOST.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_HTTPPOST.pdf'
+'docs/libcurl/opts/CURLOPT_AUTOREFERER.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_AUTOREFERER.html'
+'docs/libcurl/opts/CURLOPT_TLSAUTH_USERNAME.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_TLSAUTH_USERNAME.html'
+'docs/libcurl/opts/CURLINFO_LASTSOCKET.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_LASTSOCKET.pdf'
+'docs/libcurl/opts/CURLOPT_SSLCERT.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SSLCERT.html'
+'docs/libcurl/opts/CURLOPT_PROTOCOLS.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_PROTOCOLS.pdf'
+'docs/libcurl/opts/CURLOPT_SSL_CIPHER_LIST.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SSL_CIPHER_LIST.html'
+'docs/libcurl/opts/CURLOPT_FAILONERROR.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_FAILONERROR.html'
+'docs/libcurl/opts/CURLOPT_PROXYAUTH.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_PROXYAUTH.pdf'
+'docs/libcurl/opts/CURLOPT_MAX_SEND_SPEED_LARGE.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_MAX_SEND_SPEED_LARGE.html'
+'docs/libcurl/opts/CURLOPT_DNS_LOCAL_IP4.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_DNS_LOCAL_IP4.html'
+'docs/libcurl/opts/CURLOPT_OPENSOCKETDATA.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_OPENSOCKETDATA.pdf'
+'docs/libcurl/opts/CURLOPT_CRLF.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_CRLF.html'
+'docs/libcurl/opts/CURLOPT_HTTP200ALIASES.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_HTTP200ALIASES.pdf'
+'docs/libcurl/opts/CURLINFO_RESPONSE_CODE.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_RESPONSE_CODE.html'
+'docs/libcurl/opts/CURLOPT_WRITEDATA.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_WRITEDATA.pdf'
+'docs/libcurl/opts/CURLOPT_SERVICE_NAME.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SERVICE_NAME.html'
+'docs/libcurl/opts/CURLOPT_READDATA.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_READDATA.html'
+'docs/libcurl/opts/CURLOPT_RESOLVE.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_RESOLVE.html'
+'docs/libcurl/opts/CURLOPT_ACCEPT_ENCODING.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_ACCEPT_ENCODING.pdf'
+'docs/libcurl/opts/CURLOPT_POSTFIELDSIZE.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_POSTFIELDSIZE.html'
+'docs/libcurl/opts/CURLOPT_FTP_ACCOUNT.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_FTP_ACCOUNT.html'
+'docs/libcurl/opts/CURLOPT_PROXYPORT.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_PROXYPORT.html'
+'docs/libcurl/opts/CURLOPT_APPEND.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_APPEND.html'
+'docs/libcurl/opts/CURLOPT_XFERINFODATA.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_XFERINFODATA.pdf'
+'docs/libcurl/opts/CURLOPT_CRLFILE.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_CRLFILE.html'
+'docs/libcurl/opts/CURLOPT_DNS_INTERFACE.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_DNS_INTERFACE.html'
+'docs/libcurl/opts/CURLOPT_XFERINFODATA.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_XFERINFODATA.html'
+'docs/libcurl/opts/CURLOPT_PINNEDPUBLICKEY.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_PINNEDPUBLICKEY.pdf'
+'docs/libcurl/opts/CURLINFO_SIZE_DOWNLOAD.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_SIZE_DOWNLOAD.pdf'
+'docs/libcurl/opts/CURLMOPT_SOCKETDATA.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLMOPT_SOCKETDATA.html'
+'docs/libcurl/opts/CURLOPT_FTP_SSL_CCC.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_FTP_SSL_CCC.pdf'
+'docs/libcurl/opts/CURLOPT_COOKIEJAR.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_COOKIEJAR.pdf'
+'docs/libcurl/opts/CURLOPT_INFILESIZE_LARGE.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_INFILESIZE_LARGE.pdf'
+'docs/libcurl/opts/CURLOPT_HTTP200ALIASES.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_HTTP200ALIASES.html'
+'docs/libcurl/opts/CURLOPT_POST.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_POST.html'
+'docs/libcurl/opts/CURLOPT_FILETIME.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_FILETIME.html'
+'docs/libcurl/opts/CURLMOPT_SOCKETDATA.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLMOPT_SOCKETDATA.pdf'
+'docs/libcurl/opts/CURLOPT_ACCEPT_ENCODING.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_ACCEPT_ENCODING.html'
+'docs/libcurl/opts/CURLOPT_TRANSFER_ENCODING.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_TRANSFER_ENCODING.pdf'
+'docs/libcurl/opts/CURLOPT_POSTFIELDSIZE.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_POSTFIELDSIZE.pdf'
+'docs/libcurl/opts/CURLOPT_STREAM_DEPENDS_E.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_STREAM_DEPENDS_E.html'
+'docs/libcurl/opts/CURLOPT_SSLCERT.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SSLCERT.pdf'
+'docs/libcurl/opts/CURLOPT_SSL_CTX_FUNCTION.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SSL_CTX_FUNCTION.html'
+'docs/libcurl/opts/CURLINFO_RTSP_CLIENT_CSEQ.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_RTSP_CLIENT_CSEQ.pdf'
+'docs/libcurl/opts/CURLOPT_PORT.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_PORT.pdf'
+'docs/libcurl/opts/CURLOPT_TLSAUTH_TYPE.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_TLSAUTH_TYPE.pdf'
+'docs/libcurl/opts/CURLINFO_FTP_ENTRY_PATH.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_FTP_ENTRY_PATH.pdf'
+'docs/libcurl/opts/CURLOPT_SSL_OPTIONS.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SSL_OPTIONS.html'
+'docs/libcurl/opts/CURLOPT_REFERER.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_REFERER.html'
+'docs/libcurl/opts/CURLINFO_SIZE_UPLOAD.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_SIZE_UPLOAD.pdf'
+'docs/libcurl/opts/CURLINFO_APPCONNECT_TIME.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_APPCONNECT_TIME.pdf'
+'docs/libcurl/opts/CURLOPT_PUT.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_PUT.pdf'
+'docs/libcurl/opts/CURLOPT_MAX_RECV_SPEED_LARGE.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_MAX_RECV_SPEED_LARGE.html'
+'docs/libcurl/opts/CURLOPT_ISSUERCERT.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_ISSUERCERT.html'
+'docs/libcurl/opts/CURLMOPT_PUSHFUNCTION.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLMOPT_PUSHFUNCTION.html'
+'docs/libcurl/opts/CURLOPT_HTTPPROXYTUNNEL.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_HTTPPROXYTUNNEL.html'
+'docs/libcurl/opts/CURLOPT_STDERR.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_STDERR.html'
+'docs/libcurl/opts/CURLOPT_IGNORE_CONTENT_LENGTH.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_IGNORE_CONTENT_LENGTH.pdf'
+'docs/libcurl/opts/CURLOPT_STREAM_WEIGHT.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_STREAM_WEIGHT.html'
+'docs/libcurl/opts/CURLOPT_AUTOREFERER.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_AUTOREFERER.pdf'
+'docs/libcurl/opts/CURLOPT_HTTPGET.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_HTTPGET.pdf'
+'docs/libcurl/opts/CURLOPT_SSH_KNOWNHOSTS.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SSH_KNOWNHOSTS.html'
+'docs/libcurl/opts/CURLINFO_HTTP_CONNECTCODE.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_HTTP_CONNECTCODE.pdf'
+'docs/libcurl/opts/CURLOPT_SOCKOPTDATA.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SOCKOPTDATA.pdf'
+'docs/libcurl/opts/CURLMOPT_MAX_HOST_CONNECTIONS.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLMOPT_MAX_HOST_CONNECTIONS.pdf'
+'docs/libcurl/opts/CURLOPT_PROXY_TRANSFER_MODE.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_PROXY_TRANSFER_MODE.pdf'
+'docs/libcurl/opts/CURLMOPT_PIPELINING_SERVER_BL.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLMOPT_PIPELINING_SERVER_BL.html'
+'docs/libcurl/opts/CURLOPT_IPRESOLVE.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_IPRESOLVE.html'
+'docs/libcurl/opts/CURLINFO_REQUEST_SIZE.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_REQUEST_SIZE.html'
+'docs/libcurl/opts/CURLOPT_CLOSESOCKETDATA.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_CLOSESOCKETDATA.pdf'
+'docs/libcurl/opts/CURLOPT_SSL_SESSIONID_CACHE.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SSL_SESSIONID_CACHE.html'
+'docs/libcurl/opts/CURLOPT_LOCALPORT.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_LOCALPORT.pdf'
+'docs/libcurl/opts/CURLOPT_USERPWD.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_USERPWD.pdf'
+'docs/libcurl/opts/CURLOPT_CONV_FROM_UTF8_FUNCTION.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_CONV_FROM_UTF8_FUNCTION.pdf'
+'docs/libcurl/opts/CURLINFO_SPEED_UPLOAD.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_SPEED_UPLOAD.html'
+'docs/libcurl/opts/CURLOPT_TIMEVALUE.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_TIMEVALUE.html'
+'docs/libcurl/opts/CURLOPT_HTTPHEADER.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_HTTPHEADER.pdf'
+'docs/libcurl/opts/CURLOPT_CONV_FROM_NETWORK_FUNCTION.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_CONV_FROM_NETWORK_FUNCTION.html'
+'docs/libcurl/opts/CURLOPT_DNS_CACHE_TIMEOUT.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_DNS_CACHE_TIMEOUT.pdf'
+'docs/libcurl/opts/CURLOPT_LOCALPORT.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_LOCALPORT.html'
+'docs/libcurl/opts/CURLOPT_PROXYPASSWORD.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_PROXYPASSWORD.html'
+'docs/libcurl/opts/CURLOPT_UNIX_SOCKET_PATH.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_UNIX_SOCKET_PATH.pdf'
+'docs/libcurl/opts/CURLINFO_HTTP_CONNECTCODE.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_HTTP_CONNECTCODE.html'
+'docs/libcurl/opts/CURLOPT_RANGE.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_RANGE.pdf'
+'docs/libcurl/opts/CURLINFO_PROXYAUTH_AVAIL.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_PROXYAUTH_AVAIL.pdf'
+'docs/libcurl/opts/CURLOPT_COOKIEFILE.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_COOKIEFILE.html'
+'docs/libcurl/opts/CURLOPT_SSLENGINE.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SSLENGINE.pdf'
+'docs/libcurl/opts/CURLOPT_NOSIGNAL.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_NOSIGNAL.pdf'
+'docs/libcurl/opts/CURLOPT_PROXYUSERNAME.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_PROXYUSERNAME.pdf'
+'docs/libcurl/opts/CURLOPT_FTP_ACCOUNT.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_FTP_ACCOUNT.pdf'
+'docs/libcurl/opts/CURLOPT_PROXY.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_PROXY.html'
+'docs/libcurl/opts/CURLOPT_RTSP_CLIENT_CSEQ.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_RTSP_CLIENT_CSEQ.pdf'
+'docs/libcurl/opts/CURLOPT_RESUME_FROM.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_RESUME_FROM.pdf'
+'docs/libcurl/opts/CURLOPT_SSL_ENABLE_ALPN.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SSL_ENABLE_ALPN.pdf'
+'docs/libcurl/opts/CURLOPT_DEBUGDATA.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_DEBUGDATA.html'
+'docs/libcurl/opts/CURLOPT_FRESH_CONNECT.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_FRESH_CONNECT.pdf'
+'docs/libcurl/opts/CURLOPT_INFILESIZE.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_INFILESIZE.html'
+'docs/libcurl/opts/CURLOPT_RESUME_FROM_LARGE.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_RESUME_FROM_LARGE.pdf'
+'docs/libcurl/opts/CURLINFO_HTTPAUTH_AVAIL.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_HTTPAUTH_AVAIL.pdf'
+'docs/libcurl/opts/CURLOPT_FORBID_REUSE.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_FORBID_REUSE.html'
+'docs/libcurl/opts/CURLINFO_PRIMARY_PORT.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_PRIMARY_PORT.html'
+'docs/libcurl/opts/CURLOPT_SEEKFUNCTION.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SEEKFUNCTION.pdf'
+'docs/libcurl/opts/CURLOPT_HTTPAUTH.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_HTTPAUTH.html'
+'docs/libcurl/opts/CURLOPT_TFTP_BLKSIZE.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_TFTP_BLKSIZE.html'
+'docs/libcurl/opts/CURLOPT_MAXCONNECTS.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_MAXCONNECTS.html'
+'docs/libcurl/opts/CURLOPT_SSLCERTTYPE.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SSLCERTTYPE.html'
+'docs/libcurl/opts/CURLOPT_PROXYPORT.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_PROXYPORT.pdf'
+'docs/libcurl/opts/CURLOPT_SSH_PRIVATE_KEYFILE.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SSH_PRIVATE_KEYFILE.pdf'
+'docs/libcurl/opts/CURLOPT_COOKIELIST.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_COOKIELIST.pdf'
+'docs/libcurl/opts/CURLOPT_PATH_AS_IS.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_PATH_AS_IS.pdf'
+'docs/libcurl/opts/CURLOPT_SSLENGINE.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SSLENGINE.html'
+'docs/libcurl/opts/CURLINFO_RTSP_CSEQ_RECV.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_RTSP_CSEQ_RECV.html'
+'docs/libcurl/opts/CURLINFO_RESPONSE_CODE.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_RESPONSE_CODE.pdf'
+'docs/libcurl/opts/CURLOPT_FTPPORT.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_FTPPORT.html'
+'docs/libcurl/opts/CURLOPT_SHARE.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SHARE.pdf'
+'docs/libcurl/opts/CURLOPT_RANDOM_FILE.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_RANDOM_FILE.html'
+'docs/libcurl/opts/CURLOPT_FNMATCH_DATA.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_FNMATCH_DATA.pdf'
+'docs/libcurl/opts/CURLOPT_CHUNK_DATA.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_CHUNK_DATA.html'
+'docs/libcurl/opts/CURLOPT_UPLOAD.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_UPLOAD.pdf'
+'docs/libcurl/opts/CURLOPT_HEADER.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_HEADER.html'
+'docs/libcurl/opts/CURLOPT_CONNECTTIMEOUT.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_CONNECTTIMEOUT.html'
+'docs/libcurl/opts/CURLOPT_HEADERDATA.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_HEADERDATA.html'
+'docs/libcurl/opts/CURLINFO_PRIMARY_IP.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_PRIMARY_IP.pdf'
+'docs/libcurl/opts/CURLOPT_PASSWORD.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_PASSWORD.pdf'
+'docs/libcurl/opts/CURLOPT_INTERFACE.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_INTERFACE.html'
+'docs/libcurl/opts/CURLOPT_FRESH_CONNECT.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_FRESH_CONNECT.html'
+'docs/libcurl/opts/CURLINFO_CONNECT_TIME.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLINFO_CONNECT_TIME.html'
+'docs/libcurl/opts/CURLOPT_DIRLISTONLY.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_DIRLISTONLY.html'
+'docs/libcurl/opts/CURLOPT_SOCKS5_GSSAPI_NEC.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/opts/CURLOPT_SOCKS5_GSSAPI_NEC.pdf'
+'docs/libcurl/curl_share_init.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_share_init.html'
+'docs/libcurl/curl_version_info.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_version_info.html'
+'docs/libcurl/curl_multi_remove_handle.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_multi_remove_handle.pdf'
+'docs/libcurl/curl_easy_reset.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_easy_reset.pdf'
+'docs/libcurl/curl_easy_escape.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_easy_escape.html'
+'docs/libcurl/curl_multi_fdset.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_multi_fdset.html'
+'docs/libcurl/curl_multi_strerror.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_multi_strerror.pdf'
+'docs/libcurl/curl_share_init.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_share_init.pdf'
+'docs/libcurl/libcurl-multi.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/libcurl-multi.pdf'
+'docs/libcurl/curl_global_init_mem.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_global_init_mem.pdf'
+'docs/libcurl/curl_share_setopt.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_share_setopt.html'
+'docs/libcurl/curl_easy_reset.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_easy_reset.html'
+'docs/libcurl/curl_slist_free_all.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/libcurl/curl_slist_free_all.html'
+'docs/mk-ca-bundle.html' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/mk-ca-bundle.html'
+'docs/mk-ca-bundle.pdf' -> '/tmp/work/pkg/usr/share/doc/curl-7.47.1/mk-ca-bundle.pdf'
+'/tmp/work/pkg/lib/libcurl.so' -> 'libcurl.so.4.4.0'
+'/tmp/work/pkg/usr/lib/libcurl.so' -> '../../lib/libcurl.so.4.4.0'
+'/tmp/work/pkg/lib/libcurl.so.4' -> 'libcurl.so.4.4.0'
+'/tmp/work/pkg/usr/lib/libcurl.so.4' -> '../../lib/libcurl.so.4.4.0'
+'/tmp/work/pkg/usr/lib/libcurl.so.4.4.0' -> '../../lib/libcurl.so.4.4.0'
+=======> curl arşivine üstbilgiler ekleniyor.
+=======> curl#7.47.1-armv7l.mps sıkıştırılıyor.

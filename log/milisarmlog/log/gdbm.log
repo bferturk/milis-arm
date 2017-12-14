@@ -1,0 +1,429 @@
+=======> isim: gdbm
+=======> surum: 1.11
+=======> devir: 1
+=======> İndiriliyor http://ftp.gnu.org/gnu/gdbm/gdbm-1.11.tar.gz
+=======> kayıt:/sources/gdbm-1.11.tar.gz
+hash kontrol dosyası yok-hash kontrolü yapılmayacak.
+=======> Derleniyor '/root/milis-arm/temel/gdbm/gdbm#1.11-armv7l.mps.lz'.
+tar -p -C /tmp/work/src -xf /sources/gdbm-1.11.tar.gz
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make supports nested variables... (cached) yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking build system type... armv7l-unknown-linux-gnueabihf
+checking host system type... armv7l-unknown-linux-gnueabihf
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert armv7l-unknown-linux-gnueabihf file names to armv7l-unknown-linux-gnueabihf format... func_convert_file_noop
+checking how to convert armv7l-unknown-linux-gnueabihf file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... no
+checking if : is a manifest tool... no
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/usr/bin/ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... 64
+checking for bison... bison -y
+checking for flex... flex
+checking lex output file root... lex.yy
+checking lex library... -lfl
+checking whether yytext is a pointer... yes
+checking for an ANSI C-conforming const... yes
+checking for unsigned long long int... yes
+checking whether NLS is requested... yes
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for ld used by GCC... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for shared library run path origin... done
+checking for CFPreferencesCopyAppValue... no
+checking for CFLocaleCopyCurrent... no
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking sys/file.h usability... yes
+checking sys/file.h presence... yes
+checking for sys/file.h... yes
+checking sys/termios.h usability... yes
+checking sys/termios.h presence... yes
+checking for sys/termios.h... yes
+checking for string.h... (cached) yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking getopt.h usability... yes
+checking getopt.h presence... yes
+checking for getopt.h... yes
+checking for main in -ldbm... yes
+checking for main in -lndbm... no
+checking for rename... yes
+checking for ftruncate... yes
+checking for flock... yes
+checking for lockf... yes
+checking for fsync... yes
+checking for setlocale... yes
+checking for getopt_long... yes
+checking for stdlib.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for sys/param.h... yes
+checking for getpagesize... yes
+checking for working mmap... yes
+checking for msync... yes
+checking for off_t... yes
+checking size of off_t... 8
+checking for struct stat.st_blksize... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating tests/Makefile
+config.status: creating tests/atlocal
+config.status: creating po/Makefile.in
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating src/gdbm.h
+config.status: creating doc/Makefile
+config.status: creating compat/Makefile
+config.status: creating export/Makefile
+config.status: creating autoconf.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing po-directories commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+config.status: executing tests/atconfig commands
+/usr/bin/make  all-recursive
+make[1]: Entering directory '/tmp/work/src/gdbm-1.11'
+Making all in po
+make[2]: Entering directory '/tmp/work/src/gdbm-1.11/po'
+make[2]: Leaving directory '/tmp/work/src/gdbm-1.11/po'
+Making all in src
+make[2]: Entering directory '/tmp/work/src/gdbm-1.11/src'
+  CC       progname.o
+  CC       err.o
+  CC       mem.o
+  CC       parseopt.o
+  CC       gdbmclose.lo
+  CC       gdbmcount.lo
+  CC       gdbmdelete.lo
+  CC       gdbmdump.lo
+  CC       gdbmerrno.lo
+  CC       gdbmexists.lo
+  CC       gdbmexp.lo
+  CC       gdbmfdesc.lo
+  CC       gdbmfetch.lo
+  CC       gdbmload.lo
+  CC       gdbmopen.lo
+  CC       gdbmimp.lo
+  CC       gdbmreorg.lo
+  CC       gdbmseq.lo
+  CC       gdbmsetopt.lo
+  CC       gdbmstore.lo
+  CC       gdbmsync.lo
+  CC       base64.lo
+  CC       bucket.lo
+  CC       falloc.lo
+  CC       findkey.lo
+  CC       fullio.lo
+  CC       hash.lo
+  CC       lock.lo
+  CC       mmap.lo
+  CC       update.lo
+  CC       version.lo
+  CC       datconv.o
+  CC       gram.o
+  CC       lex.o
+  CC       gdbmtool.o
+  CC       var.o
+  CC       util.o
+  CC       gdbm_load.o
+  CC       gdbm_dump.o
+  AR       libgdbmapp.a
+  CCLD     libgdbm.la
+  CCLD     gdbm_load
+  CCLD     gdbm_dump
+  CCLD     gdbmtool
+make[2]: Leaving directory '/tmp/work/src/gdbm-1.11/src'
+Making all in doc
+make[2]: Entering directory '/tmp/work/src/gdbm-1.11/doc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/tmp/work/src/gdbm-1.11/doc'
+Making all in compat
+make[2]: Entering directory '/tmp/work/src/gdbm-1.11/compat'
+  CC       fetch.lo
+  CC       dbminit.lo
+  CC       delete.lo
+  CC       store.lo
+  CC       seq.lo
+  CC       close.lo
+  CC       dbmopen.lo
+  CC       dbmdelete.lo
+  CC       dbmerr.lo
+  CC       dbmfetch.lo
+  CC       dbmstore.lo
+  CC       dbmseq.lo
+  CC       dbmclose.lo
+  CC       dbmdirfno.lo
+  CC       dbmpagfno.lo
+  CC       dbmrdonly.lo
+  CCLD     libgdbm_compat.la
+make[2]: Leaving directory '/tmp/work/src/gdbm-1.11/compat'
+Making all in tests
+make[2]: Entering directory '/tmp/work/src/gdbm-1.11/tests'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/tmp/work/src/gdbm-1.11/tests'
+make[2]: Entering directory '/tmp/work/src/gdbm-1.11'
+make[2]: Leaving directory '/tmp/work/src/gdbm-1.11'
+make[1]: Leaving directory '/tmp/work/src/gdbm-1.11'
+Making check in po
+make[1]: Entering directory '/tmp/work/src/gdbm-1.11/po'
+make[1]: Leaving directory '/tmp/work/src/gdbm-1.11/po'
+Making check in src
+make[1]: Entering directory '/tmp/work/src/gdbm-1.11/src'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/tmp/work/src/gdbm-1.11/src'
+Making check in doc
+make[1]: Entering directory '/tmp/work/src/gdbm-1.11/doc'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/tmp/work/src/gdbm-1.11/doc'
+Making check in compat
+make[1]: Entering directory '/tmp/work/src/gdbm-1.11/compat'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/tmp/work/src/gdbm-1.11/compat'
+Making check in tests
+make[1]: Entering directory '/tmp/work/src/gdbm-1.11/tests'
+/usr/bin/make  fdop g_open_ce g_reorg_ce gtdel gtdump gtfetch gtload gtopt gtver num2word dtload dtdump dtfetch dtdel d_creat_ce
+make[2]: Entering directory '/tmp/work/src/gdbm-1.11/tests'
+  CC       fdop.o
+  CC       g_open_ce.o
+  CC       gtdump.o
+  CC       g_reorg_ce.o
+  CC       gtdel.o
+  CC       gtfetch.o
+  CC       gtload.o
+  CC       gtopt.o
+  CC       gtver.o
+  CC       num2word.o
+  CC       dtload.o
+  CC       dtdump.o
+  CC       dtfetch.o
+  CC       dtdel.o
+  CC       d_creat_ce.o
+  CCLD     fdop
+  CCLD     g_open_ce
+  CCLD     g_reorg_ce
+  CCLD     gtdel
+  CCLD     gtdump
+  CCLD     gtfetch
+  CCLD     gtload
+  CCLD     gtopt
+  CCLD     gtver
+  CCLD     num2word
+  CCLD     dtload
+  CCLD     dtdump
+  CCLD     dtfetch
+  CCLD     dtdel
+  CCLD     d_creat_ce
+make[2]: Leaving directory '/tmp/work/src/gdbm-1.11/tests'
+/usr/bin/make  check-local
+make[2]: Entering directory '/tmp/work/src/gdbm-1.11/tests'
+/bin/sh ./testsuite
+## --------------------- ##
+## gdbm 1.11 test suite. ##
+## --------------------- ##
+  1: gdbm version                                    ok
+
+GDBM interface
+
+  2: create database                                 ok
+  3: fetch a record                                  ok
+  4: fetch: nonexisting record                       ok
+  5: delete a record                                 ok
+  6: delete: non existing record                     ok
+  7: delete: all records                             ok
+
+Compatibility library (dbm/ndbm)
+
+  8: create database                                 ok
+  9: converting a 1.8-style database                 ok
+ 10: fetch a record                                  ok
+ 11: fetch: nonexisting record                       ok
+ 12: fetch from a read-only database                 ok
+ 13: fetch from a read-only 1.8-style database       ok
+ 14: delete a record                                 ok
+ 15: delete: non existing record                     ok
+ 16: delete: all records                             ok
+
+DB options
+
+ 17: setopt                                          ok
+ 18: setopt: mmap options                            ok
+
+Cloexec
+
+ 19: cloexec: gdbm_open                              ok
+ 20: cloexec: gdbm_reorganize                        ok
+ 21: cloexec: dbm_open                               ok
+ 22: cloexec: dbm_open -creat                        ok
+
+## ------------- ##
+## Test results. ##
+## ------------- ##
+
+All 22 tests were successful.
+make[2]: Leaving directory '/tmp/work/src/gdbm-1.11/tests'
+make[1]: Leaving directory '/tmp/work/src/gdbm-1.11/tests'
+make[1]: Entering directory '/tmp/work/src/gdbm-1.11'
+make[1]: Leaving directory '/tmp/work/src/gdbm-1.11'
+Making install in po
+make[1]: Entering directory '/tmp/work/src/gdbm-1.11/po'
+installing de.gmo as /tmp/work/pkg/usr/share/locale/de/LC_MESSAGES/gdbm.mo
+installing eo.gmo as /tmp/work/pkg/usr/share/locale/eo/LC_MESSAGES/gdbm.mo
+installing fi.gmo as /tmp/work/pkg/usr/share/locale/fi/LC_MESSAGES/gdbm.mo
+installing fr.gmo as /tmp/work/pkg/usr/share/locale/fr/LC_MESSAGES/gdbm.mo
+installing ja.gmo as /tmp/work/pkg/usr/share/locale/ja/LC_MESSAGES/gdbm.mo
+installing pl.gmo as /tmp/work/pkg/usr/share/locale/pl/LC_MESSAGES/gdbm.mo
+installing pt_BR.gmo as /tmp/work/pkg/usr/share/locale/pt_BR/LC_MESSAGES/gdbm.mo
+installing sr.gmo as /tmp/work/pkg/usr/share/locale/sr/LC_MESSAGES/gdbm.mo
+installing uk.gmo as /tmp/work/pkg/usr/share/locale/uk/LC_MESSAGES/gdbm.mo
+installing vi.gmo as /tmp/work/pkg/usr/share/locale/vi/LC_MESSAGES/gdbm.mo
+if test "gdbm" = "gettext-tools"; then \
+  /bin/mkdir -p /tmp/work/pkg/usr/share/gettext/po; \
+  for file in Makefile.in.in remove-potcdate.sin quot.sed boldquot.sed en@quot.header en@boldquot.header insert-header.sin Rules-quot   Makevars.template; do \
+    /usr/bin/install -c -m 644 ./$file \
+		    /tmp/work/pkg/usr/share/gettext/po/$file; \
+  done; \
+  for file in Makevars; do \
+    rm -f /tmp/work/pkg/usr/share/gettext/po/$file; \
+  done; \
+else \
+  : ; \
+fi
+make[1]: Leaving directory '/tmp/work/src/gdbm-1.11/po'
+Making install in src
+make[1]: Entering directory '/tmp/work/src/gdbm-1.11/src'
+make[2]: Entering directory '/tmp/work/src/gdbm-1.11/src'
+ /bin/mkdir -p '/tmp/work/pkg/lib'
+ /bin/mkdir -p '/tmp/work/pkg/usr/include'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libgdbm.la '/tmp/work/pkg/lib'
+ /usr/bin/install -c -m 644 gdbm.h '/tmp/work/pkg/usr/include'
+libtool: install: /usr/bin/install -c .libs/libgdbm.so.4.0.0 /tmp/work/pkg/lib/libgdbm.so.4.0.0
+libtool: install: (cd /tmp/work/pkg/lib && { ln -s -f libgdbm.so.4.0.0 libgdbm.so.4 || { rm -f libgdbm.so.4 && ln -s libgdbm.so.4.0.0 libgdbm.so.4; }; })
+libtool: install: (cd /tmp/work/pkg/lib && { ln -s -f libgdbm.so.4.0.0 libgdbm.so || { rm -f libgdbm.so && ln -s libgdbm.so.4.0.0 libgdbm.so; }; })
+libtool: install: /usr/bin/install -c .libs/libgdbm.lai /tmp/work/pkg/lib/libgdbm.la
+libtool: install: /usr/bin/install -c .libs/libgdbm.a /tmp/work/pkg/lib/libgdbm.a
+libtool: install: chmod 644 /tmp/work/pkg/lib/libgdbm.a
+libtool: install: ranlib /tmp/work/pkg/lib/libgdbm.a
+ /bin/mkdir -p '/tmp/work/pkg/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c gdbmtool gdbm_load gdbm_dump '/tmp/work/pkg/bin'
+libtool: install: /usr/bin/install -c .libs/gdbmtool /tmp/work/pkg/bin/gdbmtool
+libtool: install: /usr/bin/install -c .libs/gdbm_load /tmp/work/pkg/bin/gdbm_load
+libtool: install: /usr/bin/install -c .libs/gdbm_dump /tmp/work/pkg/bin/gdbm_dump
+make[2]: Leaving directory '/tmp/work/src/gdbm-1.11/src'
+make[1]: Leaving directory '/tmp/work/src/gdbm-1.11/src'
+Making install in doc
+make[1]: Entering directory '/tmp/work/src/gdbm-1.11/doc'
+make[2]: Entering directory '/tmp/work/src/gdbm-1.11/doc'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/tmp/work/pkg/usr/share/man/man3'
+ /bin/mkdir -p '/tmp/work/pkg/usr/share/man/man1'
+ /bin/mkdir -p '/tmp/work/pkg/usr/share/info'
+ /usr/bin/install -c -m 644 gdbm_dump.1 gdbm_load.1 gdbmtool.1 '/tmp/work/pkg/usr/share/man/man1'
+ /usr/bin/install -c -m 644 gdbm.3 '/tmp/work/pkg/usr/share/man/man3'
+ /usr/bin/install -c -m 644 ./gdbm.info '/tmp/work/pkg/usr/share/info'
+ install-info --info-dir='/tmp/work/pkg/usr/share/info' '/tmp/work/pkg/usr/share/info/gdbm.info'
+make[2]: Leaving directory '/tmp/work/src/gdbm-1.11/doc'
+make[1]: Leaving directory '/tmp/work/src/gdbm-1.11/doc'
+Making install in compat
+make[1]: Entering directory '/tmp/work/src/gdbm-1.11/compat'
+make[2]: Entering directory '/tmp/work/src/gdbm-1.11/compat'
+ /bin/mkdir -p '/tmp/work/pkg/lib'
+ /bin/mkdir -p '/tmp/work/pkg/usr/include'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libgdbm_compat.la '/tmp/work/pkg/lib'
+ /usr/bin/install -c -m 644 dbm.h ndbm.h '/tmp/work/pkg/usr/include'
+libtool: install: (cd /tmp/work/src/gdbm-1.11/compat; /bin/sh /tmp/work/src/gdbm-1.11/libtool  --silent --tag CC --mode=relink gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe -version-info 4:0:0 -o libgdbm_compat.la -rpath /lib dbminit.lo delete.lo fetch.lo store.lo seq.lo close.lo dbmopen.lo dbmdelete.lo dbmerr.lo dbmfetch.lo dbmstore.lo dbmseq.lo dbmclose.lo dbmdirfno.lo dbmpagfno.lo dbmrdonly.lo ../src/libgdbm.la -ldbm -inst-prefix-dir /tmp/work/pkg)
+libtool: install: /usr/bin/install -c .libs/libgdbm_compat.so.4.0.0T /tmp/work/pkg/lib/libgdbm_compat.so.4.0.0
+libtool: install: (cd /tmp/work/pkg/lib && { ln -s -f libgdbm_compat.so.4.0.0 libgdbm_compat.so.4 || { rm -f libgdbm_compat.so.4 && ln -s libgdbm_compat.so.4.0.0 libgdbm_compat.so.4; }; })
+libtool: install: (cd /tmp/work/pkg/lib && { ln -s -f libgdbm_compat.so.4.0.0 libgdbm_compat.so || { rm -f libgdbm_compat.so && ln -s libgdbm_compat.so.4.0.0 libgdbm_compat.so; }; })
+libtool: install: /usr/bin/install -c .libs/libgdbm_compat.lai /tmp/work/pkg/lib/libgdbm_compat.la
+libtool: install: /usr/bin/install -c .libs/libgdbm_compat.a /tmp/work/pkg/lib/libgdbm_compat.a
+libtool: install: chmod 644 /tmp/work/pkg/lib/libgdbm_compat.a
+libtool: install: ranlib /tmp/work/pkg/lib/libgdbm_compat.a
+make[2]: Leaving directory '/tmp/work/src/gdbm-1.11/compat'
+make[1]: Leaving directory '/tmp/work/src/gdbm-1.11/compat'
+Making install in tests
+make[1]: Entering directory '/tmp/work/src/gdbm-1.11/tests'
+make[2]: Entering directory '/tmp/work/src/gdbm-1.11/tests'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/tmp/work/src/gdbm-1.11/tests'
+make[1]: Leaving directory '/tmp/work/src/gdbm-1.11/tests'
+make[1]: Entering directory '/tmp/work/src/gdbm-1.11'
+make[2]: Entering directory '/tmp/work/src/gdbm-1.11'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/tmp/work/src/gdbm-1.11'
+make[1]: Leaving directory '/tmp/work/src/gdbm-1.11'
+=======> gdbm arşivine üstbilgiler ekleniyor.
+=======> gdbm#1.11-armv7l.mps sıkıştırılıyor.

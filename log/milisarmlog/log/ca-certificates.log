@@ -1,0 +1,11 @@
+=======> isim: ca-certificates
+=======> surum: 20160110
+=======> devir: 1
+=======> grup: ca
+=======> İndiriliyor http://downloads.nutyx.org/files/ca-certificates-20160110.tar.gz
+=======> kayıt:/sources/ca-certificates-20160110.tar.gz
+hash kontrol dosyası yok-hash kontrolü yapılmayacak.
+=======> Derleniyor '/root/milis-arm/temel/ca-certificates/ca-certificates#20160110-armv7l.mps.lz'.
+tar -p -C /tmp/work/src -xf /sources/ca-certificates-20160110.tar.gz
+=======> ca-certificates arşivine üstbilgiler ekleniyor.
+=======> ca-certificates#20160110-armv7l.mps sıkıştırılıyor.
