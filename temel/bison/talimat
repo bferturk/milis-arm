@@ -14,7 +14,7 @@ derle(){
 	./configure --prefix=/usr \
 	--docdir=/usr/share/doc/$isim-$surum
 	make
-	make check||true
+	#make check||true
 	make DESTDIR=$PKG install
 	rm -r $PKG/usr/share/info $PKG/usr/share/doc/
 	rm $PKG/usr/share/bison/README

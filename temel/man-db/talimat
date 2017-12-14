@@ -21,7 +21,7 @@ PKG_CONFIG_PATH="/usr/lib/pkgconfig" ./configure --prefix=/usr \
 
 make
 # Certains test fails
-make -k check || true
+#make -k check || true
 make DESTDIR=$PKG install
 cat >> convert-mans << "EOF"
 #!/bin/sh -e

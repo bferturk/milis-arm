@@ -14,7 +14,7 @@ derle() {
 	./configure --prefix=/usr
 	make
 	# Some checks fails
-	make check || true
+	#make check || true
 	make DESTDIR=$PKG install
 	rm -rf $PKG/usr/share/info/dir
 }

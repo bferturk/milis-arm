@@ -18,7 +18,7 @@ sed -i -e '/test-bison/d' tests/Makefile.in
 --docdir=/usr/share/doc/flex-$surum
 
 make
-make -k check||true
+#make -k check||true
 
 make DESTDIR=$PKG install
 

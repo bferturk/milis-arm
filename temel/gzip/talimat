@@ -15,7 +15,7 @@ cd gzip-$surum
 ./configure --prefix=/usr \
  --bindir=/bin --libdir=/lib
 make
-make -k check || true
+#make -k check || true
 make DESTDIR=$PKG install
 rm -rf $PKG/usr/share/info/dir
 }

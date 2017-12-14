@@ -1,0 +1,7 @@
+=======> isim: binutils
+=======> surum: 2.26
+=======> devir: 3
+=======> İndiriliyor http://ftp.gnu.org/gnu/binutils/binutils-2.26.tar.bz2
+=======> kayıt:/sources/binutils-2.26.tar.bz2
+=======> İndiriliyor http://www.linuxfromscratch.org/patches/lfs/development/binutils-2.26-upstream_fix-1.patch
+=======> kayıt:/sources/binutils-2.26-upstream_fix-1.patch
