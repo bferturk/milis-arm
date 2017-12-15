@@ -1,0 +1,143 @@
+=======> isim: gperf
+=======> surum: 3.0.4
+=======> devir: 1
+hash kontrol dosyası yok-hash kontrolü yapılmayacak.
+=======> Derleniyor '/root/milis-arm/temel/gperf/gperf#3.0.4-armv7l.mps.lz'.
+tar -p -C /tmp/work/src -xf /sources/gperf-3.0.4.tar.gz
+checking whether make sets $(MAKE)... yes
+configure: creating ./config.status
+config.status: creating Makefile
+=== configuring in lib (/tmp/work/src/gperf-3.0.4/lib)
+configure: running /bin/sh ./configure '--prefix=/usr'  '--docdir=/usr/share/doc/gperf-3.0.4' --cache-file=/dev/null --srcdir=.
+checking whether make sets $(MAKE)... yes
+checking for gcc... gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking how to run the C preprocessor... gcc -E
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking how to run the C++ preprocessor... g++ -E
+checking for ranlib... ranlib
+checking for a BSD compatible install... /usr/bin/install -c
+configure: creating ./config.status
+config.status: creating Makefile
+=== configuring in src (/tmp/work/src/gperf-3.0.4/src)
+configure: running /bin/sh ./configure '--prefix=/usr'  '--docdir=/usr/share/doc/gperf-3.0.4' --cache-file=/dev/null --srcdir=.
+checking whether make sets $(MAKE)... yes
+checking for gcc... gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking how to run the C preprocessor... gcc -E
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking how to run the C++ preprocessor... g++ -E
+checking for a BSD compatible install... /usr/bin/install -c
+checking for stack-allocated variable-size arrays... yes
+checking for rand in -lm... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating config.h
+=== configuring in tests (/tmp/work/src/gperf-3.0.4/tests)
+configure: running /bin/sh ./configure '--prefix=/usr'  '--docdir=/usr/share/doc/gperf-3.0.4' --cache-file=/dev/null --srcdir=.
+checking whether make sets $(MAKE)... yes
+checking for gcc... gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking how to run the C preprocessor... gcc -E
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking how to run the C++ preprocessor... g++ -E
+configure: creating ./config.status
+config.status: creating Makefile
+=== configuring in doc (/tmp/work/src/gperf-3.0.4/doc)
+configure: running /bin/sh ./configure '--prefix=/usr'  '--docdir=/usr/share/doc/gperf-3.0.4' --cache-file=/dev/null --srcdir=.
+checking whether make sets $(MAKE)... yes
+checking for a BSD compatible install... /usr/bin/install -c
+configure: creating ./config.status
+config.status: creating Makefile
+cd lib; /usr/bin/make all
+make[1]: Entering directory '/tmp/work/src/gperf-3.0.4/lib'
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  -I. -c ./getopt.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  -I. -c ./getopt1.c
+g++ -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  -I. -c ./getline.cc
+g++ -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  -I. -c ./hash.cc
+rm -f libgp.a
+ar rc libgp.a getopt.o getopt1.o getline.o hash.o
+ranlib libgp.a
+make[1]: Leaving directory '/tmp/work/src/gperf-3.0.4/lib'
+cd src; /usr/bin/make all
+make[1]: Entering directory '/tmp/work/src/gperf-3.0.4/src'
+g++ -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  -I. -I./../lib -c ./version.cc
+g++ -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  -I. -I./../lib -c ./positions.cc
+g++ -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  -I. -I./../lib -c ./options.cc
+g++ -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  -I. -I./../lib -c ./keyword.cc
+g++ -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  -I. -I./../lib -c ./keyword-list.cc
+g++ -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  -I. -I./../lib -c ./input.cc
+g++ -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  -I. -I./../lib -c ./bool-array.cc
+g++ -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  -I. -I./../lib -c ./hash-table.cc
+g++ -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  -I. -I./../lib -c ./search.cc
+g++ -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  -I. -I./../lib -c ./output.cc
+g++ -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  -I. -I./../lib -c ./main.cc
+g++ -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -o gperf version.o positions.o options.o keyword.o keyword-list.o input.o bool-array.o hash-table.o search.o output.o main.o ../lib/libgp.a -lm
+make[1]: Leaving directory '/tmp/work/src/gperf-3.0.4/src'
+cd tests; /usr/bin/make all
+make[1]: Entering directory '/tmp/work/src/gperf-3.0.4/tests'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/tmp/work/src/gperf-3.0.4/tests'
+cd doc; /usr/bin/make all
+make[1]: Entering directory '/tmp/work/src/gperf-3.0.4/doc'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/tmp/work/src/gperf-3.0.4/doc'
+cd lib; /usr/bin/make install
+make[1]: Entering directory '/tmp/work/src/gperf-3.0.4/lib'
+make[1]: Nothing to be done for 'install'.
+make[1]: Leaving directory '/tmp/work/src/gperf-3.0.4/lib'
+cd src; /usr/bin/make install
+make[1]: Entering directory '/tmp/work/src/gperf-3.0.4/src'
+/bin/sh ./../mkinstalldirs /tmp/work/pkg/usr/bin
+mkdir /tmp/work/pkg/usr
+mkdir /tmp/work/pkg/usr/bin
+/usr/bin/install -c gperf /tmp/work/pkg/usr/bin/gperf
+make[1]: Leaving directory '/tmp/work/src/gperf-3.0.4/src'
+cd tests; /usr/bin/make install
+make[1]: Entering directory '/tmp/work/src/gperf-3.0.4/tests'
+make[1]: Nothing to be done for 'install'.
+make[1]: Leaving directory '/tmp/work/src/gperf-3.0.4/tests'
+cd doc; /usr/bin/make install
+make[1]: Entering directory '/tmp/work/src/gperf-3.0.4/doc'
+/bin/sh ./../mkinstalldirs /tmp/work/pkg/usr/share/info
+mkdir /tmp/work/pkg/usr/share
+mkdir /tmp/work/pkg/usr/share/info
+/usr/bin/install -c -m 644 ./gperf.info /tmp/work/pkg/usr/share/info/gperf.info
+/bin/sh ./../mkinstalldirs /tmp/work/pkg/usr/share/man/man1
+mkdir /tmp/work/pkg/usr/share/man
+mkdir /tmp/work/pkg/usr/share/man/man1
+/usr/bin/install -c -m 644 ./gperf.1 /tmp/work/pkg/usr/share/man/man1/gperf.1
+/bin/sh ./../mkinstalldirs /tmp/work/pkg/usr/share/doc/gperf-3.0.4
+mkdir /tmp/work/pkg/usr/share/doc
+mkdir /tmp/work/pkg/usr/share/doc/gperf-3.0.4
+/usr/bin/install -c -m 644 ./gperf.html /tmp/work/pkg/usr/share/doc/gperf-3.0.4/gperf.html
+make[1]: Leaving directory '/tmp/work/src/gperf-3.0.4/doc'
+=======> gperf arşivine üstbilgiler ekleniyor.
+=======> gperf#3.0.4-armv7l.mps sıkıştırılıyor.

@@ -1,36 +1,48 @@
-[Dec 14 16:55]  acl paket mevcut -- geciliyor
-[Dec 14 16:55]  attr paket mevcut -- geciliyor
-[Dec 14 16:55]  autoconf paket mevcut -- geciliyor
-[Dec 14 16:56]  automake derleme basarili
-[Dec 14 17:03]  bash derleme basarili
-[Dec 14 17:07]  acl paket mevcut -- geciliyor
-[Dec 14 17:07]  attr paket mevcut -- geciliyor
-[Dec 14 17:07]  autoconf paket mevcut -- geciliyor
-[Dec 14 17:07]  automake paket mevcut -- geciliyor
-[Dec 14 17:07]  bash paket mevcut -- geciliyor
-[Dec 14 17:09]  bc derleme basarili
-[Dec 14 17:09]  binutils derleme basarisiz
-[Dec 14 17:37]  acl paket mevcut -- geciliyor
-[Dec 14 17:37]  attr paket mevcut -- geciliyor
-[Dec 14 17:37]  autoconf paket mevcut -- geciliyor
-[Dec 14 17:37]  automake paket mevcut -- geciliyor
-[Dec 14 17:37]  bash paket mevcut -- geciliyor
-[Dec 14 17:37]  bc paket mevcut -- geciliyor
-[Dec 14 17:37]  binutils derleme basarisiz
-[Dec 14 17:47]  bison derleme basarili
-[Dec 14 17:48]  bzip2 derleme basarili
-[Dec 14 17:48]  ca-certificates derleme basarili
-[Dec 14 18:06]  coreutils derleme basarili
-[Dec 14 18:15]  cpio derleme basarili
-[Dec 14 18:27]  curl derleme basarili
-[Dec 14 18:28]  dhcpcd derleme basarili
-[Dec 14 18:30]  dialog derleme basarili
-[Dec 14 18:38]  diffutils derleme basarili
-[Dec 14 18:44]  e2fsprogs derleme basarili
-[Dec 14 18:50]  eudev derleme basarili
-[Dec 14 18:52]  expat derleme basarili
-[Dec 14 18:55]  file derleme basarili
-[Dec 14 19:08]  findutils derleme basarili
-[Dec 14 19:12]  flex derleme basarili
-[Dec 14 19:17]  gawk derleme basarili
-[Dec 14 19:20]  gdbm derleme basarili
+[Dec 15 13:59]  acl paket mevcut -- geciliyor
+[Dec 15 13:59]  attr paket mevcut -- geciliyor
+[Dec 15 13:59]  autoconf paket mevcut -- geciliyor
+[Dec 15 13:59]  automake paket mevcut -- geciliyor
+[Dec 15 13:59]  bash paket mevcut -- geciliyor
+[Dec 15 13:59]  bc paket mevcut -- geciliyor
+[Dec 15 13:59]  binutils derleme basarisiz
+[Dec 15 13:59]  bison paket mevcut -- geciliyor
+[Dec 15 13:59]  bzip2 paket mevcut -- geciliyor
+[Dec 15 13:59]  ca-certificates paket mevcut -- geciliyor
+[Dec 15 13:59]  coreutils paket mevcut -- geciliyor
+[Dec 15 13:59]  cpio paket mevcut -- geciliyor
+[Dec 15 13:59]  curl paket mevcut -- geciliyor
+[Dec 15 13:59]  dhcpcd paket mevcut -- geciliyor
+[Dec 15 13:59]  dialog paket mevcut -- geciliyor
+[Dec 15 13:59]  diffutils paket mevcut -- geciliyor
+[Dec 15 13:59]  e2fsprogs paket mevcut -- geciliyor
+[Dec 15 13:59]  eudev paket mevcut -- geciliyor
+[Dec 15 13:59]  expat paket mevcut -- geciliyor
+[Dec 15 13:59]  file paket mevcut -- geciliyor
+[Dec 15 13:59]  findutils paket mevcut -- geciliyor
+[Dec 15 13:59]  flex paket mevcut -- geciliyor
+[Dec 15 13:59]  gawk paket mevcut -- geciliyor
+[Dec 15 13:59]  gdbm paket mevcut -- geciliyor
+[Dec 15 14:12]  gmp derleme basarili
+[Dec 15 14:14]  gperf derleme basarili
+[Dec 15 14:14]  gpm derleme basarisiz
+[Dec 15 14:14]  grep paket mevcut -- geciliyor
+[Dec 15 14:14]  groff paket mevcut -- geciliyor
+[Dec 15 14:14]  gzip paket mevcut -- geciliyor
+[Dec 15 14:14]  iana-etc paket mevcut -- geciliyor
+[Dec 15 14:14]  inetutils paket mevcut -- geciliyor
+[Dec 15 14:14]  iproute2 paket mevcut -- geciliyor
+[Dec 15 14:14]  kbd paket mevcut -- geciliyor
+[Dec 15 14:14]  kmod paket mevcut -- geciliyor
+[Dec 15 14:14]  less paket mevcut -- geciliyor
+[Dec 15 14:14]  libarchive paket mevcut -- geciliyor
+[Dec 15 14:14]  libcap paket mevcut -- geciliyor
+[Dec 15 14:14]  libpipeline paket mevcut -- geciliyor
+[Dec 15 14:14]  libtool paket mevcut -- geciliyor
+[Dec 15 14:18]  lvm2 derleme basarisiz
+[Dec 15 14:18]  lz4 paket mevcut -- geciliyor
+[Dec 15 14:18]  lzip derleme basarisiz
+[Dec 15 14:18]  lzo paket mevcut -- geciliyor
+[Dec 15 14:18]  m4 paket mevcut -- geciliyor
+[Dec 15 14:18]  make paket mevcut -- geciliyor
+[Dec 15 14:18]  man-db paket mevcut -- geciliyor
+[Dec 15 14:18]  mpc paket mevcut -- geciliyor

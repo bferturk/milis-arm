@@ -16,7 +16,7 @@ derle() {
 		ABI=32 ./configure --build=i686-pc-linux-gnu \
 		--prefix=/usr --enable-cxx --libdir=/lib ;;
      armv7l)
-		 ./configure --armv7l-unknown-linux-gnueabihf \
+		 ./configure --build=armv7l-unknown-linux-gnueabihf \
 		--prefix=/usr --enable-cxx --libdir=/lib ;;
 	 *)
 		./configure --build=x86_64-unknown-linux-gnu \

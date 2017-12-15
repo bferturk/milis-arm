@@ -11,7 +11,7 @@ kaynak=(http://ftp.gnu.org/gnu/make/make-$surum.tar.bz2)
 derle()
 {
 cd  make-$surum
-./configure --prefix=/usr
+./configure --prefix=/usr --without-guile 
 make
 make DESTDIR=$PKG install
 rm -rf $PKG/usr/share/info/dir
