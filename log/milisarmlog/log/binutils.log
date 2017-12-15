@@ -3,3 +3,22 @@
 =======> devir: 3
 =======> İndiriliyor http://www.linuxfromscratch.org/patches/lfs/development/binutils-2.26-upstream_fix-1.patch
 =======> kayıt:/sources/binutils-2.26-upstream_fix-1.patch
+=======> isim: binutils
+=======> surum: 2.26
+=======> devir: 3
+=======> İndiriliyor http://www.linuxfromscratch.org/patches/lfs/development/binutils-2.26-upstream_fix-1.patch
+=======> kayıt:/sources/binutils-2.26-upstream_fix-1.patch
+=======> Kısmi indirme var,tamamlanmaya çalışılacak
+=======> Partial download failed, restarting
+=======> isim: binutils
+=======> surum: 2.26
+=======> devir: 3
+hash kontrol dosyası yok-hash kontrolü yapılmayacak.
+=======> Derleniyor '/root/milis-arm/temel/binutils/binutils#2.26-armv7l.mps.lz'.
+tar -p -C /tmp/work/src -xf /sources/binutils-2.26.tar.bz2
+=======> isim: binutils
+=======> surum: 2.26
+=======> devir: 3
+hash kontrol dosyası yok-hash kontrolü yapılmayacak.
+=======> Derleniyor '/root/milis-arm/temel/binutils/binutils#2.26-armv7l.mps.lz'.
+tar -p -C /tmp/work/src -xf /sources/binutils-2.26.tar.bz2

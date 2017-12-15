@@ -1,48 +1,166 @@
-[Dec 15 13:59]  acl paket mevcut -- geciliyor
-[Dec 15 13:59]  attr paket mevcut -- geciliyor
-[Dec 15 13:59]  autoconf paket mevcut -- geciliyor
-[Dec 15 13:59]  automake paket mevcut -- geciliyor
-[Dec 15 13:59]  bash paket mevcut -- geciliyor
-[Dec 15 13:59]  bc paket mevcut -- geciliyor
-[Dec 15 13:59]  binutils derleme basarisiz
-[Dec 15 13:59]  bison paket mevcut -- geciliyor
-[Dec 15 13:59]  bzip2 paket mevcut -- geciliyor
-[Dec 15 13:59]  ca-certificates paket mevcut -- geciliyor
-[Dec 15 13:59]  coreutils paket mevcut -- geciliyor
-[Dec 15 13:59]  cpio paket mevcut -- geciliyor
-[Dec 15 13:59]  curl paket mevcut -- geciliyor
-[Dec 15 13:59]  dhcpcd paket mevcut -- geciliyor
-[Dec 15 13:59]  dialog paket mevcut -- geciliyor
-[Dec 15 13:59]  diffutils paket mevcut -- geciliyor
-[Dec 15 13:59]  e2fsprogs paket mevcut -- geciliyor
-[Dec 15 13:59]  eudev paket mevcut -- geciliyor
-[Dec 15 13:59]  expat paket mevcut -- geciliyor
-[Dec 15 13:59]  file paket mevcut -- geciliyor
-[Dec 15 13:59]  findutils paket mevcut -- geciliyor
-[Dec 15 13:59]  flex paket mevcut -- geciliyor
-[Dec 15 13:59]  gawk paket mevcut -- geciliyor
-[Dec 15 13:59]  gdbm paket mevcut -- geciliyor
-[Dec 15 14:12]  gmp derleme basarili
-[Dec 15 14:14]  gperf derleme basarili
-[Dec 15 14:14]  gpm derleme basarisiz
-[Dec 15 14:14]  grep paket mevcut -- geciliyor
-[Dec 15 14:14]  groff paket mevcut -- geciliyor
-[Dec 15 14:14]  gzip paket mevcut -- geciliyor
-[Dec 15 14:14]  iana-etc paket mevcut -- geciliyor
-[Dec 15 14:14]  inetutils paket mevcut -- geciliyor
-[Dec 15 14:14]  iproute2 paket mevcut -- geciliyor
-[Dec 15 14:14]  kbd paket mevcut -- geciliyor
-[Dec 15 14:14]  kmod paket mevcut -- geciliyor
-[Dec 15 14:14]  less paket mevcut -- geciliyor
-[Dec 15 14:14]  libarchive paket mevcut -- geciliyor
-[Dec 15 14:14]  libcap paket mevcut -- geciliyor
-[Dec 15 14:14]  libpipeline paket mevcut -- geciliyor
-[Dec 15 14:14]  libtool paket mevcut -- geciliyor
-[Dec 15 14:18]  lvm2 derleme basarisiz
-[Dec 15 14:18]  lz4 paket mevcut -- geciliyor
-[Dec 15 14:18]  lzip derleme basarisiz
-[Dec 15 14:18]  lzo paket mevcut -- geciliyor
-[Dec 15 14:18]  m4 paket mevcut -- geciliyor
-[Dec 15 14:18]  make paket mevcut -- geciliyor
-[Dec 15 14:18]  man-db paket mevcut -- geciliyor
-[Dec 15 14:18]  mpc paket mevcut -- geciliyor
+[Dec 15 15:28]  acl paket mevcut -- geciliyor
+[Dec 15 15:28]  attr paket mevcut -- geciliyor
+[Dec 15 15:28]  autoconf paket mevcut -- geciliyor
+[Dec 15 15:28]  automake paket mevcut -- geciliyor
+[Dec 15 15:28]  bash paket mevcut -- geciliyor
+[Dec 15 15:28]  bc paket mevcut -- geciliyor
+[Dec 15 15:28]  binutils derleme basarisiz
+[Dec 15 15:28]  bison paket mevcut -- geciliyor
+[Dec 15 15:28]  bzip2 paket mevcut -- geciliyor
+[Dec 15 15:28]  ca-certificates paket mevcut -- geciliyor
+[Dec 15 15:28]  coreutils paket mevcut -- geciliyor
+[Dec 15 15:28]  cpio paket mevcut -- geciliyor
+[Dec 15 15:28]  curl paket mevcut -- geciliyor
+[Dec 15 15:28]  dhcpcd paket mevcut -- geciliyor
+[Dec 15 15:28]  dialog paket mevcut -- geciliyor
+[Dec 15 15:28]  diffutils paket mevcut -- geciliyor
+[Dec 15 15:28]  e2fsprogs paket mevcut -- geciliyor
+[Dec 15 15:28]  eudev paket mevcut -- geciliyor
+[Dec 15 15:28]  expat paket mevcut -- geciliyor
+[Dec 15 15:28]  file paket mevcut -- geciliyor
+[Dec 15 15:28]  findutils paket mevcut -- geciliyor
+[Dec 15 15:28]  flex paket mevcut -- geciliyor
+[Dec 15 15:28]  gawk paket mevcut -- geciliyor
+[Dec 15 15:28]  gdbm paket mevcut -- geciliyor
+[Dec 15 15:28]  gmp paket mevcut -- geciliyor
+[Dec 15 15:28]  gperf paket mevcut -- geciliyor
+[Dec 15 15:28]  gpm derleme basarisiz
+[Dec 15 15:28]  grep paket mevcut -- geciliyor
+[Dec 15 15:28]  groff paket mevcut -- geciliyor
+[Dec 15 15:28]  gzip paket mevcut -- geciliyor
+[Dec 15 15:28]  iana-etc paket mevcut -- geciliyor
+[Dec 15 15:28]  inetutils paket mevcut -- geciliyor
+[Dec 15 15:28]  iproute2 paket mevcut -- geciliyor
+[Dec 15 15:28]  kbd paket mevcut -- geciliyor
+[Dec 15 15:28]  kmod paket mevcut -- geciliyor
+[Dec 15 15:28]  less paket mevcut -- geciliyor
+[Dec 15 15:28]  libarchive paket mevcut -- geciliyor
+[Dec 15 15:28]  libcap paket mevcut -- geciliyor
+[Dec 15 15:28]  libpipeline paket mevcut -- geciliyor
+[Dec 15 15:28]  libtool paket mevcut -- geciliyor
+[Dec 15 15:35]  lvm2 derleme basarili
+[Dec 15 15:35]  lz4 paket mevcut -- geciliyor
+[Dec 15 15:35]  lzip derleme basarisiz
+[Dec 15 15:35]  lzo paket mevcut -- geciliyor
+[Dec 15 15:35]  m4 paket mevcut -- geciliyor
+[Dec 15 15:35]  make paket mevcut -- geciliyor
+[Dec 15 15:35]  man-db paket mevcut -- geciliyor
+[Dec 15 15:35]  mpc paket mevcut -- geciliyor
+[Dec 15 15:35]  mpfr paket mevcut -- geciliyor
+[Dec 15 15:35]  nano paket mevcut -- geciliyor
+[Dec 15 15:35]  nasm derleme basarisiz
+[Dec 15 15:40]  ncurses derleme basarisiz
+[Dec 15 15:59]  acl paket mevcut -- geciliyor
+[Dec 15 15:59]  attr paket mevcut -- geciliyor
+[Dec 15 15:59]  autoconf paket mevcut -- geciliyor
+[Dec 15 15:59]  automake paket mevcut -- geciliyor
+[Dec 15 15:59]  bash paket mevcut -- geciliyor
+[Dec 15 15:59]  bc paket mevcut -- geciliyor
+[Dec 15 15:59]  acl paket mevcut -- geciliyor
+[Dec 15 15:59]  attr paket mevcut -- geciliyor
+[Dec 15 15:59]  autoconf paket mevcut -- geciliyor
+[Dec 15 15:59]  automake paket mevcut -- geciliyor
+[Dec 15 15:59]  bash paket mevcut -- geciliyor
+[Dec 15 15:59]  bc paket mevcut -- geciliyor
+[Dec 15 16:00]  acl paket mevcut -- geciliyor
+[Dec 15 16:00]  attr paket mevcut -- geciliyor
+[Dec 15 16:00]  autoconf paket mevcut -- geciliyor
+[Dec 15 16:00]  automake paket mevcut -- geciliyor
+[Dec 15 16:00]  bash paket mevcut -- geciliyor
+[Dec 15 16:00]  bc paket mevcut -- geciliyor
+[Dec 15 16:00]  binutils derleme basarisiz
+[Dec 15 16:00]  bison paket mevcut -- geciliyor
+[Dec 15 16:00]  bzip2 paket mevcut -- geciliyor
+[Dec 15 16:00]  ca-certificates paket mevcut -- geciliyor
+[Dec 15 16:00]  coreutils paket mevcut -- geciliyor
+[Dec 15 16:00]  cpio paket mevcut -- geciliyor
+[Dec 15 16:00]  curl paket mevcut -- geciliyor
+[Dec 15 16:00]  dhcpcd paket mevcut -- geciliyor
+[Dec 15 16:00]  dialog paket mevcut -- geciliyor
+[Dec 15 16:00]  diffutils paket mevcut -- geciliyor
+[Dec 15 16:00]  e2fsprogs paket mevcut -- geciliyor
+[Dec 15 16:00]  eudev paket mevcut -- geciliyor
+[Dec 15 16:00]  expat paket mevcut -- geciliyor
+[Dec 15 16:00]  file paket mevcut -- geciliyor
+[Dec 15 16:00]  findutils paket mevcut -- geciliyor
+[Dec 15 16:00]  flex paket mevcut -- geciliyor
+[Dec 15 16:00]  gawk paket mevcut -- geciliyor
+[Dec 15 16:00]  gdbm paket mevcut -- geciliyor
+[Dec 15 16:00]  gmp paket mevcut -- geciliyor
+[Dec 15 16:00]  gperf paket mevcut -- geciliyor
+[Dec 15 16:00]  gpm derleme basarisiz
+[Dec 15 16:00]  grep paket mevcut -- geciliyor
+[Dec 15 16:00]  groff paket mevcut -- geciliyor
+[Dec 15 16:00]  gzip paket mevcut -- geciliyor
+[Dec 15 16:00]  iana-etc paket mevcut -- geciliyor
+[Dec 15 16:00]  inetutils paket mevcut -- geciliyor
+[Dec 15 16:00]  iproute2 paket mevcut -- geciliyor
+[Dec 15 16:00]  kbd paket mevcut -- geciliyor
+[Dec 15 16:00]  kmod paket mevcut -- geciliyor
+[Dec 15 16:00]  less paket mevcut -- geciliyor
+[Dec 15 16:00]  libarchive paket mevcut -- geciliyor
+[Dec 15 16:00]  libcap paket mevcut -- geciliyor
+[Dec 15 16:00]  libpipeline paket mevcut -- geciliyor
+[Dec 15 16:00]  libtool paket mevcut -- geciliyor
+[Dec 15 16:00]  lvm2 paket mevcut -- geciliyor
+[Dec 15 16:00]  lz4 paket mevcut -- geciliyor
+[Dec 15 16:00]  lzip derleme basarisiz
+[Dec 15 16:00]  lzo paket mevcut -- geciliyor
+[Dec 15 16:00]  m4 paket mevcut -- geciliyor
+[Dec 15 16:00]  make paket mevcut -- geciliyor
+[Dec 15 16:00]  man-db paket mevcut -- geciliyor
+[Dec 15 16:00]  mpc paket mevcut -- geciliyor
+[Dec 15 16:00]  mpfr paket mevcut -- geciliyor
+[Dec 15 16:00]  nano paket mevcut -- geciliyor
+[Dec 15 16:00]  nasm derleme basarisiz
+[Dec 15 16:01]  acl paket mevcut -- geciliyor
+[Dec 15 16:01]  attr paket mevcut -- geciliyor
+[Dec 15 16:01]  autoconf paket mevcut -- geciliyor
+[Dec 15 16:01]  automake paket mevcut -- geciliyor
+[Dec 15 16:01]  bash paket mevcut -- geciliyor
+[Dec 15 16:01]  bc paket mevcut -- geciliyor
+[Dec 15 16:01]  binutils derleme basarisiz
+[Dec 15 16:01]  bison paket mevcut -- geciliyor
+[Dec 15 16:01]  bzip2 paket mevcut -- geciliyor
+[Dec 15 16:01]  ca-certificates paket mevcut -- geciliyor
+[Dec 15 16:01]  coreutils paket mevcut -- geciliyor
+[Dec 15 16:01]  cpio paket mevcut -- geciliyor
+[Dec 15 16:01]  curl paket mevcut -- geciliyor
+[Dec 15 16:01]  dhcpcd paket mevcut -- geciliyor
+[Dec 15 16:01]  dialog paket mevcut -- geciliyor
+[Dec 15 16:01]  diffutils paket mevcut -- geciliyor
+[Dec 15 16:01]  e2fsprogs paket mevcut -- geciliyor
+[Dec 15 16:01]  eudev paket mevcut -- geciliyor
+[Dec 15 16:01]  expat paket mevcut -- geciliyor
+[Dec 15 16:01]  file paket mevcut -- geciliyor
+[Dec 15 16:01]  findutils paket mevcut -- geciliyor
+[Dec 15 16:01]  flex paket mevcut -- geciliyor
+[Dec 15 16:01]  gawk paket mevcut -- geciliyor
+[Dec 15 16:01]  gdbm paket mevcut -- geciliyor
+[Dec 15 16:01]  gmp paket mevcut -- geciliyor
+[Dec 15 16:01]  gperf paket mevcut -- geciliyor
+[Dec 15 16:01]  gpm derleme basarisiz
+[Dec 15 16:01]  grep paket mevcut -- geciliyor
+[Dec 15 16:01]  groff paket mevcut -- geciliyor
+[Dec 15 16:01]  gzip paket mevcut -- geciliyor
+[Dec 15 16:01]  iana-etc paket mevcut -- geciliyor
+[Dec 15 16:01]  inetutils paket mevcut -- geciliyor
+[Dec 15 16:01]  iproute2 paket mevcut -- geciliyor
+[Dec 15 16:01]  kbd paket mevcut -- geciliyor
+[Dec 15 16:01]  kmod paket mevcut -- geciliyor
+[Dec 15 16:01]  less paket mevcut -- geciliyor
+[Dec 15 16:01]  libarchive paket mevcut -- geciliyor
+[Dec 15 16:01]  libcap paket mevcut -- geciliyor
+[Dec 15 16:01]  libpipeline paket mevcut -- geciliyor
+[Dec 15 16:01]  libtool paket mevcut -- geciliyor
+[Dec 15 16:01]  lvm2 paket mevcut -- geciliyor
+[Dec 15 16:01]  lz4 paket mevcut -- geciliyor
+[Dec 15 16:01]  lzip derleme basarisiz
+[Dec 15 16:01]  lzo paket mevcut -- geciliyor
+[Dec 15 16:01]  m4 paket mevcut -- geciliyor
+[Dec 15 16:01]  make paket mevcut -- geciliyor
+[Dec 15 16:01]  man-db paket mevcut -- geciliyor
+[Dec 15 16:01]  mpc paket mevcut -- geciliyor
+[Dec 15 16:01]  mpfr paket mevcut -- geciliyor
+[Dec 15 16:01]  nano paket mevcut -- geciliyor
+[Dec 15 16:01]  nasm derleme basarisiz

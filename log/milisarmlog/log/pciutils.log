@@ -1,0 +1,79 @@
+=======> isim: pciutils
+=======> surum: 3.4.1
+=======> devir: 1
+hash kontrol dosyası yok-hash kontrolü yapılmayacak.
+=======> Derleniyor '/root/milis-arm/temel/pciutils/pciutils#3.4.1-armv7l.mps.lz'.
+tar -p -C /tmp/work/src -xf /sources/pciutils-3.4.1.tar.xz
+cd lib && ./configure
+Configuring libpci for your system... armv7l--linux 4.11.3 armv7l linux
+Looking for access methods... sysfs proc dump
+Checking for zlib support... no (set manually)
+Checking for DNS support... yes (auto-detected)
+Checking for libkmod... yes (auto-detected)
+Checking for udev hwdb support... yes (auto-detected)
+Checking whether to build a shared library... yes (set manually)
+/usr/bin/make -C lib all
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  -fPIC -DPIC -Wall -W -Wno-parentheses -Wstrict-prototypes -Wmissing-prototypes   -c -o lspci.o lspci.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  -fPIC -DPIC -Wall -W -Wno-parentheses -Wstrict-prototypes -Wmissing-prototypes   -c -o ls-vpd.o ls-vpd.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  -fPIC -DPIC -Wall -W -Wno-parentheses -Wstrict-prototypes -Wmissing-prototypes   -c -o ls-caps.o ls-caps.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  -fPIC -DPIC -Wall -W -Wno-parentheses -Wstrict-prototypes -Wmissing-prototypes   -c -o ls-caps-vendor.o ls-caps-vendor.c
+make[1]: Entering directory '/tmp/work/src/pciutils-3.4.1/lib'
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  -fPIC -DPIC -Wall -W -Wno-parentheses -Wstrict-prototypes -Wmissing-prototypes -fPIC -fvisibility=hidden   -c -o init.o init.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  -fPIC -DPIC -Wall -W -Wno-parentheses -Wstrict-prototypes -Wmissing-prototypes -fPIC -fvisibility=hidden   -c -o access.o access.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  -fPIC -DPIC -Wall -W -Wno-parentheses -Wstrict-prototypes -Wmissing-prototypes   -c -o ls-ecaps.o ls-ecaps.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  -fPIC -DPIC -Wall -W -Wno-parentheses -Wstrict-prototypes -Wmissing-prototypes -fPIC -fvisibility=hidden   -c -o generic.o generic.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  -fPIC -DPIC -Wall -W -Wno-parentheses -Wstrict-prototypes -Wmissing-prototypes    -c -o ls-kernel.o ls-kernel.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  -fPIC -DPIC -Wall -W -Wno-parentheses -Wstrict-prototypes -Wmissing-prototypes -fPIC -fvisibility=hidden   -c -o dump.o dump.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  -fPIC -DPIC -Wall -W -Wno-parentheses -Wstrict-prototypes -Wmissing-prototypes -fPIC -fvisibility=hidden   -c -o names.o names.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  -fPIC -DPIC -Wall -W -Wno-parentheses -Wstrict-prototypes -Wmissing-prototypes   -c -o ls-tree.o ls-tree.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  -fPIC -DPIC -Wall -W -Wno-parentheses -Wstrict-prototypes -Wmissing-prototypes -fPIC -fvisibility=hidden   -c -o filter.o filter.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  -fPIC -DPIC -Wall -W -Wno-parentheses -Wstrict-prototypes -Wmissing-prototypes -fPIC -fvisibility=hidden   -c -o names-hash.o names-hash.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  -fPIC -DPIC -Wall -W -Wno-parentheses -Wstrict-prototypes -Wmissing-prototypes   -c -o ls-map.o ls-map.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  -fPIC -DPIC -Wall -W -Wno-parentheses -Wstrict-prototypes -Wmissing-prototypes   -c -o common.o common.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  -fPIC -DPIC -Wall -W -Wno-parentheses -Wstrict-prototypes -Wmissing-prototypes -fPIC -fvisibility=hidden   -c -o names-parse.o names-parse.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  -fPIC -DPIC -Wall -W -Wno-parentheses -Wstrict-prototypes -Wmissing-prototypes   -c -o setpci.o setpci.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  -fPIC -DPIC -Wall -W -Wno-parentheses -Wstrict-prototypes -Wmissing-prototypes -fPIC -fvisibility=hidden   -c -o names-net.o names-net.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  -fPIC -DPIC -Wall -W -Wno-parentheses -Wstrict-prototypes -Wmissing-prototypes -fPIC -fvisibility=hidden   -c -o names-cache.o names-cache.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  -fPIC -DPIC -Wall -W -Wno-parentheses -Wstrict-prototypes -Wmissing-prototypes -fPIC -fvisibility=hidden   -c -o names-hwdb.o names-hwdb.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  -fPIC -DPIC -Wall -W -Wno-parentheses -Wstrict-prototypes -Wmissing-prototypes   -c -o example.o example.c
+M=`echo 2016-01-03 | sed 's/-01-/-January-/;s/-02-/-February-/;s/-03-/-March-/;s/-04-/-April-/;s/-05-/-May-/;s/-06-/-June-/;s/-07-/-July-/;s/-08-/-August-/;s/-09-/-September-/;s/-10-/-October-/;s/-11-/-November-/;s/-12-/-December-/;s/\(.*\)-\(.*\)-\(.*\)/\3 \2 \1/'` ; sed <lspci.man >lspci.8 "s/@TODAY@/$M/;s/@VERSION@/pciutils-3.4.1/;s#@IDSDIR@#/usr/share/misc#"
+M=`echo 2016-01-03 | sed 's/-01-/-January-/;s/-02-/-February-/;s/-03-/-March-/;s/-04-/-April-/;s/-05-/-May-/;s/-06-/-June-/;s/-07-/-July-/;s/-08-/-August-/;s/-09-/-September-/;s/-10-/-October-/;s/-11-/-November-/;s/-12-/-December-/;s/\(.*\)-\(.*\)-\(.*\)/\3 \2 \1/'` ; sed <setpci.man >setpci.8 "s/@TODAY@/$M/;s/@VERSION@/pciutils-3.4.1/;s#@IDSDIR@#/usr/share/misc#"
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  -fPIC -DPIC -Wall -W -Wno-parentheses -Wstrict-prototypes -Wmissing-prototypes -fPIC -fvisibility=hidden   -c -o params.o params.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  -fPIC -DPIC -Wall -W -Wno-parentheses -Wstrict-prototypes -Wmissing-prototypes -fPIC -fvisibility=hidden   -c -o caps.o caps.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  -fPIC -DPIC -Wall -W -Wno-parentheses -Wstrict-prototypes -Wmissing-prototypes -fPIC -fvisibility=hidden   -c -o sysfs.o sysfs.c
+M=`echo 2016-01-03 | sed 's/-01-/-January-/;s/-02-/-February-/;s/-03-/-March-/;s/-04-/-April-/;s/-05-/-May-/;s/-06-/-June-/;s/-07-/-July-/;s/-08-/-August-/;s/-09-/-September-/;s/-10-/-October-/;s/-11-/-November-/;s/-12-/-December-/;s/\(.*\)-\(.*\)-\(.*\)/\3 \2 \1/'` ; sed <pcilib.man >pcilib.7 "s/@TODAY@/$M/;s/@VERSION@/pciutils-3.4.1/;s#@IDSDIR@#/usr/share/misc#"
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  -fPIC -DPIC -Wall -W -Wno-parentheses -Wstrict-prototypes -Wmissing-prototypes -fPIC -fvisibility=hidden   -c -o proc.o proc.c
+sed <libpci.pc.in >libpci.pc -e 's,@PREFIX@,/usr,' \
+	-e 's,@INCDIR@,/usr/include,' \
+	-e 's,@LIBDIR@,/usr/lib,' \
+	-e 's,@IDSDIR@,/usr/share/misc,' \
+	-e 's,@VERSION@,3.4.1,' \
+	-e 's,@LDLIBS@,,'
+sed <update-pciids.sh >update-pciids "s@^DEST=.*@DEST=/usr/share/misc/pci.ids@;s@^PCI_COMPRESSED_IDS=.*@PCI_COMPRESSED_IDS=@"
+chmod +x update-pciids
+M=`echo 2016-01-03 | sed 's/-01-/-January-/;s/-02-/-February-/;s/-03-/-March-/;s/-04-/-April-/;s/-05-/-May-/;s/-06-/-June-/;s/-07-/-July-/;s/-08-/-August-/;s/-09-/-September-/;s/-10-/-October-/;s/-11-/-November-/;s/-12-/-December-/;s/\(.*\)-\(.*\)-\(.*\)/\3 \2 \1/'` ; sed <update-pciids.man >update-pciids.8 "s/@TODAY@/$M/;s/@VERSION@/pciutils-3.4.1/;s#@IDSDIR@#/usr/share/misc#"
+gcc -shared  -Wl,-soname,libpci.so.3 -Wl,--version-script=libpci.ver -o libpci.so.3.4.1 init.o access.o generic.o dump.o names.o filter.o names-hash.o names-parse.o names-net.o names-cache.o names-hwdb.o params.o caps.o sysfs.o proc.o  -lresolv -ludev
+make[1]: Leaving directory '/tmp/work/src/pciutils-3.4.1/lib'
+gcc   lspci.o ls-vpd.o ls-caps.o ls-caps-vendor.o ls-ecaps.o ls-kernel.o ls-tree.o ls-map.o common.o lib/libpci.so.3.4.1 -lkmod -o lspci
+gcc   setpci.o common.o lib/libpci.so.3.4.1  -o setpci
+gcc   example.o lib/libpci.so.3.4.1  -o example
+/usr/bin/make -C lib all
+make[1]: Entering directory '/tmp/work/src/pciutils-3.4.1/lib'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/tmp/work/src/pciutils-3.4.1/lib'
+install -d -m 755 /tmp/work/pkg/usr/lib
+install -c -m 644 lib/libpci.so.3.4.1 /tmp/work/pkg/usr/lib
+install -d -m 755 /tmp/work/pkg/usr/sbin /tmp/work/pkg/usr/share/misc /tmp/work/pkg/usr/share/man/man8 /tmp/work/pkg/usr/share/man/man7
+install -d -m 755 /tmp/work/pkg/usr/include/pci /tmp/work/pkg/usr/lib/pkgconfig
+install -c -m 755 -s lspci setpci /tmp/work/pkg/usr/sbin
+install -c -m 644 lib/config.h lib/header.h lib/pci.h lib/types.h /tmp/work/pkg/usr/include/pci
+install -c -m 644 lib/libpci.pc /tmp/work/pkg/usr/lib/pkgconfig
+ln -sf libpci.so.3 /tmp/work/pkg/usr/lib/libpci.so
+install -c -m 755 update-pciids /tmp/work/pkg/usr/sbin
+install -c -m 644 pci.ids /tmp/work/pkg/usr/share/misc
+install -c -m 644 lspci.8 setpci.8 update-pciids.8 /tmp/work/pkg/usr/share/man/man8
+install -c -m 644 pcilib.7 /tmp/work/pkg/usr/share/man/man7
+ln -sf libpci.so.3.4.1 /tmp/work/pkg/usr/lib/libpci.so.3
+mode of '/tmp/work/pkg/usr/lib/libpci.so.3.4.1' changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+=======> pciutils arşivine üstbilgiler ekleniyor.
+=======> pciutils#3.4.1-armv7l.mps sıkıştırılıyor.

@@ -4,3 +4,21 @@
 hash kontrol dosyası yok-hash kontrolü yapılmayacak.
 =======> Derleniyor '/root/milis-arm/temel/lzip/lzip#1.18-rc1-armv7l.mps.lz'.
 tar -p -C /tmp/work/src -xf /sources/lzip-1.18-rc1.tar.gz
+=======> isim: lzip
+=======> surum: 1.18-rc1
+=======> devir: 1
+hash kontrol dosyası yok-hash kontrolü yapılmayacak.
+=======> Derleniyor '/root/milis-arm/temel/lzip/lzip#1.18-rc1-armv7l.mps.lz'.
+tar -p -C /tmp/work/src -xf /sources/lzip-1.18-rc1.tar.gz
+=======> isim: lzip
+=======> surum: 1.18-rc1
+=======> devir: 1
+hash kontrol dosyası yok-hash kontrolü yapılmayacak.
+=======> Derleniyor '/root/milis-arm/temel/lzip/lzip#1.18-rc1-armv7l.mps.lz'.
+tar -p -C /tmp/work/src -xf /sources/lzip-1.18-rc1.tar.gz
+=======> isim: lzip
+=======> surum: 1.18-rc1
+=======> devir: 1
+hash kontrol dosyası yok-hash kontrolü yapılmayacak.
+=======> Derleniyor '/root/milis-arm/temel/lzip/lzip#1.18-rc1-armv7l.mps.lz'.
+tar -p -C /tmp/work/src -xf /sources/lzip-1.18-rc1.tar.gz

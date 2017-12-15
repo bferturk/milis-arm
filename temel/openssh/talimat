@@ -8,7 +8,7 @@ surum=7.1p2
 devir=1
 
 kaynak=(ftp://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/$isim-$surum.tar.gz
-		http://downloads.nutyx.org/files/patchs/openssh-server/service-saravane-01.patch)
+		#http://downloads.nutyx.org/files/patchs/openssh-server/service-saravane-01.patch)
 
 derle() {
 source /etc/blfs-bootscripts
