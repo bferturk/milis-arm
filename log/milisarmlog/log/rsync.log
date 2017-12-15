@@ -1,6 +1,0 @@
-=======> isim: rsync
-=======> surum: 3.1.2
-=======> devir: 1
-hash kontrol dosyası yok-hash kontrolü yapılmayacak.
-=======> Derleniyor '/root/milis-arm/temel/rsync/rsync#3.1.2-armv7l.mps.lz'.
-tar -p -C /tmp/work/src -xf /sources/rsync-3.1.2.tar.gz
