@@ -1,0 +1,51 @@
+=======> isim: lzip
+=======> surum: 1.18-rc1
+=======> devir: 1
+hash kontrol dosyası yok-hash kontrolü yapılmayacak.
+=======> Derleniyor '/root/milis-arm/yedek/lzip/lzip#1.18-rc1-armv7l.mps.lz'.
+tar -p -C /tmp/work/src -xf /sources/lzip-1.18-rc1.tar.gz
+=======> isim: lzip
+=======> surum: 1.19
+=======> devir: 2
+=======> İndiriliyor http://download.savannah.gnu.org/releases/lzip/lzip-1.19.tar.gz
+=======> kayıt:/sources/lzip-1.19.tar.gz
+hash kontrol dosyası yok-hash kontrolü yapılmayacak.
+=======> Derleniyor '/root/milis-arm/yedek/lzip/lzip#1.19-armv7l.mps.lz'.
+tar -p -C /tmp/work/src -xf /sources/lzip-1.19.tar.gz
+
+creating config.status
+creating Makefile
+VPATH = .
+prefix = /usr
+exec_prefix = $(prefix)
+bindir = $(exec_prefix)/bin
+datarootdir = $(prefix)/share
+infodir = $(datarootdir)/info
+mandir = $(datarootdir)/man
+CXX = g++
+CPPFLAGS = 
+CXXFLAGS = -Wall -W -O2
+LDFLAGS = 
+OK. Now you can run make.
+g++  -Wall -W -O2 -c -o arg_parser.o arg_parser.cc
+g++  -Wall -W -O2 -c -o file_index.o file_index.cc
+g++  -Wall -W -O2 -c -o list.o list.cc
+g++  -Wall -W -O2 -c -o encoder_base.o encoder_base.cc
+g++  -Wall -W -O2 -c -o encoder.o encoder.cc
+g++  -Wall -W -O2 -c -o fast_encoder.o fast_encoder.cc
+g++  -Wall -W -O2 -c -o decoder.o decoder.cc
+g++  -Wall -W -O2 -DPROGVERSION=\"1.19\" -c -o main.o main.cc
+g++  -Wall -W -O2 -o lzip arg_parser.o file_index.o list.o encoder_base.o encoder.o fast_encoder.o decoder.o main.o
+if [ ! -d "/tmp/work/pkg/usr/bin" ] ; then install -d -m 755 "/tmp/work/pkg/usr/bin" ; fi
+if [ ! -d "/tmp/work/pkg/usr/share/info" ] ; then install -d -m 755 "/tmp/work/pkg/usr/share/info" ; fi
+if [ ! -d "/tmp/work/pkg/usr/share/man/man1" ] ; then install -d -m 755 "/tmp/work/pkg/usr/share/man/man1" ; fi
+rm -f "/tmp/work/pkg/usr/share/info/lzip.info"*
+rm -f "/tmp/work/pkg/usr/share/man/man1/lzip.1"*
+install -m 755 ./lzip "/tmp/work/pkg/usr/bin/lzip"
+install -m 644 ./doc/lzip.1 "/tmp/work/pkg/usr/share/man/man1/lzip.1"
+install -m 644 ./doc/lzip.info "/tmp/work/pkg/usr/share/info/lzip.info"
+if /bin/sh -c "install-info --version" > /dev/null 2>&1 ; then \
+	install-info --info-dir="/tmp/work/pkg/usr/share/info" "/tmp/work/pkg/usr/share/info/lzip.info" ; \
+fi
+=======> lzip arşivine üstbilgiler ekleniyor.
+=======> lzip#1.19-armv7l.mps sıkıştırılıyor.

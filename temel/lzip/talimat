@@ -4,8 +4,8 @@
 # Gerekler:
 
 isim=lzip
-surum=1.18-rc1
-devir=1
+surum=1.19
+devir=2
 
 kaynak=(http://download.savannah.gnu.org/releases/$isim/$isim-$surum.tar.gz)
 derle()

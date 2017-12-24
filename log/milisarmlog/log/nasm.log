@@ -1,0 +1,634 @@
+=======> isim: nasm
+=======> surum: 2.11.06
+=======> devir: 1
+hash kontrol dosyası yok-hash kontrolü yapılmayacak.
+=======> Derleniyor '/root/milis-arm/yedek/nasm/nasm#2.11.06-armv7l.mps.lz'.
+tar -p -C /tmp/work/src -xf /sources/nasm_2.11.06-1really2.11.05.orig.tar.xz
+tar -p -C /tmp/work/src -xf /sources/nasm-2.11.06-xdoc.tar.xz
+=======> isim: nasm
+=======> surum: 2.13.02
+=======> devir: 1
+=======> İndiriliyor http://www.nasm.us/pub/nasm/releasebuilds/2.13.02/nasm-2.13.02.tar.xz
+=======> kayıt:/sources/nasm-2.13.02.tar.xz
+=======> İndiriliyor http://www.nasm.us/pub/nasm/releasebuilds/2.13.02/nasm-2.13.02-xdoc.tar.xz
+=======> kayıt:/sources/nasm-2.13.02-xdoc.tar.xz
+hash kontrol dosyası yok-hash kontrolü yapılmayacak.
+=======> Derleniyor '/root/milis-arm/yedek/nasm/nasm#2.13.02-armv7l.mps.lz'.
+tar -p -C /tmp/work/src -xf /sources/nasm-2.13.02.tar.xz
+tar -p -C /tmp/work/src -xf /sources/nasm-2.13.02-xdoc.tar.xz
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... 64
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking for gcc option to accept ISO C99... none needed
+checking for gcc option to accept ISO Standard C... (cached) none needed
+checking whether ln -s works... yes
+checking whether make sets $(MAKE)... yes
+checking for a BSD-compatible install... /usr/bin/install -c
+checking for suffix of library files... a
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking for C/C++ restrict keyword... __restrict
+checking for size_t... yes
+checking whether byte ordering is bigendian... no
+checking if gcc accepts -fwrapv... yes
+checking if gcc accepts -U__STRICT_ANSI__... yes
+checking if gcc accepts -fno-common... yes
+checking for nroff... nroff
+checking for asciidoc... asciidoc
+checking for xmlto... xmlto
+checking for ar... ar
+checking for ranlib... ranlib
+checking for strip... strip
+checking for ANSI C header files... (cached) yes
+checking for inttypes.h... (cached) yes
+checking for strings.h... (cached) yes
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+checking stdnoreturn.h usability... yes
+checking stdnoreturn.h presence... yes
+checking for stdnoreturn.h... yes
+checking io.h usability... no
+checking io.h presence... no
+checking for io.h... no
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking for unistd.h... (cached) yes
+checking sys/param.h usability... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking sys/mman.h usability... yes
+checking sys/mman.h presence... yes
+checking for sys/mman.h... yes
+checking for sys/types.h... (cached) yes
+checking for sys/stat.h... (cached) yes
+checking for strcasecmp... yes
+checking for stricmp... no
+checking for strncasecmp... yes
+checking for strnicmp... no
+checking for strsep... yes
+checking for strnlen... yes
+checking for getuid... yes
+checking for getgid... yes
+checking for realpath... yes
+checking for canonicalize_file_name... yes
+checking for _fullpath... no
+checking for pathconf... yes
+checking for _LARGEFILE_SOURCE value needed for large files... no
+checking for _fseeki64... no
+checking for ftruncate... yes
+checking for _chsize... no
+checking for _chsize_s... no
+checking for fileno... yes
+checking for _fileno... no
+checking for _filelengthi64... no
+checking for stdlib.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for sys/param.h... (cached) yes
+checking for getpagesize... yes
+checking for working mmap... yes
+checking for getpagesize... (cached) yes
+checking for sysconf... yes
+checking for access... yes
+checking for _access... no
+checking for faccessat... yes
+checking for __builtin_clz... yes
+checking for __builtin_clzl... yes
+checking for __builtin_clzll... yes
+checking for __builtin_expect... yes
+checking for vsnprintf... yes
+checking for _vsnprintf... no
+checking for snprintf... yes
+checking for _snprintf... no
+checking for strlcpy... no
+checking for struct _stati64... no
+checking for struct stat... yes
+checking for stat... yes
+checking for _stati64... no
+checking for fstat... yes
+checking for _fstati64... no
+checking whether strcasecmp is declared... yes
+checking whether stricmp is declared... no
+checking whether strncasecmp is declared... yes
+checking whether strnicmp is declared... no
+checking whether strsep is declared... yes
+checking whether strlcpy is declared... no
+checking whether strnlen is declared... yes
+checking for uintptr_t... yes
+checking if gcc accepts -Werror=attributes... yes
+checking if gcc supports the noreturn function attribute... yes
+checking if gcc supports the returns_nonnull function attribute... yes
+checking if gcc supports the malloc function attribute... yes
+checking if gcc supports the alloc_size function attribute... yes
+checking if gcc supports the format function attribute... yes
+checking if gcc supports the const function attribute... yes
+checking if gcc supports the pure function attribute... yes
+checking if gcc supports the error function attribute... yes
+checking if gcc accepts -W... yes
+checking if gcc accepts -Wall... yes
+checking if gcc accepts -pedantic... yes
+checking if gcc accepts -Werror=unknown-warning-option... no
+checking if gcc accepts -Wpedantic-ms-format... no
+checking if gcc accepts -Wc90-c99-compat... yes
+checking if gcc accepts -Wlong-long... yes
+checking if gcc accepts -Werror=implicit... yes
+checking if gcc accepts -Werror=missing-braces... yes
+checking if gcc accepts -Werror=return-type... yes
+checking if gcc accepts -Werror=trigraphs... yes
+checking if gcc accepts -Werror=pointer-arith... yes
+checking if gcc accepts -Werror=strict-prototypes... no
+checking if gcc accepts -Werror=missing-prototypes... yes
+checking if gcc accepts -Werror=missing-declarations... yes
+checking if gcc accepts -Werror=comment... yes
+checking if gcc accepts -Werror=vla... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating doc/Makefile
+config.status: creating config/config.h
+config.status: executing default-1 commands
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o asm/nasm.o asm/nasm.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o stdlib/snprintf.o stdlib/snprintf.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o stdlib/vsnprintf.o stdlib/vsnprintf.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o stdlib/strlcpy.o stdlib/strlcpy.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o stdlib/strnlen.o stdlib/strnlen.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o nasmlib/ver.o nasmlib/ver.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o nasmlib/crc64.o nasmlib/crc64.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o nasmlib/malloc.o nasmlib/malloc.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o nasmlib/md5c.o nasmlib/md5c.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o nasmlib/string.o nasmlib/string.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o nasmlib/file.o nasmlib/file.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o nasmlib/mmap.o nasmlib/mmap.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o nasmlib/ilog2.o nasmlib/ilog2.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o nasmlib/realpath.o nasmlib/realpath.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o nasmlib/path.o nasmlib/path.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o nasmlib/filename.o nasmlib/filename.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o nasmlib/srcfile.o nasmlib/srcfile.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o nasmlib/zerobuf.o nasmlib/zerobuf.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o nasmlib/readnum.o nasmlib/readnum.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o nasmlib/bsi.o nasmlib/bsi.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o nasmlib/rbtree.o nasmlib/rbtree.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o nasmlib/hashtbl.o nasmlib/hashtbl.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o nasmlib/raa.o nasmlib/raa.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o nasmlib/saa.o nasmlib/saa.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o nasmlib/strlist.o nasmlib/strlist.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o nasmlib/perfhash.o nasmlib/perfhash.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o nasmlib/badenum.o nasmlib/badenum.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o common/common.o common/common.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o x86/insnsa.o x86/insnsa.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o x86/insnsb.o x86/insnsb.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o x86/insnsd.o x86/insnsd.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o x86/insnsn.o x86/insnsn.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o x86/regs.o x86/regs.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o x86/regvals.o x86/regvals.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o x86/regflags.o x86/regflags.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o x86/regdis.o x86/regdis.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o x86/disp8.o x86/disp8.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o x86/iflag.o x86/iflag.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o asm/error.o asm/error.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o asm/float.o asm/float.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o asm/directiv.o asm/directiv.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o asm/directbl.o asm/directbl.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o asm/pragma.o asm/pragma.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o asm/assemble.o asm/assemble.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o asm/labels.o asm/labels.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o asm/parser.o asm/parser.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o asm/preproc.o asm/preproc.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o asm/quote.o asm/quote.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o asm/pptok.o asm/pptok.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o asm/listing.o asm/listing.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o asm/eval.o asm/eval.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o asm/exprlib.o asm/exprlib.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o asm/exprdump.o asm/exprdump.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o asm/stdscan.o asm/stdscan.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o asm/strfunc.o asm/strfunc.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o asm/tokhash.o asm/tokhash.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o asm/segalloc.o asm/segalloc.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o asm/preproc-nop.o asm/preproc-nop.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o asm/rdstrnum.o asm/rdstrnum.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o macros/macros.o macros/macros.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o output/outform.o output/outform.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o output/outlib.o output/outlib.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o output/legacy.o output/legacy.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o output/nulldbg.o output/nulldbg.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o output/nullout.o output/nullout.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o output/outbin.o output/outbin.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o output/outaout.o output/outaout.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o output/outcoff.o output/outcoff.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o output/outelf.o output/outelf.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o output/outobj.o output/outobj.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o output/outas86.o output/outas86.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o output/outrdf2.o output/outrdf2.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o output/outdbg.o output/outdbg.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o output/outieee.o output/outieee.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o output/outmacho.o output/outmacho.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o output/codeview.o output/codeview.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o disasm/disasm.o disasm/disasm.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o disasm/sync.o disasm/sync.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o disasm/ndisasm.o disasm/ndisasm.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o rdoff/rdfdump.o rdoff/rdfdump.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o rdoff/rdoff.o rdoff/rdoff.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o rdoff/rdfload.o rdoff/rdfload.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o rdoff/symtab.o rdoff/symtab.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o rdoff/collectn.o rdoff/collectn.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o rdoff/rdlib.o rdoff/rdlib.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o rdoff/segtab.o rdoff/segtab.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o rdoff/hash.o rdoff/hash.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o rdoff/ldrdf.o rdoff/ldrdf.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o rdoff/rdx.o rdoff/rdx.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o rdoff/rdflib.o rdoff/rdflib.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o rdoff/rdf2bin.o rdoff/rdf2bin.c
+rm -f rdoff/librdoff.a
+ar cq rdoff/librdoff.a rdoff/rdoff.o rdoff/rdfload.o rdoff/symtab.o rdoff/collectn.o rdoff/rdlib.o rdoff/segtab.o rdoff/hash.o
+ranlib rdoff/librdoff.a
+rm -f libnasm.a
+ar cq libnasm.a stdlib/snprintf.o stdlib/vsnprintf.o stdlib/strlcpy.o stdlib/strnlen.o nasmlib/ver.o nasmlib/crc64.o nasmlib/malloc.o nasmlib/md5c.o nasmlib/string.o nasmlib/file.o nasmlib/mmap.o nasmlib/ilog2.o nasmlib/realpath.o nasmlib/path.o nasmlib/filename.o nasmlib/srcfile.o nasmlib/zerobuf.o nasmlib/readnum.o nasmlib/bsi.o nasmlib/rbtree.o nasmlib/hashtbl.o nasmlib/raa.o nasmlib/saa.o nasmlib/strlist.o nasmlib/perfhash.o nasmlib/badenum.o common/common.o x86/insnsa.o x86/insnsb.o x86/insnsd.o x86/insnsn.o x86/regs.o x86/regvals.o x86/regflags.o x86/regdis.o x86/disp8.o x86/iflag.o asm/error.o asm/float.o asm/directiv.o asm/directbl.o asm/pragma.o asm/assemble.o asm/labels.o asm/parser.o asm/preproc.o asm/quote.o asm/pptok.o asm/listing.o asm/eval.o asm/exprlib.o asm/exprdump.o asm/stdscan.o asm/strfunc.o asm/tokhash.o asm/segalloc.o asm/preproc-nop.o asm/rdstrnum.o macros/macros.o output/outform.o output/outlib.o output/legacy.o output/nulldbg.o output/nullout.o output/outbin.o output/outaout.o output/outcoff.o output/outelf.o output/outobj.o output/outas86.o output/outrdf2.o output/outdbg.o output/outieee.o output/outmacho.o output/codeview.o disasm/disasm.o disasm/sync.o
+ranlib libnasm.a
+gcc  -o nasm asm/nasm.o libnasm.a 
+gcc  -o ndisasm disasm/ndisasm.o libnasm.a 
+gcc  -o rdoff/rdfdump rdoff/rdfdump.o rdoff/librdoff.a libnasm.a 
+gcc  -o rdoff/rdx rdoff/rdx.o rdoff/librdoff.a libnasm.a 
+gcc  -o rdoff/rdflib rdoff/rdflib.o rdoff/librdoff.a libnasm.a 
+gcc  -o rdoff/rdf2bin rdoff/rdf2bin.o rdoff/librdoff.a libnasm.a 
+rm -f rdoff/rdf2com
+rm -f rdoff/rdf2ith
+rm -f rdoff/rdf2ihx
+rm -f rdoff/rdf2srec
+cd rdoff && ln -s rdf2bin rdf2com
+cd rdoff && ln -s rdf2bin rdf2ith
+cd rdoff && ln -s rdf2bin rdf2ihx
+cd rdoff && ln -s rdf2bin rdf2srec
+gcc  -o rdoff/ldrdf rdoff/ldrdf.o rdoff/librdoff.a libnasm.a 
+mkdir -p /tmp/work/pkg/usr/bin
+/usr/bin/install -c nasm /tmp/work/pkg/usr/bin/nasm
+/usr/bin/install -c ndisasm /tmp/work/pkg/usr/bin/ndisasm
+mkdir -p /tmp/work/pkg/usr/share/man/man1
+/usr/bin/install -c -m 644 ./nasm.1 /tmp/work/pkg/usr/share/man/man1/nasm.1
+/usr/bin/install -c -m 644 ./ndisasm.1 /tmp/work/pkg/usr/share/man/man1/ndisasm.1
+/bin/mkdir: created directory '/tmp/work/pkg/usr/share/doc'
+/bin/mkdir: created directory '/tmp/work/pkg/usr/share/doc/nasm-2.13.02'
+/bin/mkdir: created directory '/tmp/work/pkg/usr/share/doc/nasm-2.13.02/html'
+'doc/html/nasmdo10.html' -> '/tmp/work/pkg/usr/share/doc/nasm-2.13.02/html/nasmdo10.html'
+'doc/html/nasmdo11.html' -> '/tmp/work/pkg/usr/share/doc/nasm-2.13.02/html/nasmdo11.html'
+'doc/html/nasmdo12.html' -> '/tmp/work/pkg/usr/share/doc/nasm-2.13.02/html/nasmdo12.html'
+'doc/html/nasmdoc0.html' -> '/tmp/work/pkg/usr/share/doc/nasm-2.13.02/html/nasmdoc0.html'
+'doc/html/nasmdoc1.html' -> '/tmp/work/pkg/usr/share/doc/nasm-2.13.02/html/nasmdoc1.html'
+'doc/html/nasmdoc2.html' -> '/tmp/work/pkg/usr/share/doc/nasm-2.13.02/html/nasmdoc2.html'
+'doc/html/nasmdoc3.html' -> '/tmp/work/pkg/usr/share/doc/nasm-2.13.02/html/nasmdoc3.html'
+'doc/html/nasmdoc4.html' -> '/tmp/work/pkg/usr/share/doc/nasm-2.13.02/html/nasmdoc4.html'
+'doc/html/nasmdoc5.html' -> '/tmp/work/pkg/usr/share/doc/nasm-2.13.02/html/nasmdoc5.html'
+'doc/html/nasmdoc6.html' -> '/tmp/work/pkg/usr/share/doc/nasm-2.13.02/html/nasmdoc6.html'
+'doc/html/nasmdoc7.html' -> '/tmp/work/pkg/usr/share/doc/nasm-2.13.02/html/nasmdoc7.html'
+'doc/html/nasmdoc8.html' -> '/tmp/work/pkg/usr/share/doc/nasm-2.13.02/html/nasmdoc8.html'
+'doc/html/nasmdoc9.html' -> '/tmp/work/pkg/usr/share/doc/nasm-2.13.02/html/nasmdoc9.html'
+'doc/html/nasmdoca.html' -> '/tmp/work/pkg/usr/share/doc/nasm-2.13.02/html/nasmdoca.html'
+'doc/html/nasmdocb.html' -> '/tmp/work/pkg/usr/share/doc/nasm-2.13.02/html/nasmdocb.html'
+'doc/html/nasmdocc.html' -> '/tmp/work/pkg/usr/share/doc/nasm-2.13.02/html/nasmdocc.html'
+'doc/html/nasmdocd.html' -> '/tmp/work/pkg/usr/share/doc/nasm-2.13.02/html/nasmdocd.html'
+'doc/html/nasmdoce.html' -> '/tmp/work/pkg/usr/share/doc/nasm-2.13.02/html/nasmdoce.html'
+'doc/html/nasmdoci.html' -> '/tmp/work/pkg/usr/share/doc/nasm-2.13.02/html/nasmdoci.html'
+'doc/nasmdoc.txt' -> '/tmp/work/pkg/usr/share/doc/nasm-2.13.02/nasmdoc.txt'
+'doc/opt_var.txt' -> '/tmp/work/pkg/usr/share/doc/nasm-2.13.02/opt_var.txt'
+'doc/head.ps' -> '/tmp/work/pkg/usr/share/doc/nasm-2.13.02/head.ps'
+'doc/nasmdoc.pdf' -> '/tmp/work/pkg/usr/share/doc/nasm-2.13.02/nasmdoc.pdf'
+/bin/mkdir: created directory '/tmp/work/pkg/usr/share/info'
+=======> isim: nasm
+=======> surum: 2.13.02
+=======> devir: 1
+hash kontrol dosyası yok-hash kontrolü yapılmayacak.
+=======> Derleniyor '/root/milis-arm/yedek/nasm/nasm#2.13.02-armv7l.mps.lz'.
+tar -p -C /tmp/work/src -xf /sources/nasm-2.13.02.tar.xz
+tar -p -C /tmp/work/src -xf /sources/nasm-2.13.02-xdoc.tar.xz
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... 64
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking for gcc option to accept ISO C99... none needed
+checking for gcc option to accept ISO Standard C... (cached) none needed
+checking whether ln -s works... yes
+checking whether make sets $(MAKE)... yes
+checking for a BSD-compatible install... /usr/bin/install -c
+checking for suffix of library files... a
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking for C/C++ restrict keyword... __restrict
+checking for size_t... yes
+checking whether byte ordering is bigendian... no
+checking if gcc accepts -fwrapv... yes
+checking if gcc accepts -U__STRICT_ANSI__... yes
+checking if gcc accepts -fno-common... yes
+checking for nroff... nroff
+checking for asciidoc... asciidoc
+checking for xmlto... xmlto
+checking for ar... ar
+checking for ranlib... ranlib
+checking for strip... strip
+checking for ANSI C header files... (cached) yes
+checking for inttypes.h... (cached) yes
+checking for strings.h... (cached) yes
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+checking stdnoreturn.h usability... yes
+checking stdnoreturn.h presence... yes
+checking for stdnoreturn.h... yes
+checking io.h usability... no
+checking io.h presence... no
+checking for io.h... no
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking for unistd.h... (cached) yes
+checking sys/param.h usability... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking sys/mman.h usability... yes
+checking sys/mman.h presence... yes
+checking for sys/mman.h... yes
+checking for sys/types.h... (cached) yes
+checking for sys/stat.h... (cached) yes
+checking for strcasecmp... yes
+checking for stricmp... no
+checking for strncasecmp... yes
+checking for strnicmp... no
+checking for strsep... yes
+checking for strnlen... yes
+checking for getuid... yes
+checking for getgid... yes
+checking for realpath... yes
+checking for canonicalize_file_name... yes
+checking for _fullpath... no
+checking for pathconf... yes
+checking for _LARGEFILE_SOURCE value needed for large files... no
+checking for _fseeki64... no
+checking for ftruncate... yes
+checking for _chsize... no
+checking for _chsize_s... no
+checking for fileno... yes
+checking for _fileno... no
+checking for _filelengthi64... no
+checking for stdlib.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for sys/param.h... (cached) yes
+checking for getpagesize... yes
+checking for working mmap... yes
+checking for getpagesize... (cached) yes
+checking for sysconf... yes
+checking for access... yes
+checking for _access... no
+checking for faccessat... yes
+checking for __builtin_clz... yes
+checking for __builtin_clzl... yes
+checking for __builtin_clzll... yes
+checking for __builtin_expect... yes
+checking for vsnprintf... yes
+checking for _vsnprintf... no
+checking for snprintf... yes
+checking for _snprintf... no
+checking for strlcpy... no
+checking for struct _stati64... no
+checking for struct stat... yes
+checking for stat... yes
+checking for _stati64... no
+checking for fstat... yes
+checking for _fstati64... no
+checking whether strcasecmp is declared... yes
+checking whether stricmp is declared... no
+checking whether strncasecmp is declared... yes
+checking whether strnicmp is declared... no
+checking whether strsep is declared... yes
+checking whether strlcpy is declared... no
+checking whether strnlen is declared... yes
+checking for uintptr_t... yes
+checking if gcc accepts -Werror=attributes... yes
+checking if gcc supports the noreturn function attribute... yes
+checking if gcc supports the returns_nonnull function attribute... yes
+checking if gcc supports the malloc function attribute... yes
+checking if gcc supports the alloc_size function attribute... yes
+checking if gcc supports the format function attribute... yes
+checking if gcc supports the const function attribute... yes
+checking if gcc supports the pure function attribute... yes
+checking if gcc supports the error function attribute... yes
+checking if gcc accepts -W... yes
+checking if gcc accepts -Wall... yes
+checking if gcc accepts -pedantic... yes
+checking if gcc accepts -Werror=unknown-warning-option... no
+checking if gcc accepts -Wpedantic-ms-format... no
+checking if gcc accepts -Wc90-c99-compat... yes
+checking if gcc accepts -Wlong-long... yes
+checking if gcc accepts -Werror=implicit... yes
+checking if gcc accepts -Werror=missing-braces... yes
+checking if gcc accepts -Werror=return-type... yes
+checking if gcc accepts -Werror=trigraphs... yes
+checking if gcc accepts -Werror=pointer-arith... yes
+checking if gcc accepts -Werror=strict-prototypes... no
+checking if gcc accepts -Werror=missing-prototypes... yes
+checking if gcc accepts -Werror=missing-declarations... yes
+checking if gcc accepts -Werror=comment... yes
+checking if gcc accepts -Werror=vla... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating doc/Makefile
+config.status: creating config/config.h
+config.status: executing default-1 commands
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o asm/nasm.o asm/nasm.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o stdlib/snprintf.o stdlib/snprintf.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o stdlib/vsnprintf.o stdlib/vsnprintf.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o stdlib/strlcpy.o stdlib/strlcpy.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o stdlib/strnlen.o stdlib/strnlen.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o nasmlib/ver.o nasmlib/ver.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o nasmlib/crc64.o nasmlib/crc64.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o nasmlib/malloc.o nasmlib/malloc.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o nasmlib/md5c.o nasmlib/md5c.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o nasmlib/string.o nasmlib/string.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o nasmlib/file.o nasmlib/file.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o nasmlib/mmap.o nasmlib/mmap.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o nasmlib/ilog2.o nasmlib/ilog2.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o nasmlib/realpath.o nasmlib/realpath.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o nasmlib/path.o nasmlib/path.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o nasmlib/filename.o nasmlib/filename.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o nasmlib/srcfile.o nasmlib/srcfile.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o nasmlib/zerobuf.o nasmlib/zerobuf.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o nasmlib/readnum.o nasmlib/readnum.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o nasmlib/bsi.o nasmlib/bsi.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o nasmlib/rbtree.o nasmlib/rbtree.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o nasmlib/hashtbl.o nasmlib/hashtbl.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o nasmlib/raa.o nasmlib/raa.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o nasmlib/saa.o nasmlib/saa.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o nasmlib/strlist.o nasmlib/strlist.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o nasmlib/perfhash.o nasmlib/perfhash.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o nasmlib/badenum.o nasmlib/badenum.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o common/common.o common/common.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o x86/insnsa.o x86/insnsa.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o x86/insnsb.o x86/insnsb.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o x86/insnsd.o x86/insnsd.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o x86/insnsn.o x86/insnsn.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o x86/regs.o x86/regs.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o x86/regvals.o x86/regvals.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o x86/regflags.o x86/regflags.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o x86/regdis.o x86/regdis.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o x86/disp8.o x86/disp8.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o x86/iflag.o x86/iflag.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o asm/error.o asm/error.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o asm/float.o asm/float.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o asm/directiv.o asm/directiv.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o asm/directbl.o asm/directbl.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o asm/pragma.o asm/pragma.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o asm/assemble.o asm/assemble.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o asm/labels.o asm/labels.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o asm/parser.o asm/parser.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o asm/preproc.o asm/preproc.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o asm/quote.o asm/quote.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o asm/pptok.o asm/pptok.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o asm/listing.o asm/listing.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o asm/eval.o asm/eval.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o asm/exprlib.o asm/exprlib.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o asm/exprdump.o asm/exprdump.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o asm/stdscan.o asm/stdscan.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o asm/strfunc.o asm/strfunc.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o asm/tokhash.o asm/tokhash.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o asm/segalloc.o asm/segalloc.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o asm/preproc-nop.o asm/preproc-nop.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o asm/rdstrnum.o asm/rdstrnum.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o macros/macros.o macros/macros.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o output/outform.o output/outform.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o output/outlib.o output/outlib.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o output/legacy.o output/legacy.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o output/nulldbg.o output/nulldbg.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o output/nullout.o output/nullout.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o output/outbin.o output/outbin.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o output/outaout.o output/outaout.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o output/outcoff.o output/outcoff.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o output/outelf.o output/outelf.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o output/outobj.o output/outobj.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o output/outas86.o output/outas86.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o output/outrdf2.o output/outrdf2.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o output/outdbg.o output/outdbg.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o output/outieee.o output/outieee.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o output/outmacho.o output/outmacho.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o output/codeview.o output/codeview.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o disasm/disasm.o disasm/disasm.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o disasm/sync.o disasm/sync.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o disasm/ndisasm.o disasm/ndisasm.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o rdoff/rdfdump.o rdoff/rdfdump.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o rdoff/rdoff.o rdoff/rdoff.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o rdoff/rdfload.o rdoff/rdfload.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o rdoff/symtab.o rdoff/symtab.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o rdoff/collectn.o rdoff/collectn.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o rdoff/rdlib.o rdoff/rdlib.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o rdoff/segtab.o rdoff/segtab.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o rdoff/hash.o rdoff/hash.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o rdoff/ldrdf.o rdoff/ldrdf.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o rdoff/rdx.o rdoff/rdx.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o rdoff/rdflib.o rdoff/rdflib.c
+gcc -c -O2 -g -fwrapv -U__STRICT_ANSI__ -fno-common -Werror=attributes -W -Wall -pedantic -Wc90-c99-compat -Wno-long-long -Werror=implicit -Werror=missing-braces -Werror=return-type -Werror=trigraphs -Werror=pointer-arith -Werror=missing-prototypes -Werror=missing-declarations -Werror=comment -Werror=vla -DHAVE_CONFIG_H -I. -I. -I./include -I./include -I./x86 -I./x86 -I./asm -I./asm -I./disasm -I./disasm -I./output -I./output -o rdoff/rdf2bin.o rdoff/rdf2bin.c
+rm -f rdoff/librdoff.a
+ar cq rdoff/librdoff.a rdoff/rdoff.o rdoff/rdfload.o rdoff/symtab.o rdoff/collectn.o rdoff/rdlib.o rdoff/segtab.o rdoff/hash.o
+ranlib rdoff/librdoff.a
+rm -f libnasm.a
+ar cq libnasm.a stdlib/snprintf.o stdlib/vsnprintf.o stdlib/strlcpy.o stdlib/strnlen.o nasmlib/ver.o nasmlib/crc64.o nasmlib/malloc.o nasmlib/md5c.o nasmlib/string.o nasmlib/file.o nasmlib/mmap.o nasmlib/ilog2.o nasmlib/realpath.o nasmlib/path.o nasmlib/filename.o nasmlib/srcfile.o nasmlib/zerobuf.o nasmlib/readnum.o nasmlib/bsi.o nasmlib/rbtree.o nasmlib/hashtbl.o nasmlib/raa.o nasmlib/saa.o nasmlib/strlist.o nasmlib/perfhash.o nasmlib/badenum.o common/common.o x86/insnsa.o x86/insnsb.o x86/insnsd.o x86/insnsn.o x86/regs.o x86/regvals.o x86/regflags.o x86/regdis.o x86/disp8.o x86/iflag.o asm/error.o asm/float.o asm/directiv.o asm/directbl.o asm/pragma.o asm/assemble.o asm/labels.o asm/parser.o asm/preproc.o asm/quote.o asm/pptok.o asm/listing.o asm/eval.o asm/exprlib.o asm/exprdump.o asm/stdscan.o asm/strfunc.o asm/tokhash.o asm/segalloc.o asm/preproc-nop.o asm/rdstrnum.o macros/macros.o output/outform.o output/outlib.o output/legacy.o output/nulldbg.o output/nullout.o output/outbin.o output/outaout.o output/outcoff.o output/outelf.o output/outobj.o output/outas86.o output/outrdf2.o output/outdbg.o output/outieee.o output/outmacho.o output/codeview.o disasm/disasm.o disasm/sync.o
+ranlib libnasm.a
+gcc  -o nasm asm/nasm.o libnasm.a 
+gcc  -o ndisasm disasm/ndisasm.o libnasm.a 
+gcc  -o rdoff/rdfdump rdoff/rdfdump.o rdoff/librdoff.a libnasm.a 
+gcc  -o rdoff/rdx rdoff/rdx.o rdoff/librdoff.a libnasm.a 
+gcc  -o rdoff/rdflib rdoff/rdflib.o rdoff/librdoff.a libnasm.a 
+gcc  -o rdoff/rdf2bin rdoff/rdf2bin.o rdoff/librdoff.a libnasm.a 
+rm -f rdoff/rdf2com
+rm -f rdoff/rdf2ith
+rm -f rdoff/rdf2ihx
+rm -f rdoff/rdf2srec
+cd rdoff && ln -s rdf2bin rdf2com
+cd rdoff && ln -s rdf2bin rdf2ith
+cd rdoff && ln -s rdf2bin rdf2ihx
+cd rdoff && ln -s rdf2bin rdf2srec
+gcc  -o rdoff/ldrdf rdoff/ldrdf.o rdoff/librdoff.a libnasm.a 
+mkdir -p /tmp/work/pkg/usr/bin
+/usr/bin/install -c nasm /tmp/work/pkg/usr/bin/nasm
+/usr/bin/install -c ndisasm /tmp/work/pkg/usr/bin/ndisasm
+mkdir -p /tmp/work/pkg/usr/share/man/man1
+/usr/bin/install -c -m 644 ./nasm.1 /tmp/work/pkg/usr/share/man/man1/nasm.1
+/usr/bin/install -c -m 644 ./ndisasm.1 /tmp/work/pkg/usr/share/man/man1/ndisasm.1
+/bin/mkdir: created directory '/tmp/work/pkg/usr/share/doc'
+/bin/mkdir: created directory '/tmp/work/pkg/usr/share/doc/nasm-2.13.02'
+/bin/mkdir: created directory '/tmp/work/pkg/usr/share/doc/nasm-2.13.02/html'
+'doc/html/nasmdo10.html' -> '/tmp/work/pkg/usr/share/doc/nasm-2.13.02/html/nasmdo10.html'
+'doc/html/nasmdo11.html' -> '/tmp/work/pkg/usr/share/doc/nasm-2.13.02/html/nasmdo11.html'
+'doc/html/nasmdo12.html' -> '/tmp/work/pkg/usr/share/doc/nasm-2.13.02/html/nasmdo12.html'
+'doc/html/nasmdoc0.html' -> '/tmp/work/pkg/usr/share/doc/nasm-2.13.02/html/nasmdoc0.html'
+'doc/html/nasmdoc1.html' -> '/tmp/work/pkg/usr/share/doc/nasm-2.13.02/html/nasmdoc1.html'
+'doc/html/nasmdoc2.html' -> '/tmp/work/pkg/usr/share/doc/nasm-2.13.02/html/nasmdoc2.html'
+'doc/html/nasmdoc3.html' -> '/tmp/work/pkg/usr/share/doc/nasm-2.13.02/html/nasmdoc3.html'
+'doc/html/nasmdoc4.html' -> '/tmp/work/pkg/usr/share/doc/nasm-2.13.02/html/nasmdoc4.html'
+'doc/html/nasmdoc5.html' -> '/tmp/work/pkg/usr/share/doc/nasm-2.13.02/html/nasmdoc5.html'
+'doc/html/nasmdoc6.html' -> '/tmp/work/pkg/usr/share/doc/nasm-2.13.02/html/nasmdoc6.html'
+'doc/html/nasmdoc7.html' -> '/tmp/work/pkg/usr/share/doc/nasm-2.13.02/html/nasmdoc7.html'
+'doc/html/nasmdoc8.html' -> '/tmp/work/pkg/usr/share/doc/nasm-2.13.02/html/nasmdoc8.html'
+'doc/html/nasmdoc9.html' -> '/tmp/work/pkg/usr/share/doc/nasm-2.13.02/html/nasmdoc9.html'
+'doc/html/nasmdoca.html' -> '/tmp/work/pkg/usr/share/doc/nasm-2.13.02/html/nasmdoca.html'
+'doc/html/nasmdocb.html' -> '/tmp/work/pkg/usr/share/doc/nasm-2.13.02/html/nasmdocb.html'
+'doc/html/nasmdocc.html' -> '/tmp/work/pkg/usr/share/doc/nasm-2.13.02/html/nasmdocc.html'
+'doc/html/nasmdocd.html' -> '/tmp/work/pkg/usr/share/doc/nasm-2.13.02/html/nasmdocd.html'
+'doc/html/nasmdoce.html' -> '/tmp/work/pkg/usr/share/doc/nasm-2.13.02/html/nasmdoce.html'
+'doc/html/nasmdoci.html' -> '/tmp/work/pkg/usr/share/doc/nasm-2.13.02/html/nasmdoci.html'
+'doc/nasmdoc.txt' -> '/tmp/work/pkg/usr/share/doc/nasm-2.13.02/nasmdoc.txt'
+'doc/opt_var.txt' -> '/tmp/work/pkg/usr/share/doc/nasm-2.13.02/opt_var.txt'
+'doc/head.ps' -> '/tmp/work/pkg/usr/share/doc/nasm-2.13.02/head.ps'
+'doc/nasmdoc.pdf' -> '/tmp/work/pkg/usr/share/doc/nasm-2.13.02/nasmdoc.pdf'
+=======> nasm arşivine üstbilgiler ekleniyor.
+=======> nasm#2.13.02-armv7l.mps sıkıştırılıyor.

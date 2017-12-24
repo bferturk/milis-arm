@@ -4,14 +4,14 @@
 # Gerekler:
 
 isim=nasm
-surum=2.11.06
+surum=2.13.02
 devir=1
 
-kaynak=( ftp://ftp.debian.org/debian/pool/main/n/nasm/nasm_2.11.06-1really2.11.05.orig.tar.xz
-		http://www.nasm.us/pub/nasm/releasebuilds/$surum/nasm-$surum-xdoc.tar.xz)
+kaynak=(http://www.nasm.us/pub/nasm/releasebuilds/2.13.02/nasm-2.13.02.tar.xz
+		http://www.nasm.us/pub/nasm/releasebuilds/2.13.02/nasm-2.13.02-xdoc.tar.xz)
 
 derle() {
-	cd $isim-2.11.05
+	cd $isim-2.13.02
 	./configure --prefix=/usr\
 		    --mandir=/usr/share/man
 	make
@@ -20,9 +20,9 @@ derle() {
 	make INSTALLROOT=$PKG  install
 
 mkdir -pv $PKG/usr/share/doc/nasm-$surum/html
-cd ../$isim-2.11.06
+cd ../$isim-2.13.02
 cp -v doc/html/*.html    $PKG/usr/share/doc/nasm-$surum/html
 cp -v doc/*.{txt,ps,pdf} $PKG/usr/share/doc/nasm-$surum
-mkdir -pv $PKG/usr/share/info
-cp -v doc/info/*         $PKG/usr/share/info
+#mkdir -pv $PKG/usr/share/info
+#cp -v doc/info/*         $PKG/usr/share/info
 }
