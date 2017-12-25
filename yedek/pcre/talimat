@@ -1,0 +1,30 @@
+# Tanım: Perl ile Uyumlu Normal İfade kütüphaneleri.
+# URL: http://www.pcre.org/
+# Paketçi: milisarge
+# Gerekler:
+
+isim=pcre
+surum=8.38
+devir=1
+
+kaynak=( ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/$isim-$surum.tar.bz2 )
+derle() {
+cd $isim-$surum
+
+[ "${CARCH}" = "x86_64" ] && export CFLAGS="${CFLAGS} -fPIC"
+
+./configure --prefix=/usr \
+--docdir=/usr/share/doc/pcre-$surum \
+--enable-unicode-properties \
+--enable-pcre16 \
+--enable-pcre32 \
+--enable-pcregrep-libz \
+--enable-pcregrep-libbz2 \
+--enable-pcretest-libreadline \
+--disable-static
+make
+make DESTDIR=$PKG install
+mkdir  $PKG/lib
+mv -v $PKG/usr/lib/libpcre.so.* $PKG/lib
+ln -sfv ../../lib/$(readlink $PKG/usr/lib/libpcre.so) $PKG/usr/lib/libpcre.so
+}
