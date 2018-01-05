@@ -7,12 +7,10 @@ isim=openssh
 surum=7.1p2
 devir=1
 
-kaynak=(ftp://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/$isim-$surum.tar.gz
-		#http://downloads.nutyx.org/files/patchs/openssh-server/service-saravane-01.patch)
+kaynak=(ftp://ftp.openbsd.org/pub/OpenBSD/OpenSSH/portable/$isim-$surum.tar.gz)
 
 derle() {
-source /etc/blfs-bootscripts
-wget http://www.linuxfromscratch.org/blfs/downloads/svn/$scripts-$scriptsversion.tar.bz2
+
 
 unset MAKEFLAGS
 cd $isim-$surum
@@ -45,10 +43,4 @@ install -v -m755 -d $PKG/usr/share/doc/$isim-$surum
 install -v -m644 INSTALL LICENCE OVERVIEW README* \
 $PKG/usr/share/doc/$isim-$surum
 
-cd $SRC
-
-tar xf $scripts-$scriptsversion.tar.bz2
-cd $SRC/$scripts-$scriptsversion
-patch -Np1 -i ../service-saravane-01.patch
-make DESTDIR=$PKG install-sshd
 }
