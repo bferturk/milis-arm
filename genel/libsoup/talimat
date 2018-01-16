@@ -1,0 +1,18 @@
+# Tanım: Libsoup, GNOME için bir HTTP istemci / sunucu kitaplığıdır.
+# URL: https://wiki.gnome.org/Projects/libsoup
+# Paketçi: milisarge
+# Gerekler: glib-networking libxml2 gobject-introspection vala sqlite 
+
+isim=libsoup
+surum=2.52.2
+devir=1
+
+kaynak=(http://ftp.gnome.org/pub/gnome/sources/$isim/${surum%.*}/$isim-$surum.tar.xz)
+
+derle() {
+cd $isim-$surum
+./configure --prefix=/usr \
+--disable-static	
+make
+make DESTDIR=$PKG install
+}

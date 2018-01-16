@@ -1,0 +1,20 @@
+# Tanım: Tüm GnuPG bileşenleri için ortak hata değerlerini tanımlayan bir kitaplık içerir
+# URL: http://www.gnupg.org
+# Paketçi: milisarge
+# Gerekler:
+
+isim=libgpg-error
+surum=1.21
+devir=1
+
+kaynak=(ftp://ftp.gnupg.org/gcrypt/$isim/$isim-$surum.tar.bz2)
+
+derle() {
+cd $isim-$surum
+./configure --prefix=/usr
+make
+make DESTDIR=$PKG install
+install -v -m644 -D README \
+$PKG/usr/share/doc/$isim-$surum/README
+rm -f $PKG/usr/share/info/dir
+}

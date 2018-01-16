@@ -1,0 +1,686 @@
+=======> isim: dbus-glib
+=======> surum: 0.104
+=======> devir: 1
+=======> grup: dbus
+=======> İndiriliyor http://dbus.freedesktop.org/releases/dbus-glib/dbus-glib-0.104.tar.gz
+=======> kayıt:/sources/dbus-glib-0.104.tar.gz
+hash kontrol dosyası yok-hash kontrolü yapılmayacak.
+=======> Derleniyor '/root/milis-arm/genel/dbus-glib/dbus-glib#0.104-armv7l.mps.lz'.
+tar -p -C /tmp/work/src -xf /sources/dbus-glib-0.104.tar.gz
+checking build system type... armv7l-unknown-linux-gnueabihf
+checking host system type... armv7l-unknown-linux-gnueabihf
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking whether make supports nested variables... (cached) yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking for library containing strerror... none required
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking whether gcc understands -Wfloat-equal... yes
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /bin/ld
+checking if the linker (/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /bin/nm -B
+checking the name lister (/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert armv7l-unknown-linux-gnueabihf file names to armv7l-unknown-linux-gnueabihf format... func_convert_file_noop
+checking how to convert armv7l-unknown-linux-gnueabihf file names to toolchain format... func_convert_file_noop
+checking for /bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... =======> isim: dbus-glib
+=======> surum: 0.104
+=======> devir: 1
+=======> grup: dbus
+hash kontrol dosyası yok-hash kontrolü yapılmayacak.
+=======> Derleniyor '/root/milis-arm/genel/dbus-glib/dbus-glib#0.104-armv7l.mps.lz'.
+tar -p -C /tmp/work/src -xf /sources/dbus-glib-0.104.tar.gz
+checking build system type... armv7l-unknown-linux-gnueabihf
+checking host system type... armv7l-unknown-linux-gnueabihf
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking whether make supports nested variables... (cached) yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking for library containing strerror... none required
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking whether gcc understands -Wfloat-equal... yes
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /bin/ld
+checking if the linker (/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /bin/nm -B
+checking the name lister (/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert armv7l-unknown-linux-gnueabihf file names to armv7l-unknown-linux-gnueabihf format... func_convert_file_noop
+checking how to convert armv7l-unknown-linux-gnueabihf file names to toolchain format... func_convert_file_noop
+checking for /bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/bin/ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for library containing socket... none required
+checking whether socklen_t is defined... yes
+checking for XML_ParserCreate_MM in -lexpat... yes
+checking expat.h usability... yes
+checking expat.h presence... yes
+checking for expat.h... yes
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for DBUS... no
+=======> isim: dbus-glib
+=======> surum: 0.104
+=======> devir: 1
+=======> grup: dbus
+hash kontrol dosyası yok-hash kontrolü yapılmayacak.
+=======> Derleniyor '/root/milis-arm/genel/dbus-glib/dbus-glib#0.104-armv7l.mps.lz'.
+tar -p -C /tmp/work/src -xf /sources/dbus-glib-0.104.tar.gz
+checking build system type... armv7l-unknown-linux-gnueabihf
+checking host system type... armv7l-unknown-linux-gnueabihf
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking whether make supports nested variables... (cached) yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking for library containing strerror... none required
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking whether gcc understands -Wfloat-equal... yes
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /bin/ld
+checking if the linker (/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /bin/nm -B
+checking the name lister (/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert armv7l-unknown-linux-gnueabihf file names to armv7l-unknown-linux-gnueabihf format... func_convert_file_noop
+checking how to convert armv7l-unknown-linux-gnueabihf file names to toolchain format... func_convert_file_noop
+checking for /bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/bin/ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for library containing socket... none required
+checking whether socklen_t is defined... yes
+checking for XML_ParserCreate_MM in -lexpat... yes
+checking expat.h usability... yes
+checking expat.h presence... yes
+checking for expat.h... yes
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for DBUS... yes
+checking for DBUS_GLIB... no
+=======> isim: dbus-glib
+=======> surum: 0.104
+=======> devir: 1
+=======> grup: dbus
+hash kontrol dosyası yok-hash kontrolü yapılmayacak.
+=======> Derleniyor '/root/milis-arm/genel/dbus-glib/dbus-glib#0.104-armv7l.mps.lz'.
+tar -p -C /tmp/work/src -xf /sources/dbus-glib-0.104.tar.gz
+checking build system type... armv7l-unknown-linux-gnueabihf
+checking host system type... armv7l-unknown-linux-gnueabihf
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking whether make supports nested variables... (cached) yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking for library containing strerror... none required
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking whether gcc understands -Wfloat-equal... yes
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /bin/ld
+checking if the linker (/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /bin/nm -B
+checking the name lister (/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert armv7l-unknown-linux-gnueabihf file names to armv7l-unknown-linux-gnueabihf format... func_convert_file_noop
+checking how to convert armv7l-unknown-linux-gnueabihf file names to toolchain format... func_convert_file_noop
+checking for /bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/bin/ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for library containing socket... none required
+checking whether socklen_t is defined... yes
+checking for XML_ParserCreate_MM in -lexpat... yes
+checking expat.h usability... yes
+checking expat.h presence... yes
+checking for expat.h... yes
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for DBUS... yes
+checking for DBUS_GLIB... yes
+checking for gtk-doc... no
+checking for gtkdoc-check... no
+checking for gtkdoc-check... no
+checking for gtkdoc-rebase... no
+checking for gtkdoc-mkpdf... no
+checking whether to build gtk-doc documentation... no
+checking for GTKDOC_DEPS... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating m4/Makefile
+config.status: creating doc/Makefile
+config.status: creating doc/reference/Makefile
+config.status: creating doc/reference/version.xml
+config.status: creating dbus/Makefile
+config.status: creating dbus/examples/Makefile
+config.status: creating dbus/examples/statemachine/Makefile
+config.status: creating test/Makefile
+config.status: creating test/core/Makefile
+config.status: creating test/interfaces/Makefile
+config.status: creating test/data/valid-service-files/debug-glib.service
+config.status: creating test/data/valid-service-files/debug-echo.service
+config.status: creating test/data/valid-service-files/interfaces-test.service
+config.status: creating test/lib/Makefile
+config.status: creating test/manual/Makefile
+config.status: creating tools/Makefile
+config.status: creating dbus-glib-1.pc
+config.status: creating dbus-glib-1-uninstalled.pc
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+
+                    D-BUS GLIB BINDINGS 0.104
+                  ==============
+
+	prefix:                   /usr
+	exec_prefix:              ${prefix}
+	source code location:	  .
+	compiler:		  gcc
+	cflags:		          -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  -Wall -Wchar-subscripts -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wcast-align -Wfloat-equal -Wsign-compare -fno-strict-aliasing
+	cppflags:		  
+
+
+        Maintainer mode:          no
+        gcc coverage profiling:   no
+        Building unit tests:      no
+        Building assertions:      no
+        Building checks:          yes
+        Building Gtk-doc docs:    no
+        Bash Completion:          yes
+        Using XML parser:         
+
+/usr/bin/make  all-recursive
+make[1]: Entering directory '/tmp/work/src/dbus-glib-0.104'
+Making all in dbus
+make[2]: Entering directory '/tmp/work/src/dbus-glib-0.104/dbus'
+Making all in .
+make[3]: Entering directory '/tmp/work/src/dbus-glib-0.104/dbus'
+  CC       dbus-gmain.lo
+  CC       dbus-glib.lo
+  CC       dbus-gmarshal.lo
+  CC       dbus-gobject.lo
+  CC       dbus-gproxy.lo
+  CC       dbus-gtest.lo
+  CC       dbus-gvalue.lo
+  CC       dbus-gvalue-parse-variant.lo
+  CC       dbus-gthread.lo
+  CC       dbus-gtype-specialized.lo
+  CC       dbus-gutils.lo
+  CC       dbus-gsignature.lo
+  CC       dbus-gvalue-utils.lo
+  CC       dbus-gidl.lo
+  CC       dbus-gloader-expat.lo
+  CC       dbus-gparser.lo
+  CC       dbus-binding-tool-glib.o
+  CC       dbus-glib-tool.o
+  CC       dbus-bash-completion-helper.o
+  CCLD     libdbus-glib-1.la
+  CCLD     libdbus-gtool.la
+  CCLD     dbus-binding-tool
+  CCLD     dbus-bash-completion-helper
+make[3]: Leaving directory '/tmp/work/src/dbus-glib-0.104/dbus'
+Making all in examples
+make[3]: Entering directory '/tmp/work/src/dbus-glib-0.104/dbus/examples'
+/bin/sh ../../libtool --mode=execute ../../dbus/dbus-binding-tool --prefix=some_object --mode=glib-server --output=example-service-glue.h ./example-service.xml
+/bin/sh ../../libtool --mode=execute ../../dbus/dbus-binding-tool --prefix=test_object --mode=glib-server --output=example-signal-emitter-glue.h ./example-signal-emitter.xml
+/usr/bin/make  all-recursive
+make[4]: Entering directory '/tmp/work/src/dbus-glib-0.104/dbus/examples'
+Making all in .
+make[5]: Entering directory '/tmp/work/src/dbus-glib-0.104/dbus/examples'
+  CC       example-service.o
+  CC       example-client.o
+  CC       example-signal-recipient.o
+  CC       example-signal-emitter.o
+  CCLD     example-client
+  CCLD     example-service
+  CCLD     example-signal-recipient
+  CCLD     example-signal-emitter
+make[5]: Leaving directory '/tmp/work/src/dbus-glib-0.104/dbus/examples'
+Making all in statemachine
+make[5]: Entering directory '/tmp/work/src/dbus-glib-0.104/dbus/examples/statemachine'
+/bin/sh ../../../libtool --mode=execute ../../../dbus/dbus-binding-tool --prefix=sm_server --mode=glib-server --output=statemachine-server-glue.h statemachine-server.xml
+/bin/sh ../../../libtool --mode=execute ../../../dbus/dbus-binding-tool --prefix=sm_object --mode=glib-server --output=statemachine-glue.h statemachine.xml
+echo "#include <config.h>" > sm-marshal.c.tmp
+glib-genmarshal --prefix=sm_marshal ./sm-marshal.list --header > sm-marshal.h.tmp && mv sm-marshal.h.tmp sm-marshal.h
+glib-genmarshal --prefix=sm_marshal ./sm-marshal.list --header --body >> sm-marshal.c.tmp
+mv sm-marshal.c.tmp sm-marshal.c
+/usr/bin/make  all-am
+make[6]: Entering directory '/tmp/work/src/dbus-glib-0.104/dbus/examples/statemachine'
+  CC       statemachine-server.o
+  CC       sm-marshal.o
+  CC       statemachine.o
+  CCLD     statemachine-server
+make[6]: Leaving directory '/tmp/work/src/dbus-glib-0.104/dbus/examples/statemachine'
+make[5]: Leaving directory '/tmp/work/src/dbus-glib-0.104/dbus/examples/statemachine'
+make[4]: Leaving directory '/tmp/work/src/dbus-glib-0.104/dbus/examples'
+make[3]: Leaving directory '/tmp/work/src/dbus-glib-0.104/dbus/examples'
+make[2]: Leaving directory '/tmp/work/src/dbus-glib-0.104/dbus'
+Making all in tools
+make[2]: Entering directory '/tmp/work/src/dbus-glib-0.104/tools'
+../dbus/dbus-binding-tool --mode=glib-client --prefix=dbus_bus --output=dbus-glib-bindings.h ../dbus-bus-introspect.xml
+/usr/bin/make  all-am
+make[3]: Entering directory '/tmp/work/src/dbus-glib-0.104/tools'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/tmp/work/src/dbus-glib-0.104/tools'
+make[2]: Leaving directory '/tmp/work/src/dbus-glib-0.104/tools'
+Making all in test
+make[2]: Entering directory '/tmp/work/src/dbus-glib-0.104/test'
+Making all in lib
+make[3]: Entering directory '/tmp/work/src/dbus-glib-0.104/test/lib'
+  CC       util.lo
+  CCLD     libtest.la
+make[3]: Leaving directory '/tmp/work/src/dbus-glib-0.104/test/lib'
+Making all in .
+make[3]: Entering directory '/tmp/work/src/dbus-glib-0.104/test'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/tmp/work/src/dbus-glib-0.104/test'
+Making all in core
+make[3]: Entering directory '/tmp/work/src/dbus-glib-0.104/test/core'
+/usr/bin/make  all-am
+make[4]: Entering directory '/tmp/work/src/dbus-glib-0.104/test/core'
+  CC       test-profile.o
+  CCLD     test-profile
+make[4]: Leaving directory '/tmp/work/src/dbus-glib-0.104/test/core'
+make[3]: Leaving directory '/tmp/work/src/dbus-glib-0.104/test/core'
+Making all in interfaces
+make[3]: Entering directory '/tmp/work/src/dbus-glib-0.104/test/interfaces'
+/usr/bin/make  all-am
+make[4]: Entering directory '/tmp/work/src/dbus-glib-0.104/test/interfaces'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/tmp/work/src/dbus-glib-0.104/test/interfaces'
+make[3]: Leaving directory '/tmp/work/src/dbus-glib-0.104/test/interfaces'
+Making all in manual
+make[3]: Entering directory '/tmp/work/src/dbus-glib-0.104/test/manual'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/tmp/work/src/dbus-glib-0.104/test/manual'
+make[2]: Leaving directory '/tmp/work/src/dbus-glib-0.104/test'
+Making all in doc
+make[2]: Entering directory '/tmp/work/src/dbus-glib-0.104/doc'
+Making all in reference
+make[3]: Entering directory '/tmp/work/src/dbus-glib-0.104/doc/reference'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/tmp/work/src/dbus-glib-0.104/doc/reference'
+make[3]: Entering directory '/tmp/work/src/dbus-glib-0.104/doc'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/tmp/work/src/dbus-glib-0.104/doc'
+make[2]: Leaving directory '/tmp/work/src/dbus-glib-0.104/doc'
+make[2]: Entering directory '/tmp/work/src/dbus-glib-0.104'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/tmp/work/src/dbus-glib-0.104'
+make[1]: Leaving directory '/tmp/work/src/dbus-glib-0.104'
+Making install in dbus
+make[1]: Entering directory '/tmp/work/src/dbus-glib-0.104/dbus'
+Making install in .
+make[2]: Entering directory '/tmp/work/src/dbus-glib-0.104/dbus'
+make[3]: Entering directory '/tmp/work/src/dbus-glib-0.104/dbus'
+ /bin/mkdir -p '/tmp/work/pkg/usr/lib'
+ /bin/mkdir -p '/tmp/work/pkg/usr/libexec'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libdbus-glib-1.la '/tmp/work/pkg/usr/lib'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c dbus-bash-completion-helper '/tmp/work/pkg/usr/libexec'
+libtool: install: /usr/bin/install -c .libs/libdbus-glib-1.so.2.3.2 /tmp/work/pkg/usr/lib/libdbus-glib-1.so.2.3.2
+libtool: install: (cd /tmp/work/pkg/usr/lib && { ln -s -f libdbus-glib-1.so.2.3.2 libdbus-glib-1.so.2 || { rm -f libdbus-glib-1.so.2 && ln -s libdbus-glib-1.so.2.3.2 libdbus-glib-1.so.2; }; })
+libtool: install: (cd /tmp/work/pkg/usr/lib && { ln -s -f libdbus-glib-1.so.2.3.2 libdbus-glib-1.so || { rm -f libdbus-glib-1.so && ln -s libdbus-glib-1.so.2.3.2 libdbus-glib-1.so; }; })
+libtool: install: /usr/bin/install -c .libs/libdbus-glib-1.lai /tmp/work/pkg/usr/lib/libdbus-glib-1.la
+ /bin/mkdir -p '/tmp/work/pkg/etc/bash_completion.d'
+ /usr/bin/install -c dbus-bash-completion.sh '/tmp/work/pkg/etc/bash_completion.d'
+libtool: install: /usr/bin/install -c .libs/dbus-bash-completion-helper /tmp/work/pkg/usr/libexec/dbus-bash-completion-helper
+ /bin/mkdir -p '/tmp/work/pkg/usr/include/dbus-1.0/dbus'
+ /usr/bin/install -c -m 644 dbus-gtype-specialized.h dbus-gvalue-parse-variant.h dbus-glib.h dbus-glib-lowlevel.h '/tmp/work/pkg/usr/include/dbus-1.0/dbus'
+ /bin/mkdir -p '/tmp/work/pkg/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c dbus-binding-tool '/tmp/work/pkg/usr/bin'
+libtool: install: /usr/bin/install -c .libs/dbus-binding-tool /tmp/work/pkg/usr/bin/dbus-binding-tool
+make[3]: Leaving directory '/tmp/work/src/dbus-glib-0.104/dbus'
+make[2]: Leaving directory '/tmp/work/src/dbus-glib-0.104/dbus'
+Making install in examples
+make[2]: Entering directory '/tmp/work/src/dbus-glib-0.104/dbus/examples'
+/usr/bin/make  install-recursive
+make[3]: Entering directory '/tmp/work/src/dbus-glib-0.104/dbus/examples'
+Making install in .
+make[4]: Entering directory '/tmp/work/src/dbus-glib-0.104/dbus/examples'
+make[5]: Entering directory '/tmp/work/src/dbus-glib-0.104/dbus/examples'
+make[5]: Nothing to be done for 'install-exec-am'.
+make[5]: Nothing to be done for 'install-data-am'.
+make[5]: Leaving directory '/tmp/work/src/dbus-glib-0.104/dbus/examples'
+make[4]: Leaving directory '/tmp/work/src/dbus-glib-0.104/dbus/examples'
+Making install in statemachine
+make[4]: Entering directory '/tmp/work/src/dbus-glib-0.104/dbus/examples/statemachine'
+/usr/bin/make  install-am
+make[5]: Entering directory '/tmp/work/src/dbus-glib-0.104/dbus/examples/statemachine'
+make[6]: Entering directory '/tmp/work/src/dbus-glib-0.104/dbus/examples/statemachine'
+make[6]: Nothing to be done for 'install-exec-am'.
+make[6]: Nothing to be done for 'install-data-am'.
+make[6]: Leaving directory '/tmp/work/src/dbus-glib-0.104/dbus/examples/statemachine'
+make[5]: Leaving directory '/tmp/work/src/dbus-glib-0.104/dbus/examples/statemachine'
+make[4]: Leaving directory '/tmp/work/src/dbus-glib-0.104/dbus/examples/statemachine'
+make[3]: Leaving directory '/tmp/work/src/dbus-glib-0.104/dbus/examples'
+make[2]: Leaving directory '/tmp/work/src/dbus-glib-0.104/dbus/examples'
+make[1]: Leaving directory '/tmp/work/src/dbus-glib-0.104/dbus'
+Making install in tools
+make[1]: Entering directory '/tmp/work/src/dbus-glib-0.104/tools'
+/usr/bin/make  install-am
+make[2]: Entering directory '/tmp/work/src/dbus-glib-0.104/tools'
+make[3]: Entering directory '/tmp/work/src/dbus-glib-0.104/tools'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/tmp/work/pkg/usr/include/dbus-1.0/dbus'
+ /usr/bin/install -c -m 644 dbus-glib-bindings.h '/tmp/work/pkg/usr/include/dbus-1.0/dbus'
+make[3]: Leaving directory '/tmp/work/src/dbus-glib-0.104/tools'
+make[2]: Leaving directory '/tmp/work/src/dbus-glib-0.104/tools'
+make[1]: Leaving directory '/tmp/work/src/dbus-glib-0.104/tools'
+Making install in test
+make[1]: Entering directory '/tmp/work/src/dbus-glib-0.104/test'
+Making install in lib
+make[2]: Entering directory '/tmp/work/src/dbus-glib-0.104/test/lib'
+make[3]: Entering directory '/tmp/work/src/dbus-glib-0.104/test/lib'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/tmp/work/src/dbus-glib-0.104/test/lib'
+make[2]: Leaving directory '/tmp/work/src/dbus-glib-0.104/test/lib'
+Making install in .
+make[2]: Entering directory '/tmp/work/src/dbus-glib-0.104/test'
+make[3]: Entering directory '/tmp/work/src/dbus-glib-0.104/test'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/tmp/work/src/dbus-glib-0.104/test'
+make[2]: Leaving directory '/tmp/work/src/dbus-glib-0.104/test'
+Making install in core
+make[2]: Entering directory '/tmp/work/src/dbus-glib-0.104/test/core'
+/usr/bin/make  install-am
+make[3]: Entering directory '/tmp/work/src/dbus-glib-0.104/test/core'
+make[4]: Entering directory '/tmp/work/src/dbus-glib-0.104/test/core'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/tmp/work/src/dbus-glib-0.104/test/core'
+make[3]: Leaving directory '/tmp/work/src/dbus-glib-0.104/test/core'
+make[2]: Leaving directory '/tmp/work/src/dbus-glib-0.104/test/core'
+Making install in interfaces
+make[2]: Entering directory '/tmp/work/src/dbus-glib-0.104/test/interfaces'
+/usr/bin/make  install-am
+make[3]: Entering directory '/tmp/work/src/dbus-glib-0.104/test/interfaces'
+make[4]: Entering directory '/tmp/work/src/dbus-glib-0.104/test/interfaces'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/tmp/work/src/dbus-glib-0.104/test/interfaces'
+make[3]: Leaving directory '/tmp/work/src/dbus-glib-0.104/test/interfaces'
+make[2]: Leaving directory '/tmp/work/src/dbus-glib-0.104/test/interfaces'
+Making install in manual
+make[2]: Entering directory '/tmp/work/src/dbus-glib-0.104/test/manual'
+make[3]: Entering directory '/tmp/work/src/dbus-glib-0.104/test/manual'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/tmp/work/src/dbus-glib-0.104/test/manual'
+make[2]: Leaving directory '/tmp/work/src/dbus-glib-0.104/test/manual'
+make[1]: Leaving directory '/tmp/work/src/dbus-glib-0.104/test'
+Making install in doc
+make[1]: Entering directory '/tmp/work/src/dbus-glib-0.104/doc'
+Making install in reference
+make[2]: Entering directory '/tmp/work/src/dbus-glib-0.104/doc/reference'
+make[3]: Entering directory '/tmp/work/src/dbus-glib-0.104/doc/reference'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /usr/bin/install -c -m 644 ./html/api-index-full.html
+ /usr/bin/install -c -m 644 ./html/ch01.html
+ /usr/bin/install -c -m 644 ./html/ch02.html
+ /usr/bin/install -c -m 644 ./html/ch03.html
+ /usr/bin/install -c -m 644 ./html/dbus-binding-tool.html
+ /usr/bin/install -c -m 644 ./html/dbus-glib-DBus-GLib-low-level.html
+ /usr/bin/install -c -m 644 ./html/dbus-glib-DBus-GObject-related-functions.html
+ /usr/bin/install -c -m 644 ./html/dbus-glib-DBusGConnection.html
+ /usr/bin/install -c -m 644 ./html/dbus-glib-DBusGError.html
+ /usr/bin/install -c -m 644 ./html/dbus-glib-DBusGMessage.html
+ /usr/bin/install -c -m 644 ./html/dbus-glib-DBusGMethod.html
+ /usr/bin/install -c -m 644 ./html/dbus-glib-DBusGProxy.html
+ /usr/bin/install -c -m 644 ./html/dbus-glib-Specializable-GType-System.html
+ /usr/bin/install -c -m 644 ./html/dbus-glib.devhelp2
+ /usr/bin/install -c -m 644 ./html/home.png
+ /usr/bin/install -c -m 644 ./html/index.html
+ /usr/bin/install -c -m 644 ./html/index.sgml
+ /usr/bin/install -c -m 644 ./html/left-insensitive.png
+ /usr/bin/install -c -m 644 ./html/left.png
+ /usr/bin/install -c -m 644 ./html/right-insensitive.png
+ /usr/bin/install -c -m 644 ./html/right.png
+ /usr/bin/install -c -m 644 ./html/style.css
+ /usr/bin/install -c -m 644 ./html/up-insensitive.png
+ /usr/bin/install -c -m 644 ./html/up.png
+make[3]: Leaving directory '/tmp/work/src/dbus-glib-0.104/doc/reference'
+make[2]: Leaving directory '/tmp/work/src/dbus-glib-0.104/doc/reference'
+make[2]: Entering directory '/tmp/work/src/dbus-glib-0.104/doc'
+make[3]: Entering directory '/tmp/work/src/dbus-glib-0.104/doc'
+make[3]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/tmp/work/pkg/usr/share/man/man1'
+ /usr/bin/install -c -m 644 dbus-binding-tool.1 '/tmp/work/pkg/usr/share/man/man1'
+make[3]: Leaving directory '/tmp/work/src/dbus-glib-0.104/doc'
+make[2]: Leaving directory '/tmp/work/src/dbus-glib-0.104/doc'
+make[1]: Leaving directory '/tmp/work/src/dbus-glib-0.104/doc'
+make[1]: Entering directory '/tmp/work/src/dbus-glib-0.104'
+make[2]: Entering directory '/tmp/work/src/dbus-glib-0.104'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/tmp/work/pkg/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 dbus-glib-1.pc '/tmp/work/pkg/usr/lib/pkgconfig'
+make[2]: Leaving directory '/tmp/work/src/dbus-glib-0.104'
+make[1]: Leaving directory '/tmp/work/src/dbus-glib-0.104'
+=======> dbus-glib arşivine üstbilgiler ekleniyor.
+=======> dbus-glib#0.104-armv7l.mps sıkıştırılıyor.

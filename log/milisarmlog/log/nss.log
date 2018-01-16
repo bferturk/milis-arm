@@ -1,0 +1,639 @@
+=======> isim: nss
+=======> surum: 3.31
+=======> devir: 1
+=======> İndiriliyor http://ftp.mozilla.org/pub/security/nss/releases/NSS__RTM/src/nss-3.31.tar.gz
+=======> kayıt:/sources/nss-3.31.tar.gz
+=======> isim: nss
+=======> surum: 3.31
+=======> devir: 1
+=======> İndiriliyor http://ftp.mozilla.org/pub/security/nss/releases/NSS__RTM/src/nss-3.31.tar.gz
+=======> kayıt:/sources/nss-3.31.tar.gz
+=======> Kısmi indirme var,tamamlanmaya çalışılacak
+=======> Partial download failed, restarting
+=======> isim: nss
+=======> surum: 3.31
+=======> devir: 1
+=======> İndiriliyor http://ftp.mozilla.org/pub/security/nss/releases/NSS__RTM/src/nss-3.31.tar.gz
+=======> kayıt:/sources/nss-3.31.tar.gz
+=======> Kısmi indirme var,tamamlanmaya çalışılacak
+=======> Partial download failed, restarting
+=======> isim: nss
+=======> surum: 3.31
+=======> devir: 1
+=======> İndiriliyor http://ftp.mozilla.org/pub/security/nss/releases/NSS__RTM/src/nss-3.31.tar.gz
+=======> kayıt:/sources/nss-3.31.tar.gz
+=======> Kısmi indirme var,tamamlanmaya çalışılacak
+=======> Partial download failed, restarting
+=======> isim: nss
+=======> surum: 3.31
+=======> devir: 1
+=======> İndiriliyor http://ftp.mozilla.org/pub/security/nss/releases/NSS__RTM/src/nss-3.31.tar.gz
+=======> kayıt:/sources/nss-3.31.tar.gz
+=======> Kısmi indirme var,tamamlanmaya çalışılacak
+=======> Partial download failed, restarting
+=======> isim: nss
+=======> surum: 3.31
+=======> devir: 1
+=======> İndiriliyor http://ftp.mozilla.org/pub/security/nss/releases/NSS__RTM/src/nss-3.31.tar.gz
+=======> kayıt:/sources/nss-3.31.tar.gz
+=======> Kısmi indirme var,tamamlanmaya çalışılacak
+=======> Partial download failed, restarting
+=======> isim: nss
+=======> surum: 3.31
+=======> devir: 1
+hash kontrol dosyası yok-hash kontrolü yapılmayacak.
+=======> Derleniyor '/root/milis-arm/genel/nss/nss#3.31-armv7l.mps.lz'.
+tar -p -C /tmp/work/src -xf /sources/nss-3.31.tar.gz
+cp nss-config.in /tmp/work/src
+cp nss.pc.in /tmp/work/src
+cp nss-util.pc.in /tmp/work/src
+cp nss-softokn.pc.in /tmp/work/src
+make: Entering directory '/tmp/work/src/nss-3.31/nss'
+cd coreconf; /usr/bin/make export
+make[1]: Entering directory '/tmp/work/src/nss-3.31/nss/coreconf'
+cd nsinstall; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/coreconf/nsinstall'
+make[2]: Nothing to be done for 'export'.
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/coreconf/nsinstall'
+cd nsinstall; /usr/bin/make libs
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/coreconf/nsinstall'
+cc -o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall.o -c -O2 -fPIC   -pipe -ffunction-sections -fdata-sections -DHAVE_STRERROR -DLINUX -Dlinux -Wall -Werror -DXP_UNIX -UDEBUG -DNDEBUG -D_REENTRANT -DNSS_NO_INIT_SUPPORT -DUSE_UTIL_DIRECTLY -DNO_NSPR_10_SUPPORT -DSSL_DISABLE_DEPRECATED_CIPHER_SUITE_NAMES -I/usr/include/nspr -I../../../dist/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/include -I../../../dist/public/coreconf -I../../../dist/private/coreconf -Wno-error -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  nsinstall.c
+cc -o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/pathsub.o -c -O2 -fPIC   -pipe -ffunction-sections -fdata-sections -DHAVE_STRERROR -DLINUX -Dlinux -Wall -Werror -DXP_UNIX -UDEBUG -DNDEBUG -D_REENTRANT -DNSS_NO_INIT_SUPPORT -DUSE_UTIL_DIRECTLY -DNO_NSPR_10_SUPPORT -DSSL_DISABLE_DEPRECATED_CIPHER_SUITE_NAMES -I/usr/include/nspr -I../../../dist/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/include -I../../../dist/public/coreconf -I../../../dist/private/coreconf -Wno-error -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  pathsub.c
+cc -o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -O2 -fPIC   -pipe -ffunction-sections -fdata-sections -DHAVE_STRERROR -DLINUX -Dlinux -Wall -Werror -DXP_UNIX -UDEBUG -DNDEBUG -D_REENTRANT -DNSS_NO_INIT_SUPPORT -DUSE_UTIL_DIRECTLY -DNO_NSPR_10_SUPPORT -DSSL_DISABLE_DEPRECATED_CIPHER_SUITE_NAMES -I/usr/include/nspr -I../../../dist/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/include -I../../../dist/public/coreconf -I../../../dist/private/coreconf -Wno-error -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/pathsub.o  -z noexecstack   -lpthread  -ldl -lc
+true -m 775 Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall ../../../dist/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/bin
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/coreconf/nsinstall'
+make[1]: Leaving directory '/tmp/work/src/nss-3.31/nss/coreconf'
+cd lib; /usr/bin/make export
+make[1]: Entering directory '/tmp/work/src/nss-3.31/nss/lib'
+cd util; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/util'
+Creating ../../../dist/public/nss
+../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 base64.h ciferfam.h eccutil.h hasht.h nssb64.h nssb64t.h nsslocks.h nssilock.h nssilckt.h nssrwlk.h nssrwlkt.h nssutil.h pkcs11.h pkcs11f.h pkcs11p.h pkcs11t.h pkcs11n.h pkcs11u.h pkcs1sig.h portreg.h secasn1.h secasn1t.h seccomon.h secder.h secdert.h secdig.h secdigt.h secitem.h secoid.h secoidt.h secport.h secerr.h utilmodt.h utilrename.h utilpars.h utilparst.h pkcs11uri.h ../../../dist/public/nss
+Creating ../../../dist/private/nss
+../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 verref.h templates.c ../../../dist/private/nss
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/util'
+cd freebl; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/freebl'
+../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 blapit.h shsign.h ecl/ecl-exp.h nsslowhash.h ../../../dist/public/nss
+../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 alghmac.h blapi.h chacha20poly1305.h hmacct.h secmpi.h secrng.h ec.h ecl/ecl.h ecl/ecl-curve.h ecl/eclt.h ../../../dist/private/nss
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/freebl'
+cd dbm; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/dbm'
+cd include; /usr/bin/make export
+make[3]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/dbm/include'
+Creating ../../../../dist/public/dbm
+../../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 mcom_db.h ncompat.h winfile.h ../../../../dist/public/dbm
+Creating ../../../../dist/private/dbm
+../../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 hsearch.h page.h extern.h queue.h hash.h search.h ../../../../dist/private/dbm
+make[3]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/dbm/include'
+cd src; /usr/bin/make export
+make[3]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/dbm/src'
+make[3]: Nothing to be done for 'export'.
+make[3]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/dbm/src'
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/dbm'
+cd softoken; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/softoken'
+cd legacydb; /usr/bin/make export
+make[3]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/softoken/legacydb'
+There are no private exports.
+make[3]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/softoken/legacydb'
+../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 lowkeyi.h lowkeyti.h ../../../dist/public/nss
+cd legacydb; /usr/bin/make private_export
+make[3]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/softoken/legacydb'
+There are no private exports.
+make[3]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/softoken/legacydb'
+../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 lgglue.h pkcs11ni.h softoken.h softoknt.h softkver.h sdb.h sftkdbt.h ../../../dist/private/nss
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/softoken'
+cd base; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/base'
+../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 nssbaset.h nssbase.h ../../../dist/public/nss
+../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 baset.h base.h ../../../dist/private/nss
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/base'
+cd dev; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/dev'
+../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 ckhelper.h devm.h devtm.h devt.h dev.h nssdevt.h nssdev.h ../../../dist/private/nss
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/dev'
+cd pki; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/pki'
+../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 pki.h pkit.h nsspkit.h nsspki.h pkistore.h pki3hack.h pkitm.h pkim.h ../../../dist/private/nss
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/pki'
+cd libpkix; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/libpkix'
+cd include; /usr/bin/make export
+make[3]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/include'
+../../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 pkix.h pkix_crlsel.h pkix_errorstrings.h pkix_results.h pkixt.h pkix_certsel.h pkix_params.h pkix_revchecker.h pkix_certstore.h pkix_pl_pki.h pkix_sample_modules.h pkix_checker.h pkix_pl_system.h pkix_util.h ../../../../dist/private/nss
+make[3]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/include'
+cd pkix; /usr/bin/make export
+make[3]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix'
+cd certsel; /usr/bin/make export
+make[4]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix/certsel'
+../../../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 pkix_certselector.h pkix_comcertselparams.h ../../../../../dist/private/nss
+make[4]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix/certsel'
+cd crlsel; /usr/bin/make export
+make[4]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix/crlsel'
+../../../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 pkix_comcrlselparams.h pkix_crlselector.h ../../../../../dist/private/nss
+make[4]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix/crlsel'
+cd checker; /usr/bin/make export
+make[4]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix/checker'
+../../../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 pkix_basicconstraintschecker.h pkix_certchainchecker.h pkix_crlchecker.h pkix_ekuchecker.h pkix_expirationchecker.h pkix_namechainingchecker.h pkix_nameconstraintschecker.h pkix_ocspchecker.h pkix_policychecker.h pkix_revocationmethod.h pkix_revocationchecker.h pkix_signaturechecker.h pkix_targetcertchecker.h ../../../../../dist/private/nss
+make[4]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix/checker'
+cd params; /usr/bin/make export
+make[4]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix/params'
+../../../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 pkix_procparams.h pkix_trustanchor.h pkix_valparams.h pkix_resourcelimits.h ../../../../../dist/private/nss
+make[4]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix/params'
+cd results; /usr/bin/make export
+make[4]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix/results'
+../../../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 pkix_buildresult.h pkix_policynode.h pkix_valresult.h pkix_verifynode.h ../../../../../dist/private/nss
+make[4]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix/results'
+cd store; /usr/bin/make export
+make[4]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix/store'
+../../../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 pkix_store.h ../../../../../dist/private/nss
+make[4]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix/store'
+cd top; /usr/bin/make export
+make[4]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix/top'
+../../../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 pkix_build.h pkix_lifecycle.h pkix_validate.h ../../../../../dist/private/nss
+make[4]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix/top'
+cd util; /usr/bin/make export
+make[4]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix/util'
+../../../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 pkix_tools.h pkix_error.h pkix_logger.h pkix_list.h ../../../../../dist/private/nss
+make[4]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix/util'
+cd certsel; /usr/bin/make private_export
+make[4]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix/certsel'
+../../../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 pkix_certselector.h pkix_comcertselparams.h ../../../../../dist/private/nss
+make[4]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix/certsel'
+cd crlsel; /usr/bin/make private_export
+make[4]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix/crlsel'
+../../../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 pkix_comcrlselparams.h pkix_crlselector.h ../../../../../dist/private/nss
+make[4]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix/crlsel'
+cd checker; /usr/bin/make private_export
+make[4]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix/checker'
+../../../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 pkix_basicconstraintschecker.h pkix_certchainchecker.h pkix_crlchecker.h pkix_ekuchecker.h pkix_expirationchecker.h pkix_namechainingchecker.h pkix_nameconstraintschecker.h pkix_ocspchecker.h pkix_policychecker.h pkix_revocationmethod.h pkix_revocationchecker.h pkix_signaturechecker.h pkix_targetcertchecker.h ../../../../../dist/private/nss
+make[4]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix/checker'
+cd params; /usr/bin/make private_export
+make[4]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix/params'
+../../../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 pkix_procparams.h pkix_trustanchor.h pkix_valparams.h pkix_resourcelimits.h ../../../../../dist/private/nss
+make[4]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix/params'
+cd results; /usr/bin/make private_export
+make[4]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix/results'
+../../../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 pkix_buildresult.h pkix_policynode.h pkix_valresult.h pkix_verifynode.h ../../../../../dist/private/nss
+make[4]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix/results'
+cd store; /usr/bin/make private_export
+make[4]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix/store'
+../../../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 pkix_store.h ../../../../../dist/private/nss
+make[4]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix/store'
+cd top; /usr/bin/make private_export
+make[4]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix/top'
+../../../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 pkix_build.h pkix_lifecycle.h pkix_validate.h ../../../../../dist/private/nss
+make[4]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix/top'
+cd util; /usr/bin/make private_export
+make[4]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix/util'
+../../../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 pkix_tools.h pkix_error.h pkix_logger.h pkix_list.h ../../../../../dist/private/nss
+make[4]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix/util'
+There are no private exports.
+make[3]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix'
+cd pkix_pl_nss; /usr/bin/make export
+make[3]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix_pl_nss'
+cd pki; /usr/bin/make export
+make[4]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix_pl_nss/pki'
+../../../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 pkix_pl_basicconstraints.h pkix_pl_cert.h pkix_pl_certpolicyinfo.h pkix_pl_certpolicymap.h pkix_pl_certpolicyqualifier.h pkix_pl_crl.h pkix_pl_crldp.h pkix_pl_crlentry.h pkix_pl_date.h pkix_pl_generalname.h pkix_pl_infoaccess.h pkix_pl_nameconstraints.h pkix_pl_ocsprequest.h pkix_pl_ocspresponse.h pkix_pl_publickey.h pkix_pl_x500name.h pkix_pl_ocspcertid.h ../../../../../dist/private/nss
+make[4]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix_pl_nss/pki'
+cd system; /usr/bin/make export
+make[4]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix_pl_nss/system'
+../../../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 pkix_pl_common.h pkix_pl_mem.h pkix_pl_object.h pkix_pl_string.h pkix_pl_primhash.h pkix_pl_bigint.h pkix_pl_mutex.h pkix_pl_bytearray.h pkix_pl_lifecycle.h pkix_pl_oid.h pkix_pl_hashtable.h pkix_pl_rwlock.h pkix_pl_monitorlock.h ../../../../../dist/private/nss
+make[4]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix_pl_nss/system'
+cd module; /usr/bin/make export
+make[4]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix_pl_nss/module'
+../../../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 pkix_pl_aiamgr.h pkix_pl_colcertstore.h pkix_pl_httpcertstore.h pkix_pl_httpdefaultclient.h pkix_pl_ldapt.h pkix_pl_ldapcertstore.h pkix_pl_ldapresponse.h pkix_pl_ldaprequest.h pkix_pl_ldapdefaultclient.h pkix_pl_nsscontext.h pkix_pl_pk11certstore.h pkix_pl_socket.h ../../../../../dist/private/nss
+make[4]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix_pl_nss/module'
+cd pki; /usr/bin/make private_export
+make[4]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix_pl_nss/pki'
+../../../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 pkix_pl_basicconstraints.h pkix_pl_cert.h pkix_pl_certpolicyinfo.h pkix_pl_certpolicymap.h pkix_pl_certpolicyqualifier.h pkix_pl_crl.h pkix_pl_crldp.h pkix_pl_crlentry.h pkix_pl_date.h pkix_pl_generalname.h pkix_pl_infoaccess.h pkix_pl_nameconstraints.h pkix_pl_ocsprequest.h pkix_pl_ocspresponse.h pkix_pl_publickey.h pkix_pl_x500name.h pkix_pl_ocspcertid.h ../../../../../dist/private/nss
+make[4]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix_pl_nss/pki'
+cd system; /usr/bin/make private_export
+make[4]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix_pl_nss/system'
+../../../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 pkix_pl_common.h pkix_pl_mem.h pkix_pl_object.h pkix_pl_string.h pkix_pl_primhash.h pkix_pl_bigint.h pkix_pl_mutex.h pkix_pl_bytearray.h pkix_pl_lifecycle.h pkix_pl_oid.h pkix_pl_hashtable.h pkix_pl_rwlock.h pkix_pl_monitorlock.h ../../../../../dist/private/nss
+make[4]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix_pl_nss/system'
+cd module; /usr/bin/make private_export
+make[4]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix_pl_nss/module'
+../../../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 pkix_pl_aiamgr.h pkix_pl_colcertstore.h pkix_pl_httpcertstore.h pkix_pl_httpdefaultclient.h pkix_pl_ldapt.h pkix_pl_ldapcertstore.h pkix_pl_ldapresponse.h pkix_pl_ldaprequest.h pkix_pl_ldapdefaultclient.h pkix_pl_nsscontext.h pkix_pl_pk11certstore.h pkix_pl_socket.h ../../../../../dist/private/nss
+make[4]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix_pl_nss/module'
+There are no private exports.
+make[3]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix_pl_nss'
+cd include; /usr/bin/make private_export
+make[3]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/include'
+../../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 pkix.h pkix_crlsel.h pkix_errorstrings.h pkix_results.h pkixt.h pkix_certsel.h pkix_params.h pkix_revchecker.h pkix_certstore.h pkix_pl_pki.h pkix_sample_modules.h pkix_checker.h pkix_pl_system.h pkix_util.h ../../../../dist/private/nss
+make[3]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/include'
+cd pkix; /usr/bin/make private_export
+make[3]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix'
+cd certsel; /usr/bin/make private_export
+make[4]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix/certsel'
+../../../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 pkix_certselector.h pkix_comcertselparams.h ../../../../../dist/private/nss
+make[4]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix/certsel'
+cd crlsel; /usr/bin/make private_export
+make[4]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix/crlsel'
+../../../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 pkix_comcrlselparams.h pkix_crlselector.h ../../../../../dist/private/nss
+make[4]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix/crlsel'
+cd checker; /usr/bin/make private_export
+make[4]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix/checker'
+../../../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 pkix_basicconstraintschecker.h pkix_certchainchecker.h pkix_crlchecker.h pkix_ekuchecker.h pkix_expirationchecker.h pkix_namechainingchecker.h pkix_nameconstraintschecker.h pkix_ocspchecker.h pkix_policychecker.h pkix_revocationmethod.h pkix_revocationchecker.h pkix_signaturechecker.h pkix_targetcertchecker.h ../../../../../dist/private/nss
+make[4]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix/checker'
+cd params; /usr/bin/make private_export
+make[4]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix/params'
+../../../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 pkix_procparams.h pkix_trustanchor.h pkix_valparams.h pkix_resourcelimits.h ../../../../../dist/private/nss
+make[4]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix/params'
+cd results; /usr/bin/make private_export
+make[4]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix/results'
+../../../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 pkix_buildresult.h pkix_policynode.h pkix_valresult.h pkix_verifynode.h ../../../../../dist/private/nss
+make[4]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix/results'
+cd store; /usr/bin/make private_export
+make[4]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix/store'
+../../../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 pkix_store.h ../../../../../dist/private/nss
+make[4]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix/store'
+cd top; /usr/bin/make private_export
+make[4]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix/top'
+../../../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 pkix_build.h pkix_lifecycle.h pkix_validate.h ../../../../../dist/private/nss
+make[4]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix/top'
+cd util; /usr/bin/make private_export
+make[4]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix/util'
+../../../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 pkix_tools.h pkix_error.h pkix_logger.h pkix_list.h ../../../../../dist/private/nss
+make[4]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix/util'
+There are no private exports.
+make[3]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix'
+cd pkix_pl_nss; /usr/bin/make private_export
+make[3]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix_pl_nss'
+cd pki; /usr/bin/make private_export
+make[4]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix_pl_nss/pki'
+../../../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 pkix_pl_basicconstraints.h pkix_pl_cert.h pkix_pl_certpolicyinfo.h pkix_pl_certpolicymap.h pkix_pl_certpolicyqualifier.h pkix_pl_crl.h pkix_pl_crldp.h pkix_pl_crlentry.h pkix_pl_date.h pkix_pl_generalname.h pkix_pl_infoaccess.h pkix_pl_nameconstraints.h pkix_pl_ocsprequest.h pkix_pl_ocspresponse.h pkix_pl_publickey.h pkix_pl_x500name.h pkix_pl_ocspcertid.h ../../../../../dist/private/nss
+make[4]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix_pl_nss/pki'
+cd system; /usr/bin/make private_export
+make[4]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix_pl_nss/system'
+../../../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 pkix_pl_common.h pkix_pl_mem.h pkix_pl_object.h pkix_pl_string.h pkix_pl_primhash.h pkix_pl_bigint.h pkix_pl_mutex.h pkix_pl_bytearray.h pkix_pl_lifecycle.h pkix_pl_oid.h pkix_pl_hashtable.h pkix_pl_rwlock.h pkix_pl_monitorlock.h ../../../../../dist/private/nss
+make[4]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix_pl_nss/system'
+cd module; /usr/bin/make private_export
+make[4]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix_pl_nss/module'
+../../../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 pkix_pl_aiamgr.h pkix_pl_colcertstore.h pkix_pl_httpcertstore.h pkix_pl_httpdefaultclient.h pkix_pl_ldapt.h pkix_pl_ldapcertstore.h pkix_pl_ldapresponse.h pkix_pl_ldaprequest.h pkix_pl_ldapdefaultclient.h pkix_pl_nsscontext.h pkix_pl_pk11certstore.h pkix_pl_socket.h ../../../../../dist/private/nss
+make[4]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix_pl_nss/module'
+There are no private exports.
+make[3]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/libpkix/pkix_pl_nss'
+There are no private exports.
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/libpkix'
+cd certdb; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/certdb'
+../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 cert.h certt.h certdb.h ../../../dist/public/nss
+../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 genname.h xconst.h certxutl.h certi.h ../../../dist/private/nss
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/certdb'
+cd certhigh; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/certhigh'
+../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 ocsp.h ocspt.h ../../../dist/public/nss
+../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 ocspti.h ocspi.h ../../../dist/private/nss
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/certhigh'
+cd pk11wrap; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/pk11wrap'
+../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 secmod.h secmodt.h secpkcs5.h pk11func.h pk11pub.h pk11priv.h pk11sdr.h pk11pqg.h ../../../dist/public/nss
+../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 secmodi.h dev3hack.h ../../../dist/private/nss
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/pk11wrap'
+cd cryptohi; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/cryptohi'
+../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 cryptohi.h cryptoht.h key.h keyhi.h keyt.h keythi.h sechash.h ../../../dist/public/nss
+../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 keyi.h ../../../dist/private/nss
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/cryptohi'
+cd nss; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/nss'
+../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 nss.h ../../../dist/public/nss
+../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 nssrenam.h nssoptions.h ../../../dist/private/nss
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/nss'
+cd ssl; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/ssl'
+../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 ssl.h sslt.h sslerr.h sslproto.h preenc.h ../../../dist/public/nss
+There are no private exports.
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/ssl'
+cd pkcs7; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/pkcs7'
+../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 secmime.h secpkcs7.h pkcs7t.h ../../../dist/public/nss
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/pkcs7'
+cd pkcs12; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/pkcs12'
+../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 pkcs12t.h pkcs12.h p12plcy.h p12.h p12t.h ../../../dist/public/nss
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/pkcs12'
+cd smime; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/smime'
+../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 cms.h cmst.h smime.h cmsreclist.h ../../../dist/public/nss
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/smime'
+cd crmf; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/crmf'
+../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 crmf.h crmft.h cmmf.h cmmft.h ../../../dist/public/nss
+../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 crmfi.h crmfit.h cmmfi.h cmmfit.h ../../../dist/private/nss
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/crmf'
+cd jar; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/jar'
+../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 jar.h jar-ds.h jarfile.h ../../../dist/public/nss
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/jar'
+cd ckfw; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/ckfw'
+cd builtins; /usr/bin/make export
+make[3]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/ckfw/builtins'
+../../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 nssckbi.h ../../../../dist/public/nss
+make[3]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/ckfw/builtins'
+../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 nssck.api nssckepv.h nssckft.h nssckfw.h nssckfwc.h nssckfwt.h nssckg.h nssckmdt.h nssckt.h ../../../dist/public/nss
+cd builtins; /usr/bin/make private_export
+make[3]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/ckfw/builtins'
+There are no private exports.
+make[3]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/ckfw/builtins'
+../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 ck.h ckfw.h ckfwm.h ckfwtm.h ckmd.h ckt.h ../../../dist/private/nss
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/ckfw'
+cd sysinit; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/sysinit'
+make[2]: Nothing to be done for 'export'.
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/sysinit'
+make[1]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib'
+cd cmd; /usr/bin/make export
+make[1]: Entering directory '/tmp/work/src/nss-3.31/nss/cmd'
+cd lib; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/cmd/lib'
+../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 444 basicutil.h secutil.h pk11table.h ../../../dist/private/nss
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/cmd/lib'
+cd bltest; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/cmd/bltest'
+make[2]: Nothing to be done for 'export'.
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/cmd/bltest'
+cd ecperf; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/cmd/ecperf'
+make[2]: Nothing to be done for 'export'.
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/cmd/ecperf'
+cd fbectest; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/cmd/fbectest'
+make[2]: Nothing to be done for 'export'.
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/cmd/fbectest'
+cd fipstest; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/cmd/fipstest'
+make[2]: Nothing to be done for 'export'.
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/cmd/fipstest'
+cd lowhashtest; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/cmd/lowhashtest'
+make[2]: Nothing to be done for 'export'.
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/cmd/lowhashtest'
+cd shlibsign; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/cmd/shlibsign'
+cd mangle; /usr/bin/make export
+make[3]: Entering directory '/tmp/work/src/nss-3.31/nss/cmd/shlibsign/mangle'
+make[3]: Nothing to be done for 'export'.
+make[3]: Leaving directory '/tmp/work/src/nss-3.31/nss/cmd/shlibsign/mangle'
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/cmd/shlibsign'
+cd addbuiltin; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/cmd/addbuiltin'
+make[2]: Nothing to be done for 'export'.
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/cmd/addbuiltin'
+cd atob; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/cmd/atob'
+make[2]: Nothing to be done for 'export'.
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/cmd/atob'
+cd btoa; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/cmd/btoa'
+make[2]: Nothing to be done for 'export'.
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/cmd/btoa'
+cd certcgi; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/cmd/certcgi'
+make[2]: Nothing to be done for 'export'.
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/cmd/certcgi'
+cd certutil; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/cmd/certutil'
+make[2]: Nothing to be done for 'export'.
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/cmd/certutil'
+cd chktest; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/cmd/chktest'
+make[2]: Nothing to be done for 'export'.
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/cmd/chktest'
+cd crlutil; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/cmd/crlutil'
+make[2]: Nothing to be done for 'export'.
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/cmd/crlutil'
+cd crmftest; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/cmd/crmftest'
+make[2]: Nothing to be done for 'export'.
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/cmd/crmftest'
+cd dbtest; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/cmd/dbtest'
+make[2]: Nothing to be done for 'export'.
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/cmd/dbtest'
+cd derdump; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/cmd/derdump'
+make[2]: Nothing to be done for 'export'.
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/cmd/derdump'
+cd digest; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/cmd/digest'
+make[2]: Nothing to be done for 'export'.
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/cmd/digest'
+cd httpserv; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/cmd/httpserv'
+make[2]: Nothing to be done for 'export'.
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/cmd/httpserv'
+cd listsuites; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/cmd/listsuites'
+make[2]: Nothing to be done for 'export'.
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/cmd/listsuites'
+cd makepqg; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/cmd/makepqg'
+make[2]: Nothing to be done for 'export'.
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/cmd/makepqg'
+cd multinit; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/cmd/multinit'
+make[2]: Nothing to be done for 'export'.
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/cmd/multinit'
+cd ocspclnt; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/cmd/ocspclnt'
+make[2]: Nothing to be done for 'export'.
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/cmd/ocspclnt'
+cd ocspresp; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/cmd/ocspresp'
+make[2]: Nothing to be done for 'export'.
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/cmd/ocspresp'
+cd oidcalc; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/cmd/oidcalc'
+make[2]: Nothing to be done for 'export'.
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/cmd/oidcalc'
+cd p7content; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/cmd/p7content'
+make[2]: Nothing to be done for 'export'.
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/cmd/p7content'
+cd p7env; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/cmd/p7env'
+make[2]: Nothing to be done for 'export'.
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/cmd/p7env'
+cd p7sign; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/cmd/p7sign'
+make[2]: Nothing to be done for 'export'.
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/cmd/p7sign'
+cd p7verify; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/cmd/p7verify'
+make[2]: Nothing to be done for 'export'.
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/cmd/p7verify'
+cd pk12util; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/cmd/pk12util'
+make[2]: Nothing to be done for 'export'.
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/cmd/pk12util'
+cd pk11ectest; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/cmd/pk11ectest'
+make[2]: Nothing to be done for 'export'.
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/cmd/pk11ectest'
+cd pk11gcmtest; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/cmd/pk11gcmtest'
+make[2]: Nothing to be done for 'export'.
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/cmd/pk11gcmtest'
+cd pk11mode; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/cmd/pk11mode'
+make[2]: Nothing to be done for 'export'.
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/cmd/pk11mode'
+cd pk1sign; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/cmd/pk1sign'
+make[2]: Nothing to be done for 'export'.
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/cmd/pk1sign'
+cd pp; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/cmd/pp'
+make[2]: Nothing to be done for 'export'.
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/cmd/pp'
+cd pwdecrypt; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/cmd/pwdecrypt'
+make[2]: Nothing to be done for 'export'.
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/cmd/pwdecrypt'
+cd rsaperf; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/cmd/rsaperf'
+make[2]: Nothing to be done for 'export'.
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/cmd/rsaperf'
+cd sdrtest; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/cmd/sdrtest'
+make[2]: Nothing to be done for 'export'.
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/cmd/sdrtest'
+cd selfserv; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/cmd/selfserv'
+make[2]: Nothing to be done for 'export'.
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/cmd/selfserv'
+cd signtool; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/cmd/signtool'
+make[2]: Nothing to be done for 'export'.
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/cmd/signtool'
+cd signver; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/cmd/signver'
+make[2]: Nothing to be done for 'export'.
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/cmd/signver'
+cd smimetools; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/cmd/smimetools'
+make[2]: Nothing to be done for 'export'.
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/cmd/smimetools'
+cd ssltap; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/cmd/ssltap'
+make[2]: Nothing to be done for 'export'.
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/cmd/ssltap'
+cd strsclnt; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/cmd/strsclnt'
+make[2]: Nothing to be done for 'export'.
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/cmd/strsclnt'
+cd symkeyutil; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/cmd/symkeyutil'
+make[2]: Nothing to be done for 'export'.
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/cmd/symkeyutil'
+cd tests; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/cmd/tests'
+make[2]: Nothing to be done for 'export'.
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/cmd/tests'
+cd tstclnt; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/cmd/tstclnt'
+make[2]: Nothing to be done for 'export'.
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/cmd/tstclnt'
+cd vfychain; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/cmd/vfychain'
+make[2]: Nothing to be done for 'export'.
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/cmd/vfychain'
+cd vfyserv; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/cmd/vfyserv'
+make[2]: Nothing to be done for 'export'.
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/cmd/vfyserv'
+cd modutil; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/cmd/modutil'
+make[2]: Nothing to be done for 'export'.
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/cmd/modutil'
+cd pkix-errcodes; /usr/bin/make export
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/cmd/pkix-errcodes'
+make[2]: Nothing to be done for 'export'.
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/cmd/pkix-errcodes'
+make[1]: Leaving directory '/tmp/work/src/nss-3.31/nss/cmd'
+cd coreconf; /usr/bin/make libs
+make[1]: Entering directory '/tmp/work/src/nss-3.31/nss/coreconf'
+cd nsinstall; /usr/bin/make libs
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/coreconf/nsinstall'
+true -m 775 Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall ../../../dist/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/bin
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/coreconf/nsinstall'
+make[1]: Leaving directory '/tmp/work/src/nss-3.31/nss/coreconf'
+cd lib; /usr/bin/make libs
+make[1]: Entering directory '/tmp/work/src/nss-3.31/nss/lib'
+cd util; /usr/bin/make libs
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/util'
+cc -o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/quickder.o -c -O2 -fPIC   -pipe -ffunction-sections -fdata-sections -DHAVE_STRERROR -DLINUX -Dlinux -Wall -Werror -DXP_UNIX -UDEBUG -DNDEBUG -D_REENTRANT -DNSS_NO_INIT_SUPPORT -DUSE_UTIL_DIRECTLY -DNO_NSPR_10_SUPPORT -DSSL_DISABLE_DEPRECATED_CIPHER_SUITE_NAMES -I/usr/include/nspr -I../../../dist/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/include -I../../../dist/public/nss -I../../../dist/private/nss -Wno-error -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  quickder.c
+cc -o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/secdig.o -c -O2 -fPIC   -pipe -ffunction-sections -fdata-sections -DHAVE_STRERROR -DLINUX -Dlinux -Wall -Werror -DXP_UNIX -UDEBUG -DNDEBUG -D_REENTRANT -DNSS_NO_INIT_SUPPORT -DUSE_UTIL_DIRECTLY -DNO_NSPR_10_SUPPORT -DSSL_DISABLE_DEPRECATED_CIPHER_SUITE_NAMES -I/usr/include/nspr -I../../../dist/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/include -I../../../dist/public/nss -I../../../dist/private/nss -Wno-error -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  secdig.c
+cc -o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/derdec.o -c -O2 -fPIC   -pipe -ffunction-sections -fdata-sections -DHAVE_STRERROR -DLINUX -Dlinux -Wall -Werror -DXP_UNIX -UDEBUG -DNDEBUG -D_REENTRANT -DNSS_NO_INIT_SUPPORT -DUSE_UTIL_DIRECTLY -DNO_NSPR_10_SUPPORT -DSSL_DISABLE_DEPRECATED_CIPHER_SUITE_NAMES -I/usr/include/nspr -I../../../dist/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/include -I../../../dist/public/nss -I../../../dist/private/nss -Wno-error -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  derdec.c
+cc -o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/derenc.o -c -O2 -fPIC   -pipe -ffunction-sections -fdata-sections -DHAVE_STRERROR -DLINUX -Dlinux -Wall -Werror -DXP_UNIX -UDEBUG -DNDEBUG -D_REENTRANT -DNSS_NO_INIT_SUPPORT -DUSE_UTIL_DIRECTLY -DNO_NSPR_10_SUPPORT -DSSL_DISABLE_DEPRECATED_CIPHER_SUITE_NAMES -I/usr/include/nspr -I../../../dist/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/include -I../../../dist/public/nss -I../../../dist/private/nss -Wno-error -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  derenc.c
+cc -o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/dersubr.o -c -O2 -fPIC   -pipe -ffunction-sections -fdata-sections -DHAVE_STRERROR -DLINUX -Dlinux -Wall -Werror -DXP_UNIX -UDEBUG -DNDEBUG -D_REENTRANT -DNSS_NO_INIT_SUPPORT -DUSE_UTIL_DIRECTLY -DNO_NSPR_10_SUPPORT -DSSL_DISABLE_DEPRECATED_CIPHER_SUITE_NAMES -I/usr/include/nspr -I../../../dist/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/include -I../../../dist/public/nss -I../../../dist/private/nss -Wno-error -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  dersubr.c
+cc -o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/dertime.o -c -O2 -fPIC   -pipe -ffunction-sections -fdata-sections -DHAVE_STRERROR -DLINUX -Dlinux -Wall -Werror -DXP_UNIX -UDEBUG -DNDEBUG -D_REENTRANT -DNSS_NO_INIT_SUPPORT -DUSE_UTIL_DIRECTLY -DNO_NSPR_10_SUPPORT -DSSL_DISABLE_DEPRECATED_CIPHER_SUITE_NAMES -I/usr/include/nspr -I../../../dist/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/include -I../../../dist/public/nss -I../../../dist/private/nss -Wno-error -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  dertime.c
+cc -o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/errstrs.o -c -O2 -fPIC   -pipe -ffunction-sections -fdata-sections -DHAVE_STRERROR -DLINUX -Dlinux -Wall -Werror -DXP_UNIX -UDEBUG -DNDEBUG -D_REENTRANT -DNSS_NO_INIT_SUPPORT -DUSE_UTIL_DIRECTLY -DNO_NSPR_10_SUPPORT -DSSL_DISABLE_DEPRECATED_CIPHER_SUITE_NAMES -I/usr/include/nspr -I../../../dist/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/include -I../../../dist/public/nss -I../../../dist/private/nss -Wno-error -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  errstrs.c
+cc -o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nssb64d.o -c -O2 -fPIC   -pipe -ffunction-sections -fdata-sections -DHAVE_STRERROR -DLINUX -Dlinux -Wall -Werror -DXP_UNIX -UDEBUG -DNDEBUG -D_REENTRANT -DNSS_NO_INIT_SUPPORT -DUSE_UTIL_DIRECTLY -DNO_NSPR_10_SUPPORT -DSSL_DISABLE_DEPRECATED_CIPHER_SUITE_NAMES -I/usr/include/nspr -I../../../dist/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/include -I../../../dist/public/nss -I../../../dist/private/nss -Wno-error -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  nssb64d.c
+cc -o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nssb64e.o -c -O2 -fPIC   -pipe -ffunction-sections -fdata-sections -DHAVE_STRERROR -DLINUX -Dlinux -Wall -Werror -DXP_UNIX -UDEBUG -DNDEBUG -D_REENTRANT -DNSS_NO_INIT_SUPPORT -DUSE_UTIL_DIRECTLY -DNO_NSPR_10_SUPPORT -DSSL_DISABLE_DEPRECATED_CIPHER_SUITE_NAMES -I/usr/include/nspr -I../../../dist/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/include -I../../../dist/public/nss -I../../../dist/private/nss -Wno-error -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  nssb64e.c
+cc -o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nssrwlk.o -c -O2 -fPIC   -pipe -ffunction-sections -fdata-sections -DHAVE_STRERROR -DLINUX -Dlinux -Wall -Werror -DXP_UNIX -UDEBUG -DNDEBUG -D_REENTRANT -DNSS_NO_INIT_SUPPORT -DUSE_UTIL_DIRECTLY -DNO_NSPR_10_SUPPORT -DSSL_DISABLE_DEPRECATED_CIPHER_SUITE_NAMES -I/usr/include/nspr -I../../../dist/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/include -I../../../dist/public/nss -I../../../dist/private/nss -Wno-error -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  nssrwlk.c
+cc -o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nssilock.o -c -O2 -fPIC   -pipe -ffunction-sections -fdata-sections -DHAVE_STRERROR -DLINUX -Dlinux -Wall -Werror -DXP_UNIX -UDEBUG -DNDEBUG -D_REENTRANT -DNSS_NO_INIT_SUPPORT -DUSE_UTIL_DIRECTLY -DNO_NSPR_10_SUPPORT -DSSL_DISABLE_DEPRECATED_CIPHER_SUITE_NAMES -I/usr/include/nspr -I../../../dist/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/include -I../../../dist/public/nss -I../../../dist/private/nss -Wno-error -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  nssilock.c
+cc -o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/oidstring.o -c -O2 -fPIC   -pipe -ffunction-sections -fdata-sections -DHAVE_STRERROR -DLINUX -Dlinux -Wall -Werror -DXP_UNIX -UDEBUG -DNDEBUG -D_REENTRANT -DNSS_NO_INIT_SUPPORT -DUSE_UTIL_DIRECTLY -DNO_NSPR_10_SUPPORT -DSSL_DISABLE_DEPRECATED_CIPHER_SUITE_NAMES -I/usr/include/nspr -I../../../dist/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/include -I../../../dist/public/nss -I../../../dist/private/nss -Wno-error -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  oidstring.c
+cc -o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/pkcs1sig.o -c -O2 -fPIC   -pipe -ffunction-sections -fdata-sections -DHAVE_STRERROR -DLINUX -Dlinux -Wall -Werror -DXP_UNIX -UDEBUG -DNDEBUG -D_REENTRANT -DNSS_NO_INIT_SUPPORT -DUSE_UTIL_DIRECTLY -DNO_NSPR_10_SUPPORT -DSSL_DISABLE_DEPRECATED_CIPHER_SUITE_NAMES -I/usr/include/nspr -I../../../dist/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/include -I../../../dist/public/nss -I../../../dist/private/nss -Wno-error -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  pkcs1sig.c
+cc -o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/portreg.o -c -O2 -fPIC   -pipe -ffunction-sections -fdata-sections -DHAVE_STRERROR -DLINUX -Dlinux -Wall -Werror -DXP_UNIX -UDEBUG -DNDEBUG -D_REENTRANT -DNSS_NO_INIT_SUPPORT -DUSE_UTIL_DIRECTLY -DNO_NSPR_10_SUPPORT -DSSL_DISABLE_DEPRECATED_CIPHER_SUITE_NAMES -I/usr/include/nspr -I../../../dist/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/include -I../../../dist/public/nss -I../../../dist/private/nss -Wno-error -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  portreg.c
+cc -o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/secalgid.o -c -O2 -fPIC   -pipe -ffunction-sections -fdata-sections -DHAVE_STRERROR -DLINUX -Dlinux -Wall -Werror -DXP_UNIX -UDEBUG -DNDEBUG -D_REENTRANT -DNSS_NO_INIT_SUPPORT -DUSE_UTIL_DIRECTLY -DNO_NSPR_10_SUPPORT -DSSL_DISABLE_DEPRECATED_CIPHER_SUITE_NAMES -I/usr/include/nspr -I../../../dist/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/include -I../../../dist/public/nss -I../../../dist/private/nss -Wno-error -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  secalgid.c
+cc -o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/secasn1d.o -c -O2 -fPIC   -pipe -ffunction-sections -fdata-sections -DHAVE_STRERROR -DLINUX -Dlinux -Wall -Werror -DXP_UNIX -UDEBUG -DNDEBUG -D_REENTRANT -DNSS_NO_INIT_SUPPORT -DUSE_UTIL_DIRECTLY -DNO_NSPR_10_SUPPORT -DSSL_DISABLE_DEPRECATED_CIPHER_SUITE_NAMES -I/usr/include/nspr -I../../../dist/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/include -I../../../dist/public/nss -I../../../dist/private/nss -Wno-error -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  secasn1d.c
+cc -o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/secasn1e.o -c -O2 -fPIC   -pipe -ffunction-sections -fdata-sections -DHAVE_STRERROR -DLINUX -Dlinux -Wall -Werror -DXP_UNIX -UDEBUG -DNDEBUG -D_REENTRANT -DNSS_NO_INIT_SUPPORT -DUSE_UTIL_DIRECTLY -DNO_NSPR_10_SUPPORT -DSSL_DISABLE_DEPRECATED_CIPHER_SUITE_NAMES -I/usr/include/nspr -I../../../dist/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/include -I../../../dist/public/nss -I../../../dist/private/nss -Wno-error -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  secasn1e.c
+cc -o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/secasn1u.o -c -O2 -fPIC   -pipe -ffunction-sections -fdata-sections -DHAVE_STRERROR -DLINUX -Dlinux -Wall -Werror -DXP_UNIX -UDEBUG -DNDEBUG -D_REENTRANT -DNSS_NO_INIT_SUPPORT -DUSE_UTIL_DIRECTLY -DNO_NSPR_10_SUPPORT -DSSL_DISABLE_DEPRECATED_CIPHER_SUITE_NAMES -I/usr/include/nspr -I../../../dist/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/include -I../../../dist/public/nss -I../../../dist/private/nss -Wno-error -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  secasn1u.c
+cc -o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/secitem.o -c -O2 -fPIC   -pipe -ffunction-sections -fdata-sections -DHAVE_STRERROR -DLINUX -Dlinux -Wall -Werror -DXP_UNIX -UDEBUG -DNDEBUG -D_REENTRANT -DNSS_NO_INIT_SUPPORT -DUSE_UTIL_DIRECTLY -DNO_NSPR_10_SUPPORT -DSSL_DISABLE_DEPRECATED_CIPHER_SUITE_NAMES -I/usr/include/nspr -I../../../dist/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/include -I../../../dist/public/nss -I../../../dist/private/nss -Wno-error -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  secitem.c
+cc -o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/secload.o -c -O2 -fPIC   -pipe -ffunction-sections -fdata-sections -DHAVE_STRERROR -DLINUX -Dlinux -Wall -Werror -DXP_UNIX -UDEBUG -DNDEBUG -D_REENTRANT -DNSS_NO_INIT_SUPPORT -DUSE_UTIL_DIRECTLY -DNO_NSPR_10_SUPPORT -DSSL_DISABLE_DEPRECATED_CIPHER_SUITE_NAMES -I/usr/include/nspr -I../../../dist/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/include -I../../../dist/public/nss -I../../../dist/private/nss -Wno-error -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  secload.c
+cc -o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/secoid.o -c -O2 -fPIC   -pipe -ffunction-sections -fdata-sections -DHAVE_STRERROR -DLINUX -Dlinux -Wall -Werror -DXP_UNIX -UDEBUG -DNDEBUG -D_REENTRANT -DNSS_NO_INIT_SUPPORT -DUSE_UTIL_DIRECTLY -DNO_NSPR_10_SUPPORT -DSSL_DISABLE_DEPRECATED_CIPHER_SUITE_NAMES -I/usr/include/nspr -I../../../dist/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/include -I../../../dist/public/nss -I../../../dist/private/nss -Wno-error -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  secoid.c
+cc -o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/sectime.o -c -O2 -fPIC   -pipe -ffunction-sections -fdata-sections -DHAVE_STRERROR -DLINUX -Dlinux -Wall -Werror -DXP_UNIX -UDEBUG -DNDEBUG -D_REENTRANT -DNSS_NO_INIT_SUPPORT -DUSE_UTIL_DIRECTLY -DNO_NSPR_10_SUPPORT -DSSL_DISABLE_DEPRECATED_CIPHER_SUITE_NAMES -I/usr/include/nspr -I../../../dist/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/include -I../../../dist/public/nss -I../../../dist/private/nss -Wno-error -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  sectime.c
+cc -o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/secport.o -c -O2 -fPIC   -pipe -ffunction-sections -fdata-sections -DHAVE_STRERROR -DLINUX -Dlinux -Wall -Werror -DXP_UNIX -UDEBUG -DNDEBUG -D_REENTRANT -DNSS_NO_INIT_SUPPORT -DUSE_UTIL_DIRECTLY -DNO_NSPR_10_SUPPORT -DSSL_DISABLE_DEPRECATED_CIPHER_SUITE_NAMES -I/usr/include/nspr -I../../../dist/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/include -I../../../dist/public/nss -I../../../dist/private/nss -Wno-error -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  secport.c
+cc -o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/templates.o -c -O2 -fPIC   -pipe -ffunction-sections -fdata-sections -DHAVE_STRERROR -DLINUX -Dlinux -Wall -Werror -DXP_UNIX -UDEBUG -DNDEBUG -D_REENTRANT -DNSS_NO_INIT_SUPPORT -DUSE_UTIL_DIRECTLY -DNO_NSPR_10_SUPPORT -DSSL_DISABLE_DEPRECATED_CIPHER_SUITE_NAMES -I/usr/include/nspr -I../../../dist/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/include -I../../../dist/public/nss -I../../../dist/private/nss -Wno-error -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  templates.c
+cc -o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/utf8.o -c -O2 -fPIC   -pipe -ffunction-sections -fdata-sections -DHAVE_STRERROR -DLINUX -Dlinux -Wall -Werror -DXP_UNIX -UDEBUG -DNDEBUG -D_REENTRANT -DNSS_NO_INIT_SUPPORT -DUSE_UTIL_DIRECTLY -DNO_NSPR_10_SUPPORT -DSSL_DISABLE_DEPRECATED_CIPHER_SUITE_NAMES -I/usr/include/nspr -I../../../dist/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/include -I../../../dist/public/nss -I../../../dist/private/nss -Wno-error -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  utf8.c
+cc -o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/utilmod.o -c -O2 -fPIC   -pipe -ffunction-sections -fdata-sections -DHAVE_STRERROR -DLINUX -Dlinux -Wall -Werror -DXP_UNIX -UDEBUG -DNDEBUG -D_REENTRANT -DNSS_NO_INIT_SUPPORT -DUSE_UTIL_DIRECTLY -DNO_NSPR_10_SUPPORT -DSSL_DISABLE_DEPRECATED_CIPHER_SUITE_NAMES -I/usr/include/nspr -I../../../dist/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/include -I../../../dist/public/nss -I../../../dist/private/nss -Wno-error -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  utilmod.c
+cc -o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/utilpars.o -c -O2 -fPIC   -pipe -ffunction-sections -fdata-sections -DHAVE_STRERROR -DLINUX -Dlinux -Wall -Werror -DXP_UNIX -UDEBUG -DNDEBUG -D_REENTRANT -DNSS_NO_INIT_SUPPORT -DUSE_UTIL_DIRECTLY -DNO_NSPR_10_SUPPORT -DSSL_DISABLE_DEPRECATED_CIPHER_SUITE_NAMES -I/usr/include/nspr -I../../../dist/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/include -I../../../dist/public/nss -I../../../dist/private/nss -Wno-error -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  utilpars.c
+cc -o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/pkcs11uri.o -c -O2 -fPIC   -pipe -ffunction-sections -fdata-sections -DHAVE_STRERROR -DLINUX -Dlinux -Wall -Werror -DXP_UNIX -UDEBUG -DNDEBUG -D_REENTRANT -DNSS_NO_INIT_SUPPORT -DUSE_UTIL_DIRECTLY -DNO_NSPR_10_SUPPORT -DSSL_DISABLE_DEPRECATED_CIPHER_SUITE_NAMES -I/usr/include/nspr -I../../../dist/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/include -I../../../dist/public/nss -I../../../dist/private/nss -Wno-error -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  pkcs11uri.c
+rm -f Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/libnssutil.a
+ar cr Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/libnssutil.a Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/quickder.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/secdig.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/derdec.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/derenc.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/dersubr.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/dertime.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/errstrs.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nssb64d.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nssb64e.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nssrwlk.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nssilock.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/oidstring.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/pkcs1sig.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/portreg.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/secalgid.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/secasn1d.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/secasn1e.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/secasn1u.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/secitem.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/secload.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/secoid.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/sectime.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/secport.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/templates.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/utf8.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/utilmod.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/utilpars.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/pkcs11uri.o
+echo Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/libnssutil.a
+Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/libnssutil.a
+grep -v ';-' nssutil.def | sed -e 's,;+,,' -e 's; DATA ;;' -e 's,;;,,' -e 's,;.*,;,' > Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nssutil.def
+rm -f Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/libnssutil3.so
+cc -shared  -Wl,--gc-sections -Wl,-z,defs -Wl,-soname -Wl,libnssutil3.so  -Wl,--version-script,Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nssutil.def -o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/libnssutil3.so Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/quickder.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/secdig.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/derdec.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/derenc.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/dersubr.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/dertime.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/errstrs.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nssb64d.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nssb64e.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nssrwlk.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nssilock.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/oidstring.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/pkcs1sig.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/portreg.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/secalgid.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/secasn1d.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/secasn1e.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/secasn1u.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/secitem.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/secload.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/secoid.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/sectime.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/secport.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/templates.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/utf8.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/utilmod.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/utilpars.o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/pkcs11uri.o    -L../../../dist/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/lib -L/usr/lib -lplc4 -lplds4 -lnspr4  -lpthread  -ldl -lc
+chmod +x Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/libnssutil3.so
+../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 664 Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/libnssutil.a ../../../dist/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/lib
+../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 775 Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/libnssutil3.so ../../../dist/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/lib
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/util'
+cd freebl; /usr/bin/make libs
+make[2]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/freebl'
+cc -o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/loader.o -c -O2 -fPIC   -pipe -ffunction-sections -fdata-sections -DHAVE_STRERROR -DLINUX -Dlinux -Wall -Werror -DXP_UNIX -DSHLIB_SUFFIX=\"so\" -DSHLIB_PREFIX=\"lib\" -DSHLIB_VERSION=\"3\" -DSOFTOKEN_SHLIB_VERSION=\"3\" -DRIJNDAEL_INCLUDE_TABLES -UDEBUG -DNDEBUG -D_REENTRANT -DNSS_NO_INIT_SUPPORT -DUSE_UTIL_DIRECTLY -DNO_NSPR_10_SUPPORT -DSSL_DISABLE_DEPRECATED_CIPHER_SUITE_NAMES -DNSS_USE_64 -DFREEBL_NO_DEPEND -DFREEBL_LOWHASH -DMP_ASSEMBLY_MULTIPLY -DMP_ASSEMBLY_SQUARE  -DMP_USE_UINT_DIGIT -DSHA_NO_LONG_LONG  -DHAVE_INT128_SUPPORT -DMP_API_COMPATIBLE -I/usr/include/nspr -I../../../dist/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/include -I../../../dist/public/nss -I../../../dist/private/nss -Impi -Iecl -Wno-error -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  loader.c
+rm -f Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/libfreebl.a
+ar cr Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/libfreebl.a Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/loader.o
+echo Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/libfreebl.a
+Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/libfreebl.a
+../../coreconf/nsinstall/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/nsinstall -R -m 664 Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/libfreebl.a ../../../dist/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/lib
+mkdir Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/Linux_SINGLE_SHLIB
+/usr/bin/make FREEBL_CHILD_BUILD=1 \
+ OBJDIR=Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/Linux_SINGLE_SHLIB libs
+make[3]: Entering directory '/tmp/work/src/nss-3.31/nss/lib/freebl'
+cc -o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/Linux_SINGLE_SHLIB/freeblver.o -c -O2 -fPIC   -pipe -ffunction-sections -fdata-sections -DHAVE_STRERROR -DLINUX -Dlinux -Wall -Werror -DXP_UNIX -DSHLIB_SUFFIX=\"so\" -DSHLIB_PREFIX=\"lib\" -DSHLIB_VERSION=\"3\" -DSOFTOKEN_SHLIB_VERSION=\"3\" -DRIJNDAEL_INCLUDE_TABLES -UDEBUG -DNDEBUG -D_REENTRANT -DNSS_NO_INIT_SUPPORT -DUSE_UTIL_DIRECTLY -DNO_NSPR_10_SUPPORT -DSSL_DISABLE_DEPRECATED_CIPHER_SUITE_NAMES -DNSS_USE_64 -DFREEBL_NO_DEPEND -DFREEBL_LOWHASH -DMP_ASSEMBLY_MULTIPLY -DMP_ASSEMBLY_SQUARE  -DMP_USE_UINT_DIGIT -DSHA_NO_LONG_LONG  -DHAVE_INT128_SUPPORT -DMP_API_COMPATIBLE -I/usr/include/nspr -I../../../dist/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/include -I../../../dist/public/nss -I../../../dist/private/nss -Impi -Iecl -Wno-error -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  freeblver.c
+cc -o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/Linux_SINGLE_SHLIB/ldvector.o -c -O2 -fPIC   -pipe -ffunction-sections -fdata-sections -DHAVE_STRERROR -DLINUX -Dlinux -Wall -Werror -DXP_UNIX -DSHLIB_SUFFIX=\"so\" -DSHLIB_PREFIX=\"lib\" -DSHLIB_VERSION=\"3\" -DSOFTOKEN_SHLIB_VERSION=\"3\" -DRIJNDAEL_INCLUDE_TABLES -UDEBUG -DNDEBUG -D_REENTRANT -DNSS_NO_INIT_SUPPORT -DUSE_UTIL_DIRECTLY -DNO_NSPR_10_SUPPORT -DSSL_DISABLE_DEPRECATED_CIPHER_SUITE_NAMES -DNSS_USE_64 -DFREEBL_NO_DEPEND -DFREEBL_LOWHASH -DMP_ASSEMBLY_MULTIPLY -DMP_ASSEMBLY_SQUARE  -DMP_USE_UINT_DIGIT -DSHA_NO_LONG_LONG  -DHAVE_INT128_SUPPORT -DMP_API_COMPATIBLE -I/usr/include/nspr -I../../../dist/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/include -I../../../dist/public/nss -I../../../dist/private/nss -Impi -Iecl -Wno-error -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  ldvector.c
+cc -o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/Linux_SINGLE_SHLIB/sysrand.o -c -O2 -fPIC   -pipe -ffunction-sections -fdata-sections -DHAVE_STRERROR -DLINUX -Dlinux -Wall -Werror -DXP_UNIX -DSHLIB_SUFFIX=\"so\" -DSHLIB_PREFIX=\"lib\" -DSHLIB_VERSION=\"3\" -DSOFTOKEN_SHLIB_VERSION=\"3\" -DRIJNDAEL_INCLUDE_TABLES -UDEBUG -DNDEBUG -D_REENTRANT -DNSS_NO_INIT_SUPPORT -DUSE_UTIL_DIRECTLY -DNO_NSPR_10_SUPPORT -DSSL_DISABLE_DEPRECATED_CIPHER_SUITE_NAMES -DNSS_USE_64 -DFREEBL_NO_DEPEND -DFREEBL_LOWHASH -DMP_ASSEMBLY_MULTIPLY -DMP_ASSEMBLY_SQUARE  -DMP_USE_UINT_DIGIT -DSHA_NO_LONG_LONG  -DHAVE_INT128_SUPPORT -DMP_API_COMPATIBLE -I/usr/include/nspr -I../../../dist/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/include -I../../../dist/public/nss -I../../../dist/private/nss -Impi -Iecl -Wno-error -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  sysrand.c
+cc -o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/Linux_SINGLE_SHLIB/sha_fast.o -c -O2 -fPIC   -pipe -ffunction-sections -fdata-sections -DHAVE_STRERROR -DLINUX -Dlinux -Wall -Werror -DXP_UNIX -DSHLIB_SUFFIX=\"so\" -DSHLIB_PREFIX=\"lib\" -DSHLIB_VERSION=\"3\" -DSOFTOKEN_SHLIB_VERSION=\"3\" -DRIJNDAEL_INCLUDE_TABLES -UDEBUG -DNDEBUG -D_REENTRANT -DNSS_NO_INIT_SUPPORT -DUSE_UTIL_DIRECTLY -DNO_NSPR_10_SUPPORT -DSSL_DISABLE_DEPRECATED_CIPHER_SUITE_NAMES -DNSS_USE_64 -DFREEBL_NO_DEPEND -DFREEBL_LOWHASH -DMP_ASSEMBLY_MULTIPLY -DMP_ASSEMBLY_SQUARE  -DMP_USE_UINT_DIGIT -DSHA_NO_LONG_LONG  -DHAVE_INT128_SUPPORT -DMP_API_COMPATIBLE -I/usr/include/nspr -I../../../dist/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/include -I../../../dist/public/nss -I../../../dist/private/nss -Impi -Iecl -Wno-error -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  sha_fast.c
+cc -o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/Linux_SINGLE_SHLIB/md2.o -c -O2 -fPIC   -pipe -ffunction-sections -fdata-sections -DHAVE_STRERROR -DLINUX -Dlinux -Wall -Werror -DXP_UNIX -DSHLIB_SUFFIX=\"so\" -DSHLIB_PREFIX=\"lib\" -DSHLIB_VERSION=\"3\" -DSOFTOKEN_SHLIB_VERSION=\"3\" -DRIJNDAEL_INCLUDE_TABLES -UDEBUG -DNDEBUG -D_REENTRANT -DNSS_NO_INIT_SUPPORT -DUSE_UTIL_DIRECTLY -DNO_NSPR_10_SUPPORT -DSSL_DISABLE_DEPRECATED_CIPHER_SUITE_NAMES -DNSS_USE_64 -DFREEBL_NO_DEPEND -DFREEBL_LOWHASH -DMP_ASSEMBLY_MULTIPLY -DMP_ASSEMBLY_SQUARE  -DMP_USE_UINT_DIGIT -DSHA_NO_LONG_LONG  -DHAVE_INT128_SUPPORT -DMP_API_COMPATIBLE -I/usr/include/nspr -I../../../dist/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/include -I../../../dist/public/nss -I../../../dist/private/nss -Impi -Iecl -Wno-error -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  md2.c
+cc -o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/Linux_SINGLE_SHLIB/md5.o -c -O2 -fPIC   -pipe -ffunction-sections -fdata-sections -DHAVE_STRERROR -DLINUX -Dlinux -Wall -Werror -DXP_UNIX -DSHLIB_SUFFIX=\"so\" -DSHLIB_PREFIX=\"lib\" -DSHLIB_VERSION=\"3\" -DSOFTOKEN_SHLIB_VERSION=\"3\" -DRIJNDAEL_INCLUDE_TABLES -UDEBUG -DNDEBUG -D_REENTRANT -DNSS_NO_INIT_SUPPORT -DUSE_UTIL_DIRECTLY -DNO_NSPR_10_SUPPORT -DSSL_DISABLE_DEPRECATED_CIPHER_SUITE_NAMES -DNSS_USE_64 -DFREEBL_NO_DEPEND -DFREEBL_LOWHASH -DMP_ASSEMBLY_MULTIPLY -DMP_ASSEMBLY_SQUARE  -DMP_USE_UINT_DIGIT -DSHA_NO_LONG_LONG  -DHAVE_INT128_SUPPORT -DMP_API_COMPATIBLE -I/usr/include/nspr -I../../../dist/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/include -I../../../dist/public/nss -I../../../dist/private/nss -Impi -Iecl -Wno-error -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  md5.c
+cc -o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/Linux_SINGLE_SHLIB/sha512.o -c -O2 -fPIC   -pipe -ffunction-sections -fdata-sections -DHAVE_STRERROR -DLINUX -Dlinux -Wall -Werror -DXP_UNIX -DSHLIB_SUFFIX=\"so\" -DSHLIB_PREFIX=\"lib\" -DSHLIB_VERSION=\"3\" -DSOFTOKEN_SHLIB_VERSION=\"3\" -DRIJNDAEL_INCLUDE_TABLES -UDEBUG -DNDEBUG -D_REENTRANT -DNSS_NO_INIT_SUPPORT -DUSE_UTIL_DIRECTLY -DNO_NSPR_10_SUPPORT -DSSL_DISABLE_DEPRECATED_CIPHER_SUITE_NAMES -DNSS_USE_64 -DFREEBL_NO_DEPEND -DFREEBL_LOWHASH -DMP_ASSEMBLY_MULTIPLY -DMP_ASSEMBLY_SQUARE  -DMP_USE_UINT_DIGIT -DSHA_NO_LONG_LONG  -DHAVE_INT128_SUPPORT -DMP_API_COMPATIBLE -I/usr/include/nspr -I../../../dist/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/include -I../../../dist/public/nss -I../../../dist/private/nss -Impi -Iecl -Wno-error -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  sha512.c
+cc -o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/Linux_SINGLE_SHLIB/alghmac.o -c -O2 -fPIC   -pipe -ffunction-sections -fdata-sections -DHAVE_STRERROR -DLINUX -Dlinux -Wall -Werror -DXP_UNIX -DSHLIB_SUFFIX=\"so\" -DSHLIB_PREFIX=\"lib\" -DSHLIB_VERSION=\"3\" -DSOFTOKEN_SHLIB_VERSION=\"3\" -DRIJNDAEL_INCLUDE_TABLES -UDEBUG -DNDEBUG -D_REENTRANT -DNSS_NO_INIT_SUPPORT -DUSE_UTIL_DIRECTLY -DNO_NSPR_10_SUPPORT -DSSL_DISABLE_DEPRECATED_CIPHER_SUITE_NAMES -DNSS_USE_64 -DFREEBL_NO_DEPEND -DFREEBL_LOWHASH -DMP_ASSEMBLY_MULTIPLY -DMP_ASSEMBLY_SQUARE  -DMP_USE_UINT_DIGIT -DSHA_NO_LONG_LONG  -DHAVE_INT128_SUPPORT -DMP_API_COMPATIBLE -I/usr/include/nspr -I../../../dist/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/include -I../../../dist/public/nss -I../../../dist/private/nss -Impi -Iecl -Wno-error -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  alghmac.c
+cc -o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/Linux_SINGLE_SHLIB/rawhash.o -c -O2 -fPIC   -pipe -ffunction-sections -fdata-sections -DHAVE_STRERROR -DLINUX -Dlinux -Wall -Werror -DXP_UNIX -DSHLIB_SUFFIX=\"so\" -DSHLIB_PREFIX=\"lib\" -DSHLIB_VERSION=\"3\" -DSOFTOKEN_SHLIB_VERSION=\"3\" -DRIJNDAEL_INCLUDE_TABLES -UDEBUG -DNDEBUG -D_REENTRANT -DNSS_NO_INIT_SUPPORT -DUSE_UTIL_DIRECTLY -DNO_NSPR_10_SUPPORT -DSSL_DISABLE_DEPRECATED_CIPHER_SUITE_NAMES -DNSS_USE_64 -DFREEBL_NO_DEPEND -DFREEBL_LOWHASH -DMP_ASSEMBLY_MULTIPLY -DMP_ASSEMBLY_SQUARE  -DMP_USE_UINT_DIGIT -DSHA_NO_LONG_LONG  -DHAVE_INT128_SUPPORT -DMP_API_COMPATIBLE -I/usr/include/nspr -I../../../dist/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/include -I../../../dist/public/nss -I../../../dist/private/nss -Impi -Iecl -Wno-error -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  rawhash.c
+cc -o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/Linux_SINGLE_SHLIB/alg2268.o -c -O2 -fPIC   -pipe -ffunction-sections -fdata-sections -DHAVE_STRERROR -DLINUX -Dlinux -Wall -Werror -DXP_UNIX -DSHLIB_SUFFIX=\"so\" -DSHLIB_PREFIX=\"lib\" -DSHLIB_VERSION=\"3\" -DSOFTOKEN_SHLIB_VERSION=\"3\" -DRIJNDAEL_INCLUDE_TABLES -UDEBUG -DNDEBUG -D_REENTRANT -DNSS_NO_INIT_SUPPORT -DUSE_UTIL_DIRECTLY -DNO_NSPR_10_SUPPORT -DSSL_DISABLE_DEPRECATED_CIPHER_SUITE_NAMES -DNSS_USE_64 -DFREEBL_NO_DEPEND -DFREEBL_LOWHASH -DMP_ASSEMBLY_MULTIPLY -DMP_ASSEMBLY_SQUARE  -DMP_USE_UINT_DIGIT -DSHA_NO_LONG_LONG  -DHAVE_INT128_SUPPORT -DMP_API_COMPATIBLE -I/usr/include/nspr -I../../../dist/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/include -I../../../dist/public/nss -I../../../dist/private/nss -Impi -Iecl -Wno-error -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  alg2268.c
+cc -o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/Linux_SINGLE_SHLIB/arcfour.o -c -O2 -fPIC   -pipe -ffunction-sections -fdata-sections -DHAVE_STRERROR -DLINUX -Dlinux -Wall -Werror -DXP_UNIX -DSHLIB_SUFFIX=\"so\" -DSHLIB_PREFIX=\"lib\" -DSHLIB_VERSION=\"3\" -DSOFTOKEN_SHLIB_VERSION=\"3\" -DRIJNDAEL_INCLUDE_TABLES -UDEBUG -DNDEBUG -D_REENTRANT -DNSS_NO_INIT_SUPPORT -DUSE_UTIL_DIRECTLY -DNO_NSPR_10_SUPPORT -DSSL_DISABLE_DEPRECATED_CIPHER_SUITE_NAMES -DNSS_USE_64 -DFREEBL_NO_DEPEND -DFREEBL_LOWHASH -DMP_ASSEMBLY_MULTIPLY -DMP_ASSEMBLY_SQUARE  -DMP_USE_UINT_DIGIT -DSHA_NO_LONG_LONG  -DHAVE_INT128_SUPPORT -DMP_API_COMPATIBLE -I/usr/include/nspr -I../../../dist/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/include -I../../../dist/public/nss -I../../../dist/private/nss -Impi -Iecl -Wno-error -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  arcfour.c
+cc -o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/Linux_SINGLE_SHLIB/arcfive.o -c -O2 -fPIC   -pipe -ffunction-sections -fdata-sections -DHAVE_STRERROR -DLINUX -Dlinux -Wall -Werror -DXP_UNIX -DSHLIB_SUFFIX=\"so\" -DSHLIB_PREFIX=\"lib\" -DSHLIB_VERSION=\"3\" -DSOFTOKEN_SHLIB_VERSION=\"3\" -DRIJNDAEL_INCLUDE_TABLES -UDEBUG -DNDEBUG -D_REENTRANT -DNSS_NO_INIT_SUPPORT -DUSE_UTIL_DIRECTLY -DNO_NSPR_10_SUPPORT -DSSL_DISABLE_DEPRECATED_CIPHER_SUITE_NAMES -DNSS_USE_64 -DFREEBL_NO_DEPEND -DFREEBL_LOWHASH -DMP_ASSEMBLY_MULTIPLY -DMP_ASSEMBLY_SQUARE  -DMP_USE_UINT_DIGIT -DSHA_NO_LONG_LONG  -DHAVE_INT128_SUPPORT -DMP_API_COMPATIBLE -I/usr/include/nspr -I../../../dist/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/include -I../../../dist/public/nss -I../../../dist/private/nss -Impi -Iecl -Wno-error -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  arcfive.c
+cc -o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/Linux_SINGLE_SHLIB/desblapi.o -c -O2 -fPIC   -pipe -ffunction-sections -fdata-sections -DHAVE_STRERROR -DLINUX -Dlinux -Wall -Werror -DXP_UNIX -DSHLIB_SUFFIX=\"so\" -DSHLIB_PREFIX=\"lib\" -DSHLIB_VERSION=\"3\" -DSOFTOKEN_SHLIB_VERSION=\"3\" -DRIJNDAEL_INCLUDE_TABLES -UDEBUG -DNDEBUG -D_REENTRANT -DNSS_NO_INIT_SUPPORT -DUSE_UTIL_DIRECTLY -DNO_NSPR_10_SUPPORT -DSSL_DISABLE_DEPRECATED_CIPHER_SUITE_NAMES -DNSS_USE_64 -DFREEBL_NO_DEPEND -DFREEBL_LOWHASH -DMP_ASSEMBLY_MULTIPLY -DMP_ASSEMBLY_SQUARE  -DMP_USE_UINT_DIGIT -DSHA_NO_LONG_LONG  -DHAVE_INT128_SUPPORT -DMP_API_COMPATIBLE -I/usr/include/nspr -I../../../dist/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/include -I../../../dist/public/nss -I../../../dist/private/nss -Impi -Iecl -Wno-error -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  -fno-strict-aliasing desblapi.c
+cc -o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/Linux_SINGLE_SHLIB/des.o -c -O2 -fPIC   -pipe -ffunction-sections -fdata-sections -DHAVE_STRERROR -DLINUX -Dlinux -Wall -Werror -DXP_UNIX -DSHLIB_SUFFIX=\"so\" -DSHLIB_PREFIX=\"lib\" -DSHLIB_VERSION=\"3\" -DSOFTOKEN_SHLIB_VERSION=\"3\" -DRIJNDAEL_INCLUDE_TABLES -UDEBUG -DNDEBUG -D_REENTRANT -DNSS_NO_INIT_SUPPORT -DUSE_UTIL_DIRECTLY -DNO_NSPR_10_SUPPORT -DSSL_DISABLE_DEPRECATED_CIPHER_SUITE_NAMES -DNSS_USE_64 -DFREEBL_NO_DEPEND -DFREEBL_LOWHASH -DMP_ASSEMBLY_MULTIPLY -DMP_ASSEMBLY_SQUARE  -DMP_USE_UINT_DIGIT -DSHA_NO_LONG_LONG  -DHAVE_INT128_SUPPORT -DMP_API_COMPATIBLE -I/usr/include/nspr -I../../../dist/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/include -I../../../dist/public/nss -I../../../dist/private/nss -Impi -Iecl -Wno-error -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  des.c
+cc -o Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/Linux_SINGLE_SHLIB/drbg.o -c -O2 -fPIC   -pipe -ffunction-sections -fdata-sections -DHAVE_STRERROR -DLINUX -Dlinux -Wall -Werror -DXP_UNIX -DSHLIB_SUFFIX=\"so\" -DSHLIB_PREFIX=\"lib\" -DSHLIB_VERSION=\"3\" -DSOFTOKEN_SHLIB_VERSION=\"3\" -DRIJNDAEL_INCLUDE_TABLES -UDEBUG -DNDEBUG -D_REENTRANT -DNSS_NO_INIT_SUPPORT -DUSE_UTIL_DIRECTLY -DNO_NSPR_10_SUPPORT -DSSL_DISABLE_DEPRECATED_CIPHER_SUITE_NAMES -DNSS_USE_64 -DFREEBL_NO_DEPEND -DFREEBL_LOWHASH -DMP_ASSEMBLY_MULTIPLY -DMP_ASSEMBLY_SQUARE  -DMP_USE_UINT_DIGIT -DSHA_NO_LONG_LONG  -DHAVE_INT128_SUPPORT -DMP_API_COMPATIBLE -I/usr/include/nspr -I../../../dist/Linux4.11_arm_cc_glibc_PTH_64_OPT.OBJ/include -I../../../dist/public/nss -I../../../dist/private/nss -Impi -Iecl -Wno-error -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  drbg.c
+make[3]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/freebl'
+make[2]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib/freebl'
+make[1]: Leaving directory '/tmp/work/src/nss-3.31/nss/lib'
+make: Leaving directory '/tmp/work/src/nss-3.31/nss'

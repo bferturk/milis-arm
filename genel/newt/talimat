@@ -1,0 +1,21 @@
+# Tanım: Newt, renkli metin modu, widget tabanlı kullanıcı arabirimleri için bir programlama kütüphanesi.
+# URL: https://admin.fedoraproject.org/pkgdb/package/rpms/newt/
+# Paketçi: milisarge
+# Gerekler: popt slang
+
+isim=newt
+surum=0.52.18
+devir=1
+
+kaynak=( http://fedorahosted.org/releases/n/e/$isim/$isim-$surum.tar.gz )
+derle() {
+cd $isim-$surum
+sed -e 's/^LIBNEWT =/#&/' \
+    -e '/install -m 644 $(LIBNEWT)/ s/^/#/' \
+    -e 's/$(LIBNEWT)/$(LIBNEWTSONAME)/g' \
+    -i Makefile.in
+
+./configure --prefix=/usr --with-gpm-support &&
+make
+make DESTDIR=$PKG install
+}

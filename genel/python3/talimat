@@ -1,0 +1,31 @@
+# Tanım: Sonraki nesil python üst düzey betik dili
+# URL: http://www.python.org
+# Paketçi: milisarge
+# Gerekler: sqlite expat 
+
+isim=python3
+surum=3.5.1
+devir=1
+
+kaynak=(
+http://www.python.org/ftp/python/$surum/Python-$surum.tar.xz
+python3.png)
+
+docsurum=3.5.0a3
+
+derle() {
+	cd Python-$surum
+	./configure --prefix=/usr \
+                --enable-shared \
+                --with-system-expat \
+                --with-system-ffi \
+		--without-ensurepip
+	make
+	make DESTDIR=$PKG install
+
+	chmod -v 755 $PKG/usr/lib/libpython3.5m.so
+	chmod -v 755 $PKG//usr/lib/libpython3.so
+
+
+}
+  

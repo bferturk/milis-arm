@@ -1,0 +1,18 @@
+# Tanım: GLib Ağ Paketi, GLib için Ağa bağlı gio modülleri içerir.
+# URL: http://www.gnome.org/
+# Paketçi: milisarge
+# Gerekler: glib dbus gnutls libgcrypt gsettings-desktop-schemas p11-kit
+
+isim=glib-networking
+surum=2.50.0
+devir=1
+kaynak=(http://ftp.gnome.org/pub/gnome/sources/$isim/${surum%.*}/$isim-$surum.tar.xz)
+
+derle() {
+cd $isim-$surum
+./configure --prefix=/usr \
+--with-ca-certificates=/etc/ssl/ca-bundle.crt \
+--disable-static
+make
+make DESTDIR=$PKG install
+}

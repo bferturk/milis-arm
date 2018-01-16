@@ -1,0 +1,17 @@
+# Tanım: Bazı programlar tarafından komut satırı seçeneklerini ayrıştırmak için kullanılan popt kitaplıkları.
+# URL: http://freshmeat.net/projects/popt/
+# Paketçi: milisarge
+# Gerekler: 
+
+isim=popt
+surum=1.16
+devir=1
+
+kaynak=(http://rpm5.org/files/popt/popt-1.16.tar.gz)
+
+derle() { 	
+cd  popt-$surum
+./configure --prefix=/usr
+make
+make DESTDIR=$PKG install
+}

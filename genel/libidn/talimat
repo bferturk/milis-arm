@@ -1,0 +1,27 @@
+# Tanım: GNU Libidn, Stringprep, Punycode ve IDNA 2003 teknik özelliklerinin tam olarak belgelendirilmiş bir uygulamasıdır.
+# URL: http://www.gnu.org/software/libidn/
+# Paketçi: milisarge
+# Gerekler:
+
+isim=libidn
+surum=1.32
+devir=1
+
+kaynak=(http://ftp.gnu.org/gnu/$isim/$isim-$surum.tar.gz)
+
+derle() {
+cd $isim-$surum
+
+./configure --prefix=/usr --disable-static \
+--mandir=/usr/share/man --infodir=/usr/share/info
+
+make
+make DESTDIR=$PKG install
+
+rm $PKG/usr/share/info/{dir,libidn-components.png}
+# Doc
+find doc -name "Makefile*" -delete
+rm -rf -v doc/{gdoc,idn.1,stamp-vti,man,texi}
+mkdir -p /usr/share/doc/$isim-$surum
+cp -r -v doc/* /usr/share/doc/$isim-$surum
+}

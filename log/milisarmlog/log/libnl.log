@@ -1,0 +1,705 @@
+=======> isim: libnl
+=======> surum: 3.2.27
+=======> devir: 1
+=======> İndiriliyor https://github.com/thom311/libnl/releases/download/libnl3_2_27/libnl-3.2.27.tar.gz
+=======> kayıt:/sources/libnl-3.2.27.tar.gz
+hash kontrol dosyası yok-hash kontrolü yapılmayacak.
+=======> Derleniyor '/root/milis-arm/genel/libnl/libnl#3.2.27-armv7l.mps.lz'.
+tar -p -C /tmp/work/src -xf /sources/libnl-3.2.27.tar.gz
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make supports nested variables... (cached) yes
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking dependency style of gcc... gcc3
+checking for ar... ar
+checking the archiver (ar) interface... ar
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking whether gcc understands -c and -o together... (cached) yes
+checking dependency style of gcc... (cached) gcc3
+checking build system type... armv7l-unknown-linux-gnueabihf
+checking host system type... armv7l-unknown-linux-gnueabihf
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /bin/ld
+checking if the linker (/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /bin/nm -B
+checking the name lister (/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert armv7l-unknown-linux-gnueabihf file names to armv7l-unknown-linux-gnueabihf format... func_convert_file_noop
+checking how to convert armv7l-unknown-linux-gnueabihf file names to toolchain format... func_convert_file_noop
+checking for /bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/bin/ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for flex... flex
+checking for bison... bison -y
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for CHECK... yes
+checking for pow in -lm... yes
+checking for pthread_mutex_lock in -lpthread... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating libnl-3.0.pc
+config.status: creating libnl-route-3.0.pc
+config.status: creating libnl-genl-3.0.pc
+config.status: creating libnl-nf-3.0.pc
+config.status: creating libnl-cli-3.0.pc
+config.status: creating libnl-xfrm-3.0.pc
+config.status: creating libnl-idiag-3.0.pc
+config.status: creating lib/Makefile
+config.status: creating include/Makefile
+config.status: creating src/Makefile
+config.status: creating src/lib/Makefile
+config.status: creating tests/Makefile
+config.status: creating man/Makefile
+config.status: creating python/Makefile
+config.status: creating python/setup.py
+config.status: creating python/doc/Makefile
+config.status: creating python/examples/Makefile
+config.status: creating python/netlink/Makefile
+config.status: creating python/netlink/genl/Makefile
+config.status: creating python/netlink/route/Makefile
+config.status: creating python/tests/Makefile
+config.status: creating include/netlink/version.h
+config.status: creating lib/defs.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+-------------------------------------------------------------------------------
+                                  NOTE
+
+ There have been some changes starting with 3.2 regarding where and how libnl
+ is being installed on the system in order to allow multiple libnl versions
+ to be installed in parallel:
+
+    - Headers will be installed in ${prefix}/include/libnl3, therefore
+      you will need to add "-I/usr/include/libnl3" to CFLAGS
+
+    - The library basename was renamed to libnl-3, i.e. the SO names become
+      libnl-3.so., libnl-route-3.so, etc.
+
+    - libtool versioning was assumed, to ease detection of compatible library
+      versions.
+
+ If you are using pkg-config for detecting and linking against the library 
+ things will continue magically as if nothing every happened. If you are 
+ linking manually you need to adapt your Makefiles or switch to using 
+ pkg-config files.
+
+-------------------------------------------------------------------------------
+Making all in include
+make[1]: Entering directory '/tmp/work/src/libnl-3.2.27/include'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/tmp/work/src/libnl-3.2.27/include'
+Making all in lib
+make[1]: Entering directory '/tmp/work/src/libnl-3.2.27/lib'
+  GEN      route/cls/ematch_grammar.c
+  GEN      route/cls/ematch_syntax.c
+  GEN      route/pktloc_grammar.c
+  GEN      route/pktloc_syntax.c
+/usr/bin/make  all-am
+make[2]: Entering directory '/tmp/work/src/libnl-3.2.27/lib'
+  CC       addr.lo
+  CC       attr.lo
+  CC       cache.lo
+  CC       cache_mngr.lo
+  CC       cache_mngt.lo
+  CC       data.lo
+  CC       error.lo
+  CC       handlers.lo
+  CC       msg.lo
+  CC       nl.lo
+  CC       object.lo
+  CC       socket.lo
+  CC       utils.lo
+  CC       version.lo
+  CC       hash.lo
+  CC       hashtable.lo
+  CC       route/cls/ematch.lo
+  CC       route/pktloc.lo
+  CC       route/pktloc_syntax.lo
+  CC       route/pktloc_grammar.lo
+  CC       route/cls/ematch_syntax.lo
+  CC       route/cls/ematch_grammar.lo
+  CCLD     libnl-3.la
+  CC       genl/ctrl.lo
+  CC       genl/family.lo
+  CC       genl/genl.lo
+  CC       genl/mngt.lo
+  CC       route/addr.lo
+  CC       route/class.lo
+  CC       route/cls.lo
+  CC       route/act.lo
+  CC       route/link.lo
+  CC       route/neigh.lo
+  CC       route/neightbl.lo
+  CC       route/nexthop.lo
+  CC       route/qdisc.lo
+  CC       route/route.lo
+  CC       route/route_obj.lo
+  CC       route/route_utils.lo
+  CC       route/rtnl.lo
+  CC       route/rule.lo
+  CC       route/tc.lo
+  CC       route/classid.lo
+  CC       route/cls/fw.lo
+  CC       route/cls/police.lo
+  CC       route/cls/u32.lo
+  CC       route/cls/basic.lo
+  CC       route/cls/cgroup.lo
+  CC       route/act/mirred.lo
+  CC       route/act/skbedit.lo
+  CC       route/cls/ematch/container.lo
+  CC       route/cls/ematch/cmp.lo
+  CC       route/cls/ematch/nbyte.lo
+  CC       route/cls/ematch/text.lo
+  CC       route/cls/ematch/meta.lo
+  CC       route/link/api.lo
+  CC       route/link/vlan.lo
+  CC       route/link/dummy.lo
+  CC       route/link/bridge.lo
+  CC       route/link/inet6.lo
+  CC       route/link/inet.lo
+  CC       route/link/bonding.lo
+  CC       route/link/can.lo
+  CC       route/link/macvlan.lo
+  CC       route/link/vxlan.lo
+  CC       route/link/veth.lo
+  CC       route/link/ipip.lo
+  CC       route/link/ipgre.lo
+  CC       route/link/sit.lo
+  CC       route/link/ipvti.lo
+  CC       route/link/ip6tnl.lo
+  CC       route/link/ifb.lo
+  CC       route/link/ipvlan.lo
+  CC       route/qdisc/blackhole.lo
+  CC       route/qdisc/cbq.lo
+  CC       route/qdisc/dsmark.lo
+  CC       route/qdisc/fifo.lo
+  CC       route/qdisc/htb.lo
+  CC       route/qdisc/netem.lo
+  CC       route/qdisc/prio.lo
+  CC       route/qdisc/red.lo
+  CC       route/qdisc/sfq.lo
+  CC       route/qdisc/tbf.lo
+  CC       route/qdisc/plug.lo
+  CC       route/qdisc/ingress.lo
+  CC       route/qdisc/fq_codel.lo
+  CC       route/qdisc/hfsc.lo
+  CC       fib_lookup/lookup.lo
+  CC       fib_lookup/request.lo
+  CC       netfilter/ct.lo
+  CC       netfilter/ct_obj.lo
+  CC       netfilter/log.lo
+  CC       netfilter/log_msg.lo
+  CC       netfilter/log_msg_obj.lo
+  CC       netfilter/log_obj.lo
+  CC       netfilter/netfilter.lo
+  CC       netfilter/nfnl.lo
+  CC       netfilter/queue.lo
+  CC       netfilter/queue_msg.lo
+  CC       netfilter/queue_msg_obj.lo
+  CC       netfilter/queue_obj.lo
+  CC       netfilter/exp.lo
+  CC       netfilter/exp_obj.lo
+  CC       idiag/idiag_meminfo_obj.lo
+  CC       idiag/idiag_vegasinfo_obj.lo
+  CC       idiag/idiag_msg_obj.lo
+  CC       idiag/idiag_req_obj.lo
+  CC       idiag/idiag.lo
+  CC       xfrm/ae.lo
+  CC       xfrm/lifetime.lo
+  CC       xfrm/sa.lo
+  CC       xfrm/selector.lo
+  CC       xfrm/sp.lo
+  CC       xfrm/template.lo
+  CC       cli/qdisc/htb.lo
+  CC       cli/qdisc/blackhole.lo
+  CC       cli/qdisc/pfifo.lo
+  CC       cli/qdisc/plug.lo
+  CC       cli/qdisc/bfifo.lo
+  CC       cli/qdisc/ingress.lo
+  CC       cli/qdisc/fq_codel.lo
+  CC       cli/qdisc/hfsc.lo
+  CC       cli/cls/basic.lo
+  CC       cli/cls/cgroup.lo
+  CCLD     libnl-genl-3.la
+  CCLD     libnl-route-3.la
+  CCLD     libnl-idiag-3.la
+  CCLD     libnl-xfrm-3.la
+  CCLD     cli/qdisc/htb.la
+  CCLD     cli/qdisc/blackhole.la
+  CCLD     cli/qdisc/pfifo.la
+  CCLD     cli/qdisc/plug.la
+  CCLD     cli/qdisc/bfifo.la
+  CCLD     cli/qdisc/ingress.la
+  CCLD     cli/qdisc/fq_codel.la
+  CCLD     cli/qdisc/hfsc.la
+  CCLD     cli/cls/basic.la
+  CCLD     cli/cls/cgroup.la
+  CCLD     libnl-nf-3.la
+make[2]: Leaving directory '/tmp/work/src/libnl-3.2.27/lib'
+make[1]: Leaving directory '/tmp/work/src/libnl-3.2.27/lib'
+Making all in man
+make[1]: Entering directory '/tmp/work/src/libnl-3.2.27/man'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/tmp/work/src/libnl-3.2.27/man'
+Making all in python
+make[1]: Entering directory '/tmp/work/src/libnl-3.2.27/python'
+Making all in doc
+make[2]: Entering directory '/tmp/work/src/libnl-3.2.27/python/doc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/tmp/work/src/libnl-3.2.27/python/doc'
+Making all in examples
+make[2]: Entering directory '/tmp/work/src/libnl-3.2.27/python/examples'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/tmp/work/src/libnl-3.2.27/python/examples'
+Making all in netlink
+make[2]: Entering directory '/tmp/work/src/libnl-3.2.27/python/netlink'
+Making all in route
+make[3]: Entering directory '/tmp/work/src/libnl-3.2.27/python/netlink/route'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/tmp/work/src/libnl-3.2.27/python/netlink/route'
+Making all in genl
+make[3]: Entering directory '/tmp/work/src/libnl-3.2.27/python/netlink/genl'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/tmp/work/src/libnl-3.2.27/python/netlink/genl'
+make[3]: Entering directory '/tmp/work/src/libnl-3.2.27/python/netlink'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/tmp/work/src/libnl-3.2.27/python/netlink'
+make[2]: Leaving directory '/tmp/work/src/libnl-3.2.27/python/netlink'
+Making all in tests
+make[2]: Entering directory '/tmp/work/src/libnl-3.2.27/python/tests'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/tmp/work/src/libnl-3.2.27/python/tests'
+make[2]: Entering directory '/tmp/work/src/libnl-3.2.27/python'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/tmp/work/src/libnl-3.2.27/python'
+make[1]: Leaving directory '/tmp/work/src/libnl-3.2.27/python'
+Making all in tests
+make[1]: Entering directory '/tmp/work/src/libnl-3.2.27/tests'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/tmp/work/src/libnl-3.2.27/tests'
+Making all in src
+make[1]: Entering directory '/tmp/work/src/libnl-3.2.27/src'
+Making all in lib
+make[2]: Entering directory '/tmp/work/src/libnl-3.2.27/src/lib'
+  CC       addr.lo
+  CC       utils.lo
+  CC       ct.lo
+  CC       link.lo
+  CC       neigh.lo
+  CC       rule.lo
+  CC       route.lo
+  CC       tc.lo
+  CC       qdisc.lo
+  CC       class.lo
+  CC       cls.lo
+  CC       exp.lo
+  CCLD     libnl-cli-3.la
+make[2]: Leaving directory '/tmp/work/src/libnl-3.2.27/src/lib'
+make[2]: Entering directory '/tmp/work/src/libnl-3.2.27/src'
+  CC       genl-ctrl-list.o
+  CC       idiag-socket-details.o
+  CC       nf-ct-add.o
+  CC       nf-ct-list.o
+  CC       nf-exp-add.o
+  CC       nf-exp-delete.o
+  CC       nf-exp-list.o
+  CC       nf-log.o
+  CC       nf-monitor.o
+  CC       nf-queue.o
+  CC       nl-addr-add.o
+  CC       nl-addr-delete.o
+  CC       nl-addr-list.o
+  CC       nl-class-add.o
+  CC       nl-class-delete.o
+  CC       nl-classid-lookup.o
+  CC       nl-class-list.o
+  CC       nl-cls-add.o
+  CC       nl-cls-delete.o
+  CC       nl-cls-list.o
+  CC       nl-fib-lookup.o
+  CC       nl-link-enslave.o
+  CC       nl-link-ifindex2name.o
+  CC       nl-link-list.o
+  CC       nl-link-name2ifindex.o
+  CC       nl-link-release.o
+  CC       nl-link-set.o
+  CC       nl-link-stats.o
+  CC       nl-list-caches.o
+  CC       nl-list-sockets.o
+  CC       nl-monitor.o
+  CC       nl-neigh-add.o
+  CC       nl-neigh-delete.o
+  CC       nl-neigh-list.o
+  CC       nl-neightbl-list.o
+  CC       nl-pktloc-lookup.o
+  CC       nl-qdisc-add.o
+  CC       nl-qdisc-delete.o
+  CC       nl-qdisc-list.o
+  CC       nl-route-add.o
+  CC       nl-route-delete.o
+  CC       nl-route-get.o
+  CC       nl-route-list.o
+  CC       nl-rule-list.o
+  CC       nl-tctree-list.o
+  CC       nl-util-addr.o
+  CCLD     genl-ctrl-list
+  CCLD     idiag-socket-details
+  CCLD     nf-ct-add
+  CCLD     nf-ct-list
+  CCLD     nf-exp-add
+  CCLD     nf-exp-delete
+  CCLD     nf-exp-list
+  CCLD     nf-log
+  CCLD     nf-monitor
+  CCLD     nf-queue
+  CCLD     nl-addr-add
+  CCLD     nl-addr-delete
+  CCLD     nl-addr-list
+  CCLD     nl-class-add
+  CCLD     nl-class-delete
+  CCLD     nl-classid-lookup
+  CCLD     nl-class-list
+  CCLD     nl-cls-add
+  CCLD     nl-cls-delete
+  CCLD     nl-cls-list
+  CCLD     nl-fib-lookup
+  CCLD     nl-link-enslave
+  CCLD     nl-link-ifindex2name
+  CCLD     nl-link-list
+  CCLD     nl-link-name2ifindex
+  CCLD     nl-link-release
+  CCLD     nl-link-set
+  CCLD     nl-link-stats
+  CCLD     nl-list-caches
+  CCLD     nl-list-sockets
+  CCLD     nl-monitor
+  CCLD     nl-neigh-add
+  CCLD     nl-neigh-delete
+  CCLD     nl-neigh-list
+  CCLD     nl-neightbl-list
+  CCLD     nl-pktloc-lookup
+  CCLD     nl-qdisc-add
+  CCLD     nl-qdisc-delete
+  CCLD     nl-qdisc-list
+  CCLD     nl-route-add
+  CCLD     nl-route-delete
+  CCLD     nl-route-get
+  CCLD     nl-route-list
+  CCLD     nl-rule-list
+  CCLD     nl-tctree-list
+  CCLD     nl-util-addr
+make[2]: Leaving directory '/tmp/work/src/libnl-3.2.27/src'
+make[1]: Leaving directory '/tmp/work/src/libnl-3.2.27/src'
+make[1]: Entering directory '/tmp/work/src/libnl-3.2.27'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/tmp/work/src/libnl-3.2.27'
+Making install in include
+make[1]: Entering directory '/tmp/work/src/libnl-3.2.27/include'
+make[2]: Entering directory '/tmp/work/src/libnl-3.2.27/include'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/tmp/work/pkg/usr/include/libnl3'
+ /bin/mkdir -p '/tmp/work/pkg/usr/include/libnl3/netlink/xfrm'
+ /usr/bin/install -c -m 644  netlink/xfrm/ae.h netlink/xfrm/lifetime.h netlink/xfrm/sa.h netlink/xfrm/selector.h netlink/xfrm/sp.h netlink/xfrm/template.h '/tmp/work/pkg/usr/include/libnl3/netlink/xfrm'
+ /bin/mkdir -p '/tmp/work/pkg/usr/include/libnl3/netlink/route/act'
+ /usr/bin/install -c -m 644  netlink/route/act/mirred.h netlink/route/act/skbedit.h '/tmp/work/pkg/usr/include/libnl3/netlink/route/act'
+ /bin/mkdir -p '/tmp/work/pkg/usr/include/libnl3/netlink/route'
+ /usr/bin/install -c -m 644  netlink/route/action.h netlink/route/addr.h netlink/route/class.h netlink/route/classifier.h netlink/route/link.h netlink/route/neighbour.h netlink/route/neightbl.h netlink/route/nexthop.h netlink/route/pktloc.h netlink/route/qdisc.h netlink/route/route.h netlink/route/rtnl.h netlink/route/rule.h netlink/route/tc.h netlink/route/tc-api.h '/tmp/work/pkg/usr/include/libnl3/netlink/route'
+ /bin/mkdir -p '/tmp/work/pkg/usr/include/libnl3/netlink'
+ /usr/bin/install -c -m 644  netlink/addr.h netlink/attr.h netlink/cache.h netlink/data.h netlink/errno.h netlink/handlers.h netlink/hash.h netlink/hashtable.h netlink/list.h netlink/msg.h netlink/netlink-compat.h netlink/netlink-kernel.h netlink/netlink.h netlink/object.h netlink/socket.h netlink/types.h netlink/utils.h netlink/version.h netlink/cache-api.h netlink/object-api.h '/tmp/work/pkg/usr/include/libnl3/netlink'
+ /bin/mkdir -p '/tmp/work/pkg/usr/include/libnl3/netlink/route/cls'
+ /usr/bin/install -c -m 644  netlink/route/cls/basic.h netlink/route/cls/cgroup.h netlink/route/cls/ematch.h netlink/route/cls/fw.h netlink/route/cls/police.h netlink/route/cls/u32.h '/tmp/work/pkg/usr/include/libnl3/netlink/route/cls'
+ /bin/mkdir -p '/tmp/work/pkg/usr/include/libnl3/netlink/route/cls/ematch'
+ /usr/bin/install -c -m 644  netlink/route/cls/ematch/cmp.h netlink/route/cls/ematch/meta.h netlink/route/cls/ematch/nbyte.h netlink/route/cls/ematch/text.h '/tmp/work/pkg/usr/include/libnl3/netlink/route/cls/ematch'
+ /bin/mkdir -p '/tmp/work/pkg/usr/include/libnl3/netlink/route/qdisc'
+ /usr/bin/install -c -m 644  netlink/route/qdisc/cbq.h netlink/route/qdisc/dsmark.h netlink/route/qdisc/fifo.h netlink/route/qdisc/htb.h netlink/route/qdisc/netem.h netlink/route/qdisc/prio.h netlink/route/qdisc/red.h netlink/route/qdisc/sfq.h netlink/route/qdisc/tbf.h netlink/route/qdisc/plug.h netlink/route/qdisc/fq_codel.h netlink/route/qdisc/hfsc.h '/tmp/work/pkg/usr/include/libnl3/netlink/route/qdisc'
+ /bin/mkdir -p '/tmp/work/pkg/usr/include/libnl3/netlink/fib_lookup'
+ /usr/bin/install -c -m 644  netlink/fib_lookup/lookup.h netlink/fib_lookup/request.h '/tmp/work/pkg/usr/include/libnl3/netlink/fib_lookup'
+ /bin/mkdir -p '/tmp/work/pkg/usr/include/libnl3/netlink/cli'
+ /usr/bin/install -c -m 644  netlink/cli/addr.h netlink/cli/class.h netlink/cli/cls.h netlink/cli/ct.h netlink/cli/exp.h netlink/cli/link.h netlink/cli/neigh.h netlink/cli/qdisc.h netlink/cli/route.h netlink/cli/rule.h netlink/cli/tc.h netlink/cli/utils.h '/tmp/work/pkg/usr/include/libnl3/netlink/cli'
+ /bin/mkdir -p '/tmp/work/pkg/usr/include/libnl3/netlink/idiag'
+ /usr/bin/install -c -m 644  netlink/idiag/idiagnl.h netlink/idiag/meminfo.h netlink/idiag/msg.h netlink/idiag/req.h netlink/idiag/vegasinfo.h '/tmp/work/pkg/usr/include/libnl3/netlink/idiag'
+ /bin/mkdir -p '/tmp/work/pkg/usr/include/libnl3/netlink/route/link'
+ /usr/bin/install -c -m 644  netlink/route/link/api.h netlink/route/link/bonding.h netlink/route/link/bridge.h netlink/route/link/can.h netlink/route/link/inet.h netlink/route/link/inet6.h netlink/route/link/info-api.h netlink/route/link/macvlan.h netlink/route/link/vlan.h netlink/route/link/vxlan.h netlink/route/link/veth.h netlink/route/link/ip6tnl.h netlink/route/link/ipgre.h netlink/route/link/ipip.h netlink/route/link/ipvti.h netlink/route/link/sit.h netlink/route/link/ipvlan.h '/tmp/work/pkg/usr/include/libnl3/netlink/route/link'
+ /bin/mkdir -p '/tmp/work/pkg/usr/include/libnl3/netlink/genl'
+ /usr/bin/install -c -m 644  netlink/genl/ctrl.h netlink/genl/family.h netlink/genl/genl.h netlink/genl/mngt.h '/tmp/work/pkg/usr/include/libnl3/netlink/genl'
+ /bin/mkdir -p '/tmp/work/pkg/usr/include/libnl3/netlink/netfilter'
+ /usr/bin/install -c -m 644  netlink/netfilter/ct.h netlink/netfilter/exp.h netlink/netfilter/log.h netlink/netfilter/log_msg.h netlink/netfilter/netfilter.h netlink/netfilter/nfnl.h netlink/netfilter/queue.h netlink/netfilter/queue_msg.h '/tmp/work/pkg/usr/include/libnl3/netlink/netfilter'
+make[2]: Leaving directory '/tmp/work/src/libnl-3.2.27/include'
+make[1]: Leaving directory '/tmp/work/src/libnl-3.2.27/include'
+Making install in lib
+make[1]: Entering directory '/tmp/work/src/libnl-3.2.27/lib'
+/usr/bin/make  install-am
+make[2]: Entering directory '/tmp/work/src/libnl-3.2.27/lib'
+make[3]: Entering directory '/tmp/work/src/libnl-3.2.27/lib'
+make[3]: Nothing to be done for 'install-data-am'.
+ /bin/mkdir -p '/tmp/work/pkg/usr/lib/libnl'
+ /bin/mkdir -p '/tmp/work/pkg/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libnl-3.la libnl-genl-3.la libnl-route-3.la libnl-nf-3.la libnl-idiag-3.la libnl-xfrm-3.la '/tmp/work/pkg/usr/lib'
+ /bin/mkdir -p '/tmp/work/pkg/usr/lib/libnl/cli/qdisc'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c  cli/qdisc/htb.la cli/qdisc/blackhole.la cli/qdisc/pfifo.la cli/qdisc/plug.la cli/qdisc/bfifo.la cli/qdisc/ingress.la cli/qdisc/fq_codel.la cli/qdisc/hfsc.la '/tmp/work/pkg/usr/lib/libnl/cli/qdisc'
+libtool: install: /usr/bin/install -c .libs/libnl-3.so.200.22.0 /tmp/work/pkg/usr/lib/libnl-3.so.200.22.0
+libtool: install: /usr/bin/install -c cli/qdisc/.libs/htb.so /tmp/work/pkg/usr/lib/libnl/cli/qdisc/htb.so
+libtool: install: (cd /tmp/work/pkg/usr/lib && { ln -s -f libnl-3.so.200.22.0 libnl-3.so.200 || { rm -f libnl-3.so.200 && ln -s libnl-3.so.200.22.0 libnl-3.so.200; }; })
+libtool: install: /usr/bin/install -c cli/qdisc/.libs/htb.lai /tmp/work/pkg/usr/lib/libnl/cli/qdisc/htb.la
+libtool: install: (cd /tmp/work/pkg/usr/lib && { ln -s -f libnl-3.so.200.22.0 libnl-3.so || { rm -f libnl-3.so && ln -s libnl-3.so.200.22.0 libnl-3.so; }; })
+libtool: install: /usr/bin/install -c .libs/libnl-3.lai /tmp/work/pkg/usr/lib/libnl-3.la
+libtool: install: /usr/bin/install -c cli/qdisc/.libs/blackhole.so /tmp/work/pkg/usr/lib/libnl/cli/qdisc/blackhole.so
+libtool: install: /usr/bin/install -c cli/qdisc/.libs/blackhole.lai /tmp/work/pkg/usr/lib/libnl/cli/qdisc/blackhole.la
+libtool: install: /usr/bin/install -c cli/qdisc/.libs/pfifo.so /tmp/work/pkg/usr/lib/libnl/cli/qdisc/pfifo.so
+libtool: install: /usr/bin/install -c cli/qdisc/.libs/pfifo.lai /tmp/work/pkg/usr/lib/libnl/cli/qdisc/pfifo.la
+libtool: install: (cd /tmp/work/src/libnl-3.2.27/lib; /bin/sh /tmp/work/src/libnl-3.2.27/libtool  --silent --tag CC --mode=relink gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe -version-info 222:0:22 -Wl,--version-script=../libnl-genl-3.sym -o libnl-genl-3.la -rpath /usr/lib genl/ctrl.lo genl/family.lo genl/genl.lo genl/mngt.lo libnl-3.la -lpthread -lm -inst-prefix-dir /tmp/work/pkg)
+libtool: install: /usr/bin/install -c cli/qdisc/.libs/plug.so /tmp/work/pkg/usr/lib/libnl/cli/qdisc/plug.so
+libtool: install: /usr/bin/install -c cli/qdisc/.libs/plug.lai /tmp/work/pkg/usr/lib/libnl/cli/qdisc/plug.la
+libtool: install: /usr/bin/install -c cli/qdisc/.libs/bfifo.so /tmp/work/pkg/usr/lib/libnl/cli/qdisc/bfifo.so
+libtool: install: /usr/bin/install -c cli/qdisc/.libs/bfifo.lai /tmp/work/pkg/usr/lib/libnl/cli/qdisc/bfifo.la
+libtool: install: /usr/bin/install -c cli/qdisc/.libs/ingress.so /tmp/work/pkg/usr/lib/libnl/cli/qdisc/ingress.so
+libtool: install: /usr/bin/install -c cli/qdisc/.libs/ingress.lai /tmp/work/pkg/usr/lib/libnl/cli/qdisc/ingress.la
+libtool: install: /usr/bin/install -c cli/qdisc/.libs/fq_codel.so /tmp/work/pkg/usr/lib/libnl/cli/qdisc/fq_codel.so
+libtool: install: /usr/bin/install -c cli/qdisc/.libs/fq_codel.lai /tmp/work/pkg/usr/lib/libnl/cli/qdisc/fq_codel.la
+libtool: install: /usr/bin/install -c cli/qdisc/.libs/hfsc.so /tmp/work/pkg/usr/lib/libnl/cli/qdisc/hfsc.so
+libtool: install: /usr/bin/install -c cli/qdisc/.libs/hfsc.lai /tmp/work/pkg/usr/lib/libnl/cli/qdisc/hfsc.la
+ /bin/mkdir -p '/tmp/work/pkg/usr/lib/libnl/cli/cls'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c  cli/cls/basic.la cli/cls/cgroup.la '/tmp/work/pkg/usr/lib/libnl/cli/cls'
+libtool: install: /usr/bin/install -c cli/cls/.libs/basic.so /tmp/work/pkg/usr/lib/libnl/cli/cls/basic.so
+libtool: install: /usr/bin/install -c cli/cls/.libs/basic.lai /tmp/work/pkg/usr/lib/libnl/cli/cls/basic.la
+libtool: install: /usr/bin/install -c cli/cls/.libs/cgroup.so /tmp/work/pkg/usr/lib/libnl/cli/cls/cgroup.so
+libtool: install: /usr/bin/install -c cli/cls/.libs/cgroup.lai /tmp/work/pkg/usr/lib/libnl/cli/cls/cgroup.la
+libtool: install: /usr/bin/install -c .libs/libnl-genl-3.so.200.22.0T /tmp/work/pkg/usr/lib/libnl-genl-3.so.200.22.0
+libtool: install: (cd /tmp/work/pkg/usr/lib && { ln -s -f libnl-genl-3.so.200.22.0 libnl-genl-3.so.200 || { rm -f libnl-genl-3.so.200 && ln -s libnl-genl-3.so.200.22.0 libnl-genl-3.so.200; }; })
+libtool: install: (cd /tmp/work/pkg/usr/lib && { ln -s -f libnl-genl-3.so.200.22.0 libnl-genl-3.so || { rm -f libnl-genl-3.so && ln -s libnl-genl-3.so.200.22.0 libnl-genl-3.so; }; })
+libtool: install: /usr/bin/install -c .libs/libnl-genl-3.lai /tmp/work/pkg/usr/lib/libnl-genl-3.la
+libtool: install: (cd /tmp/work/src/libnl-3.2.27/lib; /bin/sh /tmp/work/src/libnl-3.2.27/libtool  --silent --tag CC --mode=relink gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe -version-info 222:0:22 -Wl,--version-script=../libnl-route-3.sym -o libnl-route-3.la -rpath /usr/lib route/addr.lo route/class.lo route/cls.lo route/act.lo route/link.lo route/neigh.lo route/neightbl.lo route/nexthop.lo route/qdisc.lo route/route.lo route/route_obj.lo route/route_utils.lo route/rtnl.lo route/rule.lo route/tc.lo route/classid.lo route/cls/fw.lo route/cls/police.lo route/cls/u32.lo route/cls/basic.lo route/cls/cgroup.lo route/act/mirred.lo route/act/skbedit.lo route/cls/ematch.lo route/cls/ematch/container.lo route/cls/ematch/cmp.lo route/cls/ematch/nbyte.lo route/cls/ematch/text.lo route/cls/ematch/meta.lo route/link/api.lo route/link/vlan.lo route/link/dummy.lo route/link/bridge.lo route/link/inet6.lo route/link/inet.lo route/link/bonding.lo route/link/can.lo route/link/macvlan.lo route/link/vxlan.lo route/link/veth.lo route/link/ipip.lo route/link/ipgre.lo route/link/sit.lo route/link/ipvti.lo route/link/ip6tnl.lo route/link/ifb.lo route/link/ipvlan.lo route/qdisc/blackhole.lo route/qdisc/cbq.lo route/qdisc/dsmark.lo route/qdisc/fifo.lo route/qdisc/htb.lo route/qdisc/netem.lo route/qdisc/prio.lo route/qdisc/red.lo route/qdisc/sfq.lo route/qdisc/tbf.lo route/qdisc/plug.lo route/qdisc/ingress.lo route/qdisc/fq_codel.lo route/qdisc/hfsc.lo fib_lookup/lookup.lo fib_lookup/request.lo route/pktloc.lo route/pktloc_syntax.lo route/pktloc_grammar.lo route/cls/ematch_syntax.lo route/cls/ematch_grammar.lo libnl-3.la -lpthread -lm -inst-prefix-dir /tmp/work/pkg)
+libtool: install: /usr/bin/install -c .libs/libnl-route-3.so.200.22.0T /tmp/work/pkg/usr/lib/libnl-route-3.so.200.22.0
+libtool: install: (cd /tmp/work/pkg/usr/lib && { ln -s -f libnl-route-3.so.200.22.0 libnl-route-3.so.200 || { rm -f libnl-route-3.so.200 && ln -s libnl-route-3.so.200.22.0 libnl-route-3.so.200; }; })
+libtool: install: (cd /tmp/work/pkg/usr/lib && { ln -s -f libnl-route-3.so.200.22.0 libnl-route-3.so || { rm -f libnl-route-3.so && ln -s libnl-route-3.so.200.22.0 libnl-route-3.so; }; })
+libtool: install: /usr/bin/install -c .libs/libnl-route-3.lai /tmp/work/pkg/usr/lib/libnl-route-3.la
+libtool: install: (cd /tmp/work/src/libnl-3.2.27/lib; /bin/sh /tmp/work/src/libnl-3.2.27/libtool  --silent --tag CC --mode=relink gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe -version-info 222:0:22 -Wl,--version-script=../libnl-nf-3.sym -o libnl-nf-3.la -rpath /usr/lib netfilter/ct.lo netfilter/ct_obj.lo netfilter/log.lo netfilter/log_msg.lo netfilter/log_msg_obj.lo netfilter/log_obj.lo netfilter/netfilter.lo netfilter/nfnl.lo netfilter/queue.lo netfilter/queue_msg.lo netfilter/queue_msg_obj.lo netfilter/queue_obj.lo netfilter/exp.lo netfilter/exp_obj.lo libnl-route-3.la -lpthread -lm -inst-prefix-dir /tmp/work/pkg)
+libtool: install: /usr/bin/install -c .libs/libnl-nf-3.so.200.22.0T /tmp/work/pkg/usr/lib/libnl-nf-3.so.200.22.0
+libtool: install: (cd /tmp/work/pkg/usr/lib && { ln -s -f libnl-nf-3.so.200.22.0 libnl-nf-3.so.200 || { rm -f libnl-nf-3.so.200 && ln -s libnl-nf-3.so.200.22.0 libnl-nf-3.so.200; }; })
+libtool: install: (cd /tmp/work/pkg/usr/lib && { ln -s -f libnl-nf-3.so.200.22.0 libnl-nf-3.so || { rm -f libnl-nf-3.so && ln -s libnl-nf-3.so.200.22.0 libnl-nf-3.so; }; })
+libtool: install: /usr/bin/install -c .libs/libnl-nf-3.lai /tmp/work/pkg/usr/lib/libnl-nf-3.la
+libtool: install: (cd /tmp/work/src/libnl-3.2.27/lib; /bin/sh /tmp/work/src/libnl-3.2.27/libtool  --silent --tag CC --mode=relink gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe -version-info 222:0:22 -Wl,--version-script=../libnl-idiag-3.sym -o libnl-idiag-3.la -rpath /usr/lib idiag/idiag_meminfo_obj.lo idiag/idiag_vegasinfo_obj.lo idiag/idiag_msg_obj.lo idiag/idiag_req_obj.lo idiag/idiag.lo libnl-3.la -lpthread -lm -inst-prefix-dir /tmp/work/pkg)
+libtool: install: /usr/bin/install -c .libs/libnl-idiag-3.so.200.22.0T /tmp/work/pkg/usr/lib/libnl-idiag-3.so.200.22.0
+libtool: install: (cd /tmp/work/pkg/usr/lib && { ln -s -f libnl-idiag-3.so.200.22.0 libnl-idiag-3.so.200 || { rm -f libnl-idiag-3.so.200 && ln -s libnl-idiag-3.so.200.22.0 libnl-idiag-3.so.200; }; })
+libtool: install: (cd /tmp/work/pkg/usr/lib && { ln -s -f libnl-idiag-3.so.200.22.0 libnl-idiag-3.so || { rm -f libnl-idiag-3.so && ln -s libnl-idiag-3.so.200.22.0 libnl-idiag-3.so; }; })
+libtool: install: /usr/bin/install -c .libs/libnl-idiag-3.lai /tmp/work/pkg/usr/lib/libnl-idiag-3.la
+libtool: install: (cd /tmp/work/src/libnl-3.2.27/lib; /bin/sh /tmp/work/src/libnl-3.2.27/libtool  --silent --tag CC --mode=relink gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe -version-info 222:0:22 -Wl,--version-script=../libnl-xfrm-3.sym -o libnl-xfrm-3.la -rpath /usr/lib xfrm/ae.lo xfrm/lifetime.lo xfrm/sa.lo xfrm/selector.lo xfrm/sp.lo xfrm/template.lo libnl-3.la -lpthread -lm -inst-prefix-dir /tmp/work/pkg)
+libtool: install: /usr/bin/install -c .libs/libnl-xfrm-3.so.200.22.0T /tmp/work/pkg/usr/lib/libnl-xfrm-3.so.200.22.0
+libtool: install: (cd /tmp/work/pkg/usr/lib && { ln -s -f libnl-xfrm-3.so.200.22.0 libnl-xfrm-3.so.200 || { rm -f libnl-xfrm-3.so.200 && ln -s libnl-xfrm-3.so.200.22.0 libnl-xfrm-3.so.200; }; })
+libtool: install: (cd /tmp/work/pkg/usr/lib && { ln -s -f libnl-xfrm-3.so.200.22.0 libnl-xfrm-3.so || { rm -f libnl-xfrm-3.so && ln -s libnl-xfrm-3.so.200.22.0 libnl-xfrm-3.so; }; })
+libtool: install: /usr/bin/install -c .libs/libnl-xfrm-3.lai /tmp/work/pkg/usr/lib/libnl-xfrm-3.la
+make[3]: Leaving directory '/tmp/work/src/libnl-3.2.27/lib'
+make[2]: Leaving directory '/tmp/work/src/libnl-3.2.27/lib'
+make[1]: Leaving directory '/tmp/work/src/libnl-3.2.27/lib'
+Making install in man
+make[1]: Entering directory '/tmp/work/src/libnl-3.2.27/man'
+make[2]: Entering directory '/tmp/work/src/libnl-3.2.27/man'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/tmp/work/pkg/usr/share/man/man8'
+ /usr/bin/install -c -m 644 nl-classid-lookup.8 nl-pktloc-lookup.8 nl-qdisc-add.8 nl-qdisc-delete.8 nl-qdisc-list.8 genl-ctrl-list.8 '/tmp/work/pkg/usr/share/man/man8'
+make[2]: Leaving directory '/tmp/work/src/libnl-3.2.27/man'
+make[1]: Leaving directory '/tmp/work/src/libnl-3.2.27/man'
+Making install in python
+make[1]: Entering directory '/tmp/work/src/libnl-3.2.27/python'
+Making install in doc
+make[2]: Entering directory '/tmp/work/src/libnl-3.2.27/python/doc'
+make[3]: Entering directory '/tmp/work/src/libnl-3.2.27/python/doc'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/tmp/work/src/libnl-3.2.27/python/doc'
+make[2]: Leaving directory '/tmp/work/src/libnl-3.2.27/python/doc'
+Making install in examples
+make[2]: Entering directory '/tmp/work/src/libnl-3.2.27/python/examples'
+make[3]: Entering directory '/tmp/work/src/libnl-3.2.27/python/examples'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/tmp/work/src/libnl-3.2.27/python/examples'
+make[2]: Leaving directory '/tmp/work/src/libnl-3.2.27/python/examples'
+Making install in netlink
+make[2]: Entering directory '/tmp/work/src/libnl-3.2.27/python/netlink'
+Making install in route
+make[3]: Entering directory '/tmp/work/src/libnl-3.2.27/python/netlink/route'
+make[4]: Entering directory '/tmp/work/src/libnl-3.2.27/python/netlink/route'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/tmp/work/src/libnl-3.2.27/python/netlink/route'
+make[3]: Leaving directory '/tmp/work/src/libnl-3.2.27/python/netlink/route'
+Making install in genl
+make[3]: Entering directory '/tmp/work/src/libnl-3.2.27/python/netlink/genl'
+make[4]: Entering directory '/tmp/work/src/libnl-3.2.27/python/netlink/genl'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/tmp/work/src/libnl-3.2.27/python/netlink/genl'
+make[3]: Leaving directory '/tmp/work/src/libnl-3.2.27/python/netlink/genl'
+make[3]: Entering directory '/tmp/work/src/libnl-3.2.27/python/netlink'
+make[4]: Entering directory '/tmp/work/src/libnl-3.2.27/python/netlink'
+make[4]: Nothing to be done for 'install-exec-am'.
+make[4]: Nothing to be done for 'install-data-am'.
+make[4]: Leaving directory '/tmp/work/src/libnl-3.2.27/python/netlink'
+make[3]: Leaving directory '/tmp/work/src/libnl-3.2.27/python/netlink'
+make[2]: Leaving directory '/tmp/work/src/libnl-3.2.27/python/netlink'
+Making install in tests
+make[2]: Entering directory '/tmp/work/src/libnl-3.2.27/python/tests'
+make[3]: Entering directory '/tmp/work/src/libnl-3.2.27/python/tests'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/tmp/work/src/libnl-3.2.27/python/tests'
+make[2]: Leaving directory '/tmp/work/src/libnl-3.2.27/python/tests'
+make[2]: Entering directory '/tmp/work/src/libnl-3.2.27/python'
+make[3]: Entering directory '/tmp/work/src/libnl-3.2.27/python'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/tmp/work/src/libnl-3.2.27/python'
+make[2]: Leaving directory '/tmp/work/src/libnl-3.2.27/python'
+make[1]: Leaving directory '/tmp/work/src/libnl-3.2.27/python'
+Making install in tests
+make[1]: Entering directory '/tmp/work/src/libnl-3.2.27/tests'
+make[2]: Entering directory '/tmp/work/src/libnl-3.2.27/tests'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/tmp/work/src/libnl-3.2.27/tests'
+make[1]: Leaving directory '/tmp/work/src/libnl-3.2.27/tests'
+Making install in src
+make[1]: Entering directory '/tmp/work/src/libnl-3.2.27/src'
+Making install in lib
+make[2]: Entering directory '/tmp/work/src/libnl-3.2.27/src/lib'
+make[3]: Entering directory '/tmp/work/src/libnl-3.2.27/src/lib'
+make[3]: Nothing to be done for 'install-data-am'.
+ /bin/mkdir -p '/tmp/work/pkg/usr/lib'
+ /bin/sh ../../libtool   --mode=install /usr/bin/install -c   libnl-cli-3.la '/tmp/work/pkg/usr/lib'
+libtool: install: (cd /tmp/work/src/libnl-3.2.27/src/lib; /bin/sh /tmp/work/src/libnl-3.2.27/libtool  --silent --tag CC --mode=relink gcc -Wall -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe -version-info 222:0:22 -Wl,--version-script=../../libnl-cli-3.sym -o libnl-cli-3.la -rpath /usr/lib utils.lo addr.lo ct.lo link.lo neigh.lo rule.lo route.lo tc.lo qdisc.lo class.lo cls.lo exp.lo ../../lib/libnl-3.la ../../lib/libnl-route-3.la ../../lib/libnl-nf-3.la ../../lib/libnl-genl-3.la -L../../lib -ldl -lpthread -lm -inst-prefix-dir /tmp/work/pkg)
+libtool: install: /usr/bin/install -c .libs/libnl-cli-3.so.200.22.0T /tmp/work/pkg/usr/lib/libnl-cli-3.so.200.22.0
+libtool: install: (cd /tmp/work/pkg/usr/lib && { ln -s -f libnl-cli-3.so.200.22.0 libnl-cli-3.so.200 || { rm -f libnl-cli-3.so.200 && ln -s libnl-cli-3.so.200.22.0 libnl-cli-3.so.200; }; })
+libtool: install: (cd /tmp/work/pkg/usr/lib && { ln -s -f libnl-cli-3.so.200.22.0 libnl-cli-3.so || { rm -f libnl-cli-3.so && ln -s libnl-cli-3.so.200.22.0 libnl-cli-3.so; }; })
+libtool: install: /usr/bin/install -c .libs/libnl-cli-3.lai /tmp/work/pkg/usr/lib/libnl-cli-3.la
+make[3]: Leaving directory '/tmp/work/src/libnl-3.2.27/src/lib'
+make[2]: Leaving directory '/tmp/work/src/libnl-3.2.27/src/lib'
+make[2]: Entering directory '/tmp/work/src/libnl-3.2.27/src'
+make[3]: Entering directory '/tmp/work/src/libnl-3.2.27/src'
+make[3]: Nothing to be done for 'install-data-am'.
+ /bin/mkdir -p '/tmp/work/pkg/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c genl-ctrl-list idiag-socket-details nf-ct-add nf-ct-list nf-exp-add nf-exp-delete nf-exp-list nf-log nf-monitor nf-queue nl-addr-add nl-addr-delete nl-addr-list nl-class-add nl-class-delete nl-classid-lookup nl-class-list nl-cls-add nl-cls-delete nl-cls-list nl-fib-lookup nl-link-enslave nl-link-ifindex2name nl-link-list nl-link-name2ifindex nl-link-release nl-link-set nl-link-stats nl-list-caches nl-list-sockets nl-monitor nl-neigh-add nl-neigh-delete nl-neigh-list nl-neightbl-list nl-pktloc-lookup nl-qdisc-add nl-qdisc-delete nl-qdisc-list nl-route-add nl-route-delete nl-route-get nl-route-list nl-rule-list nl-tctree-list nl-util-addr '/tmp/work/pkg/usr/bin'
+libtool: install: /usr/bin/install -c .libs/genl-ctrl-list /tmp/work/pkg/usr/bin/genl-ctrl-list
+libtool: install: /usr/bin/install -c .libs/idiag-socket-details /tmp/work/pkg/usr/bin/idiag-socket-details
+libtool: install: /usr/bin/install -c .libs/nf-ct-add /tmp/work/pkg/usr/bin/nf-ct-add
+libtool: install: /usr/bin/install -c .libs/nf-ct-list /tmp/work/pkg/usr/bin/nf-ct-list
+libtool: install: /usr/bin/install -c .libs/nf-exp-add /tmp/work/pkg/usr/bin/nf-exp-add
+libtool: install: /usr/bin/install -c .libs/nf-exp-delete /tmp/work/pkg/usr/bin/nf-exp-delete
+libtool: install: /usr/bin/install -c .libs/nf-exp-list /tmp/work/pkg/usr/bin/nf-exp-list
+libtool: install: /usr/bin/install -c .libs/nf-log /tmp/work/pkg/usr/bin/nf-log
+libtool: install: /usr/bin/install -c .libs/nf-monitor /tmp/work/pkg/usr/bin/nf-monitor
+libtool: install: /usr/bin/install -c .libs/nf-queue /tmp/work/pkg/usr/bin/nf-queue
+libtool: install: /usr/bin/install -c .libs/nl-addr-add /tmp/work/pkg/usr/bin/nl-addr-add
+libtool: install: /usr/bin/install -c .libs/nl-addr-delete /tmp/work/pkg/usr/bin/nl-addr-delete
+libtool: install: /usr/bin/install -c .libs/nl-addr-list /tmp/work/pkg/usr/bin/nl-addr-list
+libtool: install: /usr/bin/install -c .libs/nl-class-add /tmp/work/pkg/usr/bin/nl-class-add
+libtool: install: /usr/bin/install -c .libs/nl-class-delete /tmp/work/pkg/usr/bin/nl-class-delete
+libtool: install: /usr/bin/install -c .libs/nl-classid-lookup /tmp/work/pkg/usr/bin/nl-classid-lookup
+libtool: install: /usr/bin/install -c .libs/nl-class-list /tmp/work/pkg/usr/bin/nl-class-list
+libtool: install: /usr/bin/install -c .libs/nl-cls-add /tmp/work/pkg/usr/bin/nl-cls-add
+libtool: install: /usr/bin/install -c .libs/nl-cls-delete /tmp/work/pkg/usr/bin/nl-cls-delete
+libtool: install: /usr/bin/install -c .libs/nl-cls-list /tmp/work/pkg/usr/bin/nl-cls-list
+libtool: install: /usr/bin/install -c .libs/nl-fib-lookup /tmp/work/pkg/usr/bin/nl-fib-lookup
+libtool: install: /usr/bin/install -c .libs/nl-link-enslave /tmp/work/pkg/usr/bin/nl-link-enslave
+libtool: install: /usr/bin/install -c .libs/nl-link-ifindex2name /tmp/work/pkg/usr/bin/nl-link-ifindex2name
+libtool: install: /usr/bin/install -c .libs/nl-link-list /tmp/work/pkg/usr/bin/nl-link-list
+libtool: install: /usr/bin/install -c .libs/nl-link-name2ifindex /tmp/work/pkg/usr/bin/nl-link-name2ifindex
+libtool: install: /usr/bin/install -c .libs/nl-link-release /tmp/work/pkg/usr/bin/nl-link-release
+libtool: install: /usr/bin/install -c .libs/nl-link-set /tmp/work/pkg/usr/bin/nl-link-set
+libtool: install: /usr/bin/install -c .libs/nl-link-stats /tmp/work/pkg/usr/bin/nl-link-stats
+libtool: install: /usr/bin/install -c .libs/nl-list-caches /tmp/work/pkg/usr/bin/nl-list-caches
+libtool: install: /usr/bin/install -c .libs/nl-list-sockets /tmp/work/pkg/usr/bin/nl-list-sockets
+libtool: install: /usr/bin/install -c .libs/nl-monitor /tmp/work/pkg/usr/bin/nl-monitor
+libtool: install: /usr/bin/install -c .libs/nl-neigh-add /tmp/work/pkg/usr/bin/nl-neigh-add
+libtool: install: /usr/bin/install -c .libs/nl-neigh-delete /tmp/work/pkg/usr/bin/nl-neigh-delete
+libtool: install: /usr/bin/install -c .libs/nl-neigh-list /tmp/work/pkg/usr/bin/nl-neigh-list
+libtool: install: /usr/bin/install -c .libs/nl-neightbl-list /tmp/work/pkg/usr/bin/nl-neightbl-list
+libtool: install: /usr/bin/install -c .libs/nl-pktloc-lookup /tmp/work/pkg/usr/bin/nl-pktloc-lookup
+libtool: install: /usr/bin/install -c .libs/nl-qdisc-add /tmp/work/pkg/usr/bin/nl-qdisc-add
+libtool: install: /usr/bin/install -c .libs/nl-qdisc-delete /tmp/work/pkg/usr/bin/nl-qdisc-delete
+libtool: install: /usr/bin/install -c .libs/nl-qdisc-list /tmp/work/pkg/usr/bin/nl-qdisc-list
+libtool: install: /usr/bin/install -c .libs/nl-route-add /tmp/work/pkg/usr/bin/nl-route-add
+libtool: install: /usr/bin/install -c .libs/nl-route-delete /tmp/work/pkg/usr/bin/nl-route-delete
+libtool: install: /usr/bin/install -c .libs/nl-route-get /tmp/work/pkg/usr/bin/nl-route-get
+libtool: install: /usr/bin/install -c .libs/nl-route-list /tmp/work/pkg/usr/bin/nl-route-list
+libtool: install: /usr/bin/install -c .libs/nl-rule-list /tmp/work/pkg/usr/bin/nl-rule-list
+libtool: install: /usr/bin/install -c .libs/nl-tctree-list /tmp/work/pkg/usr/bin/nl-tctree-list
+libtool: install: /usr/bin/install -c .libs/nl-util-addr /tmp/work/pkg/usr/bin/nl-util-addr
+make[3]: Leaving directory '/tmp/work/src/libnl-3.2.27/src'
+make[2]: Leaving directory '/tmp/work/src/libnl-3.2.27/src'
+make[1]: Leaving directory '/tmp/work/src/libnl-3.2.27/src'
+make[1]: Entering directory '/tmp/work/src/libnl-3.2.27'
+make[2]: Entering directory '/tmp/work/src/libnl-3.2.27'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/tmp/work/pkg/usr/lib/pkgconfig'
+ /bin/mkdir -p '/tmp/work/pkg/etc/libnl'
+ /usr/bin/install -c -m 644 etc/pktloc etc/classid '/tmp/work/pkg/etc/libnl'
+ /usr/bin/install -c -m 644 libnl-3.0.pc libnl-route-3.0.pc libnl-genl-3.0.pc libnl-nf-3.0.pc libnl-xfrm-3.0.pc libnl-idiag-3.0.pc libnl-cli-3.0.pc '/tmp/work/pkg/usr/lib/pkgconfig'
+make[2]: Leaving directory '/tmp/work/src/libnl-3.2.27'
+make[1]: Leaving directory '/tmp/work/src/libnl-3.2.27'
+=======> libnl arşivine üstbilgiler ekleniyor.
+=======> libnl#3.2.27-armv7l.mps sıkıştırılıyor.

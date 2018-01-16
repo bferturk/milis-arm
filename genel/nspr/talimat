@@ -1,0 +1,23 @@
+# Tanım: Netscape Taşınabilir Çalışma Zamanı Kitaplığı (NSPR)
+# URL: http://www.mozilla.org/projects/nspr/
+# Paketçi: milisarge
+# Gerekler:
+
+isim=nspr
+surum=4.16
+devir=1
+
+kaynak=(http://ftp.mozilla.org/pub/mozilla.org/nspr/releases/v$surum/src/$isim-$surum.tar.gz )
+derle() {
+
+cd $isim-$surum/$isim
+sed -ri 's#^(RELEASE_BINS =).*#\1#' pr/src/misc/Makefile.in &&
+sed -i 's#$(LIBRARY) ##' config/rules.mk &&
+./configure --prefix=/usr \
+            --with-mozilla \
+            --with-pthreads \
+            $([ $(uname -m) = x86_64 ] && echo --enable-64bit) &&
+make
+
+make DESTDIR=$PKG install
+}

@@ -1,0 +1,26 @@
+# Tanım: PKCS 11 modüllerini yüklemek ve numaralandırmak için bir yol sağlar.
+# URL: http://p11-glue.freedesktop.org/p11-kit.html
+# Paketçi: milisarge
+# Gerekler: libffi libtasn1
+
+isim=p11-kit
+surum=0.23.7
+devir=1
+
+kaynak=(https://github.com/p11-glue/p11-kit/archive/$surum.tar.gz
+		libnssckbi-compat.patch)
+
+derle() {
+	cd $isim-$surum
+	patch -Np1 -i ../libnssckbi-compat.patch
+	NOCONFIGURE=1 ./autogen.sh
+	./configure --prefix=/usr \
+	--sysconfdir=/etc \
+	--localstatedir=/var \
+	--libexecdir=/usr/lib \
+	--with-module-path=/usr/lib/pkcs11 \
+	--with-trust-paths=/etc/ca-certificates/trust-source:/usr/share/ca-certificates/trust-source:/etc/ssl
+	make
+	make DESTDIR="$PKG" install
+	ln -srf "$PKG/usr/bin/update-ca-trust" "$PKG/usr/lib/p11-kit/trust-extract-compat"
+}

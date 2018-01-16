@@ -1,0 +1,171 @@
+=======> isim: libndp
+=======> surum: 1.5
+=======> devir: 1
+=======> İndiriliyor http://libndp.org/files/libndp-1.5.tar.gz
+=======> kayıt:/sources/libndp-1.5.tar.gz
+hash kontrol dosyası yok-hash kontrolü yapılmayacak.
+=======> Derleniyor '/root/milis-arm/genel/libndp/libndp#1.5-armv7l.mps.lz'.
+tar -p -C /tmp/work/src -xf /sources/libndp-1.5.tar.gz
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make supports nested variables... (cached) yes
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking dependency style of gcc... gcc3
+checking for ar... ar
+checking the archiver (ar) interface... ar
+checking for gcc... (cached) gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether gcc accepts -g... (cached) yes
+checking for gcc option to accept ISO C89... (cached) none needed
+checking dependency style of gcc... (cached) gcc3
+checking build system type... armv7l-unknown-linux-gnueabihf
+checking host system type... armv7l-unknown-linux-gnueabihf
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /bin/ld
+checking if the linker (/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /bin/nm -B
+checking the name lister (/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert armv7l-unknown-linux-gnueabihf file names to armv7l-unknown-linux-gnueabihf format... func_convert_file_noop
+checking how to convert armv7l-unknown-linux-gnueabihf file names to toolchain format... func_convert_file_noop
+checking for /bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking how to run the C preprocessor... gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/bin/ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for stdint.h... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for inline... inline
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible malloc... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating include/Makefile
+config.status: creating libndp/Makefile
+config.status: creating libndp/libndp.pc
+config.status: creating utils/Makefile
+config.status: creating man/Makefile
+config.status: executing depfiles commands
+config.status: executing libtool commands
+Making all in include
+make[1]: Entering directory '/tmp/work/src/libndp-1.5/include'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/tmp/work/src/libndp-1.5/include'
+Making all in libndp
+make[1]: Entering directory '/tmp/work/src/libndp-1.5/libndp'
+  CC       libndp_la-libndp.lo
+  CCLD     libndp.la
+make[1]: Leaving directory '/tmp/work/src/libndp-1.5/libndp'
+Making all in utils
+make[1]: Entering directory '/tmp/work/src/libndp-1.5/utils'
+  CC       ndptool.o
+  CCLD     ndptool
+make[1]: Leaving directory '/tmp/work/src/libndp-1.5/utils'
+Making all in man
+make[1]: Entering directory '/tmp/work/src/libndp-1.5/man'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/tmp/work/src/libndp-1.5/man'
+make[1]: Entering directory '/tmp/work/src/libndp-1.5'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/tmp/work/src/libndp-1.5'
+Making install in include
+make[1]: Entering directory '/tmp/work/src/libndp-1.5/include'
+make[2]: Entering directory '/tmp/work/src/libndp-1.5/include'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/tmp/work/pkg/usr/include'
+ /usr/bin/install -c -m 644  ndp.h '/tmp/work/pkg/usr/include/.'
+make[2]: Leaving directory '/tmp/work/src/libndp-1.5/include'
+make[1]: Leaving directory '/tmp/work/src/libndp-1.5/include'
+Making install in libndp
+make[1]: Entering directory '/tmp/work/src/libndp-1.5/libndp'
+make[2]: Entering directory '/tmp/work/src/libndp-1.5/libndp'
+ /bin/mkdir -p '/tmp/work/pkg/usr/lib'
+ /bin/mkdir -p '/tmp/work/pkg/usr/lib/pkgconfig'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libndp.la '/tmp/work/pkg/usr/lib'
+ /usr/bin/install -c -m 644 libndp.pc '/tmp/work/pkg/usr/lib/pkgconfig'
+libtool: install: /usr/bin/install -c .libs/libndp.so.0.0.2 /tmp/work/pkg/usr/lib/libndp.so.0.0.2
+libtool: install: (cd /tmp/work/pkg/usr/lib && { ln -s -f libndp.so.0.0.2 libndp.so.0 || { rm -f libndp.so.0 && ln -s libndp.so.0.0.2 libndp.so.0; }; })
+libtool: install: (cd /tmp/work/pkg/usr/lib && { ln -s -f libndp.so.0.0.2 libndp.so || { rm -f libndp.so && ln -s libndp.so.0.0.2 libndp.so; }; })
+libtool: install: /usr/bin/install -c .libs/libndp.lai /tmp/work/pkg/usr/lib/libndp.la
+make[2]: Leaving directory '/tmp/work/src/libndp-1.5/libndp'
+make[1]: Leaving directory '/tmp/work/src/libndp-1.5/libndp'
+Making install in utils
+make[1]: Entering directory '/tmp/work/src/libndp-1.5/utils'
+make[2]: Entering directory '/tmp/work/src/libndp-1.5/utils'
+make[2]: Nothing to be done for 'install-data-am'.
+ /bin/mkdir -p '/tmp/work/pkg/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c ndptool '/tmp/work/pkg/usr/bin'
+libtool: install: /usr/bin/install -c .libs/ndptool /tmp/work/pkg/usr/bin/ndptool
+make[2]: Leaving directory '/tmp/work/src/libndp-1.5/utils'
+make[1]: Leaving directory '/tmp/work/src/libndp-1.5/utils'
+Making install in man
+make[1]: Entering directory '/tmp/work/src/libndp-1.5/man'
+make[2]: Entering directory '/tmp/work/src/libndp-1.5/man'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/tmp/work/pkg/usr/share/man/man8'
+ /usr/bin/install -c -m 644 ndptool.8 '/tmp/work/pkg/usr/share/man/man8'
+make[2]: Leaving directory '/tmp/work/src/libndp-1.5/man'
+make[1]: Leaving directory '/tmp/work/src/libndp-1.5/man'
+make[1]: Entering directory '/tmp/work/src/libndp-1.5'
+make[2]: Entering directory '/tmp/work/src/libndp-1.5'
+make[2]: Nothing to be done for 'install-exec-am'.
+make[2]: Nothing to be done for 'install-data-am'.
+make[2]: Leaving directory '/tmp/work/src/libndp-1.5'
+make[1]: Leaving directory '/tmp/work/src/libndp-1.5'
+=======> libndp arşivine üstbilgiler ekleniyor.
+=======> libndp#1.5-armv7l.mps sıkıştırılıyor.

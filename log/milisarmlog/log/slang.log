@@ -1,0 +1,593 @@
+=======> isim: slang
+=======> surum: 2.2.4
+=======> devir: 2
+=======> İndiriliyor ftp://space.mit.edu/pub/davis/slang/v2.2/slang-2.2.4.tar.bz2
+=======> kayıt:/sources/slang-2.2.4.tar.bz2
+hash kontrol dosyası yok-hash kontrolü yapılmayacak.
+=======> Derleniyor '/root/milis-arm/genel/slang/slang#2.2.4-armv7l.mps.lz'.
+tar -p -C /tmp/work/src -xf /sources/slang-2.2.4.tar.bz2
+checking build system type... armv7l-unknown-linux-gnueabi
+checking host system type... armv7l-unknown-linux-gnueabi
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking whether gcc needs -traditional... no
+checking for library containing strerror... none required
+checking C compiler that understands ANSI prototypes... gcc looks ok.  Good.
+checking whether make sets $(MAKE)... yes
+checking for ranlib... ranlib
+checking for a BSD-compatible install... /usr/bin/install -c
+checking terminfo layout... default
+checking type of readline support for slsh... slang
+checking for X... no
+checking for stdlib.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for memory.h... (cached) yes
+checking termios.h usability... yes
+checking termios.h presence... yes
+checking for termios.h... yes
+checking malloc.h usability... yes
+checking malloc.h presence... yes
+checking for malloc.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking langinfo.h usability... yes
+checking langinfo.h presence... yes
+checking for langinfo.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking sys/fcntl.h usability... yes
+checking sys/fcntl.h presence... yes
+checking for sys/fcntl.h... yes
+checking for sys/types.h... (cached) yes
+checking sys/wait.h usability... yes
+checking sys/wait.h presence... yes
+checking for sys/wait.h... yes
+checking sys/utsname.h usability... yes
+checking sys/utsname.h presence... yes
+checking for sys/utsname.h... yes
+checking sys/times.h usability... yes
+checking sys/times.h presence... yes
+checking for sys/times.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking utime.h usability... yes
+checking utime.h presence... yes
+checking for utime.h... yes
+checking floatingpoint.h usability... no
+checking floatingpoint.h presence... no
+checking for floatingpoint.h... no
+checking ieeefp.h usability... no
+checking ieeefp.h presence... no
+checking for ieeefp.h... no
+checking nan.h usability... no
+checking nan.h presence... no
+checking for nan.h... no
+checking fenv.h usability... yes
+checking fenv.h presence... yes
+checking for fenv.h... yes
+checking sys/mman.h usability... yes
+checking sys/mman.h presence... yes
+checking for sys/mman.h... yes
+checking sys/socket.h usability... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking netinet/in.h usability... yes
+checking netinet/in.h presence... yes
+checking for netinet/in.h... yes
+checking arpa/inet.h usability... yes
+checking arpa/inet.h presence... yes
+checking for arpa/inet.h... yes
+checking sys/un.h usability... yes
+checking sys/un.h presence... yes
+checking for sys/un.h... yes
+checking sys/resource.h usability... yes
+checking sys/resource.h presence... yes
+checking for sys/resource.h... yes
+checking for mode_t... yes
+checking for pid_t... yes
+checking for uid_t in sys/types.h... yes
+checking for socklen_t... yes
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking for memset... yes
+checking for memcpy... yes
+checking for putenv... yes
+checking for getcwd... yes
+checking for setlocale... yes
+checking for tcgetattr... yes
+checking for tcsetattr... yes
+checking for cfgetospeed... yes
+checking for sigaction... yes
+checking for sigemptyset... yes
+checking for sigprocmask... yes
+checking for sigaddset... yes
+checking for alarm... yes
+checking for pause... yes
+checking for vfscanf... yes
+checking for lstat... yes
+checking for readlink... yes
+checking for symlink... yes
+checking for link... yes
+checking for kill... yes
+checking for killpg... yes
+checking for snprintf... yes
+checking for vsnprintf... yes
+checking for getppid... yes
+checking for getegid... yes
+checking for geteuid... yes
+checking for getuid... yes
+checking for getgid... yes
+checking for setgid... yes
+checking for setuid... yes
+checking for setpgid... yes
+checking for getpgid... yes
+checking for setpgrp... yes
+checking for getpgrp... yes
+checking for setsid... yes
+checking for getsid... yes
+checking for mmap... yes
+checking for chown... yes
+checking for popen... yes
+checking for mkfifo... yes
+checking for atexit... yes
+checking for on_exit... yes
+checking for umask... yes
+checking for uname... yes
+checking for times... yes
+checking for gmtime... yes
+checking for mktime... yes
+checking for gettimeofday... yes
+checking for gmtime_r... yes
+checking for ctime_r... yes
+checking for localtime_r... yes
+checking for strtod... yes
+checking for atoll... yes
+checking for strtoll... yes
+checking for issetugid... no
+checking for isnan... yes
+checking for finite... yes
+checking for isinf... yes
+checking for round... no
+checking for siglongjmp... yes
+checking for fork... yes
+checking for waitpid... yes
+checking for socket... yes
+checking for socketpair... yes
+checking for confstr... yes
+checking for pathconf... yes
+checking for getpriority... yes
+checking for setpriority... yes
+checking for setvbuf... yes
+checking for utime... yes
+checking for utimes... yes
+checking for ttyname... yes
+checking for ttyname_r... yes
+checking for nl_langinfo and CODESET... yes
+checking for acosh in -lm... yes
+checking for asinh in -lm... yes
+checking for atanh in -lm... yes
+checking for hypot in -lm... yes
+checking for atan2 in -lm... yes
+checking for frexp in -lm... yes
+checking for frexpf in -lm... yes
+checking for ldexp in -lm... yes
+checking for ldexpf in -lm... yes
+checking for feclearexcept in -lm... yes
+checking for fpsetsticky in -lm... no
+checking dlfcn.h usability... yes
+checking dlfcn.h presence... yes
+checking for dlfcn.h... yes
+checking for dlopen in -ldl... yes
+checking size of short... 2
+checking size of int... 4
+checking size of long... 4
+checking size of float... 4
+checking size of double... 8
+checking for size_t... yes
+checking size of size_t... 4
+checking for long long... yes
+checking size of long long... 8
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... 64
+checking for _LARGEFILE_SOURCE value needed for large files... no
+checking for off_t... yes
+checking size of off_t... 8
+checking for ncurses5-config... no
+checking for ncurses5w-config... (cached) no
+checking for terminfo... yes
+checking for the pcre library and header files ... yes: /usr/lib and /usr/include
+checking for the onig library and header files oniguruma.h... no
+checking for the png library and header files ... no
+checking for the z library and header files zlib.h... yes: /usr/lib and /usr/include
+checking for the iconv library and header files ... no
+checking for iconv... yes
+checking for iconv declaration... 
+         extern size_t iconv (iconv_t cd, char * *inbuf, size_t *inbytesleft, char * *outbuf, size_t *outbytesleft);
+checking for sysconf... yes
+checking SLANG_VERSION... 2.2.4
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating slsh/Makefile
+config.status: creating modules/Makefile
+config.status: creating demo/Makefile
+config.status: creating slang.pc
+config.status: creating src/sysconf.h
+
+Configuration complete.  You may need to edit src/Makefile.
+You are compiling SLANG with the following compiler configuration:
+       CC = gcc
+   CFLAGS = -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe  
+  LDFLAGS =  -Wl,-export-dynamic
+
+   ELF_CC = $(CC)
+ ELF_LINK = $(CC) $(LDFLAGS) -shared -Wl,-O1 -Wl,--version-script,$(VERSION_SCRIPT) -Wl,-soname,$(ELFLIB_MAJOR)
+ELF_CFLAGS= $(CFLAGS) -fPIC 
+
+                  prefix: /usr
+             exec_prefix: ${prefix}
+    Installation Lib Dir: ${exec_prefix}/lib
+Installation Include Dir: ${prefix}/include
+
+See also src/sl-feat.h for various features.
+
+The following modules that depend upon external libraries will be built:
+   pcre z iconv
+
+
+While not required, it is recommended that you install the following
+libraries and reconfigure so that the corresponding modules can be built:
+   oniguruma png
+
+Type 'make' to build a shared version of the library.
+Type 'make help' for more options
+
+cd src; /usr/bin/make elf
+make[1]: Entering directory '/tmp/work/src/slang-2.2.4/src'
+/tmp/work/src/slang-2.2.4/autoconf/mkinsdir.sh /tmp/work/src/slang-2.2.4/src/elfobjs
+mkdir -p -- /tmp/work/src/slang-2.2.4/src/elfobjs
+cp sysconf.h config.h
+cp terminfo/default.inc terminfo.inc
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG -DMISC_TERMINFO_DIRS='""' /tmp/work/src/slang-2.2.4/src/sltermin.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/sldisply.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slutty.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slang.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slarray.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slclass.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slcmd.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slerr.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slgetkey.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slkeymap.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slmalloc.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slmath.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slmemchr.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slmemcmp.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slmemcpy.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slmemset.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slmisc.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slparse.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slprepr.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slregexp.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slrline.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slsearch.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slsmg.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG -DSLANG_DOC_DIR='"/usr/share/doc/slang/v2"' -DSLANG_INSTALL_PREFIX='"/usr"' /tmp/work/src/slang-2.2.4/src/slstd.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/sltoken.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/sltypes.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slxstrng.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slcurses.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slscroll.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slsignal.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slkeypad.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slerrno.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slstring.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slstruct.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slcmplex.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slarrfun.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG -DMODULE_INSTALL_DIR='"/usr/lib/slang/v2/modules"' -DMODULE_PATH_ENV_NAME='"SLANG_MODULE_PATH"' /tmp/work/src/slang-2.2.4/src/slimport.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slpath.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slarith.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slassoc.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slcompat.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slposdir.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slstdio.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slproc.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/sltime.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slstrops.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slbstr.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slpack.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slintall.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slistruc.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slposio.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slnspace.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slarrmis.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slospath.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slscanf.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/sllower.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slupper.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slischar.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slutf8.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slwcwidth.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slwclut.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slcommon.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/sllist.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slexcept.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slfpu.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slsig.c
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe   -fPIC  -Dunix -DSLANG  /tmp/work/src/slang-2.2.4/src/slboseos.c
+rm -f /tmp/work/src/slang-2.2.4/src/elfobjs/libslang.so.2.2.4
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc  -shared -Wl,-O1 -Wl,--version-script,/tmp/work/src/slang-2.2.4/src/slang.ver -Wl,-soname,libslang.so.2 -o libslang.so.2.2.4 sltermin.o sldisply.o slutty.o slang.o slarray.o slclass.o slcmd.o slerr.o slgetkey.o slkeymap.o slmalloc.o slmath.o slmemchr.o slmemcmp.o slmemcpy.o slmemset.o slmisc.o slparse.o slprepr.o slregexp.o slrline.o slsearch.o slsmg.o slstd.o sltoken.o sltypes.o slxstrng.o slcurses.o slscroll.o slsignal.o slkeypad.o slerrno.o slstring.o slstruct.o slcmplex.o slarrfun.o slimport.o slpath.o slarith.o slassoc.o slcompat.o slposdir.o slstdio.o slproc.o sltime.o slstrops.o slbstr.o slpack.o slintall.o slistruc.o slposio.o slnspace.o slarrmis.o slospath.o slscanf.o sllower.o slupper.o slischar.o slutf8.o slwcwidth.o slwclut.o slcommon.o sllist.o slexcept.o slfpu.o slsig.o slboseos.o  -ldl -lm -lc
+if [ libslang.so.2 != libslang.so.2.2.4 ]; then \
+  cd /tmp/work/src/slang-2.2.4/src/elfobjs && rm -f libslang.so.2 && /bin/ln -sf libslang.so.2.2.4 libslang.so.2; \
+fi
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && rm -f libslang.so && /bin/ln -sf libslang.so.2.2.4 libslang.so
+
+libslang.so.2.2.4 created in /tmp/work/src/slang-2.2.4/src/elfobjs.
+The link libslang.so to libslang.so.2.2.4 was also created.
+
+make[1]: Leaving directory '/tmp/work/src/slang-2.2.4/src'
+cd slsh; /usr/bin/make all
+make[1]: Entering directory '/tmp/work/src/slang-2.2.4/slsh'
+/tmp/work/src/slang-2.2.4/autoconf/mkinsdir.sh objs
+mkdir -p -- objs
+cp ../src/config.h .
+cd objs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe    -I/tmp/work/src/slang-2.2.4/src -DSLSH_CONF_DIR='"/etc"' -DSLSH_PATH='"/usr/share/slsh"' -DSLSH_CONF_DIR_ENV='"SLSH_CONF_DIR"' -DSLSH_LIB_DIR_ENV='"SLSH_LIB_DIR"' -DSLSH_PATH_ENV='"SLSH_PATH"' /tmp/work/src/slang-2.2.4/slsh/slsh.c
+cd objs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe    -I/tmp/work/src/slang-2.2.4/src -DSLSH_CONF_DIR='"/etc"' -DSLSH_PATH='"/usr/share/slsh"' -DSLSH_CONF_DIR_ENV='"SLSH_CONF_DIR"' -DSLSH_LIB_DIR_ENV='"SLSH_LIB_DIR"' -DSLSH_PATH_ENV='"SLSH_PATH"' -DUSE_GNU_READLINE=0 /tmp/work/src/slang-2.2.4/slsh/readline.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe    objs/slsh.o objs/readline.o -o objs/slsh_exe -Wl,-export-dynamic -L/tmp/work/src/slang-2.2.4/src/elfobjs -lslang  -ldl  -lm
+make[1]: Leaving directory '/tmp/work/src/slang-2.2.4/slsh'
+cd modules; /usr/bin/make all
+make[1]: Entering directory '/tmp/work/src/slang-2.2.4/modules'
+/tmp/work/src/slang-2.2.4/autoconf/mkinsdir.sh objs
+mkdir -p -- objs
+cp ../src/config.h .
+cd objs && gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe    -shared -fPIC -I/tmp/work/src/slang-2.2.4/src /tmp/work/src/slang-2.2.4/modules/slsmg-module.c -o slsmg-module.so  -Wl,-R/usr/lib   -lm
+cd objs && gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe    -shared -fPIC -I/tmp/work/src/slang-2.2.4/src /tmp/work/src/slang-2.2.4/modules/termios-module.c -o termios-module.so  -Wl,-R/usr/lib   -lm
+cd objs && gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe    -shared -fPIC -I/tmp/work/src/slang-2.2.4/src /tmp/work/src/slang-2.2.4/modules/select-module.c -o select-module.so  -Wl,-R/usr/lib   -lm
+cd objs && gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe    -shared -fPIC -I/tmp/work/src/slang-2.2.4/src /tmp/work/src/slang-2.2.4/modules/fcntl-module.c -o fcntl-module.so  -Wl,-R/usr/lib   -lm
+cd objs && gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe    -shared -fPIC -I/tmp/work/src/slang-2.2.4/src /tmp/work/src/slang-2.2.4/modules/varray-module.c -o varray-module.so  -Wl,-R/usr/lib   -lm
+cd objs && gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe    -shared -fPIC -I/tmp/work/src/slang-2.2.4/src /tmp/work/src/slang-2.2.4/modules/socket-module.c -o socket-module.so   -Wl,-R/usr/lib   -lm
+cd objs && gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe    -shared -fPIC -I/tmp/work/src/slang-2.2.4/src /tmp/work/src/slang-2.2.4/modules/rand-module.c -o rand-module.so  -Wl,-R/usr/lib   -lm
+cd objs && gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe    -shared -fPIC -I/tmp/work/src/slang-2.2.4/src /tmp/work/src/slang-2.2.4/modules/fork-module.c -o fork-module.so  -Wl,-R/usr/lib   -lm
+cd objs && gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe    -shared -fPIC -I/tmp/work/src/slang-2.2.4/src /tmp/work/src/slang-2.2.4/modules/csv-module.c -o csv-module.so  -Wl,-R/usr/lib   -lm
+cd objs && gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe    -shared -fPIC -I/tmp/work/src/slang-2.2.4/src  /tmp/work/src/slang-2.2.4/modules/pcre-module.c -o pcre-module.so -lpcre  -Wl,-R/usr/lib   -lm
+cd objs && gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe    -shared -fPIC -I/tmp/work/src/slang-2.2.4/src  /tmp/work/src/slang-2.2.4/modules/iconv-module.c -o iconv-module.so   -Wl,-R/usr/lib   -lm
+cd objs && gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe    -shared -fPIC -I/tmp/work/src/slang-2.2.4/src  /tmp/work/src/slang-2.2.4/modules/zlib-module.c -o zlib-module.so -lz  -Wl,-R/usr/lib   -lm
+cd objs && gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe    -shared -fPIC -I/tmp/work/src/slang-2.2.4/src /tmp/work/src/slang-2.2.4/modules/sysconf-module.c -o sysconf-module.so  -Wl,-R/usr/lib   -lm
+make[1]: Leaving directory '/tmp/work/src/slang-2.2.4/modules'
+Use make install to install it.
+cd src; /usr/bin/make install-elf
+make[1]: Entering directory '/tmp/work/src/slang-2.2.4/src'
+rm -f /tmp/work/src/slang-2.2.4/src/elfobjs/libslang.so.2.2.4
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && gcc  -shared -Wl,-O1 -Wl,--version-script,/tmp/work/src/slang-2.2.4/src/slang.ver -Wl,-soname,libslang.so.2 -o libslang.so.2.2.4 sltermin.o sldisply.o slutty.o slang.o slarray.o slclass.o slcmd.o slerr.o slgetkey.o slkeymap.o slmalloc.o slmath.o slmemchr.o slmemcmp.o slmemcpy.o slmemset.o slmisc.o slparse.o slprepr.o slregexp.o slrline.o slsearch.o slsmg.o slstd.o sltoken.o sltypes.o slxstrng.o slcurses.o slscroll.o slsignal.o slkeypad.o slerrno.o slstring.o slstruct.o slcmplex.o slarrfun.o slimport.o slpath.o slarith.o slassoc.o slcompat.o slposdir.o slstdio.o slproc.o sltime.o slstrops.o slbstr.o slpack.o slintall.o slistruc.o slposio.o slnspace.o slarrmis.o slospath.o slscanf.o sllower.o slupper.o slischar.o slutf8.o slwcwidth.o slwclut.o slcommon.o sllist.o slexcept.o slfpu.o slsig.o slboseos.o  -ldl -lm -lc
+if [ libslang.so.2 != libslang.so.2.2.4 ]; then \
+  cd /tmp/work/src/slang-2.2.4/src/elfobjs && rm -f libslang.so.2 && /bin/ln -sf libslang.so.2.2.4 libslang.so.2; \
+fi
+cd /tmp/work/src/slang-2.2.4/src/elfobjs && rm -f libslang.so && /bin/ln -sf libslang.so.2.2.4 libslang.so
+
+libslang.so.2.2.4 created in /tmp/work/src/slang-2.2.4/src/elfobjs.
+The link libslang.so to libslang.so.2.2.4 was also created.
+
+/tmp/work/src/slang-2.2.4/autoconf/mkinsdir.sh /tmp/work/pkg/usr/include
+mkdir -p -- /tmp/work/pkg/usr/include
+installing slang.h and slcurses.h in /tmp/work/pkg/usr/include/
+/usr/bin/install -c -m 644 /tmp/work/src/slang-2.2.4/src/slang.h /tmp/work/pkg/usr/include/
+/usr/bin/install -c -m 644 /tmp/work/src/slang-2.2.4/src/slcurses.h /tmp/work/pkg/usr/include/
+/tmp/work/src/slang-2.2.4/autoconf/mkinsdir.sh /tmp/work/pkg/usr/share/doc/slang/v2
+mkdir -p -- /tmp/work/pkg/usr/share/doc/slang/v2
+/usr/bin/install -c -m 644 ../changes.txt /tmp/work/pkg/usr/share/doc/slang/v2/
+/usr/bin/install -c -m 644 ../COPYING /tmp/work/pkg/usr/share/doc/slang/v2/
+/usr/bin/install -c -m 644 ../doc/slangdoc.html /tmp/work/pkg/usr/share/doc/slang/v2/
+/usr/bin/install -c -m 644 ../doc/text/cref.txt /tmp/work/pkg/usr/share/doc/slang/v2/
+/usr/bin/install -c -m 644 ../doc/text/cslang.txt /tmp/work/pkg/usr/share/doc/slang/v2/
+/usr/bin/install -c -m 644 ../doc/text/slang.txt /tmp/work/pkg/usr/share/doc/slang/v2/
+/usr/bin/install -c -m 644 ../doc/text/slangfun.txt /tmp/work/pkg/usr/share/doc/slang/v2/
+/tmp/work/src/slang-2.2.4/autoconf/mkinsdir.sh /tmp/work/pkg/usr/lib
+mkdir -p -- /tmp/work/pkg/usr/lib
+rm -f /tmp/work/pkg/usr/lib/libslang.so
+rm -f /tmp/work/pkg/usr/lib/libslang.so.2
+installing libslang.so.2.2.4 in /tmp/work/pkg/usr/lib
+/usr/bin/install -c -m 644 /tmp/work/src/slang-2.2.4/src/elfobjs/libslang.so.2.2.4 /tmp/work/pkg/usr/lib/
+cd /tmp/work/pkg/usr/lib && /bin/ln -sf libslang.so.2.2.4 libslang.so.2
+cd /tmp/work/pkg/usr/lib && /bin/ln -sf libslang.so.2 libslang.so
+
+libslang.so.2.2.4 created in /tmp/work/pkg/usr/lib.
+The links libslang.so and libslang.so.2 to libslang.so.2.2.4 were also created.
+
+make[1]: Leaving directory '/tmp/work/src/slang-2.2.4/src'
+Now installing slsh
+cd slsh; /usr/bin/make install
+make[1]: Entering directory '/tmp/work/src/slang-2.2.4/slsh'
+cd objs && gcc -c -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe    -I/tmp/work/src/slang-2.2.4/src -DSLSH_CONF_DIR='"/etc"' -DSLSH_PATH='"/usr/share/slsh"' -DSLSH_CONF_DIR_ENV='"SLSH_CONF_DIR"' -DSLSH_LIB_DIR_ENV='"SLSH_LIB_DIR"' -DSLSH_PATH_ENV='"SLSH_PATH"' /tmp/work/src/slang-2.2.4/slsh/slsh.c
+gcc -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe    objs/slsh.o objs/readline.o -o objs/slsh -Wl,-export-dynamic -L/tmp/work/pkg/usr/lib -Wl,-R/usr/lib -L/usr/lib -lslang  -ldl  -lm
+/tmp/work/src/slang-2.2.4/autoconf/mkinsdir.sh /tmp/work/pkg/usr/bin
+mkdir -p -- /tmp/work/pkg/usr/bin
+/tmp/work/src/slang-2.2.4/autoconf/mkinsdir.sh /tmp/work/pkg/usr/share/man/man1
+mkdir -p -- /tmp/work/pkg/usr/share/man/man1
+/tmp/work/src/slang-2.2.4/autoconf/mkinsdir.sh /tmp/work/pkg/etc
+mkdir -p -- /tmp/work/pkg/etc
+/tmp/work/src/slang-2.2.4/autoconf/mkinsdir.sh /tmp/work/pkg/usr/share/slsh
+mkdir -p -- /tmp/work/pkg/usr/share/slsh
+/tmp/work/src/slang-2.2.4/autoconf/mkinsdir.sh /tmp/work/pkg/usr/share/slsh/rline
+mkdir -p -- /tmp/work/pkg/usr/share/slsh/rline
+/tmp/work/src/slang-2.2.4/autoconf/mkinsdir.sh /tmp/work/pkg/usr/share/slsh/help
+mkdir -p -- /tmp/work/pkg/usr/share/slsh/help
+/tmp/work/src/slang-2.2.4/autoconf/mkinsdir.sh /tmp/work/pkg/usr/share/slsh/local-packages
+mkdir -p -- /tmp/work/pkg/usr/share/slsh/local-packages
+/tmp/work/src/slang-2.2.4/autoconf/mkinsdir.sh /tmp/work/pkg/usr/share/slsh/scripts
+mkdir -p -- /tmp/work/pkg/usr/share/slsh/scripts
+/tmp/work/src/slang-2.2.4/autoconf/mkinsdir.sh /tmp/work/pkg/usr/share/doc/slsh/html
+mkdir -p -- /tmp/work/pkg/usr/share/doc/slsh/html
+/usr/bin/install -c -m 644 lib/arrayfuns.sl /tmp/work/pkg/usr/share/slsh
+/usr/bin/install -c -m 644 lib/autoload.sl /tmp/work/pkg/usr/share/slsh
+/usr/bin/install -c -m 644 lib/cmdopt.sl /tmp/work/pkg/usr/share/slsh
+/usr/bin/install -c -m 644 lib/glob.sl /tmp/work/pkg/usr/share/slsh
+/usr/bin/install -c -m 644 lib/print.sl /tmp/work/pkg/usr/share/slsh
+/usr/bin/install -c -m 644 lib/process.sl /tmp/work/pkg/usr/share/slsh
+/usr/bin/install -c -m 644 lib/profile.sl /tmp/work/pkg/usr/share/slsh
+/usr/bin/install -c -m 644 lib/readascii.sl /tmp/work/pkg/usr/share/slsh
+/usr/bin/install -c -m 644 lib/require.sl /tmp/work/pkg/usr/share/slsh
+/usr/bin/install -c -m 644 lib/setfuns.sl /tmp/work/pkg/usr/share/slsh
+/usr/bin/install -c -m 644 lib/sldb.sl /tmp/work/pkg/usr/share/slsh
+/usr/bin/install -c -m 644 lib/sldbcore.sl /tmp/work/pkg/usr/share/slsh
+/usr/bin/install -c -m 644 lib/sldbsock.sl /tmp/work/pkg/usr/share/slsh
+/usr/bin/install -c -m 644 lib/slshhelp.sl /tmp/work/pkg/usr/share/slsh
+/usr/bin/install -c -m 644 lib/slshrl.sl /tmp/work/pkg/usr/share/slsh
+/usr/bin/install -c -m 644 lib/stkcheck.sl /tmp/work/pkg/usr/share/slsh
+/usr/bin/install -c -m 644 lib/structfuns.sl /tmp/work/pkg/usr/share/slsh
+/usr/bin/install -c -m 644 lib/rline/complete.sl /tmp/work/pkg/usr/share/slsh/rline/
+/usr/bin/install -c -m 644 lib/rline/editfuns.sl /tmp/work/pkg/usr/share/slsh/rline/
+/usr/bin/install -c -m 644 lib/rline/editor.sl /tmp/work/pkg/usr/share/slsh/rline/
+/usr/bin/install -c -m 644 lib/rline/emacskeys.sl /tmp/work/pkg/usr/share/slsh/rline/
+/usr/bin/install -c -m 644 lib/rline/history.sl /tmp/work/pkg/usr/share/slsh/rline/
+/usr/bin/install -c -m 644 lib/rline/histsrch.sl /tmp/work/pkg/usr/share/slsh/rline/
+/usr/bin/install -c -m 644 lib/rline/vikeys.sl /tmp/work/pkg/usr/share/slsh/rline/
+/usr/bin/install -c -m 644 lib/rline/slrline.rc /tmp/work/pkg/usr/share/slsh/rline/
+/usr/bin/install -c scripts/jpegsize /tmp/work/pkg/usr/share/slsh/scripts
+/usr/bin/install -c scripts/lsrpm /tmp/work/pkg/usr/share/slsh/scripts
+/usr/bin/install -c scripts/sldb /tmp/work/pkg/usr/share/slsh/scripts
+/usr/bin/install -c scripts/svnsh /tmp/work/pkg/usr/share/slsh/scripts
+/usr/bin/install -c scripts/slprof /tmp/work/pkg/usr/share/slsh/scripts
+/usr/bin/install -c scripts/slstkchk /tmp/work/pkg/usr/share/slsh/scripts
+/usr/bin/install -c -m 644 lib/help/arrayfuns.hlp /tmp/work/pkg/usr/share/slsh/help
+/usr/bin/install -c -m 644 lib/help/cmdopt.hlp /tmp/work/pkg/usr/share/slsh/help
+/usr/bin/install -c -m 644 lib/help/glob.hlp /tmp/work/pkg/usr/share/slsh/help
+/usr/bin/install -c -m 644 lib/help/print.hlp /tmp/work/pkg/usr/share/slsh/help
+/usr/bin/install -c -m 644 lib/help/process.hlp /tmp/work/pkg/usr/share/slsh/help
+/usr/bin/install -c -m 644 lib/help/profile.hlp /tmp/work/pkg/usr/share/slsh/help
+/usr/bin/install -c -m 644 lib/help/readascii.hlp /tmp/work/pkg/usr/share/slsh/help
+/usr/bin/install -c -m 644 lib/help/require.hlp /tmp/work/pkg/usr/share/slsh/help
+/usr/bin/install -c -m 644 lib/help/setfuns.hlp /tmp/work/pkg/usr/share/slsh/help
+/usr/bin/install -c -m 644 lib/help/structfuns.hlp /tmp/work/pkg/usr/share/slsh/help
+/usr/bin/install -c -m 644 doc/html/slshfun-1.html /tmp/work/pkg/usr/share/doc/slsh/html/
+/usr/bin/install -c -m 644 doc/html/slshfun-2.html /tmp/work/pkg/usr/share/doc/slsh/html/
+/usr/bin/install -c -m 644 doc/html/slshfun-3.html /tmp/work/pkg/usr/share/doc/slsh/html/
+/usr/bin/install -c -m 644 doc/html/slshfun-4.html /tmp/work/pkg/usr/share/doc/slsh/html/
+/usr/bin/install -c -m 644 doc/html/slshfun-5.html /tmp/work/pkg/usr/share/doc/slsh/html/
+/usr/bin/install -c -m 644 doc/html/slshfun-6.html /tmp/work/pkg/usr/share/doc/slsh/html/
+/usr/bin/install -c -m 644 doc/html/slshfun-7.html /tmp/work/pkg/usr/share/doc/slsh/html/
+/usr/bin/install -c -m 644 doc/html/slshfun-8.html /tmp/work/pkg/usr/share/doc/slsh/html/
+/usr/bin/install -c -m 644 doc/html/slshfun-9.html /tmp/work/pkg/usr/share/doc/slsh/html/
+/usr/bin/install -c -m 644 doc/html/slshfun.html /tmp/work/pkg/usr/share/doc/slsh/html/
+/usr/bin/install -c objs/slsh /tmp/work/pkg/usr/bin/
+/usr/bin/install -c -m 644 etc/slsh.rc /tmp/work/pkg/etc/
+echo 'prepend_to_slang_load_path("/usr/share/slsh/local-packages");' >> /tmp/work/pkg/etc/slsh.rc
+/usr/bin/install -c -m 644 doc/man/slsh.1 /tmp/work/pkg/usr/share/man/man1/
+make[1]: Leaving directory '/tmp/work/src/slang-2.2.4/slsh'
+Now installing the modules
+cd modules; /usr/bin/make install
+make[1]: Entering directory '/tmp/work/src/slang-2.2.4/modules'
+/tmp/work/src/slang-2.2.4/autoconf/mkinsdir.sh /tmp/work/pkg/usr/lib/slang/v2/modules
+mkdir -p -- /tmp/work/pkg/usr/lib/slang/v2/modules
+/usr/bin/install -c -m 644 objs/slsmg-module.so /tmp/work/pkg/usr/lib/slang/v2/modules
+/usr/bin/install -c -m 644 objs/termios-module.so /tmp/work/pkg/usr/lib/slang/v2/modules
+/usr/bin/install -c -m 644 objs/select-module.so /tmp/work/pkg/usr/lib/slang/v2/modules
+/usr/bin/install -c -m 644 objs/fcntl-module.so /tmp/work/pkg/usr/lib/slang/v2/modules
+/usr/bin/install -c -m 644 objs/varray-module.so /tmp/work/pkg/usr/lib/slang/v2/modules
+/usr/bin/install -c -m 644 objs/socket-module.so /tmp/work/pkg/usr/lib/slang/v2/modules
+/usr/bin/install -c -m 644 objs/rand-module.so /tmp/work/pkg/usr/lib/slang/v2/modules
+/usr/bin/install -c -m 644 objs/fork-module.so /tmp/work/pkg/usr/lib/slang/v2/modules
+/usr/bin/install -c -m 644 objs/csv-module.so /tmp/work/pkg/usr/lib/slang/v2/modules
+/usr/bin/install -c -m 644 objs/pcre-module.so /tmp/work/pkg/usr/lib/slang/v2/modules
+/usr/bin/install -c -m 644 objs/iconv-module.so /tmp/work/pkg/usr/lib/slang/v2/modules
+/usr/bin/install -c -m 644 objs/zlib-module.so /tmp/work/pkg/usr/lib/slang/v2/modules
+/usr/bin/install -c -m 644 objs/sysconf-module.so /tmp/work/pkg/usr/lib/slang/v2/modules
+/tmp/work/src/slang-2.2.4/autoconf/mkinsdir.sh /tmp/work/pkg/usr/share/slsh
+/usr/bin/install -c -m 644 slsmg.sl /tmp/work/pkg/usr/share/slsh
+/usr/bin/install -c -m 644 termios.sl /tmp/work/pkg/usr/share/slsh
+/usr/bin/install -c -m 644 select.sl /tmp/work/pkg/usr/share/slsh
+/usr/bin/install -c -m 644 fcntl.sl /tmp/work/pkg/usr/share/slsh
+/usr/bin/install -c -m 644 varray.sl /tmp/work/pkg/usr/share/slsh
+/usr/bin/install -c -m 644 socket.sl /tmp/work/pkg/usr/share/slsh
+/usr/bin/install -c -m 644 pcre.sl /tmp/work/pkg/usr/share/slsh
+/usr/bin/install -c -m 644 png.sl /tmp/work/pkg/usr/share/slsh
+/usr/bin/install -c -m 644 iconv.sl /tmp/work/pkg/usr/share/slsh
+/usr/bin/install -c -m 644 onig.sl /tmp/work/pkg/usr/share/slsh
+/usr/bin/install -c -m 644 rand.sl /tmp/work/pkg/usr/share/slsh
+/usr/bin/install -c -m 644 csv.sl /tmp/work/pkg/usr/share/slsh
+/usr/bin/install -c -m 644 zlib.sl /tmp/work/pkg/usr/share/slsh
+/usr/bin/install -c -m 644 fork.sl /tmp/work/pkg/usr/share/slsh
+/usr/bin/install -c -m 644 sysconf.sl /tmp/work/pkg/usr/share/slsh
+/tmp/work/src/slang-2.2.4/autoconf/mkinsdir.sh /tmp/work/pkg/usr/share/slsh/cmaps
+mkdir -p -- /tmp/work/pkg/usr/share/slsh/cmaps
+/usr/bin/install -c -m 644 cmaps/cool.map /tmp/work/pkg/usr/share/slsh/cmaps
+/usr/bin/install -c -m 644 cmaps/coolwarm.map /tmp/work/pkg/usr/share/slsh/cmaps
+/usr/bin/install -c -m 644 cmaps/copper.map /tmp/work/pkg/usr/share/slsh/cmaps
+/usr/bin/install -c -m 644 cmaps/drywet.map /tmp/work/pkg/usr/share/slsh/cmaps
+/usr/bin/install -c -m 644 cmaps/ds9b.map /tmp/work/pkg/usr/share/slsh/cmaps
+/usr/bin/install -c -m 644 cmaps/ds9sls.map /tmp/work/pkg/usr/share/slsh/cmaps
+/usr/bin/install -c -m 644 cmaps/gebco.map /tmp/work/pkg/usr/share/slsh/cmaps
+/usr/bin/install -c -m 644 cmaps/globe.map /tmp/work/pkg/usr/share/slsh/cmaps
+/usr/bin/install -c -m 644 cmaps/gray.map /tmp/work/pkg/usr/share/slsh/cmaps
+/usr/bin/install -c -m 644 cmaps/haxby.map /tmp/work/pkg/usr/share/slsh/cmaps
+/usr/bin/install -c -m 644 cmaps/hot.map /tmp/work/pkg/usr/share/slsh/cmaps
+/usr/bin/install -c -m 644 cmaps/jet.map /tmp/work/pkg/usr/share/slsh/cmaps
+/usr/bin/install -c -m 644 cmaps/no_green.map /tmp/work/pkg/usr/share/slsh/cmaps
+/usr/bin/install -c -m 644 cmaps/ocean.map /tmp/work/pkg/usr/share/slsh/cmaps
+/usr/bin/install -c -m 644 cmaps/polar.map /tmp/work/pkg/usr/share/slsh/cmaps
+/usr/bin/install -c -m 644 cmaps/rainbow.map /tmp/work/pkg/usr/share/slsh/cmaps
+/usr/bin/install -c -m 644 cmaps/red2green.map /tmp/work/pkg/usr/share/slsh/cmaps
+/usr/bin/install -c -m 644 cmaps/relief.map /tmp/work/pkg/usr/share/slsh/cmaps
+/usr/bin/install -c -m 644 cmaps/sealand.map /tmp/work/pkg/usr/share/slsh/cmaps
+/usr/bin/install -c -m 644 cmaps/seis.map /tmp/work/pkg/usr/share/slsh/cmaps
+/usr/bin/install -c -m 644 cmaps/split.map /tmp/work/pkg/usr/share/slsh/cmaps
+/usr/bin/install -c -m 644 cmaps/topo.map /tmp/work/pkg/usr/share/slsh/cmaps
+/usr/bin/install -c -m 644 cmaps/wysiwyg.map /tmp/work/pkg/usr/share/slsh/cmaps
+/tmp/work/src/slang-2.2.4/autoconf/mkinsdir.sh /tmp/work/pkg/usr/share/slsh/help
+/usr/bin/install -c -m 644 help/csvfuns.hlp /tmp/work/pkg/usr/share/slsh/help
+/usr/bin/install -c -m 644 help/forkfuns.hlp /tmp/work/pkg/usr/share/slsh/help
+/usr/bin/install -c -m 644 help/onigfuns.hlp /tmp/work/pkg/usr/share/slsh/help
+/usr/bin/install -c -m 644 help/pcrefuns.hlp /tmp/work/pkg/usr/share/slsh/help
+/usr/bin/install -c -m 644 help/pngfuns.hlp /tmp/work/pkg/usr/share/slsh/help
+/usr/bin/install -c -m 644 help/randfuns.hlp /tmp/work/pkg/usr/share/slsh/help
+/usr/bin/install -c -m 644 help/slsmg.hlp /tmp/work/pkg/usr/share/slsh/help
+/usr/bin/install -c -m 644 help/sockfuns.hlp /tmp/work/pkg/usr/share/slsh/help
+make[1]: Leaving directory '/tmp/work/src/slang-2.2.4/modules'
+
+On some systems, e.g., linux, you may also have to run ldconfig.
+
+autoconf/mkinsdir.sh /tmp/work/pkg/usr/lib/pkgconfig
+mkdir -p -- /tmp/work/pkg/usr/lib/pkgconfig
+/usr/bin/install -c -m 644 slang.pc /tmp/work/pkg/usr/lib/pkgconfig/
+mode of '/tmp/work/pkg/usr/lib/libslang.so.2.2.4' changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of '/tmp/work/pkg/usr/lib/slang/v2/modules/csv-module.so' changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of '/tmp/work/pkg/usr/lib/slang/v2/modules/fcntl-module.so' changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of '/tmp/work/pkg/usr/lib/slang/v2/modules/fork-module.so' changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of '/tmp/work/pkg/usr/lib/slang/v2/modules/iconv-module.so' changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of '/tmp/work/pkg/usr/lib/slang/v2/modules/pcre-module.so' changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of '/tmp/work/pkg/usr/lib/slang/v2/modules/rand-module.so' changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of '/tmp/work/pkg/usr/lib/slang/v2/modules/select-module.so' changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of '/tmp/work/pkg/usr/lib/slang/v2/modules/slsmg-module.so' changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of '/tmp/work/pkg/usr/lib/slang/v2/modules/socket-module.so' changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of '/tmp/work/pkg/usr/lib/slang/v2/modules/sysconf-module.so' changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of '/tmp/work/pkg/usr/lib/slang/v2/modules/termios-module.so' changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of '/tmp/work/pkg/usr/lib/slang/v2/modules/varray-module.so' changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+mode of '/tmp/work/pkg/usr/lib/slang/v2/modules/zlib-module.so' changed from 0644 (rw-r--r--) to 0755 (rwxr-xr-x)
+=======> slang arşivine üstbilgiler ekleniyor.
+=======> slang#2.2.4-armv7l.mps sıkıştırılıyor.

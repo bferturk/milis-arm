@@ -1,0 +1,43 @@
+=======> isim: wireless-tools
+=======> surum: 29
+=======> devir: 1
+=======> grup: wireless
+=======> İndiriliyor http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/wireless_tools.29.tar.gz
+=======> kayıt:/sources/wireless_tools.29.tar.gz
+hash kontrol dosyası yok-hash kontrolü yapılmayacak.
+=======> Derleniyor '/root/milis-arm/genel/wireless-tools/wireless-tools#29-armv7l.mps.lz'.
+tar -p -C /tmp/work/src -xf /sources/wireless_tools.29.tar.gz
+cp wireless.21.h wireless.h
+gcc -Os -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Wshadow -Wpointer-arith -Wcast-qual -Winline -I. -MMD     -fPIC -c -o iwlib.so iwlib.c
+gcc -Os -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Wshadow -Wpointer-arith -Wcast-qual -Winline -I. -MMD     -c iwconfig.c
+gcc -Os -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Wshadow -Wpointer-arith -Wcast-qual -Winline -I. -MMD     -c iwlist.c
+gcc -Os -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Wshadow -Wpointer-arith -Wcast-qual -Winline -I. -MMD     -c iwpriv.c
+gcc -Os -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Wshadow -Wpointer-arith -Wcast-qual -Winline -I. -MMD     -c iwspy.c
+gcc -Os -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Wshadow -Wpointer-arith -Wcast-qual -Winline -I. -MMD     -c iwgetid.c
+gcc -Os -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Wshadow -Wpointer-arith -Wcast-qual -Winline -I. -MMD     -c iwevent.c
+gcc -Os -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Wshadow -Wpointer-arith -Wcast-qual -Winline -I. -MMD     -c ifrename.c
+gcc -shared -o libiw.so.29 -Wl,-soname,libiw.so.29  -lm -lc iwlib.so
+gcc   -Os -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Wshadow -Wpointer-arith -Wcast-qual -Winline -I. -MMD     -o iwconfig iwconfig.o libiw.so.29 -lm
+gcc   -Os -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Wshadow -Wpointer-arith -Wcast-qual -Winline -I. -MMD     -o iwlist iwlist.o libiw.so.29 -lm
+gcc   -Os -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Wshadow -Wpointer-arith -Wcast-qual -Winline -I. -MMD     -o iwpriv iwpriv.o libiw.so.29 -lm
+gcc   -Os -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Wshadow -Wpointer-arith -Wcast-qual -Winline -I. -MMD     -o iwspy iwspy.o libiw.so.29 -lm
+gcc   -Os -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Wshadow -Wpointer-arith -Wcast-qual -Winline -I. -MMD     -o iwgetid iwgetid.o libiw.so.29 -lm
+gcc   -Os -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Wshadow -Wpointer-arith -Wcast-qual -Winline -I. -MMD     -o iwevent iwevent.o libiw.so.29 -lm
+gcc   -Os -W -Wall -Wstrict-prototypes -Wmissing-prototypes -Wshadow -Wpointer-arith -Wcast-qual -Winline -I. -MMD     -o ifrename ifrename.o libiw.so.29 -lm
+install -m 755 -d /tmp/work/pkg/usr/lib/
+install -m 755 -d /tmp/work/pkg/usr/sbin/
+install -m 755 libiw.so.29 /tmp/work/pkg/usr/lib/
+ln -sfn libiw.so.29 /tmp/work/pkg/usr/lib//libiw.so
+install -m 755 iwconfig iwlist iwpriv iwspy iwgetid iwevent ifrename /tmp/work/pkg/usr/sbin/
+install -m 755 -d /tmp/work/pkg/usr/include/
+*** Don't forget to add /tmp/work/pkg/usr/lib/ to /etc/ld.so.conf, and run ldconfig as root. ***
+install -m 644 iwlib.h /tmp/work/pkg/usr/include/
+install -m 644 wireless.h /tmp/work/pkg/usr/include/
+install -m 755 -d /tmp/work/pkg/usr/share/man/man8/
+install -m 644 iwconfig.8 iwlist.8 iwpriv.8 iwspy.8 iwgetid.8 iwevent.8 ifrename.8 /tmp/work/pkg/usr/share/man/man8/
+install -m 755 -d /tmp/work/pkg/usr/share/man/man7/
+install -m 644 wireless.7 /tmp/work/pkg/usr/share/man/man7/
+install -m 755 -d /tmp/work/pkg/usr/share/man/man5/
+install -m 644 iftab.5 /tmp/work/pkg/usr/share/man/man5/
+=======> wireless-tools arşivine üstbilgiler ekleniyor.
+=======> wireless-tools#29-armv7l.mps sıkıştırılıyor.

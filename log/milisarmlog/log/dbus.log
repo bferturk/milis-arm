@@ -1,0 +1,670 @@
+=======> isim: dbus
+=======> surum: 1.10.6
+=======> devir: 1
+=======> İndiriliyor http://dbus.freedesktop.org/releases/dbus/dbus-1.10.6.tar.gz
+=======> kayıt:/sources/dbus-1.10.6.tar.gz
+hash kontrol dosyası yok-hash kontrolü yapılmayacak.
+=======> Derleniyor '/root/milis-arm/genel/dbus/dbus#1.10.6-armv7l.mps.lz'.
+tar -p -C /tmp/work/src -xf /sources/dbus-1.10.6.tar.gz
+cp dbus.system-local.conf /tmp/work/src
+=======> isim: dbus
+=======> surum: 1.10.6
+=======> devir: 1
+hash kontrol dosyası yok-hash kontrolü yapılmayacak.
+=======> Derleniyor '/root/milis-arm/genel/dbus/dbus#1.10.6-armv7l.mps.lz'.
+tar -p -C /tmp/work/src -xf /sources/dbus-1.10.6.tar.gz
+cp dbus.system-local.conf /tmp/work/src
+checking build system type... armv7l-unknown-linux-gnueabihf
+checking host system type... armv7l-unknown-linux-gnueabihf
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether UID '0' is supported by ustar format... yes
+checking whether GID '0' is supported by ustar format... yes
+checking how to create a ustar tar archive... gnutar
+checking whether to enable maintainer-specific portions of Makefiles... yes
+checking whether make supports nested variables... (cached) yes
+checking for gcc... gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking for gcc option to accept ISO C89... none needed
+checking whether gcc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of gcc... gcc3
+checking for g++... g++
+checking whether we are using the GNU C++ compiler... yes
+checking whether g++ accepts -g... yes
+checking dependency style of g++... gcc3
+checking how to run the C preprocessor... gcc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for library containing strerror... none required
+checking for ANSI C header files... (cached) yes
+checking for inline... inline
+checking how to print strings... printf
+checking for a sed that does not truncate output... /bin/sed
+checking for fgrep... /bin/grep -F
+checking for ld used by gcc... /bin/ld
+checking if the linker (/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /bin/nm -B
+checking the name lister (/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert armv7l-unknown-linux-gnueabihf file names to armv7l-unknown-linux-gnueabihf format... func_convert_file_noop
+checking how to convert armv7l-unknown-linux-gnueabihf file names to toolchain format... func_convert_file_noop
+checking for /bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /bin/nm -B output from gcc object... ok
+checking for sysroot... no
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if gcc supports -fno-rtti -fno-exceptions... no
+checking for gcc option to produce PIC... -fPIC -DPIC
+checking if gcc PIC flag -fPIC -DPIC works... yes
+checking if gcc static flag -static works... yes
+checking if gcc supports -c -o file.o... yes
+checking if gcc supports -c -o file.o... (cached) yes
+checking whether the gcc linker (/bin/ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /bin/ld
+checking if the linker (/bin/ld) is GNU ld... yes
+checking whether the g++ linker (/bin/ld) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... yes
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for gawk... (cached) gawk
+checking whether the -Werror option is usable... yes
+checking for simple visibility declarations... yes
+checking for windres... no
+checking for GLIB... no
+checking for a Python interpreter with version >= 2.6... none
+checking whether we are using the GNU C Library 2.1 or newer... yes
+checking size of char... 1
+checking size of short... 2
+checking size of long... 4
+checking size of int... 4
+checking size of void *... 4
+checking size of long long... 8
+checking size of __int64... 0
+checking 64-bit integer type... long long
+checking 32-bit integer type... int
+checking 16-bit integer type... short
+checking whether byte ordering is bigendian... no
+checking for an implementation of va_copy()... yes
+checking for an implementation of __va_copy()... yes
+checking whether va_lists can be copied by value... no
+checking whether gcc knows __sync_sub_and_fetch()... yes
+checking for library containing socket... none required
+checking for gethostbyname... yes
+checking for vsnprintf... yes
+checking for vasprintf... yes
+checking for nanosleep... yes
+checking for usleep... yes
+checking for setenv... yes
+checking for clearenv... yes
+checking for unsetenv... yes
+checking for socketpair... yes
+checking for getgrouplist... yes
+checking for fpathconf... yes
+checking for setrlimit... yes
+checking for poll... yes
+checking for setlocale... yes
+checking for localeconv... yes
+checking for strtoll... yes
+checking for strtoull... yes
+checking for issetugid... no
+checking for getresuid... yes
+checking for setresuid... yes
+checking for getrlimit... yes
+checking syslog.h usability... yes
+checking syslog.h presence... yes
+checking for syslog.h... yes
+checking whether LOG_PERROR is declared... yes
+checking for sys/prctl.h... yes
+checking for prctl... yes
+checking for raise... yes
+checking for broken poll... no
+checking for dirfd... yes
+checking sys/resource.h usability... yes
+checking sys/resource.h presence... yes
+checking for sys/resource.h... yes
+checking dirent.h usability... yes
+checking dirent.h presence... yes
+checking for dirent.h... yes
+checking execinfo.h usability... yes
+checking execinfo.h presence... yes
+checking for execinfo.h... yes
+checking for library containing backtrace... none required
+checking errno.h usability... yes
+checking errno.h presence... yes
+checking for errno.h... yes
+checking signal.h usability... yes
+checking signal.h presence... yes
+checking for signal.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking byteswap.h usability... yes
+checking byteswap.h presence... yes
+checking for byteswap.h... yes
+checking for unistd.h... (cached) yes
+checking ws2tcpip.h usability... no
+checking ws2tcpip.h presence... no
+checking for ws2tcpip.h... no
+checking alloca.h usability... yes
+checking alloca.h presence... yes
+checking for alloca.h... yes
+checking for posix getpwnam_r... yes
+checking whether socklen_t is defined... yes
+checking sys/uio.h usability... yes
+checking sys/uio.h presence... yes
+checking for sys/uio.h... yes
+checking for writev... yes
+checking sys/syslimits.h usability... no
+checking sys/syslimits.h presence... no
+checking for sys/syslimits.h... no
+checking whether MSG_NOSIGNAL is declared... yes
+checking for ISO C99 varargs macros in C... yes
+checking for GNUC varargs macros... yes
+checking for struct cmsgcred... no
+checking for struct unpcbid.unp_pid... no
+checking for getpeerucred... no
+checking for getpeereid... no
+checking for pipe2... yes
+checking for accept4... yes
+checking abstract socket namespace... yes
+checking for XML_ParserCreate_MM in -lexpat... yes
+checking expat.h usability... yes
+checking expat.h presence... yes
+checking for expat.h... yes
+checking for library containing pthread_cond_timedwait... none required
+checking for library containing pthread_mutexattr_init... -lpthread
+checking for library containing pthread_mutexattr_settype... none required
+checking for library containing pthread_condattr_setclock... none required
+checking for library containing clock_getres... none required
+checking for CLOCK_MONOTONIC... found
+checking for is_selinux_enabled in -lselinux... no
+checking for APPARMOR... no
+checking sys/inotify.h usability... yes
+checking sys/inotify.h presence... yes
+checking for sys/inotify.h... yes
+checking for inotify_init1... yes
+checking for Linux epoll(4)... yes
+checking sys/event.h usability... no
+checking sys/event.h presence... no
+checking for sys/event.h... no
+checking for kqueue... no
+checking launch.h usability... no
+checking launch.h presence... no
+checking for launch.h... no
+checking for launchctl... no
+checking for systemctl... /usr/bin/systemctl
+checking for audit_log_user_avc_message in -laudit... no
+checking for ADT API... no
+checking for SCM_RIGHTS... supported
+checking for X... no
+checking to see if compiler understands ... yes
+checking to see if compiler understands -Wall... yes
+checking to see if compiler understands -Wextra... yes
+checking to see if compiler understands -Wchar-subscripts... yes
+checking to see if compiler understands -Wmissing-declarations... yes
+checking to see if compiler understands -Wmissing-prototypes... yes
+checking to see if compiler understands -Wnested-externs... yes
+checking to see if compiler understands -Wpointer-arith... yes
+checking to see if compiler understands -Wcast-align... yes
+checking to see if compiler understands -Wno-address... yes
+checking to see if compiler understands -Wfloat-equal... yes
+checking to see if compiler understands -Wdeclaration-after-statement... yes
+checking to see if compiler understands -Werror... yes
+checking to see if compiler understands -Wno-unused-label... yes
+checking to see if compiler understands -Wno-error=unused-label... yes
+checking to see if compiler understands -Wno-missing-field-initializers... yes
+checking to see if compiler understands -Wno-error=missing-field-initializers... yes
+checking to see if compiler understands -Wno-unused-parameter... yes
+checking to see if compiler understands -Wno-error=unused-parameter... yes
+checking to see if compiler understands -Wno-pointer-sign... yes
+checking to see if compiler understands -Wno-error=pointer-sign... yes
+checking to see if compiler understands -Wno-type-limits... yes
+checking to see if compiler understands -Wno-error=type-limits... yes
+checking to see if compiler understands -fno-common... yes
+checking to see if compiler understands -fno-strict-aliasing... yes
+checking if LD -Wl,--version-script works... yes
+checking for doxygen... no
+checking whether to build Doxygen documentation... no
+checking for xsltproc... no
+checking for ducktype... no
+checking for yelp-build... no
+checking whether to build Ducktype documentation... no
+checking for xmlto... no
+checking whether to build XML documentation... no
+checking crt_externs.h usability... no
+checking crt_externs.h presence... no
+checking for crt_externs.h... no
+checking for _NSGetEnviron... no
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Doxyfile
+config.status: creating dbus/Version
+config.status: creating dbus/versioninfo.rc
+config.status: creating dbus/dbus-arch-deps.h
+config.status: creating bus/system.conf
+config.status: creating bus/session.conf
+config.status: creating bus/legacy-config/system.conf
+config.status: creating bus/legacy-config/session.conf
+config.status: creating bus/example-system-enable-stats.conf
+config.status: creating bus/example-session-disable-stats.conf
+config.status: creating bus/messagebus
+config.status: creating bus/messagebus-config
+config.status: creating bus/org.freedesktop.dbus-session.plist
+config.status: creating bus/rc.messagebus
+config.status: creating bus/dbus.service
+config.status: creating bus/dbus.socket
+config.status: creating bus/systemd-user/dbus.service
+config.status: creating bus/systemd-user/dbus.socket
+config.status: creating Makefile
+config.status: creating dbus/Makefile
+config.status: creating bus/Makefile
+config.status: creating tools/Makefile
+config.status: creating test/Makefile
+config.status: creating test/name-test/Makefile
+config.status: creating doc/Makefile
+config.status: creating doc/dbus-cleanup-sockets.1.xml
+config.status: creating doc/dbus-daemon.1.xml
+config.status: creating doc/dbus-launch.1.xml
+config.status: creating doc/dbus-monitor.1.xml
+config.status: creating doc/dbus-run-session.1.xml
+config.status: creating doc/dbus-send.1.xml
+config.status: creating doc/dbus-test-tool.1.xml
+config.status: creating doc/dbus-update-activation-environment.1.xml
+config.status: creating doc/dbus-uuidgen.1.xml
+config.status: creating dbus-1.pc
+config.status: creating dbus-1-uninstalled.pc
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+
+                    D-Bus 1.10.6
+                  ==============
+
+	prefix:                   /usr
+	exec_prefix:              ${prefix}
+        libdir:                   /usr/lib
+        libexecdir:               /usr/libexec
+        bindir:                   /usr/bin
+        sysconfdir:               /etc
+        localstatedir:            /var
+	datadir:                  /usr/share
+	source code location:	  .
+	compiler:		  gcc
+	cflags:		           -Wall -Wextra -Wchar-subscripts -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wpointer-arith -Wcast-align -Wno-address -Wfloat-equal -Wdeclaration-after-statement -Wno-unused-label -Wno-missing-field-initializers -Wno-unused-parameter -Wno-pointer-sign -Wno-type-limits -fno-common -fno-strict-aliasing -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe 
+	cppflags:		  
+	cxxflags:		  -U_FORTIFY_SOURCE -march=armv7-a -mfloat-abi=hard -mfpu=vfpv3-d16 -O2 -pipe 
+	64-bit int:		  long long
+	32-bit int:		  int
+	16-bit int:		  short
+        Doxygen:                  no
+        xmlto:                    no
+        ducktype:                 no
+        yelp-build:               no
+
+        Rebuilding generated files: yes
+        gcc coverage profiling:   no
+        Building embedded tests:  no
+        Building modular tests:   auto
+            - with GLib:          no
+        Installing tests:         no
+        Building verbose mode:    no
+        Building assertions:      no
+        Building checks:          yes
+        Building bus stats API:   yes
+        Building SELinux support: no
+        Building AppArmor support: no
+        Building inotify support: yes
+        Building kqueue support:  no
+        Building systemd support: no
+        Building X11 code:        no
+        Building Doxygen docs:    no
+        Building Ducktype docs:   no
+        Building XML docs:        no
+        Building launchd support: no
+        Init scripts style:       none
+        Abstract socket names:    yes
+        System bus socket:        /var/run/dbus/system_bus_socket
+        System bus address:       unix:path=/var/run/dbus/system_bus_socket
+        System bus PID file:      /var/run/dbus/pid
+        Session bus listens on:   unix:tmpdir=/tmp
+        Session clients connect to: autolaunch:
+        Console auth dir:         /run/console
+        Console owner file:       no
+        Console owner file path:  
+	System bus user:          messagebus
+	Session bus services dir: /usr/share/dbus-1/services
+        'make check' socket dir:  /tmp
+
+
+/usr/bin/make  all-recursive
+make[1]: Entering directory '/tmp/work/src/dbus-1.10.6'
+Making all in dbus
+make[2]: Entering directory '/tmp/work/src/dbus-1.10.6/dbus'
+/usr/bin/make  all-am
+make[3]: Entering directory '/tmp/work/src/dbus-1.10.6/dbus'
+  CC       libdbus_1_la-dbus-address.lo
+  CC       libdbus_1_la-dbus-auth.lo
+  CC       libdbus_1_la-dbus-bus.lo
+  CC       libdbus_1_la-dbus-connection.lo
+  CC       libdbus_1_la-dbus-credentials.lo
+  CC       libdbus_1_la-dbus-errors.lo
+  CC       libdbus_1_la-dbus-keyring.lo
+  CC       libdbus_1_la-dbus-marshal-header.lo
+  CC       libdbus_1_la-dbus-marshal-byteswap.lo
+  CC       libdbus_1_la-dbus-marshal-recursive.lo
+  CC       libdbus_1_la-dbus-marshal-validate.lo
+  CC       libdbus_1_la-dbus-message.lo
+  CC       libdbus_1_la-dbus-misc.lo
+  CC       libdbus_1_la-dbus-nonce.lo
+  CC       libdbus_1_la-dbus-object-tree.lo
+  CC       libdbus_1_la-dbus-pending-call.lo
+  CC       libdbus_1_la-dbus-resources.lo
+  CC       libdbus_1_la-dbus-server.lo
+  CC       libdbus_1_la-dbus-server-debug-pipe.lo
+  CC       libdbus_1_la-dbus-server-socket.lo
+  CC       libdbus_1_la-dbus-uuidgen.lo
+  CC       libdbus_1_la-dbus-server-unix.lo
+  CC       libdbus_1_la-dbus-sha.lo
+  CC       libdbus_1_la-dbus-signature.lo
+  CC       libdbus_1_la-dbus-syntax.lo
+  CC       libdbus_1_la-dbus-timeout.lo
+  CC       libdbus_1_la-dbus-threads.lo
+  CC       libdbus_1_la-dbus-transport.lo
+  CC       libdbus_1_la-dbus-transport-socket.lo
+  CC       libdbus_1_la-dbus-watch.lo
+  CC       libdbus_1_la-dbus-dataslot.lo
+  CC       libdbus_1_la-dbus-file.lo
+  CC       libdbus_1_la-dbus-hash.lo
+  CC       libdbus_1_la-dbus-internals.lo
+  CC       libdbus_1_la-dbus-list.lo
+  CC       libdbus_1_la-dbus-marshal-basic.lo
+  CC       libdbus_1_la-dbus-memory.lo
+  CC       libdbus_1_la-dbus-mempool.lo
+  CC       libdbus_1_la-dbus-pipe.lo
+  CC       libdbus_1_la-dbus-string.lo
+  CC       libdbus_1_la-dbus-file-unix.lo
+  CC       libdbus_1_la-dbus-pipe-unix.lo
+  CC       libdbus_1_la-dbus-sysdeps-unix.lo
+  CC       libdbus_1_la-dbus-sysdeps-pthread.lo
+  CC       libdbus_1_la-dbus-transport-unix.lo
+  CC       libdbus_1_la-dbus-userdb.lo
+  CC       libdbus_1_la-dbus-sysdeps.lo
+  CC       dbus-asv-util.lo
+  CC       dbus-auth-script.lo
+  CC       dbus-auth-util.lo
+  CC       dbus-credentials-util.lo
+  CC       dbus-mainloop.lo
+  CC       dbus-marshal-byteswap-util.lo
+  CC       dbus-marshal-recursive-util.lo
+  CC       dbus-marshal-validate-util.lo
+  CC       dbus-message-factory.lo
+  CC       dbus-message-util.lo
+  CC       dbus-shell.lo
+  CC       dbus-sysdeps-util-unix.lo
+  CC       dbus-userdb-util.lo
+  CC       dbus-spawn.lo
+  CC       dbus-socket-set-epoll.lo
+  CC       dbus-socket-set.lo
+  CC       dbus-socket-set-poll.lo
+  CC       dbus-string-util.lo
+  CC       dbus-sysdeps-util.lo
+  CC       dbus-test.lo
+  CCLD     libdbus-1.la
+  CCLD     libdbus-internal.la
+make[3]: Leaving directory '/tmp/work/src/dbus-1.10.6/dbus'
+make[2]: Leaving directory '/tmp/work/src/dbus-1.10.6/dbus'
+Making all in bus
+make[2]: Entering directory '/tmp/work/src/dbus-1.10.6/bus'
+  CC       activation.o
+  CC       apparmor.o
+  CC       audit.o
+  CC       bus.o
+  CC       config-parser.o
+  CC       config-parser-common.o
+  CC       connection.o
+  CC       desktop-file.o
+  CC       dir-watch-inotify.o
+  CC       dispatch.o
+  CC       driver.o
+  CC       expirelist.o
+  CC       policy.o
+  CC       selinux.o
+  CC       services.o
+  CC       signals.o
+  CC       stats.o
+  CC       test.o
+  CC       utils.o
+  CC       config-loader-expat.o
+  CC       main.o
+  CC       activation-helper-bin.o
+  CC       config-parser-trivial.o
+  CC       activation-helper.o
+  CCLD     dbus-daemon
+  CCLD     dbus-daemon-launch-helper
+make[2]: Leaving directory '/tmp/work/src/dbus-1.10.6/bus'
+Making all in tools
+make[2]: Entering directory '/tmp/work/src/dbus-1.10.6/tools'
+  CC       dbus_launch-dbus-launch.o
+  CC       dbus_launch-dbus-launch-x11.o
+  CC       dbus_launch-tool-common.o
+  CC       dbus-monitor.o
+  CC       dbus-print-message.o
+  CC       tool-common.o
+  CC       dbus-send.o
+  CC       dbus-echo.o
+  CC       dbus-spam.o
+  CC       test-tool.o
+  CC       dbus-update-activation-environment.o
+  CC       dbus-cleanup-sockets.o
+  CC       dbus-run-session.o
+  CC       dbus-uuidgen.o
+  CCLD     dbus-launch
+  CCLD     dbus-monitor
+  CCLD     dbus-send
+  CCLD     dbus-test-tool
+  CCLD     dbus-update-activation-environment
+  CCLD     dbus-cleanup-sockets
+  CCLD     dbus-run-session
+  CCLD     dbus-uuidgen
+make[2]: Leaving directory '/tmp/work/src/dbus-1.10.6/tools'
+Making all in test
+make[2]: Entering directory '/tmp/work/src/dbus-1.10.6/test'
+Making all in .
+make[3]: Entering directory '/tmp/work/src/dbus-1.10.6/test'
+  CC       shell-test.o
+  CC       test-utils.lo
+  CC       manual-dir-iter.o
+  CC       manual-tcp.o
+  GEN      data/valid-config-files/session.conf
+  GEN      data/valid-config-files-system/system.conf
+  GEN      copy-config-local
+-- No need to copy test data as srcdir = builddir
+  GEN      uninstalled-config-local
+  CCLD     libdbus-testutils.la
+  CC       internals/printf.o
+  CCLD     manual-dir-iter
+  CCLD     manual-tcp
+  CCLD     test-shell
+  CCLD     test-printf
+make[3]: Leaving directory '/tmp/work/src/dbus-1.10.6/test'
+Making all in name-test
+make[3]: Entering directory '/tmp/work/src/dbus-1.10.6/test/name-test'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/tmp/work/src/dbus-1.10.6/test/name-test'
+make[2]: Leaving directory '/tmp/work/src/dbus-1.10.6/test'
+Making all in doc
+make[2]: Entering directory '/tmp/work/src/dbus-1.10.6/doc'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/tmp/work/src/dbus-1.10.6/doc'
+make[2]: Entering directory '/tmp/work/src/dbus-1.10.6'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/tmp/work/src/dbus-1.10.6'
+make[1]: Leaving directory '/tmp/work/src/dbus-1.10.6'
+Making install in dbus
+make[1]: Entering directory '/tmp/work/src/dbus-1.10.6/dbus'
+/usr/bin/make  install-am
+make[2]: Entering directory '/tmp/work/src/dbus-1.10.6/dbus'
+make[3]: Entering directory '/tmp/work/src/dbus-1.10.6/dbus'
+ /bin/mkdir -p '/tmp/work/pkg/usr/include/dbus-1.0/dbus'
+ /bin/mkdir -p '/tmp/work/pkg/usr/lib'
+ /bin/sh ../libtool   --mode=install /usr/bin/install -c   libdbus-1.la '/tmp/work/pkg/usr/lib'
+ /usr/bin/install -c -m 644 dbus.h dbus-address.h dbus-bus.h dbus-connection.h dbus-errors.h dbus-macros.h dbus-memory.h dbus-message.h dbus-misc.h dbus-pending-call.h dbus-protocol.h dbus-server.h dbus-shared.h dbus-signature.h dbus-syntax.h dbus-threads.h dbus-types.h '/tmp/work/pkg/usr/include/dbus-1.0/dbus'
+ /bin/mkdir -p '/tmp/work/pkg/usr/lib/dbus-1.0/include/dbus'
+ /usr/bin/install -c -m 644 dbus-arch-deps.h '/tmp/work/pkg/usr/lib/dbus-1.0/include/dbus'
+libtool: install: /usr/bin/install -c .libs/libdbus-1.so.3.14.6 /tmp/work/pkg/usr/lib/libdbus-1.so.3.14.6
+libtool: install: (cd /tmp/work/pkg/usr/lib && { ln -s -f libdbus-1.so.3.14.6 libdbus-1.so.3 || { rm -f libdbus-1.so.3 && ln -s libdbus-1.so.3.14.6 libdbus-1.so.3; }; })
+libtool: install: (cd /tmp/work/pkg/usr/lib && { ln -s -f libdbus-1.so.3.14.6 libdbus-1.so || { rm -f libdbus-1.so && ln -s libdbus-1.so.3.14.6 libdbus-1.so; }; })
+libtool: install: /usr/bin/install -c .libs/libdbus-1.lai /tmp/work/pkg/usr/lib/libdbus-1.la
+make[3]: Leaving directory '/tmp/work/src/dbus-1.10.6/dbus'
+make[2]: Leaving directory '/tmp/work/src/dbus-1.10.6/dbus'
+make[1]: Leaving directory '/tmp/work/src/dbus-1.10.6/dbus'
+Making install in bus
+make[1]: Entering directory '/tmp/work/src/dbus-1.10.6/bus'
+make[2]: Entering directory '/tmp/work/src/dbus-1.10.6/bus'
+ /bin/mkdir -p '/tmp/work/pkg/usr/bin'
+ /bin/mkdir -p '/tmp/work/pkg/usr/libexec'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c dbus-daemon '/tmp/work/pkg/usr/bin'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c dbus-daemon-launch-helper '/tmp/work/pkg/usr/libexec'
+libtool: install: /usr/bin/install -c .libs/dbus-daemon /tmp/work/pkg/usr/bin/dbus-daemon
+libtool: install: /usr/bin/install -c .libs/dbus-daemon-launch-helper /tmp/work/pkg/usr/libexec/dbus-daemon-launch-helper
+ /bin/mkdir -p '/tmp/work/pkg/usr/share/dbus-1'
+ /bin/mkdir -p '/tmp/work/pkg/usr/share/doc/dbus-1.10.6/examples'
+ /usr/bin/install -c -m 644 session.conf system.conf '/tmp/work/pkg/usr/share/dbus-1'
+ /usr/bin/install -c -m 644 example-system-enable-stats.conf example-session-disable-stats.conf '/tmp/work/pkg/usr/share/doc/dbus-1.10.6/examples'
+ /bin/mkdir -p '/tmp/work/pkg/etc/dbus-1'
+ /usr/bin/install -c -m 644 legacy-config/session.conf legacy-config/system.conf '/tmp/work/pkg/etc/dbus-1'
+/usr/bin/make  install-exec-hook
+/usr/bin/make  install-data-hook
+make[3]: Entering directory '/tmp/work/src/dbus-1.10.6/bus'
+if test `id -u` -eq 0; then \
+	chown root:messagebus /tmp/work/pkg/usr/libexec/dbus-daemon-launch-helper; \
+	chmod 4750 /tmp/work/pkg/usr/libexec/dbus-daemon-launch-helper; \
+else \
+	echo "Not installing /tmp/work/pkg/usr/libexec/dbus-daemon-launch-helper binary setuid!"; \
+	echo "You'll need to manually set permissions to root:messagebus and permissions 4750"; \
+fi
+make[3]: Entering directory '/tmp/work/src/dbus-1.10.6/bus'
+/bin/sh /tmp/work/src/dbus-1.10.6/build-aux/install-sh -d /tmp/work/pkg/usr/share/dbus-1/session.d
+make[3]: Leaving directory '/tmp/work/src/dbus-1.10.6/bus'
+/bin/sh /tmp/work/src/dbus-1.10.6/build-aux/install-sh -d /tmp/work/pkg/usr/share/dbus-1/services
+/bin/sh /tmp/work/src/dbus-1.10.6/build-aux/install-sh -d /tmp/work/pkg/var/run/dbus
+/bin/sh /tmp/work/src/dbus-1.10.6/build-aux/install-sh -d /tmp/work/pkg/usr/share/dbus-1/system.d
+/bin/sh /tmp/work/src/dbus-1.10.6/build-aux/install-sh -d /tmp/work/pkg/usr/share/dbus-1/system-services
+make[3]: Leaving directory '/tmp/work/src/dbus-1.10.6/bus'
+make[2]: Leaving directory '/tmp/work/src/dbus-1.10.6/bus'
+make[1]: Leaving directory '/tmp/work/src/dbus-1.10.6/bus'
+Making install in tools
+make[1]: Entering directory '/tmp/work/src/dbus-1.10.6/tools'
+make[2]: Entering directory '/tmp/work/src/dbus-1.10.6/tools'
+/bin/mkdir -p /tmp/work/pkg/var/lib/dbus
+ /bin/mkdir -p '/tmp/work/pkg/usr/bin'
+ /bin/mkdir -p '/tmp/work/pkg/usr/share/doc/dbus-1.10.6/examples'
+  /bin/sh ../libtool   --mode=install /usr/bin/install -c dbus-launch dbus-monitor dbus-send dbus-test-tool dbus-update-activation-environment dbus-cleanup-sockets dbus-run-session dbus-uuidgen '/tmp/work/pkg/usr/bin'
+ /usr/bin/install -c GetAllMatchRules.py '/tmp/work/pkg/usr/share/doc/dbus-1.10.6/examples'
+libtool: install: /usr/bin/install -c .libs/dbus-launch /tmp/work/pkg/usr/bin/dbus-launch
+libtool: install: /usr/bin/install -c .libs/dbus-monitor /tmp/work/pkg/usr/bin/dbus-monitor
+libtool: install: /usr/bin/install -c .libs/dbus-send /tmp/work/pkg/usr/bin/dbus-send
+libtool: install: /usr/bin/install -c .libs/dbus-test-tool /tmp/work/pkg/usr/bin/dbus-test-tool
+libtool: install: /usr/bin/install -c .libs/dbus-update-activation-environment /tmp/work/pkg/usr/bin/dbus-update-activation-environment
+libtool: install: /usr/bin/install -c dbus-cleanup-sockets /tmp/work/pkg/usr/bin/dbus-cleanup-sockets
+libtool: install: /usr/bin/install -c .libs/dbus-run-session /tmp/work/pkg/usr/bin/dbus-run-session
+libtool: install: /usr/bin/install -c .libs/dbus-uuidgen /tmp/work/pkg/usr/bin/dbus-uuidgen
+make[2]: Leaving directory '/tmp/work/src/dbus-1.10.6/tools'
+make[1]: Leaving directory '/tmp/work/src/dbus-1.10.6/tools'
+Making install in test
+make[1]: Entering directory '/tmp/work/src/dbus-1.10.6/test'
+Making install in .
+make[2]: Entering directory '/tmp/work/src/dbus-1.10.6/test'
+  GEN      uninstalled-config-local
+  GEN      copy-config-local
+-- No need to copy test data as srcdir = builddir
+make[3]: Entering directory '/tmp/work/src/dbus-1.10.6/test'
+make[3]: Leaving directory '/tmp/work/src/dbus-1.10.6/test'
+make[2]: Leaving directory '/tmp/work/src/dbus-1.10.6/test'
+Making install in name-test
+make[2]: Entering directory '/tmp/work/src/dbus-1.10.6/test/name-test'
+make[3]: Entering directory '/tmp/work/src/dbus-1.10.6/test/name-test'
+make[3]: Nothing to be done for 'install-exec-am'.
+make[3]: Nothing to be done for 'install-data-am'.
+make[3]: Leaving directory '/tmp/work/src/dbus-1.10.6/test/name-test'
+make[2]: Leaving directory '/tmp/work/src/dbus-1.10.6/test/name-test'
+make[1]: Leaving directory '/tmp/work/src/dbus-1.10.6/test'
+Making install in doc
+make[1]: Entering directory '/tmp/work/src/dbus-1.10.6/doc'
+make[2]: Entering directory '/tmp/work/src/dbus-1.10.6/doc'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/tmp/work/pkg/usr/share/doc/dbus-1.10.6'
+ /bin/mkdir -p '/tmp/work/pkg/usr/share/doc/dbus-1.10.6'
+ /usr/bin/install -c -m 644 system-activation.txt '/tmp/work/pkg/usr/share/doc/dbus-1.10.6'
+ /usr/bin/install -c -m 644 diagram.png diagram.svg '/tmp/work/pkg/usr/share/doc/dbus-1.10.6'
+ /bin/mkdir -p '/tmp/work/pkg/usr/share/doc/dbus-1.10.6'
+make[2]: Leaving directory '/tmp/work/src/dbus-1.10.6/doc'
+make[1]: Leaving directory '/tmp/work/src/dbus-1.10.6/doc'
+make[1]: Entering directory '/tmp/work/src/dbus-1.10.6'
+make[2]: Entering directory '/tmp/work/src/dbus-1.10.6'
+make[2]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/tmp/work/pkg/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 dbus-1.pc '/tmp/work/pkg/usr/lib/pkgconfig'
+make[2]: Leaving directory '/tmp/work/src/dbus-1.10.6'
+make[1]: Leaving directory '/tmp/work/src/dbus-1.10.6'
+=======> isim: dbus
+=======> surum: 1.10.6
+=======> devir: 1
+hash kontrol dosyası yok-hash kontrolü yapılmayacak.
+=======> Derleniyor '/root/milis-arm/genel/dbus/dbus#1.10.6-armv7l.mps.lz'.
+tar -p -C /tmp/work/src -xf /sources/dbus-1.10.6.tar.gz
+cp dbus.system-local.conf /tmp/work/src
+checking build system type... 

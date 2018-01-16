@@ -1,0 +1,22 @@
+# Tanım: Linux çekirdeği paket filtreleme ve kontrol aracı
+# URL: http://www.iptables.org/
+# Paketçi: milisarge
+# Gerekler:
+
+isim=iptables
+surum=1.6.0
+devir=1
+kaynak=(ftp://ftp.netfilter.org/pub/iptables/$isim-$surum.tar.bz2)
+
+derle() {
+    cd $isim-$surum
+    ./configure --prefix=/usr \
+                --libexecdir=/usr/lib \
+                --enable-libipq \
+                --with-xtlibdir=/lib/xtables \
+                --enable-devel \
+                --with-pkgconfigdir=/usr/lib/pkgconfig \
+                --disable-nftables
+    make
+    make DESTDIR=$PKG install
+}

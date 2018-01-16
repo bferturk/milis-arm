@@ -1,0 +1,19 @@
+# Tanım: Libndp paketi, IPv6 Komşu Bulma Protokolü için bir sarıcı sağlar.
+# URL: http://libndp.org
+# Paketçi: milisarge
+# Gerekler:
+
+isim=libndp
+surum=1.5
+devir=1
+
+kaynak=(http://libndp.org/files/$isim-$surum.tar.gz)
+derle() {
+cd $isim-$surum
+./configure --prefix=/usr \
+--sysconfdir=/etc \
+--localstatedir=/var \
+--disable-static
+make
+make DESTDIR=$PKG install
+}

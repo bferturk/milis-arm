@@ -1,0 +1,19 @@
+# Tanım: Uluslararasılaştırma aracı koleksiyonu
+# URL: http://freedesktop.org/wiki/Software/intltool
+# Paketçi: milisarge
+# Gerekler: perl-xml-parser,expat
+
+isim=intltool
+surum=0.51.0
+devir=1
+kaynak=(http://edge.launchpad.net/intltool/trunk/$surum/+download/intltool-$surum.tar.gz)
+
+derle() {
+cd $isim-$surum
+./configure --prefix=/usr
+make
+make DESTDIR=$PKG install
+mkdir -p $PKG/usr/share/doc/intltool-$surum
+install -v -Dm644 doc/I18N-HOWTO \
+$PKG/usr/share/doc/intltool-$surum/I18N-HOWTO
+}

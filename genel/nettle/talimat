@@ -1,0 +1,22 @@
+# Tanım: Düşük düzey kriptografi kütüphanesi
+# URL: http://www.lysator.liu.se/~nisse/nettle/
+# Paketçi: milisarge
+# Gerekler:
+
+isim=nettle
+surum=3.2
+devir=1
+kaynak=(ftp://ftp.gnu.org/gnu/$isim/$isim-$surum.tar.gz)
+
+derle() {
+  cd $isim-$surum
+
+  ./configure --prefix=/usr \
+              --libdir=/usr/lib \
+              --disable-documentation
+
+  make
+  make DESTDIR=$PKG install
+
+  rm -rf $PKG/usr/share
+}

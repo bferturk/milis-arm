@@ -1,0 +1,17 @@
+# Tanım: Kablosuz Uzantıları değiştirmeye izin veren araçlar
+# URL: http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/Tools.html
+# Paketçi: milisarge@gmail.com
+# Gerekler: 
+
+isim=wireless-tools
+surum=29
+devir=1
+
+kaynak=(  http://www.hpl.hp.com/personal/Jean_Tourrilhes/Linux/wireless_tools.$surum.tar.gz)
+
+derle() {
+cd wireless_tools.$surum
+make
+mkdir -p $PKG/usr/{sbin,lib,include,share/man}
+make PREFIX=$PKG/usr INSTALL_MAN=$PKG/usr/share/man install
+}

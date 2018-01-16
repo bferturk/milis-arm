@@ -1,0 +1,242 @@
+[Jan 08 19:55]  acl paket mevcut -- geciliyor
+[Jan 08 19:55]  attr paket mevcut -- geciliyor
+[Jan 08 19:55]  autoconf paket mevcut -- geciliyor
+[Jan 08 19:55]  automake paket mevcut -- geciliyor
+[Jan 08 19:55]  bash paket mevcut -- geciliyor
+[Jan 08 19:55]  bc paket mevcut -- geciliyor
+[Jan 08 19:55]  binutils paket mevcut -- geciliyor
+[Jan 08 19:55]  bison paket mevcut -- geciliyor
+[Jan 08 19:55]  bzip2 paket mevcut -- geciliyor
+[Jan 08 19:55]  ca-certificates paket mevcut -- geciliyor
+[Jan 08 19:55]  check paket mevcut -- geciliyor
+[Jan 08 19:55]  coreutils paket mevcut -- geciliyor
+[Jan 08 19:55]  cpio paket mevcut -- geciliyor
+[Jan 08 19:55]  curl paket mevcut -- geciliyor
+[Jan 08 19:55]  dhcpcd paket mevcut -- geciliyor
+[Jan 08 19:55]  dialog paket mevcut -- geciliyor
+[Jan 08 19:55]  diffutils paket mevcut -- geciliyor
+[Jan 08 19:55]  e2fsprogs paket mevcut -- geciliyor
+[Jan 08 19:55]  eudev paket mevcut -- geciliyor
+[Jan 08 19:55]  expat paket mevcut -- geciliyor
+[Jan 08 19:55]  file paket mevcut -- geciliyor
+[Jan 08 19:55]  findutils paket mevcut -- geciliyor
+[Jan 08 19:55]  flex paket mevcut -- geciliyor
+[Jan 08 19:55]  gawk paket mevcut -- geciliyor
+[Jan 08 19:55]  gcc paket mevcut -- geciliyor
+[Jan 08 19:55]  gdbm paket mevcut -- geciliyor
+[Jan 08 19:55]  gettext paket mevcut -- geciliyor
+[Jan 08 19:55]  glibc paket mevcut -- geciliyor
+[Jan 08 19:55]  gperf paket mevcut -- geciliyor
+[Jan 08 19:55]  grep paket mevcut -- geciliyor
+[Jan 08 19:55]  groff paket mevcut -- geciliyor
+[Jan 08 19:55]  gzip paket mevcut -- geciliyor
+[Jan 08 19:55]  iana-etc paket mevcut -- geciliyor
+[Jan 08 19:55]  inetutils paket mevcut -- geciliyor
+[Jan 08 19:55]  iproute2 paket mevcut -- geciliyor
+[Jan 08 19:55]  kbd paket mevcut -- geciliyor
+[Jan 08 19:55]  kmod paket mevcut -- geciliyor
+[Jan 08 19:55]  less paket mevcut -- geciliyor
+[Jan 08 19:55]  libarchive paket mevcut -- geciliyor
+[Jan 08 19:55]  libcap paket mevcut -- geciliyor
+[Jan 08 19:55]  libpipeline paket mevcut -- geciliyor
+[Jan 08 19:55]  libtool paket mevcut -- geciliyor
+[Jan 08 19:55]  lvm2 paket mevcut -- geciliyor
+[Jan 08 19:55]  lz4 paket mevcut -- geciliyor
+[Jan 08 19:55]  lzip paket mevcut -- geciliyor
+[Jan 08 19:55]  lzo paket mevcut -- geciliyor
+[Jan 08 19:55]  m4 paket mevcut -- geciliyor
+[Jan 08 19:55]  make paket mevcut -- geciliyor
+[Jan 08 19:55]  man-db paket mevcut -- geciliyor
+[Jan 08 19:55]  mpc paket mevcut -- geciliyor
+[Jan 08 19:55]  mpfr paket mevcut -- geciliyor
+[Jan 08 19:55]  nano paket mevcut -- geciliyor
+[Jan 08 19:55]  nasm paket mevcut -- geciliyor
+[Jan 08 19:55]  ncurses paket mevcut -- geciliyor
+[Jan 08 19:55]  openssh paket mevcut -- geciliyor
+[Jan 08 19:55]  openssl paket mevcut -- geciliyor
+[Jan 08 19:55]  pam paket mevcut -- geciliyor
+[Jan 08 19:55]  patch paket mevcut -- geciliyor
+[Jan 08 19:55]  pciutils paket mevcut -- geciliyor
+[Jan 08 19:55]  pcre paket mevcut -- geciliyor
+[Jan 08 19:55]  perl paket mevcut -- geciliyor
+[Jan 08 19:55]  pkg-config paket mevcut -- geciliyor
+[Jan 08 19:55]  procps-ng paket mevcut -- geciliyor
+[Jan 08 19:55]  psmisc paket mevcut -- geciliyor
+[Jan 08 20:01]  libffi derleme basarili
+[Jan 09 00:43]  dbus derleme basarisiz
+[Jan 09 00:50]  dbus derleme basarisiz
+[Jan 09 00:50]  dbus-glib derleme basarisiz
+[Jan 09 00:51]  dbus-python derleme basarisiz
+[Jan 09 01:18]  glib derleme basarisiz
+[Jan 09 01:19]  gobject-introspection derleme basarisiz
+[Jan 09 01:23]  iptables derleme basarili
+[Jan 09 01:23]  libffi paket mevcut -- geciliyor
+[Jan 09 01:24]  libgudev derleme basarisiz
+[Jan 09 01:25]  libndp derleme basarili
+[Jan 09 01:33]  libnl derleme basarili
+[Jan 09 01:34]  libsoup derleme basarisiz
+[Jan 09 01:34]  newt derleme basarisiz
+[Jan 09 01:37]  nspr derleme basarili
+[Jan 09 01:37]  nss derleme basarisiz
+[Jan 09 01:39]  popt derleme basarili
+[Jan 09 01:39]  python paket mevcut -- geciliyor
+[Jan 09 01:59]  python3 derleme basarisiz
+[Jan 09 02:06]  slang derleme basarili
+[Jan 09 02:06]  sqlite paket mevcut -- geciliyor
+[Jan 09 02:07]  wireless-tools derleme basarili
+[Jan 09 02:08]  wpa-supplicant derleme basarisiz
+ tamamlandi.
+  basladi:  [Jan 09 00:44]
+  tamamlandi: [Jan 09 02:08]
+[Jan 13 19:01]  dbus paket mevcut -- geciliyor
+[Jan 13 19:01]  dbus-glib derleme basarisiz
+[Jan 13 19:02]  dbus-python derleme basarisiz
+[Jan 13 19:34]  glib derleme basarili
+[Jan 13 19:34]  gobject-introspection derleme basarisiz
+[Jan 13 19:34]  iptables paket mevcut -- geciliyor
+[Jan 13 19:34]  libffi paket mevcut -- geciliyor
+[Jan 13 19:35]  libgudev derleme basarisiz
+[Jan 13 19:35]  libndp paket mevcut -- geciliyor
+[Jan 13 19:35]  libnl paket mevcut -- geciliyor
+[Jan 13 19:36]  libsoup derleme basarisiz
+[Jan 13 19:37]  newt derleme basarili
+[Jan 13 19:37]  nspr paket mevcut -- geciliyor
+[Jan 13 19:37]  nss derleme basarisiz
+[Jan 13 19:37]  popt paket mevcut -- geciliyor
+[Jan 13 19:37]  python paket mevcut -- geciliyor
+[Jan 13 19:57]  python3 derleme basarisiz
+[Jan 13 19:57]  slang paket mevcut -- geciliyor
+[Jan 13 19:57]  sqlite paket mevcut -- geciliyor
+[Jan 13 19:57]  wireless-tools paket mevcut -- geciliyor
+[Jan 13 19:59]  wpa-supplicant derleme basarili
+ tamamlandi.
+  basladi:  [Jan 13 19:01]
+  tamamlandi: [Jan 13 19:59]
+[Jan 13 20:12]  dbus paket mevcut -- geciliyor
+[Jan 13 20:15]  dbus-glib derleme basarili
+[Jan 13 20:16]  dbus-python derleme basarisiz
+[Jan 13 20:16]  glib paket mevcut -- geciliyor
+[Jan 13 20:25]  gobject-introspection derleme basarili
+[Jan 13 20:25]  iptables paket mevcut -- geciliyor
+[Jan 13 20:25]  libffi paket mevcut -- geciliyor
+[Jan 13 20:26]  libgudev derleme basarili
+[Jan 13 20:26]  libndp paket mevcut -- geciliyor
+[Jan 13 20:26]  libnl paket mevcut -- geciliyor
+[Jan 13 20:27]  libsoup derleme basarisiz
+[Jan 13 20:27]  newt paket mevcut -- geciliyor
+[Jan 13 20:27]  nspr paket mevcut -- geciliyor
+[Jan 13 20:27]  nss derleme basarisiz
+[Jan 13 20:27]  popt paket mevcut -- geciliyor
+[Jan 13 20:27]  python paket mevcut -- geciliyor
+[Jan 13 20:58]  python3 derleme basarili
+[Jan 13 20:58]  slang paket mevcut -- geciliyor
+[Jan 13 20:58]  sqlite paket mevcut -- geciliyor
+[Jan 13 20:58]  wireless-tools paket mevcut -- geciliyor
+[Jan 13 20:58]  wpa-supplicant paket mevcut -- geciliyor
+ tamamlandi.
+  basladi:  [Jan 13 20:12]
+  tamamlandi: [Jan 13 20:58]
+[Jan 13 21:40]  dbus paket mevcut -- geciliyor
+[Jan 13 21:40]  dbus-glib paket mevcut -- geciliyor
+[Jan 13 21:45]  dbus-python derleme basarili
+[Jan 13 21:45]  glib paket mevcut -- geciliyor
+[Jan 13 21:45]  gobject-introspection paket mevcut -- geciliyor
+[Jan 13 21:45]  iptables paket mevcut -- geciliyor
+[Jan 13 21:45]  libffi paket mevcut -- geciliyor
+[Jan 13 21:45]  libgudev paket mevcut -- geciliyor
+[Jan 13 21:45]  libndp paket mevcut -- geciliyor
+[Jan 13 21:45]  libnl paket mevcut -- geciliyor
+[Jan 13 21:46]  libsoup derleme basarisiz
+[Jan 13 21:46]  newt paket mevcut -- geciliyor
+[Jan 13 21:46]  nspr paket mevcut -- geciliyor
+[Jan 13 21:46]  nss derleme basarisiz
+[Jan 13 21:46]  popt paket mevcut -- geciliyor
+[Jan 13 21:46]  python paket mevcut -- geciliyor
+[Jan 13 21:46]  python3 paket mevcut -- geciliyor
+[Jan 13 21:46]  slang paket mevcut -- geciliyor
+[Jan 13 21:46]  sqlite paket mevcut -- geciliyor
+[Jan 13 21:46]  wireless-tools paket mevcut -- geciliyor
+[Jan 13 21:46]  wpa-supplicant paket mevcut -- geciliyor
+ tamamlandi.
+  basladi:  [Jan 13 21:40]
+  tamamlandi: [Jan 13 21:46]
+[Jan 13 22:14]  dbus paket mevcut -- geciliyor
+[Jan 13 22:14]  dbus-glib paket mevcut -- geciliyor
+[Jan 13 22:14]  dbus-python paket mevcut -- geciliyor
+[Jan 13 22:14]  glib paket mevcut -- geciliyor
+[Jan 13 22:14]  gobject-introspection paket mevcut -- geciliyor
+[Jan 13 22:14]  iptables paket mevcut -- geciliyor
+[Jan 13 22:14]  libffi paket mevcut -- geciliyor
+[Jan 13 22:14]  libgudev paket mevcut -- geciliyor
+[Jan 13 22:14]  libndp paket mevcut -- geciliyor
+[Jan 13 22:14]  libnl paket mevcut -- geciliyor
+[Jan 13 22:14]  libsoup derleme basarisiz
+[Jan 13 22:14]  libxml2 paket mevcut -- geciliyor
+[Jan 13 22:14]  newt paket mevcut -- geciliyor
+[Jan 13 22:14]  nspr paket mevcut -- geciliyor
+[Jan 13 22:14]  nss derleme basarisiz
+[Jan 13 22:14]  popt paket mevcut -- geciliyor
+[Jan 13 22:14]  python paket mevcut -- geciliyor
+[Jan 13 22:14]  python3 paket mevcut -- geciliyor
+[Jan 13 22:14]  slang paket mevcut -- geciliyor
+[Jan 13 22:14]  sqlite paket mevcut -- geciliyor
+[Jan 13 22:14]  wireless-tools paket mevcut -- geciliyor
+[Jan 13 22:14]  wpa-supplicant paket mevcut -- geciliyor
+ tamamlandi.
+  basladi:  [Jan 13 22:14]
+  tamamlandi: [Jan 13 22:14]
+[Jan 13 22:21]  dbus paket mevcut -- geciliyor
+[Jan 13 22:21]  dbus-glib paket mevcut -- geciliyor
+[Jan 13 22:21]  dbus-python paket mevcut -- geciliyor
+[Jan 13 22:21]  glib paket mevcut -- geciliyor
+[Jan 13 22:21]  gobject-introspection paket mevcut -- geciliyor
+[Jan 13 22:21]  intltool paket mevcut -- geciliyor
+[Jan 13 22:21]  iptables paket mevcut -- geciliyor
+[Jan 13 22:21]  libffi paket mevcut -- geciliyor
+[Jan 13 22:21]  libgudev paket mevcut -- geciliyor
+[Jan 13 22:21]  libndp paket mevcut -- geciliyor
+[Jan 13 22:21]  libnl paket mevcut -- geciliyor
+[Jan 13 22:22]  libsoup derleme basarisiz
+[Jan 13 22:22]  libxml2 paket mevcut -- geciliyor
+[Jan 13 22:22]  newt paket mevcut -- geciliyor
+[Jan 13 22:22]  nspr paket mevcut -- geciliyor
+[Jan 13 22:22]  nss derleme basarisiz
+[Jan 13 22:22]  perl-xml-parser paket mevcut -- geciliyor
+[Jan 13 22:22]  popt paket mevcut -- geciliyor
+[Jan 13 22:22]  python paket mevcut -- geciliyor
+[Jan 13 22:22]  python3 paket mevcut -- geciliyor
+[Jan 13 22:22]  slang paket mevcut -- geciliyor
+[Jan 13 22:22]  sqlite paket mevcut -- geciliyor
+[Jan 13 22:22]  wireless-tools paket mevcut -- geciliyor
+[Jan 13 22:22]  wpa-supplicant paket mevcut -- geciliyor
+ tamamlandi.
+  basladi:  [Jan 13 22:21]
+  tamamlandi: [Jan 13 22:22]
+[Jan 13 22:44]  dbus paket mevcut -- geciliyor
+[Jan 13 22:44]  dbus-glib paket mevcut -- geciliyor
+[Jan 13 22:44]  dbus-python paket mevcut -- geciliyor
+[Jan 13 22:44]  glib paket mevcut -- geciliyor
+[Jan 13 22:44]  gobject-introspection paket mevcut -- geciliyor
+[Jan 13 22:44]  intltool paket mevcut -- geciliyor
+[Jan 13 22:44]  iptables paket mevcut -- geciliyor
+[Jan 13 22:44]  libffi paket mevcut -- geciliyor
+[Jan 13 22:44]  libgudev paket mevcut -- geciliyor
+[Jan 13 22:44]  libndp paket mevcut -- geciliyor
+[Jan 13 22:44]  libnl paket mevcut -- geciliyor
+[Jan 13 22:45]  libsoup derleme basarisiz
+[Jan 13 22:45]  libxml2 paket mevcut -- geciliyor
+[Jan 13 22:45]  newt paket mevcut -- geciliyor
+[Jan 13 22:45]  nspr paket mevcut -- geciliyor
+[Jan 13 22:48]  nss derleme basarisiz
+[Jan 13 22:48]  perl-xml-parser paket mevcut -- geciliyor
+[Jan 13 22:48]  popt paket mevcut -- geciliyor
+[Jan 13 22:48]  python paket mevcut -- geciliyor
+[Jan 13 22:48]  python3 paket mevcut -- geciliyor
+[Jan 13 22:48]  slang paket mevcut -- geciliyor
+[Jan 13 22:48]  sqlite paket mevcut -- geciliyor
+[Jan 13 22:48]  vala paket mevcut -- geciliyor
+[Jan 13 22:48]  wireless-tools paket mevcut -- geciliyor
+[Jan 13 22:48]  wpa-supplicant paket mevcut -- geciliyor
+ tamamlandi.
+  basladi:  [Jan 13 22:44]
+  tamamlandi: [Jan 13 22:48]

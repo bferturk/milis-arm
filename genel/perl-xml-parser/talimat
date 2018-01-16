@@ -1,0 +1,19 @@
+# Tanım: Xml belgesini işlemek için Perl modülü
+# URL: http://search.cpan.org/dist/XML-Parser/
+# Paketçi: milisarge
+# Gerekler:
+
+isim=perl-xml-parser
+surum=2.43
+devir=2
+
+kaynak=(http://cpan.metacpan.org/authors/id/T/TO/TODDR/XML-Parser-$surum.tar.gz)
+run=(perl)
+
+derle() {
+cd XML-Parser-$surum
+perl Makefile.PL
+make OPTIMIZE="$CFLAGS"
+make DESTDIR=$PKG install
+find $PKG -name .packlist -o -name perllocal.pod -exec rm '{}' \; 
+}

@@ -1,0 +1,35 @@
+# Tanım: Freedesktop.org ileti taşıma sistemi
+# URL: http://www.freedesktop.org/wiki/Software/dbus/
+# Paketçi: milisarge
+# Gerekler: expat xorg-libx11 xorg-libsm xorg-libice
+
+isim=dbus
+surum=1.10.6
+devir=1
+kaynak=(http://dbus.freedesktop.org/releases/dbus/$isim-$surum.tar.gz \
+       dbus.system-local.conf)
+
+derle() {
+#	source /etc/blfs-bootscripts
+#	wget http://anduin.linuxfromscratch.org/BLFS/blfs-bootscripts/$scripts-$scriptsversion.tar.bz2
+#	tar xvf $scripts-$scriptsversion.tar.bz2
+
+	cd $isim-$surum
+	./configure --prefix=/usr --with-x \
+		--localstatedir=/var \
+		--disable-doxygen-docs \
+		--disable-xml-docs \
+		--docdir=/usr/share/doc/$isim-$surum \
+		--sysconfdir=/etc \
+		--with-console-auth-dir=/run/console \
+		--without-systemdsystemunitdir \
+		--disable-systemd --disable-static
+
+	make
+	make DESTDIR=$PKG install
+	# Adjust some files
+	#chown -v root:messagebus $PKG/usr/libexec/dbus-daemon-launch-helper
+	chmod -v      4750       $PKG/usr/libexec/dbus-daemon-launch-helper
+        mkdir -p $PKG/etc/dbus-1
+        mv ../dbus.system-local.conf $PKG/etc/dbus-1/system-local.conf
+}

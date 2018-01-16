@@ -1,0 +1,21 @@
+# Tanım: Bir ASN.1 şemasını takiben DER/BER verilerini kodlayan ve çözen son derece taşınabilir C kütüphanesi.
+# URL: http://www.gnu.org/software/gnutls/
+# Paketçi: milisarge
+# Gerekler:
+
+isim=libtasn1
+surum=4.7
+devir=1
+
+kaynak=( http://ftp.gnu.org/gnu/$isim/$isim-$surum.tar.gz)
+
+derle() {
+cd $isim-$surum
+./configure --prefix=/usr \
+--disable-static \
+--mandir=/usr/share/man \
+--infodir=/usr/share/info
+make
+make DESTDIR=$PKG install
+rm -rf $PKG/usr/share/info/dir
+}
