@@ -24,7 +24,10 @@ derle() {
 	export BUILD_OPT=1
 	export XCFLAGS="-Wno-error ${CFLAGS}"
 	export NSS_DISABLE_GTESTS=1
-	export USE_64=1
+
+    if [ "`uname -m`" == "x86_64" ];then 
+	    echo export USE_64=1
+	fi	
 
 	make -j1 -C nss
 
