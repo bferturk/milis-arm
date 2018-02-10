@@ -1,0 +1,34 @@
+# Tanım: Dependency based init system that works with sysvinit.
+# URL: http://www.freedesktop.org/wiki/Software/dbus/
+# Paketçi: milisarge
+# Gerekler: expat
+
+isim=openrc
+surum=0.24.2
+devir=1
+kaynak=(https://github.com/OpenRC/openrc/archive/0.24.2.tar.gz)
+
+derle() {
+
+_makeargs=(BRANDING='Milis ARM')
+_makeargs+=(MKSELINUX=no)
+_makeargs+=(MKTERMCAP=ncurses)
+_makeargs+=(PKG_PREFIX="")
+_makeargs+=(LIBDIR=/usr/lib)
+_makeargs+=(SHLIBDIR=/usr/lib)
+_makeargs+=(LIBEXECDIR=/usr/lib/rc)
+_makeargs+=(BINDIR=/usr/bin)
+_makeargs+=(SBINDIR=/sbin)
+_makeargs+=(NCLUDEDIR=/usr/include)
+_makeargs+=(SYSCONFDIR=/etc)
+    cd $isim-$surum
+    make "${_makeargs[@]}"
+
+	make DESTDIR=$PKG install "${_makeargs[@]}"
+
+	# Adjust some files
+	#chown -v root:messagebus $PKG/usr/libexec/dbus-daemon-launch-helper
+#	chmod -v      4750       $PKG/usr/libexec/dbus-daemon-launch-helper
+ #       mkdir -p $PKG/etc/dbus-1
+  #      mv ../dbus.system-local.conf $PKG/etc/dbus-1/system-local.conf
+}
