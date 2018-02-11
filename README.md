@@ -24,7 +24,18 @@ mkfs.vfat /dev/sdX -I
 ```bash
 dd if=MilisARM_Kur_Sad.img of=/dev/sdX bs=4M
 ```
-  komutları kullanılır.
+   komutları kullanılır.
+  
+  
+  ## Görüntüler:
+  
+  
+![1.resim](https://i.hizliresim.com/5DgjMd.png)
+
+
+
+![2.resim](https://i.hizliresim.com/p60OEJ.png)
+
     
 
 
