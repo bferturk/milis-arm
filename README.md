@@ -4,7 +4,6 @@ milis-arm
 Milis GNU/Linux paketlerinin Arm mimarisine taşınması için oluşturulan depo.
 
 ## NOTLAR:
-
 * Paketler inşa edilirken statik derlenmiş qemu kullanıldı.
     https://wiki.debian.org/QemuUserEmulation
 
@@ -16,8 +15,10 @@ Milis GNU/Linux paketlerinin Arm mimarisine taşınması için oluşturulan depo
 
 * Disk kalıbını sd karta yazdırmak için:
 
-```
+```bash
 mkfs.vfat /dev/sdX -I
+```
+```bash
 dd if=MilisARM_Kur_Sad.img of=/dev/sdX bs=4M
 ```    
     komutları kullanılır.
