@@ -12,6 +12,11 @@ Milis GNU/Linux paketlerinin Arm mimarisine taşınması için oluşturulan depo
 
     https://gist.github.com/bferturk/fbc8e7d5d9c4728dfe2c6f7bf37eae01
 
+* Disk kalıbını indirmek için
+```bash    
+wget https://sourceforge.net/projects/misiproject/files/milis/MilisARM_Kur_Sad.img.tar.gz
+```
+
 * Disk kalıbında varsayılan root şifresi:
 
     root:toor
@@ -34,9 +39,17 @@ dd if=MilisARM_Kur_Sad.img of=/dev/sdX bs=4M
 
 
 
+
+
 ![2.resim](https://i.hizliresim.com/p60OEJ.png)
 
-    
+
+
+
+
+
+
+![3.resim](https://i.hizliresim.com/oOjJVo.png)
 
 
 
