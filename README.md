@@ -5,9 +5,11 @@ Milis GNU/Linux paketlerinin Arm mimarisine taşınması için oluşturulan depo
 
 ## NOTLAR:
 * Paketler inşa edilirken statik derlenmiş qemu kullanıldı.
+
     https://wiki.debian.org/QemuUserEmulation
 
 * Nasıl kullanılacağı aşağıdaki anlatımda mevcut.
+
     https://gist.github.com/bferturk/fbc8e7d5d9c4728dfe2c6f7bf37eae01
 
 * Disk kalıbında varsayılan root şifresi:
