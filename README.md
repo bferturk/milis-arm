@@ -20,7 +20,7 @@ Milis GNU/Linux paketlerinin Arm mimarisine taşınması için oluşturulan depo
 
     root:toor
 
-* Disk kalıbını sd karta yazdırmak için:
+* Disk kalıbını sadece raspberry pi 2 ve 3 model tek kart bigisayarlarda çalışır.Sd karta yazdırmak için:
 
 ```bash
 mkfs.vfat /dev/sdX -I
