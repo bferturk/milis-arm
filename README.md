@@ -1,7 +1,7 @@
 milis-arm
 ===============
 
-Milis GNU/Linux paketlerinin Arm mimarisine taşınması için oluşturulan depo.
+Milis GNU/Linux paketlerinin Arm V7 mimarisine taşınması için oluşturulan depo.
 
 ## NOTLAR:
 * Paketler inşa edilirken statik derlenmiş qemu kullanıldı.
@@ -20,7 +20,7 @@ Milis GNU/Linux paketlerinin Arm mimarisine taşınması için oluşturulan depo
 
     root:toor
 
-* Disk kalıbı sadece raspberry pi 2 ve 3 model tek kart bigisayarlarda çalışır.Sd karta yazdırmak için:
+* Disk kalıbı sadece raspberry pi 2 ve 3 model tek kart bigisayarlarda çalışır.Hafıza kartına yazdırmak için:
 
 ```bash
 mkfs.vfat /dev/sdX -I
